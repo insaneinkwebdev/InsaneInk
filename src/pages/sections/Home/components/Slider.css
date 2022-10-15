@@ -63,12 +63,12 @@
 }
 
 .prev {
-  top: 40%;
+  top: 48%;
   left: 20px;
   transform: translateY(-60%);
 }
 .next {
-  top: 40%;
+  top: 48%;
   right: 20px;
   transform: translateY(-60%);
 }
