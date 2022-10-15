@@ -73,9 +73,9 @@ nav {
     align-items: center;
     position: absolute;
     right: 0px;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
-    top: 13vh;
+    top: 16vh;
     transform: translateX(100%);
     transition: 500ms transform ease-in-out;
   }
