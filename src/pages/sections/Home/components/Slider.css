@@ -93,8 +93,9 @@
 }
 
 @media screen and (max-width: 500px){
-  .container-dots {
-    opacity: 0;
+  .dots {
+    width: 25px;
+    height: 25px;
   }
 }
 

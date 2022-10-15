@@ -37,7 +37,7 @@ nav {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 12px;
-  transition: all 200ms ease-in-out;
+  transition: all 500ms ease-in-out;
 }
 
 .nav-links a:hover {
@@ -76,8 +76,8 @@ nav {
     height: 100vh;
     width: 100%;
     top: 13vh;
-    opacity: 0;
-    transition: 200ms transform ease-in-out;
+    transform: translateX(100%);
+    transition: 500ms transform ease-in-out;
   }
 
   .nav-links li {
@@ -91,8 +91,7 @@ nav {
 }
 
 .nav-active {
-  transition: 200ms all ease-in-out;
-  opacity: 1;
+  transform: translateX(0%);
 }
 
 @keyframes navLinkFade {

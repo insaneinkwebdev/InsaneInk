@@ -24,7 +24,7 @@ function Navbar(){
     return(
         <>
             <nav className="navBar">
-                <div class="logo">
+                <div className="logo">
                     <a href="https://google.com"><img src={logo} alt='Insane Ink Logo'></img></a>
                 </div>
                 <ul className='nav-links'>
@@ -37,9 +37,9 @@ function Navbar(){
                     <li><a href="https://google.com">Contact Us</a></li>
                 </ul>
                 <div className='burger' onClick={burger}>
-                    <div class='line1'></div>
-                    <div class='line2'></div>
-                    <div class='line3'></div>
+                    <div className='line1'></div>
+                    <div className='line2'></div>
+                    <div className='line3'></div>
                 </div>
             </nav>
         </>
