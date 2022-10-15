@@ -79,6 +79,7 @@
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+  opacity: 1;
 }
 
 .dot {
@@ -89,6 +90,12 @@
   margin: 0 5px;
   background: #acacac;
   transition: 200ms all ease-in-out
+}
+
+@media screen and (max-width: 500px){
+  .container-dots {
+    opacity: 0;
+  }
 }
 
 .dot:hover {
