@@ -28,13 +28,13 @@ function Navbar(){
                     <a href="#"><img src={logo} alt='Insane Ink Logo'></img></a>
                 </div>
                 <ul className='nav-links'>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Treasure Trove</a></li>
-                    <li><a href="#">The Process</a></li>
-                    <li><a href="#">Merch & More!</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">The 50/50 Concept</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="https://google.com">About Us</a></li>
+                    <li><a href="https://google.com">Treasure Trove</a></li>
+                    <li><a href="https://google.com">The Process</a></li>
+                    <li><a href="https://google.com">Merch & More!</a></li>
+                    <li><a href="https://google.com">Portfolio</a></li>
+                    <li><a href="https://google.com">The 50/50 Concept</a></li>
+                    <li><a href="https://google.com">Contact Us</a></li>
                 </ul>
                 <div className='burger' onClick={burger}>
                     <div class='line1'></div>
