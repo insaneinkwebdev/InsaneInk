@@ -25,7 +25,7 @@ function Navbar(){
         <>
             <nav className="navBar">
                 <div class="logo">
-                    <a href="#"><img src={logo} alt='Insane Ink Logo'></img></a>
+                    <a href="https://google.com"><img src={logo} alt='Insane Ink Logo'></img></a>
                 </div>
                 <ul className='nav-links'>
                     <li><a href="https://google.com">About Us</a></li>
