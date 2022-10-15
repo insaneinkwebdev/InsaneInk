@@ -1,5 +1,3 @@
-import placeHolder from '../../../components/img/placeholderImg.jpg'
-
 function Story(){
     return(
         <section className="storySec" aria-label="Story Section">
