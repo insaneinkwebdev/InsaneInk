@@ -6,3 +6,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - 10/13/2022 Created foundation/file structure + image slider logic
 - 10/14/2022 Added navbar + slider debugging
 - 10/15/2022 Section setup for home page + mobile nav display fix + skeleton for portfolio section :sob: :skull:
+- 10/16/2022 Break day :bust_in_silhouette:
