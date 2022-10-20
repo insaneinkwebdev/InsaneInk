@@ -20,21 +20,36 @@ section {
 
 /* ---- PORTFOLIO ---- */
 
-.portSec {
+.portSec, .storySec {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.port-content {
+.port-header, .story-header {
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 2.25rem;
+}
+
+.port-content, .story-content {
     position: relative;
     margin: 2rem;
     margin-top: 2rem;
     margin-bottom: .75rem;
     max-width: 100%;
     flex: 1;
-    font-size: 1.3rem;
+    font-size: 1.35rem;
+    text-align: left;
+}
+
+.story-content {
+    margin-left: 4.5rem;
+}
+
+.port-content a, .story-content a {
+    color: #7b2637;
 }
 
 .port-content.img {
@@ -42,18 +57,34 @@ section {
     margin-bottom: -10px;
 }
 
-.port-content.par {
+.port-content.par, .story-content.par {
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
+.story-content.par {
+    max-width: 35%;
+}
+
+.story-content.img {
+    max-width: 35%;
+    margin-bottom: 35px;
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 727px) {
-    .port-content.par {
+    .port-content.par, .story-content.par {
         margin-left: 1rem;
         margin-right: 1rem;
+        max-width: 75%;
     }
 
-    .port-content {
-        font-size: 1rem;
+    .port-content, .story-content {
+        margin: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .story-content.img {
+        max-width: 75%;
     }
 }

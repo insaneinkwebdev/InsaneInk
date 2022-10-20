@@ -6,6 +6,8 @@ function Portfolio (){
         <section className="portSec" aria-label="Portfolio Section">
             <img className='port-content img' src={portfolio} alt='Placeholder'/>
             <div className='port-content par'>
+                <h2 className='port-header'>Portfolio</h2>
+                
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies tortor nunc, 
                 sed scelerisque nisi feugiat vel. Sed sollicitudin neque id quam sollicitudin, eget s
                 agittis nisi auctor. Vivamus aliquet leo non sodales imperdiet. Sed hendrerit orci id 
