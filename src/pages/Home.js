@@ -3,6 +3,7 @@ import Cover from "./sections/Home/Cover";
 import Story from "./sections/Home/Story";
 import Portfolio from "./sections/Home/Portfolio";
 import Other from "./sections/Home/Other";
+import Fifty from "./sections/Home/5050"
 
 function Home(){
     return(
@@ -12,6 +13,8 @@ function Home(){
             <Story/> 
             <hr/>
             <Portfolio/>
+            <hr/>
+            <Fifty/>
             <hr/>
             <Other/>
         </div>
