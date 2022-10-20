@@ -7,8 +7,8 @@ function Story(){
             <div className='story-content par'>
                 <h2 className='story-header'>About Us</h2>
                 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies tortor nunc, 
-                sed scelerisque nisi feugiat vel.
+                Founded in 1988, Insane Ink is an entrepreneurial course at Piedmont Hills High School where
+                students are responsible for running an apparel customization company.
 
                 <br/>
                 <br/>
