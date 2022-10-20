@@ -1,4 +1,4 @@
-import portfolio from '../../../components/img/placeholderImg.jpg'
+import storyImg from '../../../images/index/coverphoto.png'
 import '../../Pages.css'
 
 function Story(){
@@ -15,7 +15,7 @@ function Story(){
 
                 <a href="https://google.com">Learn More</a>
             </div>
-            <img className='story-content img' src={portfolio} alt='Placeholder'/>
+            <img className='story-content img' src={storyImg} alt='Placeholder'/>
         </section>
     )
 }

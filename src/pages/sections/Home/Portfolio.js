@@ -1,4 +1,4 @@
-import portfolio from '../../../components/img/placeholderImg.jpg'
+import portfolio from '../../../images/index/portfolioimg.png'
 import '../../Pages.css'
 
 function Portfolio (){

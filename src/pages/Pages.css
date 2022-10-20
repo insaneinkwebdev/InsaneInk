@@ -18,9 +18,9 @@ section {
     height: 50%;
 }
 
-/* ---- PORTFOLIO ---- */
+/* ---- GENERAL ---- */
 
-.portSec, .storySec {
+.portSec, .storySec, .otherSec {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ section {
     margin-bottom: 2.25rem;
 }
 
-.port-content, .story-content {
+.port-content, .story-content .other-content{
     position: relative;
     margin: 2rem;
     margin-top: 2rem;
@@ -44,15 +44,37 @@ section {
     text-align: left;
 }
 
-.story-content {
-    margin-left: 4.5rem;
-}
-
-.port-content a, .story-content a {
+.port-content a, .story-content a, .other-content a {
     color: #7b2637;
 }
 
+/* STORY */
+
+.story-content.par {
+    font-size: 1.3rem;
+}
+
+.story-content {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.story-content.par {
+    max-width: 40%;
+}
+
+.story-content.img {
+    max-width: 50%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* PORTFOLIO */
+
 .port-content.img {
+    max-width: 50%;
     margin: -1rem;
     margin-bottom: -10px;
 }
@@ -62,15 +84,15 @@ section {
     margin-right: 3rem;
 }
 
-.story-content.par {
-    max-width: 35%;
+
+/* OTHER */
+
+.other-content.par {
+    margin-left: 4.5rem;
+    margin-right: 3rem;
 }
 
-.story-content.img {
-    max-width: 35%;
-    margin-bottom: 35px;
-    border-radius: 5px;
-}
+/* MOBILE DESIGN */
 
 @media screen and (max-width: 727px) {
     .port-content.par, .story-content.par {
@@ -79,12 +101,27 @@ section {
         max-width: 75%;
     }
 
-    .port-content, .story-content {
+    .other-content.par {
+        max-width: 75%;
+    }
+
+    .port-content, .story-content, .other-content {
         margin: 2rem;
         font-size: 1.2rem;
     }
 
-    .story-content.img {
-        max-width: 75%;
+    .story-content {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
+
+    .story-content.img {
+        max-width: 90%;
+        margin-top: -5px;
+    }
+
+    .port-content.img {
+        max-width: 100%;
+    }
+
 }
