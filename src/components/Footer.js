@@ -14,7 +14,7 @@ function Footer(){
                     <div className='footer-row'>
                         <div className='footer-col' id="company">
                             <img src={logo} alt="Insane Ink Logo" className='footer-logo'/>
-                            <p>MAKING SHIRT HAPPEN SINCE 1998.</p>
+                            <p className='footer-slogan'>MAKING SHIRT HAPPEN SINCE 1998.</p>
 
                             <div className='socials'>
                                 <a href="https://google.com" className="social-icon"><img className="social-icon img" src={instagram} alt="icon instagram"/></a>
@@ -54,6 +54,10 @@ function Footer(){
                                 <p>(408)-347-7579</p>
                             </div>
                         </div>
+                    </div>
+
+                    <div className='footer-row copyr'>
+                        &copy; 1998-2022 Insane Ink
                     </div>
                   </div>
             </footer>

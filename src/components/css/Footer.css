@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #7C2F3F;
 }
   
 body {
@@ -38,6 +37,10 @@ footer {
     align-items: center;
 }
 
+.footer-row.copyr {
+    margin-top: 2rem; 
+}
+
 
 .footer-col {
     min-width: 250px;
@@ -49,6 +52,10 @@ footer {
 .footer-col .footer-logo {
     width: 175px;
     margin-bottom: 1rem;
+}
+
+.footer-slogan {
+    font-weight: 700;
 }
 
 .footer-col h3 {
