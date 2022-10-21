@@ -20,14 +20,14 @@ section {
 
 /* ---- GENERAL ---- */
 
-.portSec, .storySec, .otherSec {
+.portSec, .storySec, .otherSec, .fiftySec {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.port-header, .story-header {
+.port-header, .story-header, .fifty-header {
     text-align: left;
     font-size: 2rem;
     margin-bottom: 2.25rem;
@@ -44,7 +44,7 @@ section {
     text-align: left;
 }
 
-.port-content a, .story-content a, .other-content a {
+.port-content a, .story-content a, .other-content a, .fifty-content a {
     color: #7b2637;
 }
 
@@ -71,13 +71,13 @@ section {
 
 /* PORTFOLIO */
 
-.port-content.img {
+.port-content.img, .fifty-content.img {
     max-width: 50%;
     margin: -1rem;
     margin-bottom: -10px;
 }
 
-.port-content.par, .story-content.par {
+.port-content.par, .story-content.par, .fifty-content.par {
     margin-left: 3rem;
     margin-right: 3rem;
 }
@@ -102,7 +102,7 @@ section {
 /* MOBILE DESIGN */
 
 @media screen and (max-width: 727px) {
-    .port-content.par, .story-content.par {
+    .port-content.par, .story-content.par, .fifty-content.par {
         margin-left: 1rem;
         margin-right: 1rem;
         max-width: 90%;
@@ -133,7 +133,7 @@ section {
         margin-top: -5px;
     }
 
-    .port-content.img {
+    .port-content.img, .fifty-content.img {
         max-width: 100%;
     }
 

@@ -3,11 +3,11 @@ import '../../Pages.css'
 
 function Fifty(){
     return(
-        <section className="portSec" aria-label="50/50 Section">
+        <section className="fiftySec" aria-label="50/50 Section">
             <div className='fifty-content par'>
-                <h2 className='port-header'>The 50/50 Concept</h2>
+                <h2 className='fifty-header'>The 50/50 Concept</h2>
                 
-                We proudly donate half of our proceeds, time, and resources in order to strengthen, uplift, and give back to the community.
+                We proudly donate time, resources, and half of our proceeds to fund local events in order to strengthen, uplift, and give back to the community.
             
                 <br/>
                 <br/>
@@ -19,7 +19,7 @@ function Fifty(){
 
                 <a href="https://google.com">Learn More</a>
             </div>
-            <img className='port-content img' src={fiftyImg} alt='Placeholder'/>
+            <img className='fifty-content img' src={fiftyImg} alt='Placeholder'/>
         </section>
     )
 }
