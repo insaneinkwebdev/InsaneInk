@@ -2,16 +2,132 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+    color: #7C2F3F;
+}
   
-  body {
+body {
     max-width: 100%;
-    overflow-x: hidden;
-  }
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-  footer {
+footer {
     background-color: white;
     border-top: 1.75px solid rgb(218, 218, 218);
-  }
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    padding: 3rem 1rem;
+}
 
-  
+.footer-container {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-col {
+    min-width: 250px;
+    color: #7C2F3F;
+    padding: 0 2rem;
+    min-height: 225px;
+}
+
+.footer-col .footer-logo {
+    width: 175px;
+    margin-bottom: 1rem;
+}
+
+.footer-col h3 {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.socials {
+    margin-top: 1rem;
+}
+
+.social-icon {
+    color: #7C2F3F;
+    margin-right: 15px;
+    transition: 300ms ease-in-out;
+}
+
+.social-icon.img {
+    width: 30px;
+}
+
+.footer-links a{
+    display: block;
+    text-decoration: none;
+    color: #7C2F3F;
+    margin-bottom: 5px;
+    position: relative;
+    transition: 300ms ease-in-out;
+}
+
+.footer-links a:before {
+    content: "";
+    height: 16px;
+    width: 3.5px;
+    position: absolute;
+    top: 3px;
+    left: -10px;
+    background-color: #7C2F3F;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+}
+
+.footer-links a:hover::before {
+    opacity: 1;
+}
+
+.footer-links a:hover {
+    transform: translateX(-8px);
+    color: #7C2F3F; 
+}
+
+.contact-details {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.contact-icon {
+    margin-right: 15px;
+}
+
+@media(max-width: 900px){
+    .footer-row{
+        flex-direction: column;
+    }
+
+    .footer-col {
+        width: 100%;
+        text-align: left;
+        margin-bottom: -2.5rem;
+    }
+
+    #contact {
+        margin-top: 4.5rem;
+    }
+
+    .social-icon {
+        margin-right: 20px;
+        transition: 300ms ease-in-out;
+    }
+
+}

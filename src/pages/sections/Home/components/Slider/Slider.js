@@ -38,7 +38,7 @@ export default function Slider() {
                     className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                     >
                         <img 
-                        src={process.env.PUBLIC_URL + `/slideshow/img${index + 1}.jpg`} 
+                        src={process.env.PUBLIC_URL + `/slideshow/slide${index + 1}.svg`} 
                         alt="slider img" onMouseDown={nextSlide}/>
                     </div>
                 )
