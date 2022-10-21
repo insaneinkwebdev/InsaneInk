@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  footer {
+    background-color: white;
+    border-top: 1.75px solid rgb(218, 218, 218);
+  }
+
+  

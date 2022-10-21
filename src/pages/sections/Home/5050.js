@@ -4,10 +4,10 @@ import '../../Pages.css'
 function Fifty(){
     return(
         <section className="portSec" aria-label="50/50 Section">
-            <div className='port-content par'>
+            <div className='fifty-content par'>
                 <h2 className='port-header'>The 50/50 Concept</h2>
                 
-                We proudly donate half of our proceeds, time, and resources in order to strengthen, support, and uplift the community.
+                We proudly donate half of our proceeds, time, and resources in order to strengthen, uplift, and give back to the community.
             
                 <br/>
                 <br/>
