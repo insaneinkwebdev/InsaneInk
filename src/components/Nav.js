@@ -1,5 +1,5 @@
 import './css/Navbar.css'
-import logo from './img/logo.jpg'
+import logo from './img/logo.svg'
 
 function Navbar(){
     function burger(){
