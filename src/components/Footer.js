@@ -26,6 +26,7 @@ function Footer(){
                         <div className='footer-col' id="services">
                             <h3>Services</h3>
                             <div className='footer-links'>
+                                <a href="https://google.com">How To Order</a>
                                 <a href="https://google.com">Direct To Garment</a>
                                 <a href="https://google.com">Print Shop</a>
                                 <a href="https://google.com">Heat Press</a>
@@ -36,7 +37,6 @@ function Footer(){
                             <div className='footer-links'>
                                 <a href="https://google.com">About Us</a>
                                 <a href="https://google.com">Treasure Trove</a>
-                                <a href="https://google.com">The Process</a>
                                 <a href="https://google.com">Merch & More!</a>
                                 <a href="https://google.com">Portfolio</a>
                                 <a href="https://google.com">The 50/50 Concept</a>
