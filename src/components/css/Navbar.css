@@ -19,7 +19,7 @@ nav {
   border-bottom: 1.5px solid rgb(218, 218, 218);
 }
 
-.nav-links {
+.nav-links, .dropdown {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -44,6 +44,57 @@ nav {
 .nav-links a:hover {
   color: white;
   background-color: #7C2F3F;
+}
+
+.drop {
+  position: absolute;
+  top: 4.35rem;
+  display: none;
+  z-index: 5;
+  background-color: #7C2F3F;
+  border-bottom: solid 2px #622531;
+  border-left: solid 2px #622531;
+  border-right: solid 2px #622531;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: all 300ms ease-in-out;
+}
+
+.drop li {
+  margin: 20px 0;
+}
+
+.drop li a {
+  color: rgb(206, 206, 206);
+}
+
+.drop-hover:hover {
+  background-color: white;
+  color: #7C2F3F;
+  padding-bottom: .75rem;
+}
+
+.drop-hover.merch:hover {
+  padding-right: 3.77rem;
+}
+
+.drop-hover.merch:hover~.drop.merch {
+  display: block;
+}
+
+.drop.merch:hover {
+  display: block;
+  border-radius: 10px;
+}
+
+.drop-hover.fifty:hover~.drop.fifty {
+  display: block;
+  padding-right: 0.34rem;
+}
+
+.drop.fifty:hover {
+  display: block;
+  border-radius: 10px;
 }
 
 .burger {

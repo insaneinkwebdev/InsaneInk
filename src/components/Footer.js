@@ -17,9 +17,9 @@ function Footer(){
                             <p className='footer-slogan'>MAKING SHIRT HAPPEN SINCE 1998.</p>
 
                             <div className='socials'>
-                                <a href="https://google.com" className="social-icon"><img className="social-icon img" src={instagram} alt="icon instagram"/></a>
-                                <a href="https://google.com" className="social-icon"><img className="social-icon img" src={twitter} alt="icon twitter"/></a>
-                                <a href="https://google.com" className="social-icon"><img className="social-icon img" src={facebook} alt="icon facebook"/></a>
+                                <a href="https://www.instagram.com/phhs.insaneink/" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={instagram} alt="icon instagram"/></a>
+                                <a href="https://twitter.com/PHHS_InsaneInk" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={twitter} alt="icon twitter"/></a>
+                                <a href="https://www.facebook.com/phhsinsaneink" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={facebook} alt="icon facebook"/></a>
                             </div>
                         </div>
 
