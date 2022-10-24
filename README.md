@@ -2,6 +2,24 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To the incoming/current VPs of Web Dev... good luck lmao
+
+## What is this?
+
+Congrats current VP! This is either going to be the easiest or hardest challenge of your life.
+
+So to put it bluntly, the way this site is written is complex. 
+
+Instead of having a single file for a single page (if you have/had Web Tech you will know how HTML files are written), you have to create components.
+You use these components to form pages, and etc. etc.
+
+Now why is this better than HTML? Well really there isn't much, just that it is much easier to add new things and save code space (also a whole lot of technical jargle).
+
+Well.. let's get started.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
 ## Log
 - 10/13/2022 Created foundation/file structure + image slider logic
 - 10/14/2022 Added navbar + slider debugging
