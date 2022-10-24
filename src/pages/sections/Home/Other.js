@@ -1,4 +1,3 @@
-import portfolio from '../../../components/img/placeholderImg.jpg'
 
 function Other (){
     return(
