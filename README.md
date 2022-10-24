@@ -6,16 +6,18 @@ To the incoming/current VPs of Web Dev... good luck lmao
 
 ## What is this?
 
-Congrats current VP! This is either going to be the easiest or hardest challenge of your life.
+This is either going to be the easiest or hardest challenge you will face in coding.
 
-So to put it bluntly, the way this site is written is complex. 
+To put it bluntly, the way this site is written is complex.
 
-Instead of having a single file for a single page (if you have/had Web Tech you will know how HTML files are written), you have to create components.
-You use these components to form pages, and etc. etc.
+The website was originally PHP (you can use this if you are more comfortable), but THIS site is in ReactJS.
 
-Now why is this better than HTML? Well really there isn't much, just that it is much easier to add new things and save code space (also a whole lot of technical jargle).
+This means that instead of having a single file for a single page (if you have/had Web Tech you will know how HTML files are written), you have to create components.
+And use these components to form pages, and etc. etc.
 
-Well.. let's get started.
+Now why is this better than HTML? Well it's just much easier to add new things and save code space (also a whole lot of technical jargle).
+
+Well.. let's get started. There is A LOT to cover.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
