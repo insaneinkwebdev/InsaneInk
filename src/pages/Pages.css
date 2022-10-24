@@ -18,6 +18,26 @@ section {
     height: 50%;
 }
 
+/* --- BANNNER --- */
+
+.a-banner {
+    background-color: #7C2F3F;
+    padding: 5px 0;
+    }
+
+.a-banner-content {
+    text-align: center;
+    color: rgb(234, 234, 234);
+}
+
+.a-banner-header {
+    font-size: 20px;
+}
+
+.a-banner-link {
+    color: #d57f90
+}
+
 /* ---- GENERAL ---- */
 
 .portSec, .storySec, .other-container, .fiftySec {
@@ -48,7 +68,7 @@ section {
     color: #7b2637;
 }
 
-/* STORY */
+/* ---- STORY ---- */
 
 .story-content.par {
     font-size: 1.3rem;
@@ -69,7 +89,7 @@ section {
     border-radius: 5px;
 }
 
-/* PORTFOLIO */
+/* ---- PORTFOLIO ---- */
 
 .port-content.img, .fifty-content.img {
     max-width: 50%;
@@ -83,7 +103,7 @@ section {
 }
 
 
-/* OTHER */
+/* ---- OTHER ---- */
 
 .otherSec h2 {
     margin-top: 6rem;
@@ -91,7 +111,7 @@ section {
 
 
 
-/* MOBILE DESIGN */
+/* ---- MOBILE DESIGN ---- */
 
 @media screen and (max-width: 727px) {
     .port-content.par, .story-content.par, .fifty-content.par {
