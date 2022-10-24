@@ -20,7 +20,7 @@ section {
 
 /* ---- GENERAL ---- */
 
-.portSec, .storySec, .otherSec, .fiftySec {
+.portSec, .storySec, .other-container, .fiftySec {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ section {
     margin-bottom: 2.25rem;
 }
 
-.port-content, .story-content .other-content, .fifty-content{
+.port-content, .story-content, .fifty-content{
     position: relative;
     margin: 2rem;
     margin-top: 2rem;
@@ -44,7 +44,7 @@ section {
     text-align: left;
 }
 
-.port-content a, .story-content a, .other-content a, .fifty-content a {
+.port-content a, .story-content a, .fifty-content a {
     color: #7b2637;
 }
 
@@ -85,19 +85,11 @@ section {
 
 /* OTHER */
 
-.other-content {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+.otherSec h2 {
+    margin-top: 6rem;
 }
 
-.other-content.par {
-    margin-left: 4.5rem;
-    margin-right: -2rem;
-}
 
-.other-content.img {
-    max-width: 80%;
-}
 
 /* MOBILE DESIGN */
 
