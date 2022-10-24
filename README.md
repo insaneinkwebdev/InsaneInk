@@ -12,3 +12,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - 10/19/2022 Renamed directories/files + created "About Us" section + backed up OG Insane Ink site to github.
 - 10/20/2022 Created + completed footer, added official content to landing page. Almost done :tada: :tada: :tada:
 - 10/21/2022 Some image reformatting on landing page + added dropdowns to navbar
+- 10/22/2022 Break day :bust_in_silhouette:
+- 10/23/2022 Break day :bust_in_silhouette:
+- 10/24/2022 (Plan) Finish landing page --> other services section
