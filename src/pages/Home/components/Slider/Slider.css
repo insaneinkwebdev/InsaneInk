@@ -163,3 +163,9 @@
     left: 0.5%;
   }
 }
+
+@media screen and (min-height: 1920px) and (min-height: 900px){
+  .container-button{
+    top: 65%;
+  }
+}
