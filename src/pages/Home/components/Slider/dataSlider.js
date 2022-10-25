@@ -5,26 +5,26 @@ const dataSlider = [
     id: uuidv4(),
     title: "Back in Business!",
     subTitle: "Opening Message",
-    linkKey: "hto"
+    link: "https://google.com"
   },
   {
     id: uuidv4(),
     title: "Direct to Garment",
     subTitle: "DTG",
-    linkKey: "dtg"
+    link: "https://facebook.com"
   },
   {
     id: uuidv4(),
     title: "Stickers, Posters, and More!",
     subTitle: "Roland",
-    linkKey: "roland"
+    link: "https://youtube.com"
   },
 
   {
     id: uuidv4(),
     title: "Treasure Trove",
     subTitle: "PHHS Merch!",
-    linkKey: "tt"
+    link: "https://jesus.com"
   }
 ];
 

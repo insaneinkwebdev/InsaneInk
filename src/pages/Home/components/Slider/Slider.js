@@ -6,6 +6,8 @@ import dataSlider from './dataSlider'
 export default function Slider() {
 
     const [slideIndex, setSlideIndex] = useState(1)
+    const GSbutton = document.getElementById("pls");
+    var link;
 
     const nextSlide = () => {
         if(slideIndex !== dataSlider.length){
@@ -14,6 +16,17 @@ export default function Slider() {
         else if (slideIndex === dataSlider.length){
             setSlideIndex(1)
         }
+
+        console.log(slideIndex)
+
+        if(slideIndex == dataSlider.length){
+            link = dataSlider[0].link;
+        }else {
+            link = dataSlider[slideIndex].link;
+        }
+
+        console.log(link)
+        GSbutton.href = link;
     }
 
     const prevSlide = () => {
@@ -23,6 +36,15 @@ export default function Slider() {
         else if (slideIndex === 1){
             setSlideIndex(dataSlider.length)
         }
+
+        if(slideIndex == dataSlider.length){
+            link = dataSlider[0].link;
+        }else {
+            link = dataSlider[slideIndex].link;
+        }
+
+        console.log(link)
+        GSbutton.href = link;
     }
 
     const moveDot = index => {
@@ -30,29 +52,35 @@ export default function Slider() {
     }
 
     return (
-        <div className="container-slider">
-            {dataSlider.map((obj, index) => {
-                return (
-                    <div
-                    key={obj.id}
-                    className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
-                    >
-                        <img 
-                        src={process.env.PUBLIC_URL + `/slideshow/slide${index + 1}.jpg`} 
-                        alt="slider img" onMouseDown={nextSlide}/>
-                    </div>
-                )
-            })}
-            <BtnSlider moveSlide={nextSlide} direction={"next"} />
-            <BtnSlider moveSlide={prevSlide} direction={"prev"}/>
+        <div>
+            <div className="container-slider">
+                {dataSlider.map((obj, index) => {
+                    return (
+                        <div
+                        key={obj.id}
+                        className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
+                        >
+                            <img 
+                            src={process.env.PUBLIC_URL + `/slideshow/slide${index + 1}.jpg`} 
+                            alt="slider img" onMouseDown={function(){nextSlide()}}/>
+                        </div>
+                    )
+                })}
+                <BtnSlider moveSlide={function(){nextSlide()}} direction={"next"} />
+                <BtnSlider moveSlide={function(){prevSlide()}} direction={"prev"}/>
 
-            <div className="container-dots">
-                {Array.from({length: dataSlider.length}).map((item, index) => (
-                    <div 
-                    onClick={() => moveDot(index + 1)}
-                    className={slideIndex === index + 1 ? "dot active" : "dot"}
-                    ></div>
-                ))}
+                <div className="container-dots">
+                    {Array.from({length: dataSlider.length}).map((item, index) => (
+                        <div 
+                        onClick={() => moveDot(index + 1)}
+                        className={slideIndex === index + 1 ? "dot active" : "dot"}
+                        ></div>
+                    ))}
+                </div>
+            </div>
+
+            <div className='container-button'>
+                <a id='pls' href='https://insaneink.com' target="_blank" rel="noreferrer"><button>Get Started</button></a>
             </div>
         </div>
     )
