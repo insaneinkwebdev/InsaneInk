@@ -6,7 +6,7 @@ import dataSlider from './dataSlider'
 export default function Slider() {
 
     const [slideIndex, setSlideIndex] = useState(1)
-    const GSbutton = document.getElementById("pls");
+    const GSbutton = document.getElementById("openlink");
     var link;
 
     const nextSlide = () => {
@@ -80,7 +80,7 @@ export default function Slider() {
             </div>
 
             <div className='container-button'>
-                <a id='pls' href='https://insaneink.com' target="_blank" rel="noreferrer"><button>Get Started</button></a>
+                <a id='openlink' href='https://insaneink.com' target="_blank" rel="noreferrer"><button>Get Started</button></a>
             </div>
         </div>
     )
