@@ -19,7 +19,7 @@ export default function Slider() {
 
         console.log(slideIndex)
 
-        if(slideIndex == dataSlider.length){
+        if(slideIndex === dataSlider.length){
             link = dataSlider[0].link;
         }else {
             link = dataSlider[slideIndex].link;
@@ -37,7 +37,7 @@ export default function Slider() {
             setSlideIndex(dataSlider.length)
         }
 
-        if(slideIndex == dataSlider.length){
+        if(slideIndex === dataSlider.length){
             link = dataSlider[0].link;
         }else {
             link = dataSlider[slideIndex].link;
