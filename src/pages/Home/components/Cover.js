@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "./components/Slider/Slider";
+import Slider from "./Slider/Slider";
 function Cover(){
     return(
         <>

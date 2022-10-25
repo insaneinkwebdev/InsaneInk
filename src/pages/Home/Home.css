@@ -40,7 +40,7 @@ section {
 
 /* ---- GENERAL ---- */
 
-.portSec, .storySec, .other-container, .fiftySec {
+.portSec, .storySec, .fiftySec {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +83,7 @@ section {
     max-width: 40%;
 }
 
-.story-content.img {
+.story-content.img, .other-card {
     max-width: 50%;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -102,15 +102,6 @@ section {
     margin-right: 3rem;
 }
 
-
-/* ---- OTHER ---- */
-
-.otherSec h2 {
-    margin-top: 6rem;
-}
-
-
-
 /* ---- MOBILE DESIGN ---- */
 
 @media screen and (max-width: 727px) {
@@ -120,17 +111,7 @@ section {
         max-width: 90%;
     }
 
-    .other-content {
-        padding-top: 0rem;
-        padding-bottom: 0rem;
-    }
-
-    .other-content.par {
-        max-width: 85%;
-        margin: 0.5rem;
-    }
-
-    .port-content, .story-content, .other-content, .fifty-content {
+    .port-content, .story-content, .fifty-content {
         margin: 2rem;
         font-size: 1.2rem;
     }

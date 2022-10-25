@@ -1,5 +1,5 @@
 import storyImg from '../../../images/index/coverphoto.png'
-import '../../Pages.css'
+import '../Home.css'
 
 function Story(){
     return(

@@ -1,5 +1,5 @@
 import fiftyImg from '../../../images/index/5050img.jpeg'
-import '../../Pages.css'
+import '../Home.css'
 
 function Fifty(){
     return(

@@ -1,5 +1,5 @@
 import portfolio from '../../../images/index/portfolioimg.png'
-import '../../Pages.css'
+import '../Home.css'
 
 function Portfolio (){
     return(
