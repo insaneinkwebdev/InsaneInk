@@ -26,20 +26,20 @@ function Footer(){
                         <div className='footer-col' id="services">
                             <h3>Services</h3>
                             <div className='footer-links'>
-                                <a href="https://google.com">How To Order</a>
-                                <a href="https://google.com">Direct To Garment</a>
-                                <a href="https://google.com">Print Shop</a>
-                                <a href="https://google.com">Heat Press</a>
+                                <a href="https://www.insaneink.com/theprocess">How To Order</a>
+                                <a href="https://www.insaneink.com/dtg">Small Quantity (DTG)</a>
+                                <a href="https://www.insaneink.com/roland">Print Shop</a>
+                                <a href="https://www.insaneink.com/roland">Heat Press</a>
                             </div>
                         </div>
                         <div className='footer-col' id="useful-links">
                             <h3>Links</h3>
                             <div className='footer-links'>
-                                <a href="https://google.com">About Us</a>
-                                <a href="https://google.com">Treasure Trove</a>
-                                <a href="https://google.com">Merch & More!</a>
-                                <a href="https://google.com">Portfolio</a>
-                                <a href="https://google.com">The 50/50 Concept</a>
+                                <a href="https://www.insaneink.com/aboutus">About Us</a>
+                                <a href="https://www.insaneink.com/treasuretrove">Treasure Trove</a>
+                                <a href="https://www.insaneink.com/theprocess">Merch & More!</a>
+                                <a href="https://www.insaneink.com/ourportfolio">Portfolio</a>
+                                <a href="https://www.insaneink.com/the5050concept">The 50/50 Concept</a>
                             </div>
                         </div>
                         <div className='footer-col' id="contact">

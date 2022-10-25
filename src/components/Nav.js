@@ -25,35 +25,35 @@ function Navbar(){
         <>
             <nav className="navBar">
                 <div className="logo">
-                    <a href="https://google.com"><img src={logo} alt='Insane Ink Logo'></img></a>
+                    <a href="https://insaneink.com"><img src={logo} alt='Insane Ink Logo'></img></a>
                 </div>
                 <ul className='nav-links'>
-                    <li><a href="https://google.com">About Us</a></li>
-                    <li><a href="https://google.com">Treasure Trove</a></li>
+                    <li><a href="https://www.insaneink.com/aboutus">About Us</a></li>
+                    <li><a href="https://www.insaneink.com/treasuretrove">Treasure Trove</a></li>
                     <li>
-                        <a href="https://google.com" className='drop-hover merch'>Merch & More!</a>
+                        <a href="https://www.insaneink.com/theprocess" className='drop-hover merch'>Merch & More!</a>
                         <ul className='drop merch'>
-                            <li><a href="https://google.com">How To Order</a></li>
-                            <li><a href="https://google.com">Small Quantity (DTG)</a></li>
-                            <li><a href="https://google.com">Print Shop</a></li>
-                            <li><a href="https://google.com">Heat Press</a></li>
+                            <li><a href="https://www.insaneink.com/theprocess">How To Order</a></li>
+                            <li><a href="https://www.insaneink.com/dtg">Small Quantity (DTG)</a></li>
+                            <li><a href="https://www.insaneink.com/roland">Print Shop</a></li>
+                            <li><a href="https://www.insaneink.com/roland">Heat Press</a></li>
                         </ul>
                     </li>
 
-                    <li><a href="https://google.com">Portfolio</a></li>
+                    <li><a href="https://www.insaneink.com/theprocess">Portfolio</a></li>
 
                     <li>
-                        <a href="https://google.com"  className='drop-hover fifty'>The 50/50 Concept</a>
+                        <a href="https://www.insaneink.com/the5050concept"  className='drop-hover fifty'>The 50/50 Concept</a>
                         <ul className='drop fifty'>
-                            <li><a href="https://google.com">2022-2023 Events</a></li>
-                            <li><a href="https://google.com">2020-2022 Events</a></li>
-                            <li><a href="https://google.com">2019-2020 Events</a></li>
-                            <li><a href="https://google.com">2018-2019 Events</a></li>
-                            <li><a href="https://google.com">2017-2018 Events</a></li>
-                            <li><a href="https://google.com">2016-2017 Events</a></li>
-                            <li><a href="https://google.com">2015-2016 Events</a></li>
-                            <li><a href="https://google.com">2014-2015 Events</a></li>
-                            <li><a href="https://google.com">2013-2014 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept">2022-2023 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept">2020-2022 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept">2019-2020 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept">2018-2019 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept">2017-2018 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept">2016-2017 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept">2015-2016 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept">2014-2015 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept">2013-2014 Events</a></li>
                         </ul>
                     </li>
 
