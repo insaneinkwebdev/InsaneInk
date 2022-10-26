@@ -33,31 +33,31 @@ function Navbar(){
                     <li>
                         <a href="https://www.insaneink.com/theprocess" className='drop-hover merch'>Merch & More!</a>
                         <ul className='drop merch'>
-                            <li><a href="https://www.insaneink.com/theprocess">How To Order</a></li>
-                            <li><a href="https://www.insaneink.com/dtg">Small Quantity (DTG)</a></li>
-                            <li><a href="https://www.insaneink.com/roland">Print Shop</a></li>
-                            <li><a href="https://www.insaneink.com/roland">Heat Press</a></li>
+                            <li><a href="https://www.insaneink.com/theprocess.php">How To Order</a></li>
+                            <li><a href="https://www.insaneink.com/dtg.php">Small Quantity (DTG)</a></li>
+                            <li><a href="https://www.insaneink.com/roland.php">Print Shop</a></li>
+                            <li><a href="https://www.insaneink.com/roland.php">Heat Press</a></li>
                         </ul>
                     </li>
 
-                    <li><a href="https://www.insaneink.com/theprocess">Portfolio</a></li>
+                    <li><a href="https://www.insaneink.com/theprocess.php">Portfolio</a></li>
 
                     <li>
-                        <a href="https://www.insaneink.com/the5050concept"  className='drop-hover fifty'>The 50/50 Concept</a>
+                        <a href="https://www.insaneink.com/the5050concept.php"  className='drop-hover fifty'>The 50/50 Concept</a>
                         <ul className='drop fifty'>
-                            <li><a href="https://www.insaneink.com/the5050concept">2022-2023 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept">2020-2022 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept">2019-2020 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept">2018-2019 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept">2017-2018 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept">2016-2017 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept">2015-2016 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept">2014-2015 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept">2013-2014 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php">2022-2023 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php">2020-2022 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php">2019-2020 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php">2018-2019 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php">2017-2018 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php">2016-2017 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php">2015-2016 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php">2014-2015 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php">2013-2014 Events</a></li>
                         </ul>
                     </li>
 
-                    <li><a href="https://google.com">Contact Us</a></li>
+                    <li><a href="https://www.insaneink.com/contactus.php">Contact Us</a></li>
                 </ul>
                 <div className='burger' onClick={burger}>
                     <div className='line1'></div>

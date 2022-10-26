@@ -53,5 +53,6 @@ public is the "display" of the site, it's what React uses to host what you've co
 - 10/21/2022 Some image reformatting on landing page + added dropdowns to navbar
 - 10/22/2022 Break day :bust_in_silhouette:
 - 10/23/2022 Break day :bust_in_silhouette:
-- 10/24/2022 Removed Options Section (this made me want to die for like 3 days, GOODBYE) + Finished Landing Page + Added get started button + basic link hrefs
-
+- 10/24/2022 Removed Options Section (this made me want to die for like 3 days, GOODBYE) + Finished Landing Page + Added get started button w/ functionality + basic link hrefs
+- 10/25/2022 Break day :bust_in_silhouette:
+- 10/26/2022 Start React-Router implementation into App.js
