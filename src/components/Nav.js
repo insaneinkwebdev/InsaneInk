@@ -25,7 +25,7 @@ function Navbar(){
         <>
             <nav className="navBar">
                 <div className="logo">
-                    <a href="https://insaneink.com"><img src={logo} alt='Insane Ink Logo'></img></a>
+                    <a href="https://insaneinkv2.netlify.app"><img src={logo} alt='Insane Ink Logo'></img></a>
                 </div>
                 <ul className='nav-links'>
                     <li><a href="https://insaneinkv2.netlify.app/about">About Us</a></li>
