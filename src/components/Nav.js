@@ -28,10 +28,10 @@ function Navbar(){
                     <a href="https://insaneink.com"><img src={logo} alt='Insane Ink Logo'></img></a>
                 </div>
                 <ul className='nav-links'>
-                    <li><a href="https://www.insaneink.com/aboutus">About Us</a></li>
-                    <li><a href="https://www.insaneink.com/treasuretrove">Treasure Trove</a></li>
+                    <li><a href="https://www.insaneink.com/aboutus.php">About Us</a></li>
+                    <li><a href="https://www.insaneink.com/treasuretrove.php">Treasure Trove</a></li>
                     <li>
-                        <a href="https://www.insaneink.com/theprocess" className='drop-hover merch'>Merch & More!</a>
+                        <a href="https://www.insaneink.com/theprocess.php" className='drop-hover merch'>Merch & More!</a>
                         <ul className='drop merch'>
                             <li><a href="https://www.insaneink.com/theprocess.php">How To Order</a></li>
                             <li><a href="https://www.insaneink.com/dtg.php">Small Quantity (DTG)</a></li>
