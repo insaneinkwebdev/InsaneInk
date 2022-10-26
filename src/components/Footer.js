@@ -35,7 +35,7 @@ function Footer(){
                         <div className='footer-col' id="useful-links">
                             <h3>Links</h3>
                             <div className='footer-links'>
-                                <a href="https://www.insaneinkv2.netlify.app/about">About Us</a>
+                                <a href="https://insaneinkv2.netlify.app/about">About Us</a>
                                 <a href="https://www.insaneink.com/treasuretrove.php">Treasure Trove</a>
                                 <a href="https://www.insaneink.com/theprocess.php">Merch & More!</a>
                                 <a href="https://www.insaneink.com/ourportfolio.php">Portfolio</a>
