@@ -28,7 +28,7 @@ function Navbar(){
                     <a href="https://insaneink.com"><img src={logo} alt='Insane Ink Logo'></img></a>
                 </div>
                 <ul className='nav-links'>
-                    <li><a href="https://www.insaneinkv2.netlify.app/about">About Us</a></li>
+                    <li><a href="https://insaneinkv2.netlify.app/about">About Us</a></li>
                     <li><a href="https://www.insaneink.com/treasuretrove.php">Treasure Trove</a></li>
                     <li>
                         <a href="https://www.insaneink.com/theprocess.php" className='drop-hover merch'>Merch & More!</a>
