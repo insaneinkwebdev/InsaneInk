@@ -34,7 +34,7 @@
   align-items: center;
   text-align: center; 
   position: absolute;
-  top: 70%;
+  top: 80%;
   width: 100%;
 }
 
@@ -164,7 +164,7 @@
   }
 }
 
-@media screen and (min-width: 1800px) and (min-height: 800px){
+@media screen and (min-width: 1000px) and (min-height: 800px){
   .container-button{
     top: 65%;
   }
