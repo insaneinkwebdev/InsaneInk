@@ -18,7 +18,7 @@ function Portfolio (){
                 <br/>
                 <br/>
 
-                <a href="https://google.com">Learn More</a>
+                <a href="https://www.insaneink.com/ourportfolio.php">Learn More</a>
             </div>
         </section>
     )

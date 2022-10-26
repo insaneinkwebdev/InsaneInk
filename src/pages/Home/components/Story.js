@@ -13,7 +13,7 @@ function Story(){
                 <br/>
                 <br/>
 
-                <a href="https://google.com">Learn More</a>
+                <a href="https://www.insaneink.com/aboutus.php">Learn More</a>
             </div>
             <img className='story-content img' src={storyImg} alt='Placeholder'/>
         </section>
