@@ -6,12 +6,7 @@ import dataSlider from './dataSlider'
 export default function Slider() {
 
     const [slideIndex, setSlideIndex] = useState(1)
-    var GSbutton;
-
-    GSbutton = document.getElementById("openlink");
-    if (GSbutton === null){
-        GSbutton = document.getElementById("hidelink");
-    }
+    const GSbutton = document.getElementById("openlink");
     var link;
 
     const nextSlide = () => {
@@ -22,6 +17,8 @@ export default function Slider() {
             setSlideIndex(1)
         }
 
+        console.log(slideIndex)
+
         if(slideIndex === dataSlider.length){
             link = dataSlider[0].link;
         }else {
@@ -29,13 +26,7 @@ export default function Slider() {
         }
 
         console.log(link)
-
-        if(link === "null"){
-            GSbutton.id = "hideLink";
-        } else{
-            GSbutton.href = link;
-            GSbutton.id = "openLink";
-        }
+        GSbutton.href = link;
     }
 
     const prevSlide = () => {
@@ -53,13 +44,7 @@ export default function Slider() {
         }
 
         console.log(link)
-
-        if(link === "null"){
-            GSbutton.id = "hideLink";
-        } else{
-            GSbutton.href = link;
-            GSbutton.id = "openLink";
-        }
+        GSbutton.href = link;
     }
 
     const moveDot = index => {
