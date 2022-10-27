@@ -8,7 +8,7 @@ function Portfolio (){
             <div className='port-content par'>
                 <h2 className='port-header'>Portfolio</h2>
                 
-                We have customized over 100 different apparels with a wide variety of items to choose from <a href="https://google.com">our Catalog</a>.
+                We have customized over 100 different apparels with a wide variety of items to choose from <a href="https://insaneink.com/theprocessphp#OurCatalog">our Catalog</a>.
                 
                 <br/>
                 <br/>

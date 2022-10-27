@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+.coverSec.about {
+    margin-top: -10px;
+    min-width: 100%;
+    min-height: 500px;
+    background-color: green;
+}
