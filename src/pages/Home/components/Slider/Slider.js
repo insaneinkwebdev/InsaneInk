@@ -17,8 +17,6 @@ export default function Slider() {
             setSlideIndex(1)
         }
 
-        console.log(slideIndex)
-
         if(slideIndex === dataSlider.length){
             link = dataSlider[0].link;
         }else {
@@ -26,12 +24,12 @@ export default function Slider() {
         }
 
         console.log(link)
-        GSbutton.href = link;
 
         if(link === "null"){
-            GSbutton.style.display = "none";
+            GSbutton.id = "hideLink";
         } else{
-            GSbutton.style.display = "block";
+            GSbutton.href = link;
+            GSbutton.id = "openLink";
         }
     }
 
@@ -50,12 +48,12 @@ export default function Slider() {
         }
 
         console.log(link)
-        GSbutton.href = link;
 
         if(link === "null"){
-            GSbutton.style.display = "none";
+            GSbutton.id = "hideLink";
         } else{
-            GSbutton.style.display = "block";
+            GSbutton.href = link;
+            GSbutton.id = "openLink";
         }
     }
 
