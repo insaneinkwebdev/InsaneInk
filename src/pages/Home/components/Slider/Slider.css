@@ -34,7 +34,8 @@
   align-items: center;
   text-align: center; 
   background-color: blue;
-  top: 10em;
+  position: absolute;
+  top: 15em;
   width: 100%;
 }
 
