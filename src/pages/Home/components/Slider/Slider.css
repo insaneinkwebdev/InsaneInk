@@ -72,9 +72,13 @@
   transition: 200ms all ease-in-out;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
   .btn-slide {
     opacity: 0;
+  }
+
+  .slide img {
+    width: 125%;
   }
 }
 
