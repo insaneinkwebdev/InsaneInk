@@ -27,6 +27,12 @@ export default function Slider() {
 
         console.log(link)
         GSbutton.href = link;
+
+        if(link === null){
+            GSbutton.style.display = "none";
+        } else{
+            GSbutton.style.display = "block";
+        }
     }
 
     const prevSlide = () => {
@@ -45,6 +51,12 @@ export default function Slider() {
 
         console.log(link)
         GSbutton.href = link;
+
+        if(link === null){
+            GSbutton.style.display = "none";
+        } else{
+            GSbutton.style.display = "block";
+        }
     }
 
     const moveDot = index => {
