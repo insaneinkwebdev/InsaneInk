@@ -6,7 +6,12 @@ import dataSlider from './dataSlider'
 export default function Slider() {
 
     const [slideIndex, setSlideIndex] = useState(1)
-    const GSbutton = document.getElementById("openlink");
+    var GSbutton;
+
+    GSbutton = document.getElementById("openlink");
+    if (GSbutton === null){
+        GSbutton = document.getElementById("hidelink");
+    }
     var link;
 
     const nextSlide = () => {
