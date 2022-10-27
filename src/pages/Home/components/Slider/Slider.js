@@ -28,7 +28,7 @@ export default function Slider() {
         console.log(link)
         GSbutton.href = link;
 
-        if(link === null){
+        if(link === "null"){
             GSbutton.style.display = "none";
         } else{
             GSbutton.style.display = "block";
@@ -52,7 +52,7 @@ export default function Slider() {
         console.log(link)
         GSbutton.href = link;
 
-        if(link === null){
+        if(link === "null"){
             GSbutton.style.display = "none";
         } else{
             GSbutton.style.display = "block";

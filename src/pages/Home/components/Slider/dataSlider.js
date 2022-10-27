@@ -11,20 +11,20 @@ const dataSlider = [
     id: uuidv4(),
     title: "Direct to Garment",
     subTitle: "DTG",
-    link: null
+    link: "null"
   },
   {
     id: uuidv4(),
     title: "Stickers, Posters, and More!",
     subTitle: "Roland",
-    link: null
+    link: "null"
   },
 
   {
     id: uuidv4(),
     title: "Treasure Trove",
     subTitle: "PHHS Merch!",
-    link: null
+    link: "null"
   }
 ];
 
