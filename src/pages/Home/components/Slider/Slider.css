@@ -77,10 +77,6 @@
   .btn-slide {
     opacity: 0;
   }
-
-  .slide img {
-    width: 125%;
-  }
 }
 
 .btn-slide:hover {
