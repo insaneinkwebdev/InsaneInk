@@ -24,6 +24,7 @@
   height: 90%;
   border-radius: 5px;
   object-fit: cover;
+  object-position: center;
 }
 .active-anim {
   opacity: 1;
