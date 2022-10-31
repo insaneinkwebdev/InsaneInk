@@ -59,3 +59,4 @@ public is the "display" of the site, it's what React uses to host what you've co
 - 10/27/2022 Break day :bust_in_silhouette:
 - 10/28/2022 Create about page
 - 10/29/2022 Fixed mobile display for 'get started' button + finalized board presentation slides
+- 10/30/2022 Break day :bust_in_silhouette:
