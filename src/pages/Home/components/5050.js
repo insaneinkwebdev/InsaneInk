@@ -7,7 +7,7 @@ function Fifty(){
             <div className='fifty-content par'>
                 <h2 className='fifty-header'>The 50/50 Concept</h2>
                 
-                We proudly donate time, resources, and half of our proceeds to fund local events in order to strengthen, uplift, and give back to the community.
+                We proudly dedicate our time, resources, and half of our proceeds to local events in order to strengthen, uplift, and give back to the community.
             
                 <br/>
                 <br/>
