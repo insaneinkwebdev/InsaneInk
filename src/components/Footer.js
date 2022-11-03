@@ -4,7 +4,7 @@ import facebook from './img/facebook.svg'
 import instagram from './img/instagram.svg'
 import twitter from './img/twitter.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMapMarkerAlt, faPhone } from "@fortawesome/free-solid-svg-icons"
+import { faMailBulk, faMapMarkerAlt, faPhone } from "@fortawesome/free-solid-svg-icons"
 
 function Footer(){
     return(
@@ -44,6 +44,12 @@ function Footer(){
                         </div>
                         <div className='footer-col' id="contact">
                             <h3>Contact</h3>
+                            
+                            <div className='contact-details'>
+                                <span className='contact-icon'><FontAwesomeIcon icon={faMailBulk}/></span>
+                                <p>sales@insaneink.com</p>
+                            </div>
+
                             <div className='contact-details'>
                                 <span className='contact-icon'><FontAwesomeIcon icon={faMapMarkerAlt}/></span>
                                 <p>1377 Piedmont Road, San Jose,<br/>CA 95132</p>
