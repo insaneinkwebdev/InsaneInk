@@ -1,5 +1,3 @@
-import aboutVid from "../../../videos/2020-2021/2022Commercial.mp4"
-
 function Cover(){
     return(
         <>
