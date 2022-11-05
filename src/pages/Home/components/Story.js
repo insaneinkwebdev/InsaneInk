@@ -13,7 +13,7 @@ function Story(){
                 <br/>
                 <br/>
 
-                <a href="https://www.insaneink.com/aboutus.php">Learn More</a>
+                <a href="https://insaneinkv2.netlify.app/about">Learn More</a>
             </div>
             <img className='story-content img' src={storyImg} alt='Placeholder'/>
         </section>
