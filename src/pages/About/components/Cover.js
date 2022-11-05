@@ -1,8 +1,14 @@
+import aboutVid from "../../../videos/2020-2021/2022Commercial.mp4"
+
 function Cover(){
     return(
         <>
             <section className="coverSec about" aria-label="Cover Screen">
-                <h2>This is the about us section :3</h2>
+                <h2>About Our Company</h2>
+                <video controls autoPlay muted loop className="coverVid">
+                    <source src={require("../../../videos/2020-2021/2022Commercial.mp4")} type="video/ogg"/>
+                    Your browser does not support the video tag.
+                </video>
             </section>
         </>
     );
