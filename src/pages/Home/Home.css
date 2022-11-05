@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.tapIcon {
+    position: relative;
+    margin-top: -2.5rem;
+    margin-left: 8.5rem;
+    padding-bottom: 2rem;
+    display: none;
+}
+
 section {
     margin-top: 1rem;
     margin-bottom: 10px;
@@ -105,6 +113,10 @@ section {
 /* ---- MOBILE DESIGN ---- */
 
 @media screen and (max-width: 727px) {
+    .tapIcon {
+        display: block;
+    }
+
     .port-content.par, .story-content.par, .fifty-content.par {
         margin-left: 1rem;
         margin-right: 1rem;

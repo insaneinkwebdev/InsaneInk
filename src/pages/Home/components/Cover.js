@@ -1,5 +1,7 @@
 import React from "react";
 import Slider from "./Slider/Slider";
+import tapIcon from '../../../images/index/tapIcon.jpg'
+
 function Cover(){
     return(
         <>
@@ -13,6 +15,7 @@ function Cover(){
                         Check out <a className="a-banner-link" href="https://insaneink.com/theprocess.php">our order process</a> for information on how to get started!</p>
                     </div>*/}
                 <Slider/>
+                <img src={tapIcon} width="35%" className="tapIcon"/>
             </section>
         </>
     );
