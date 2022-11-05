@@ -37,7 +37,7 @@ function Footer(){
                             <div className='footer-links'>
                                 <a href="https://insaneinkv2.netlify.app/about">About Us</a>
                                 <a href="https://www.insaneink.com/treasuretrove.php">Treasure Trove</a>
-                                <a href="https://www.insaneink.com/theprocess.php">Merch & More!</a>
+                                <a href="https://www.insaneink.com/theprocess.php">Order Now!</a>
                                 <a href="https://www.insaneink.com/ourportfolio.php">Portfolio</a>
                                 <a href="https://www.insaneink.com/the5050concept.php">The 50/50 Concept</a>
                             </div>

@@ -31,7 +31,7 @@ function Navbar(){
                     <li><a href="https://insaneinkv2.netlify.app/about">About Us</a></li>
                     <li><a href="https://www.insaneink.com/treasuretrove.php">Treasure Trove</a></li>
                     <li>
-                        <a href="https://www.insaneink.com/theprocess.php" className='drop-hover merch'>Merch & More!</a>
+                        <a href="https://www.insaneink.com/theprocess.php" className='drop-hover merch'>Order Now!</a>
                         <ul className='drop merch'>
                             <li><a href="https://www.insaneink.com/theprocess.php">How To Order</a></li>
                             <li><a href="https://www.insaneink.com/dtg.php">Small Quantity (DTG)</a></li>
