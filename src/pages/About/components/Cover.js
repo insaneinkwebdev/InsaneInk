@@ -3,7 +3,7 @@ function Cover(){
         <>
             <section className="coverSec about" aria-label="Cover Screen">
                 <h2>About Our Company</h2>
-                <video controls autoPlay muted loop className="coverVid">
+                <video controls playsInline autoPlay muted loop className="coverVid">
                     <source src={require("../../../videos/2020-2021/2022Commercial.mp4")} type="video/ogg"/>
                     Your browser does not support the video tag.
                 </video>
