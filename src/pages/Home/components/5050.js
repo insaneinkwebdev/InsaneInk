@@ -1,4 +1,4 @@
-import fiftyImg from '../../../images/index/5050img.jpeg'
+import fiftyImg from '../../../images/index/5050img.png'
 import '../Home.css'
 
 function Fifty(){
