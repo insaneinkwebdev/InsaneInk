@@ -146,8 +146,12 @@ section {
         max-width: 100%;
     }
 
-    .port-header, .story-header, .fifty-content {
+    .port-header, .story-header, .fifty-header {
         text-align: center;
+    }
+
+    .story-header {
+        margin-top: -35px;
     }
 
 }
