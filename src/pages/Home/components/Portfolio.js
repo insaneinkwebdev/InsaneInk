@@ -9,7 +9,7 @@ function Portfolio (){
         <section className="portSec" aria-label="Portfolio Section">
             <img className='port-content img' src={portfolio} alt='Placeholder'/>
             <div className='port-content par'>
-                <AnimationOnScroll animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown' offset="200">
+                <AnimationOnScroll animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown'>
                     <h2 className='port-header'>Portfolio</h2>
                 </AnimationOnScroll>
                 
