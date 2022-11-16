@@ -76,3 +76,4 @@ public is the "display" of the site, it's what React uses to host what you've co
 - 11/12/2022 Break day :bust_in_silhouette:
 - 11/13/2022 Designing skeleton for TT page (Figma)
 - 11/14/2022 Designing skeleton for TT page (Figma)
+- 11/15/2022 More designing + implement page animations using Animate.css
