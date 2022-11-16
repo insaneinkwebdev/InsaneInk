@@ -8,7 +8,7 @@ function Story(){
     return( 
         <section className="storySec" aria-label="Story Section">
             <div className='story-content par'>
-                <AnimationOnScroll animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown'>
+                <AnimationOnScroll animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown' animatePreScroll="false" offset="200">
                     <h2 className='story-header'>About Us</h2>
                 </AnimationOnScroll>
                 

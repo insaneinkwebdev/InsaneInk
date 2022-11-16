@@ -8,7 +8,7 @@ function Fifty(){
     return(
         <section className="fiftySec" aria-label="50/50 Section">
         <div className='fifty-content par'>
-            <AnimationOnScroll animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown'>
+            <AnimationOnScroll animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown' offset="200">
                 <h2 className='fifty-header'>The 50/50 Concept</h2>
             </AnimationOnScroll>
             
