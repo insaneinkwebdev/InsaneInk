@@ -18,7 +18,7 @@ import NotFound from './pages/FouroFour/NotFound';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" data-theme="light">
       <Navbar/>
       <Router>
         <Routes>
