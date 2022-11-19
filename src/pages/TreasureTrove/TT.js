@@ -3,7 +3,7 @@ import "./TT.css"
 function TT(){
     return(
         <div className="container fixed">
-            <h2>This is the treasure trove page :3</h2>
+            <h2>Our Products</h2>
         </div>
     );
 }

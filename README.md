@@ -77,3 +77,7 @@ public is the "display" of the site, it's what React uses to host what you've co
 - 11/13/2022 Designing skeleton for TT page (Figma)
 - 11/14/2022 Designing skeleton for TT page (Figma)
 - 11/15/2022 More designing + implement page animations using Animate.css
+- 11/16/2022 Adding skeletons to pages
+- 11/17/2022 File management + concept for rabbit overlays on contact page
+- 11/18/2022 Design for rabbit overlays
+- 11/19/2022 File management + editing skeletons + add 404 default + graphic for 404
