@@ -33,3 +33,7 @@ hr {
 a {
   font-weight: 500;
 } 
+
+.container.fixed {
+  height: 575px;
+}

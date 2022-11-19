@@ -9,8 +9,12 @@ import About from './pages/About/About';
 import Fifty from './pages/Fifty/Fifty';
 import Contact from './pages/Contact/Contact';
 import Merch from './pages/MerchNMore/Merch';
+import Dtg from './pages/MerchNMore/Dtg';
+import Roland from './pages/MerchNMore/Roland';
 import Portfolio from './pages/Portfolio/Portfolio';
 import TT from './pages/TreasureTrove/TT'
+
+import NotFound from './pages/FouroFour/NotFound';
 
 function App() {
   return (
@@ -18,11 +22,14 @@ function App() {
       <Navbar/>
       <Router>
         <Routes>
+          <Route path='*' element={<NotFound />}/>
           <Route path='/' element={<Home />}/>
           <Route path='/home' element={<Home />}/>
           <Route path='/about' element={<About />}/>
           <Route path='/treasuretrove' element={<TT />}/>
-          <Route path='/merchandmore' element={<Merch />}/>
+          <Route path='/merch' element={<Merch />}/>
+          <Route path='/dtg' element={<Dtg />}/>
+          <Route path='/roland' element={<Roland />}/>
           <Route path='/portfolio' element={<Portfolio />}/>
           <Route path='/5050concept' element={<Fifty />}/>
           <Route path='/contactus' element={<Contact />}/>
