@@ -3,6 +3,7 @@ import logo from './img/footerLogo.svg'
 import facebook from './img/facebook.svg'
 import instagram from './img/instagram.svg'
 import twitter from './img/twitter.svg'
+import tiktok from './img/tiktok.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMailBulk, faMapMarkerAlt, faPhone } from "@fortawesome/free-solid-svg-icons"
 
@@ -20,6 +21,7 @@ function Footer(){
                                 <a href="https://www.instagram.com/phhs.insaneink/" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={instagram} alt="icon instagram"/></a>
                                 <a href="https://twitter.com/PHHS_InsaneInk" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={twitter} alt="icon twitter"/></a>
                                 <a href="https://www.facebook.com/phhsinsaneink" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={facebook} alt="icon facebook"/></a>
+                                <a href="https://www.tiktok.com/@phhs.insaneink" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img tiktok" src={tiktok} alt="icon facebook"/></a>
                             </div>
                         </div>
 

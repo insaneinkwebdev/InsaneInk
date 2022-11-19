@@ -69,12 +69,16 @@ footer {
 
 .social-icon {
     color: #7C2F3F;
-    margin-right: 15px;
+    margin-right: 8px;
     transition: 300ms ease-in-out;
 }
 
 .social-icon.img {
     width: 30px;
+}
+
+.social-icon.img.tiktok {
+    width: 28px;
 }
 
 .footer-links a{
