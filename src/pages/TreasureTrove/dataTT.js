@@ -30,6 +30,30 @@ const dataSlider = [
     name: "Product #5",
     price: "$0",
     description: "This is sample product #5"
+  },
+  {
+    id: uuidv4(),
+    name: "Product #6",
+    price: "$0",
+    description: "This is sample product #6"
+  },
+  {
+    id: uuidv4(),
+    name: "Product #7",
+    price: "$0",
+    description: "This is sample product #7"
+  },
+  {
+    id: uuidv4(),
+    name: "Product #8",
+    price: "$0",
+    description: "This is sample product #8"
+  },
+  {
+    id: uuidv4(),
+    name: "Product #9",
+    price: "$0",
+    description: "This is sample product #9"
   }
 ];
 

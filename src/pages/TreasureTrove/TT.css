@@ -19,13 +19,14 @@
 
 .product-grid {
     display: grid;
-    gap: 4rem 0rem;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 6rem 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
     padding-bottom: 3.5rem;
 }
 
 .card {
     aspect-ratio: 1 / 1.25;
+    
 }
 
 .card__img {
@@ -38,26 +39,24 @@
 
 .card__title {
     font-size: 1.25rem;
-    text-align: center;
     line-height: 1.1;
     color: #7C2F3F;
 }
 
 .card__price {
-    text-align: center;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
 }
 
 .card__content {
     background: white;
     align-self: end;
-    margin: -2rem;
-    padding: .5rem;
+    margin: -1rem 0rem;
 }
 
 @media (min-width: 60em){
     .product-grid {
-        gap: 5rem 4rem;
+        gap: 6rem 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     }
 
     .card__img {
