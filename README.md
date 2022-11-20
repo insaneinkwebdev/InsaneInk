@@ -81,3 +81,4 @@ public is the "display" of the site, it's what React uses to host what you've co
 - 11/17/2022 File management + concept for rabbit overlays on contact page
 - 11/18/2022 Design for rabbit overlays
 - 11/19/2022 File management + editing skeletons + add 404 default + graphic for 404
+- 11/20/2022 Add content to TT page + style + mobile support (hopefully)
