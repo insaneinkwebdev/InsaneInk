@@ -38,10 +38,11 @@ function Footer(){
                             <h3>Links</h3>
                             <div className='footer-links'>
                                 <a href="https://insaneinkv2.netlify.app/about">About Us</a>
-                                <a href="https://insaneinkv2.netlify.app/treasuretrove">Treasure Trove</a>
+                                <a href="https://www.insaneink.com/contactus.php">Meet The Team</a>
                                 <a href="https://www.insaneink.com/theprocess.php">Order Now!</a>
                                 <a href="https://www.insaneink.com/ourportfolio.php">Portfolio</a>
                                 <a href="https://www.insaneink.com/the5050concept.php">The 50/50 Concept</a>
+                                <a href="https://insaneinkv2.netlify.app/treasuretrove">Treasure Trove</a>
                             </div>
                         </div>
                         <div className='footer-col' id="contact">
