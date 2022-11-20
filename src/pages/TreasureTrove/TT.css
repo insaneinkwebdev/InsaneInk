@@ -5,7 +5,7 @@
 }
 
 .tt-header {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .stacked {
@@ -19,47 +19,60 @@
 
 .product-grid {
     display: grid;
-    gap: 6rem 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
-    padding-bottom: 3.5rem;
+    gap: 6rem 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    padding-bottom: 6.5rem;
 }
 
 .card {
-    aspect-ratio: 1 / 1.25;
-    
+    aspect-ratio: 1 / 1;
 }
 
 .card__img {
     width: 100%;
     max-width: 100%;
-    aspect-ratio: 1 / 1.25;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     cursor: pointer;
 }
 
 .card__title {
-    font-size: 1.25rem;
+    font-size: 0.9rem;
     line-height: 1.1;
     color: #7C2F3F;
 }
 
 .card__price {
-    font-size: 1.25rem;
+    font-size: 0.9rem;
 }
 
 .card__content {
-    background: white;
     align-self: end;
-    margin: -1rem 0rem;
+    margin: -3rem 0rem;
 }
 
 @media (min-width: 60em){
     .product-grid {
-        gap: 6rem 2rem;
+        gap: 8.5rem 2rem;
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     }
 
     .card__img {
         aspect-ratio: 1 / 1;
     }
+
+    .card__content {
+        margin: -4rem 0rem;
+    }
+
+    .card__title {
+        font-size: 1.25rem;
+        line-height: 1.1;
+        color: #7C2F3F;
+    }
+    
+    .card__price {
+        font-size: 1.25rem;
+    }
+    
 }

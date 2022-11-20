@@ -1,11 +1,10 @@
 import "./TT.css"
 import dataTT from './dataTT'
 
-
 function TT(){
     return(
         <div className="container">
-            <h2 className="tt-header">Products</h2>
+            <h2 className="tt-header">Fall/Winter 2022 Collection</h2>
             <div className="container product">
                 <div className="product-grid">
                     {dataTT.map((obj, index) => {

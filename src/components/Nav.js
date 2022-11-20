@@ -29,13 +29,13 @@ function Navbar(){
                 </div>
                 <ul className='nav-links'>
                     <li><a href="https://insaneinkv2.netlify.app/about">About Us</a></li>
-                    <li><a href="https://www.insaneink.com/treasuretrove.php">Treasure Trove</a></li>
+                    <li><a href="https://www.insaneink.com/contactus.php">Meet The Team</a></li>
                     <li>
-                        <a href="http://localhost:3000/merch" className='drop-hover merch'>Order Now!</a>
+                        <a href="https://www.insaneink.com/theprocess.php" className='drop-hover merch'>Order Now!</a>
                         <ul className='drop merch'>
-                            <li><a href="http://localhost:3000/dtg">Small Quantity (DTG)</a></li>
-                            <li><a href="http://localhost:3000/roland">Print Shop</a></li>
-                            <li><a href="http://localhost:3000/roland">Heat Press</a></li>
+                            <li><a href="https://www.insaneink.com/dtg.php">Small Quantity (DTG)</a></li>
+                            <li><a href="https://www.insaneink.com/roland.php">Print Shop</a></li>
+                            <li><a href="https://www.insaneink.com/roland.php">Heat Press</a></li>
                         </ul>
                     </li>
 
@@ -55,8 +55,7 @@ function Navbar(){
                             <li><a href="https://www.insaneink.com/the5050concept.php">2013-2014 Events</a></li>
                         </ul>
                     </li>
-
-                    <li><a href="https://www.insaneink.com/contactus.php">Contact Us</a></li>
+                    <li><a href="https://insaneinkv2.netlify.app/treasuretrove">Treasure Trove</a></li>
                 </ul>
                 <div className='burger' onClick={burger}>
                     <div className='line1'></div>
