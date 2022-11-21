@@ -48,11 +48,13 @@ function TT(){
             </div>
 
             <dialog className="modal" id="modal">
-                <img id="modal__img" alt="product" src={placeholder}></img>
-                <div className="modal__content">
-                    <h2 id="modal__product">Test modal</h2>
-                    <p id="modal__price">$999</p>
-                    <p id="modal__desc">This is sample text that should be dynamically changed on click. If you see this text... then oops</p>
+                <div className="modal__container">
+                    <img id="modal__img" alt="product" src={placeholder}></img>
+                    <div className="modal__content">
+                        <h2 id="modal__product">Test modal</h2>
+                        <p id="modal__price">$999</p>
+                        <p id="modal__desc">This is sample text that should be dynamically changed on click. If you see this text... then oops</p>
+                    </div>
                 </div>
             </dialog>
         </div>
