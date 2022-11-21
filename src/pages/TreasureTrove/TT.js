@@ -48,7 +48,7 @@ function TT(){
             </div>
 
             <dialog className="modal" id="modal">
-                <img id="modal__img" src={placeholder}></img>
+                <img id="modal__img" alt="product" src={placeholder}></img>
                 <div className="modal__content">
                     <h2 id="modal__product">Test modal</h2>
                     <p id="modal__price">$999</p>
