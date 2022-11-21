@@ -127,9 +127,9 @@ section {
         max-width: 90%;
     }
 
-    .port-content, .story-content, .fifty-content {
-        margin: 2rem;
-        font-size: 1.2rem;
+    .port-content, .story-content, .story-content.par, .fifty-content {
+        margin: 1.5rem;
+        font-size: 1rem;
     }
 
     .fifty-content {
@@ -148,10 +148,11 @@ section {
 
     .port-header, .story-header, .fifty-header {
         text-align: center;
+        font-size: 2rem;
     }
 
     .story-header {
-        margin-top: -35px;
+        margin-top: -20px;
     }
 
 }

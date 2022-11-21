@@ -51,6 +51,48 @@
     margin: -3rem 0rem;
 }
 
+/* ------- MODAL  -------*/
+
+.modal {
+    display: block;
+    max-width: 100rem;
+    width: 70rem;
+    margin: 4rem 10rem;
+    z-index: 10;
+    border: 0;
+    border-radius: 3px;
+}
+
+.modal::backdrop {
+    background: rgba(0, 0, 0, .3)
+}
+
+#modal__img {
+    max-width: 50%;
+    margin: 2rem;
+    border-radius: 5px;
+}
+
+.modal__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ----------------------- */
+
+@media screen and (max-width: 727px) {
+    .modal {
+        display: none;
+    }
+
+    .card__img {
+        cursor: auto;
+    }
+}
+
+
 @media (min-width: 60em){
     .product-grid {
         gap: 8.5rem 2rem;
