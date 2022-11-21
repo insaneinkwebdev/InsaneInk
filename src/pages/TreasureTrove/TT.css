@@ -54,10 +54,9 @@
 /* ------- MODAL  -------*/
 
 .modal {
-    display: block;
     max-width: 100rem;
-    width: 70rem;
-    margin: 4rem 10rem;
+    width: 75rem;
+    margin: auto;
     z-index: 10;
     border: 0;
     border-radius: 3px;
@@ -69,7 +68,7 @@
 
 #modal__img {
     max-width: 50%;
-    margin: auto;
+    margin: 2rem;
     border-radius: 5px;
 }
 
