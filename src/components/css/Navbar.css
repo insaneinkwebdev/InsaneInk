@@ -89,7 +89,7 @@ nav {
 
 .drop-hover.fifty:hover~.drop.fifty {
   display: block;
-  padding-right: 0.34rem;
+  padding-right: 0.6rem;
 }
 
 .drop.fifty:hover {
