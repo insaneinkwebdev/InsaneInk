@@ -71,16 +71,35 @@
 }
 
 #modal__img {
-    max-width: 50%;
+    max-width: 45%;
     margin: 2rem;
+    margin-left: 3rem;
     border-radius: 5px;
 }
 
 .modal__content {
-    margin-top: 5rem;
+    margin-top: 2rem;
+    margin-right: 5rem;
     align-items: center;
     justify-content: center;
+    text-align: left;
     flex-wrap: wrap;
+}
+
+#modal__product {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+#modal__price {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+#modal__desc {
+    margin-top: 2rem;
+    max-width: 33rem;
+    font-size: 1.1rem;
 }
 
 /* ----------------------- */
@@ -88,6 +107,7 @@
 @media screen and (max-width: 727px) {
     .card__img {
         cursor: auto;
+        pointer-events: none;
     }
 }
 
@@ -113,7 +133,8 @@
     }
     
     .card__price {
-        font-size: 1.25rem;
+        margin-top: 0.5rem;
+        font-size: 1rem;
     }
     
 }

@@ -8,16 +8,16 @@ function openModal(id, index){
             var modal = document.getElementById("modal");
 
             let product = document.getElementById("modal__product");
-            let prodImg = document.getElementById("modal__img")
-            let price = document.getElementById("modal__price")
+            let price = document.getElementById("modal__price");
             let desc = document.getElementById("modal__desc");
 
-            console.log(dataTT[i]);
+            let prodImg = document.getElementById("modal__img");
 
             product.innerHTML = dataTT[i].name;
             price.innerHTML = dataTT[i].price;
-            desc.innerHTML = dataTT[i].description
-            prodImg.src = process.env.PUBLIC_URL + `/TT/product_${index + 1}.png`
+            desc.innerHTML = dataTT[i].description;
+
+            prodImg.src = process.env.PUBLIC_URL + `/TT/product_${index + 1}/img_1.png`;
 
             modal.showModal(); 
         }
@@ -31,10 +31,9 @@ function TT(){
             <div className="container product">
                 <div className="product-grid">
                     {dataTT.map((obj, index) => {
-                        console.log(obj, index)
                         return(
-                            <div className="card stacked">
-                                <img src={process.env.PUBLIC_URL + `/TT/product_${index + 1}.png`} alt="product img" className="card__img" onClick={function(){
+                            <div className="card stacked" key={obj.id}>
+                                <img src={process.env.PUBLIC_URL + `/TT/product_${index + 1}/img_1.png`} alt="product img" className="card__img" onClick={function(){
                                     openModal(obj.id, index)
                                 }}/>
                                 <div className="card__content">
