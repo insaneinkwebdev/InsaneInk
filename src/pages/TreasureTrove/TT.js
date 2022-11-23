@@ -2,8 +2,6 @@ import "./TT.css"
 import dataTT from './dataTT'
 import placeholder from '../../images/placeholderImg.png'
 import close from '../../images/close.svg'
-import facebook from '../../images/facebook.svg'
-import twitter from '../../images/twitter.svg'
 
 function openModal(id, index){
     for(var i=0; i < dataTT.length; i++){
@@ -107,15 +105,6 @@ function TT(){
                             <div id="modal__size-container"></div>
                             <div id="modal__inventory-notice-box" className="modal__inventory-notice-box">
                                 <p id="modal__inventory-notice" className="modal__inventory-notice">Notice: Less than 5 left in stock!</p>
-                            </div>
-                        </div>
-
-                        <div id="modal__sharebox-wrapper">
-                            <div id="modal__share-box" className="modal__share-box">
-                                <img className="modal__share-icon" src={twitter} alt="tweet product on twitter"></img>
-                            </div>
-                            <div id="modal__share-box" className="modal__share-box">
-                                <img className="modal__share-icon" src={facebook} alt="share product on facebook"></img>
                             </div>
                         </div>
                     </div>
