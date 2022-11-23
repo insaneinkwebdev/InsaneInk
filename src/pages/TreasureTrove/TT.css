@@ -129,13 +129,13 @@
     pointer-events: none;
 }
 
-.prev {
+.modal__btn-slide.prev {
     top: 52%;
     left: 3.25rem;
     transform: translateY(-60%);
 }
 
-.next {
+.modal__btn-slide.next {
     top: 52%;
     right: 40rem;
     transform: translateY(-60%);
