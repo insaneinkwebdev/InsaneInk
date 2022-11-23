@@ -9,7 +9,9 @@ function openModal(id, index){
     for(var i=0; i < dataTT.length; i++){
         if(dataTT[i].id === id){
             var sizeBoxContainer = document.getElementById("modal__size-container");
-            sizeBoxContainer.innerHTML = "";
+            if (sizeBoxContainer.innerHTML !== ""){
+                sizeBoxContainer.innerHTML = "";
+            }
 
             var modal = document.getElementById("modal");
 
