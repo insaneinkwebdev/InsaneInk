@@ -140,12 +140,12 @@
 
 .modal__btn-slide.next {
     top: 52%;
-    right: 42.5rem;
+    right: 41.5rem;
     transform: translateY(-60%);
 }
 
 #modal__img {
-    max-width: 32.5rem;
+    max-width: 34rem;
     border-radius: 5px;
 }
 
