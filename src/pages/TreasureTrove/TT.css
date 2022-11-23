@@ -80,12 +80,12 @@
 }
 
 #modal__slideshow {
-    max-width: 550px;
-    max-height: 465px;
+    max-width: 400px;
+    max-height: 405px;
     margin: 1.5rem;
     border-radius: 5px;
     overflow: hidden;
-    background-color: red;
+    background: red;
 }
 
 .modal__slide {
@@ -137,19 +137,19 @@
 
 .modal__btn-slide.next {
     top: 52%;
-    right: 40rem;
+    right: 42.5rem;
     transform: translateY(-60%);
 }
 
 #modal__img {
-    max-width: 80%;
+    max-width: 75%;
     border-radius: 5px;
 }
 
 .modal__content {
-    position: absolute;
-    top: 2.5rem;
-    left: 39.5rem;
+    
+    margin-top: 2.5rem;
+    margin-left: 35.5rem;
     align-items: center;
     justify-content: center;
     text-align: left;
