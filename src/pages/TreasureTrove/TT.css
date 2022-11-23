@@ -80,9 +80,7 @@
 }
 
 #modal__slideshow {
-    max-width: 400px;
-    max-height: 405px;
-    margin: 1.5rem;
+    margin: 3rem;
     border-radius: 5px;
     overflow: hidden;
     background: red;
@@ -131,7 +129,7 @@
 
 .modal__btn-slide.prev {
     top: 52%;
-    left: 3.25rem;
+    left: 4rem;
     transform: translateY(-60%);
 }
 
@@ -142,14 +140,13 @@
 }
 
 #modal__img {
-    max-width: 75%;
+    max-width: 70%;
     border-radius: 5px;
 }
 
 .modal__content {
-    
     margin-top: 2.5rem;
-    margin-left: 35.5rem;
+    margin-left: 32.5rem;
     align-items: center;
     justify-content: center;
     text-align: left;
