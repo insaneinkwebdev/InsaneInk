@@ -56,6 +56,7 @@
 .modal {
     max-width: 100rem;
     width: 75rem;
+    height: 33rem;
     margin: auto;
     z-index: 10;
     border: 0;
@@ -78,16 +79,77 @@
     background: rgba(0, 0, 0, .3)
 }
 
+#modal__slideshow {
+    max-width: 550px;
+    max-height: 465px;
+    margin: 1.5rem;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: red;
+}
+
+.modal__slide {
+    position: absolute;
+    opacity: 0;
+    
+}
+
+.active-anim {
+    opacity: 1;
+}
+
+.modal__btn-slide {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background: rgba(73, 73, 73, 0.5);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: 200ms all ease-in-out;
+  }
+
+#modal__slideshow:hover~.modal__btn-slide {
+    opacity: 1;
+}
+  
+.modal__btn-slide:hover {
+    background: rgba(73, 73, 73, 0.7);
+    opacity: 1;
+}
+
+.modal__btn-slide img {
+    width: 30px;
+    height: 30px;
+    pointer-events: none;
+}
+
+.prev {
+    top: 52%;
+    left: 3.25rem;
+    transform: translateY(-60%);
+}
+
+.next {
+    top: 52%;
+    right: 40rem;
+    transform: translateY(-60%);
+}
+
 #modal__img {
-    max-width: 45%;
-    margin: 2rem;
-    margin-left: 3rem;
+    max-width: 80%;
     border-radius: 5px;
 }
 
 .modal__content {
-    margin-top: 2rem;
-    margin-right: 5rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 39.5rem;
     align-items: center;
     justify-content: center;
     text-align: left;
@@ -160,6 +222,8 @@
 .modal__inventory-notice-box {
     display: none;
 }
+
+
 
 /* ----------------------- */
 

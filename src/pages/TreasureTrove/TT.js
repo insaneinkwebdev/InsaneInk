@@ -1,12 +1,19 @@
-import "./TT.css"
 import dataTT from './dataTT'
-import placeholder from '../../images/placeholderImg.png'
+import dataSlider from "./dataTTSlider"
 import close from '../../images/close.svg'
 
-function openModal(id, index){
+import leftArrow from "./icons/arrow-left.svg";
+import rightArrow from "./icons/arrow-right.svg";
+
+import "./TT.css"
+
+function openModal(id, pindex){
     for(var i=0; i < dataTT.length; i++){
         if(dataTT[i].id === id){
             var sizeBoxContainer = document.getElementById("modal__size-container");
+            var slideshowContainer = document.getElementById("modal__slideshow");
+            
+            slideshowContainer.innerHTML = "";
             sizeBoxContainer.innerHTML = "";
 
             var modal = document.getElementById("modal");
@@ -15,13 +22,9 @@ function openModal(id, index){
             let price = document.getElementById("modal__price");
             let desc = document.getElementById("modal__desc");
 
-            let prodImg = document.getElementById("modal__img");
-
             product.innerHTML = dataTT[i].name;
             price.innerHTML = dataTT[i].price;
             desc.innerHTML = dataTT[i].description;
-
-            prodImg.src = process.env.PUBLIC_URL + `/TT/product_${index + 1}/img_1.png`;
 
             dataTT[i].sizes.map((obj) => {
                 var sizeBoxContainer = document.getElementById("modal__size-container");
@@ -50,7 +53,25 @@ function openModal(id, index){
                 return(null)
             })
 
-            modal.showModal(); 
+            dataSlider.map((obj, index) => {
+                var slideshowContainer = document.getElementById("modal__slideshow");
+                let slide = document.createElement("div");
+                let slideImg = document.createElement("img");
+
+                slide.className = index === 0 ? "modal__slide active-anim" : "modal__slide";
+                slide.id = "modal__slide";
+
+                slideImg.id = "modal__img";
+                slideImg.alt = "product";
+                slideImg.src = process.env.PUBLIC_URL + `/TT/product_${pindex + 1}/img_${index + 1}.png`;
+
+                slide.appendChild(slideImg);
+                slideshowContainer.appendChild(slide);
+
+                return(null)
+            })
+
+            modal.showModal();
         }
     }
 }
@@ -70,6 +91,43 @@ function hideNotice(){
     notice.style.display = "none"
 }
 
+var slideIndex = 1
+
+const nextSlide = () => {
+    if(slideIndex !== dataSlider.length){
+        slideIndex = slideIndex + 1
+        showSlide(slideIndex);
+    } 
+    else if (slideIndex === dataSlider.length){
+        slideIndex = 1
+        showSlide(slideIndex) 
+    }
+}
+
+const prevSlide = () => {
+    if(slideIndex !== 1){
+        slideIndex = slideIndex - 1
+        showSlide(slideIndex);
+    }
+    else if (slideIndex === 1){
+        slideIndex = dataSlider.length
+        showSlide(slideIndex) 
+    }
+}
+
+function showSlide(n){
+    let slides = document.getElementsByClassName("modal__slide");
+    console.log(n - 1)
+    
+    slides[n - 1].className = "modal__slide active-anim";
+    for(var i=0; i < dataSlider.length; i++){
+        if(i !== (n - 1)){
+            slides[i].className = "modal__slide"
+        }
+    }
+    
+}
+
 function TT(){
     return(
         <div className="container">
@@ -80,7 +138,7 @@ function TT(){
                         return(
                             <div className="card stacked" key={obj.id}>
                                 <img src={process.env.PUBLIC_URL + `/TT/product_${index + 1}/img_1.png`} alt="product img" className="card__img" onClick={function(){
-                                    openModal(obj.id, index)
+                                    openModal(obj.id, index, slideIndex)
                                 }}/>
                                 <div className="card__content">
                                     <h3 className="card__title">{obj.name}</h3>
@@ -94,7 +152,15 @@ function TT(){
 
             <dialog className="modal" id="modal">
                 <div className="modal__container">
-                    <img id="modal__img" alt="product" src={placeholder}></img>
+                    <div id="modal__slideshow">
+                    </div>
+                    <button onClick={nextSlide} className="modal__btn-slide next">
+                        <img src={rightArrow} alt='slider nav button next'/>
+                    </button>
+
+                    <button onClick={prevSlide} className="modal__btn-slide prev">
+                        <img src={leftArrow} alt='slider nav button prev'/>
+                    </button>
                     <div className="modal__content">
                         <h2 id="modal__product">Test modal</h2>
                         <p id="modal__price">$999</p>

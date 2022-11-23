@@ -2,9 +2,8 @@
     max-width: 1550px;
     height: 675px;
     margin: 40px auto 0;
-    margin-top: 3rem;
+    margin-top: -24px;
     position: relative;
-    overflow: hidden;
   }
 
 @media screen and (max-width: 700px){
