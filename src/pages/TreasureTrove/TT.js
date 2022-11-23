@@ -152,15 +152,16 @@ function TT(){
 
             <dialog className="modal" id="modal">
                 <div className="modal__container">
-                    <div id="modal__slideshow">
-                    </div>
-                    <button onClick={nextSlide} className="modal__btn-slide next">
-                        <img src={rightArrow} alt='slider nav button next'/>
-                    </button>
+                    <div className='modal__slideshow-wrapper'>
+                        <div id="modal__slideshow"></div>
+                        <button onClick={nextSlide} className="modal__btn-slide next">
+                            <img src={rightArrow} alt='slider nav button next'/>
+                        </button>
 
-                    <button onClick={prevSlide} className="modal__btn-slide prev">
-                        <img src={leftArrow} alt='slider nav button prev'/>
-                    </button>
+                        <button onClick={prevSlide} className="modal__btn-slide prev">
+                            <img src={leftArrow} alt='slider nav button prev'/>
+                        </button>
+                    </div>
                     <div className="modal__content">
                         <h2 id="modal__product">Test modal</h2>
                         <p id="modal__price">$999</p>

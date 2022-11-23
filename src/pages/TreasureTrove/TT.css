@@ -79,8 +79,13 @@
     background: rgba(0, 0, 0, .3)
 }
 
-#modal__slideshow {
+.modal__slideshow-wrapper {
     margin: 3rem;
+    width: 30.5rem;
+    height: 26rem;
+}
+
+#modal__slideshow {
     border-radius: 5px;
     overflow: hidden;
     background: red;
@@ -146,7 +151,7 @@
 
 .modal__content {
     margin-top: 2.5rem;
-    margin-left: 32.5rem;
+    margin-left: 1rem;
     align-items: center;
     justify-content: center;
     text-align: left;
