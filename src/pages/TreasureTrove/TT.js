@@ -9,10 +9,7 @@ function openModal(id, index){
     for(var i=0; i < dataTT.length; i++){
         if(dataTT[i].id === id){
             var sizeBoxContainer = document.getElementById("modal__size-container");
-
-            if(sizeBoxContainer.hasChildNodes()){
-                sizeBoxContainer.innerHTML = "";
-            }
+            sizeBoxContainer.innerHTML = "";
 
             var modal = document.getElementById("modal");
 
@@ -29,7 +26,6 @@ function openModal(id, index){
             prodImg.src = process.env.PUBLIC_URL + `/TT/product_${index + 1}/img_1.png`;
 
             dataTT[i].sizes.map((obj) => {
-                var sbContainer = document.getElementById("modal__size-container");
                 let sizeBox = document.createElement("div");
                 let size = document.createElement("p");
 
@@ -41,15 +37,16 @@ function openModal(id, index){
                 
                 if(obj.quant >= 5){
                     sizeBox.className = "modal__size-box";
-                } else if (obj.quant !== 0 && obj.quant < 5){
+                } else if (obj.quant != 0 && obj.quant < 5){
                     sizeBox.className = "modal__size-box low";
+
                     sizeBox.onmouseover = showNotice;
                     sizeBox.onmouseout = hideNotice;
                 } else {
                     sizeBox.className = "modal__size-box oos";
                 }
                 
-                sbContainer.appendChild(sizeBox);
+                sizeBoxContainer.appendChild(sizeBox);
 
                 return(null)
             })
@@ -106,6 +103,7 @@ function TT(){
 
                         <div id="modal__inventory">
                             <h3 id="modal__inventory-header">Inventory (as of 11/22)</h3>
+                            <div id="modal__size-container"></div>
                             <div id="modal__inventory-notice-box" className="modal__inventory-notice-box">
                                 <p id="modal__inventory-notice" className="modal__inventory-notice">Notice: Less than 5 left in stock!</p>
                             </div>
