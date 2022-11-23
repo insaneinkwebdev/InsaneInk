@@ -145,13 +145,13 @@
 }
 
 #modal__img {
-    max-width: 70%;
+    max-width: 33rem;
     border-radius: 5px;
 }
 
 .modal__content {
     margin-top: 2.5rem;
-    margin-left: 3.5rem;
+    margin-left: 4rem;
     align-items: center;
     justify-content: center;
     text-align: left;
