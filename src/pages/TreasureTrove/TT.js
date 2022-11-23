@@ -26,6 +26,7 @@ function openModal(id, index){
             prodImg.src = process.env.PUBLIC_URL + `/TT/product_${index + 1}/img_1.png`;
 
             dataTT[i].sizes.map((obj) => {
+                var sizeBoxContainer = document.getElementById("modal__size-container");
                 let sizeBox = document.createElement("div");
                 let size = document.createElement("p");
 
