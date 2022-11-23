@@ -37,7 +37,7 @@ function openModal(id, index){
                 
                 if(obj.quant >= 5){
                     sizeBox.className = "modal__size-box";
-                } else if (obj.quant != 0 && obj.quant < 5){
+                } else if (obj.quant !== 0 && obj.quant < 5){
                     sizeBox.className = "modal__size-box low";
 
                     sizeBox.onmouseover = showNotice;
