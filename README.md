@@ -71,13 +71,13 @@ Once you do that, you are almost done. Now something in the top bar will change 
 ![image](https://user-images.githubusercontent.com/90130887/203904594-cd75bbba-98ce-49d4-ada1-b86a4bce2267.png)
 
 Depending on how big the change is it should take around 10-20 seconds (or 2-3 minutes if its kinda big), but after that you are done!
-So keep in mind that "fetch origin" just updates your local files with the files save in github, so it really shouldn't be something you should use often.
-
-After everything finally, we can start talking about the structure of the website (sort of code but not really).
+Keep in mind that "fetch origin" just makes sure that everything is up to date, so it really shouldn't be something that matters too much.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## Laying Our Foundation
+  
+After everything finally, we can start talking about the structure of the website and some general stuff about foundation (sort of code but not really).
 
 When it comes to ReactJS, either you know it or you don't.
 
