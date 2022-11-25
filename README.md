@@ -83,12 +83,12 @@ When it comes to ReactJS, either you know it or you don't.
 
 But that's alright, here's a general overview of what you need to know with the current site.
 
-So the very first thing you will see are three main files:
+So the very first thing you will see are three main folders:
 - public
 - src
 - node_modules
 
-Now #1 thing, NEVER edit, add, or remove the node_modules (unless you know what it is of course).
+Now #1 thing, NEVER edit, add, or remove the node_modules and anything else outside of public and src (unless you know what it is of course).
 node_modules is basically the skeleton of the website, it is what the site uses to exist.
 
 The two things you should look into though are src and public
@@ -96,7 +96,7 @@ The two things you should look into though are src and public
 src is where your source code is, it is where you should be doing the most of your work. Inside will be images, css, js, and essentially everything you need to do.
 
 public is the "display" of the site, it's what React uses to host what you've coded. The only thing that should maybe be changed in that file is the title of the site or the icon.
-- Now note this, due to my lack of skill in coding, all slideshow images or content that is dynamically loaded (not hard-coded in) will be located here, so just keep this in mind as a note for your duties to come!
+- Due to my lack of skill in coding, all slideshow images or content that is dynamically loaded (not hard-coded in) will be located here, so just keep this in mind as for your duties to come!
 
 I suggest taking some time just getting familiar especially with src since it can be difficult to manage. But that's okay :tada:
 
