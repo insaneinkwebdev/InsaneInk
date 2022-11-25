@@ -79,6 +79,8 @@
     background: rgba(0, 0, 0, .3)
 }
 
+/* ------- SLIDESHOW  -------*/
+
 .modal__slideshow-wrapper {
     margin: 1.75rem;
     width: 30.5rem;
@@ -148,6 +150,32 @@
     max-width: 34rem;
     border-radius: 5px;
 }
+
+#modal__dots-wrapper {
+    position: absolute;
+    bottom: 50px;
+    left: 25%;
+    transform: translateX(-50%);
+    display: flex;
+    opacity: 1;
+    transition: 200ms all ease-in-out;
+  }
+  
+.dot {
+    width: 12.5px;
+    height: 12.5px;
+    border-radius: 50%;
+    border: none;
+    margin: 0 5px;
+    background: #acacac;
+    transition: 200ms all ease-in-out;
+}
+
+.dot.active {
+    background: #7C2F3F;
+}
+
+/* ------- -------- -------*/
 
 .modal__content {
     margin-top: 2.5rem;

@@ -12,7 +12,9 @@ function openModal(id, pindex){
         if(dataTT[i].id === id){
             var sizeBoxContainer = document.getElementById("modal__size-container");
             var slideshowContainer = document.getElementById("modal__slideshow");
-            
+            var dotsContainer = document.getElementById("modal__dots-wrapper");
+
+            dotsContainer.innerHTML = "";
             slideshowContainer.innerHTML = "";
             sizeBoxContainer.innerHTML = "";
 
@@ -49,7 +51,6 @@ function openModal(id, pindex){
                 }
                 
                 sizeBoxContainer.appendChild(sizeBox);
-
                 return(null)
             })
 
@@ -67,6 +68,17 @@ function openModal(id, pindex){
 
                 slide.appendChild(slideImg);
                 slideshowContainer.appendChild(slide);
+
+                return(null)
+            })
+
+            Array.from({length: dataSlider.length}).map((obj, index) => {
+                var dotsContainer = document.getElementById("modal__dots-wrapper");
+                let dot = document.createElement("div");
+                
+                dot.className = index === 0 ? "dot active" : "dot";
+                //dot.onclick = () => {moveDot(index)};
+                dotsContainer.appendChild(dot);
 
                 return(null)
             })
@@ -110,23 +122,45 @@ const prevSlide = () => {
         showSlide(slideIndex);
     }
     else if (slideIndex === 1){
-        slideIndex = dataSlider.length
-        showSlide(slideIndex) 
+        slideIndex = dataSlider.length;
+        showSlide(slideIndex) ;
     }
 }
 
 function showSlide(n){
-    let slides = document.getElementsByClassName("modal__slide");
     console.log(n - 1)
+
+    let slides = document.getElementsByClassName("modal__slide");
+    let dots = document.getElementsByClassName("dot")
     
     slides[n - 1].className = "modal__slide active-anim";
+    dots[n - 1].className = "dot active";
+
     for(var i=0; i < dataSlider.length; i++){
         if(i !== (n - 1)){
             slides[i].className = "modal__slide"
+            dots[i].className = "dot"
         }
-    }
-    
+    } 
 }
+
+/*function moveDot(n){
+    slideIndex = n;
+    console.log(slideIndex)
+
+    let slides = document.getElementsByClassName("modal__slide");
+    let dots = document.getElementsByClassName("dot")
+
+    slides[n].className = "modal__slide active-anim";
+    dots[n].className = "dot active";
+
+    for(var i=0; i < dataSlider.length; i++){
+        if(i !== (n)){
+            slides[i].className = "modal__slide"
+            dots[i].className = "dot"
+        }
+    } 
+}*/
 
 function TT(){
     return(
@@ -161,6 +195,8 @@ function TT(){
                         <button onClick={prevSlide} className="modal__btn-slide prev">
                             <img src={leftArrow} alt='slider nav button prev'/>
                         </button>
+
+                        <div id="modal__dots-wrapper"></div>
                     </div>
                     <div className="modal__content">
                         <h2 id="modal__product">Test modal</h2>
