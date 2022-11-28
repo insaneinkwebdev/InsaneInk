@@ -107,6 +107,10 @@ section {
     border-radius: 5px;
 }
 
+.story-content.img {
+    max-height: 70%;
+}
+
 /* ---- PORTFOLIO ---- */
 
 .port-content.img, .fifty-content.img {
