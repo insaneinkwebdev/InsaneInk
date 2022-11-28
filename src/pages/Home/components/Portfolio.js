@@ -19,11 +19,6 @@ function Portfolio (){
                 <br/>
                 
                 Whether it be big or small, simple or complex, we got you covered!
-                
-                <br/>
-                <br/>
-
-                <a href="https://www.insaneink.com/ourportfolio.php">Learn More</a>
             </div>
         </section>
     )

@@ -21,13 +21,19 @@ section {
     margin-top: -10px;
 }
 
-.storySec, .portSec, .otherSec {
+.storySec, .portSec, .otherSec, .contactSec {
     width: 100%;
     height: 100%;
 }
 
-.storySec, .otherSec {
+.storySec, .otherSec, .contactSec {
     height: 575px;
+}
+
+.contactSec {
+    background-image: url("../../images/testSection.svg");
+    object-fit: cover;
+    object-position: center;
 }
 
 /* --- BANNNER --- */

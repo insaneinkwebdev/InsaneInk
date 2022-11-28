@@ -51,6 +51,7 @@ function openModal(id, pindex){
                 }
                 
                 sizeBoxContainer.appendChild(sizeBox);
+                
                 return(null)
             })
 

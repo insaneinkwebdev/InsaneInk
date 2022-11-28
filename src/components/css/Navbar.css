@@ -111,6 +111,10 @@ nav {
   transition: all 500ms ease;
 }
 
+#nav-mobile-on {
+  display: none;
+}
+
 @media screen and (max-width: 925px){
 
   .nav-links a {
@@ -132,6 +136,10 @@ nav {
 
   .nav-links li {
     opacity: 0;
+  }
+
+  #nav-mobile-on {
+    display: flex;
   }
 
   .burger {

@@ -39,6 +39,10 @@ function Navbar(){
                         </ul>
                     </li>
 
+                    <li id="nav-mobile-on"><a href="https://www.insaneink.com/dtg.php">Small Quantity (DTG)</a></li>
+                    <li id="nav-mobile-on"><a href="https://www.insaneink.com/roland.php">Print Shop</a></li>
+                    <li id="nav-mobile-on"><a href="https://www.insaneink.com/roland.php">Heat Press</a></li>
+
                     <li><a href="https://www.insaneink.com/theprocess.php">Portfolio</a></li>
 
                     <li>
