@@ -143,3 +143,7 @@ I suggest taking some time just getting familiar especially with src since it ca
 - 11/20/2022 Add content to TT page + style + mobile support (hopefully) + modal product closeup (TT) + nav fixes
 - 11/21/2022 (plan to) Fix nav styling for mobile (Order Now! + more...)
 - 11/22/2022 Completed TT page :tada:
+- 11/23/2022 - 11/28/2022 Vacation for UC Apps :tada:
+- 11/29/2022: Design for Contact page
+- 11/30/2022: Design for Contact page + thoughts on info system???
+- 12/01/2022: Design for Contact page + thoughts on info system???

@@ -211,6 +211,8 @@ function TT(){
                                 <p id="modal__inventory-notice" className="modal__inventory-notice">Notice: Less than 5 left in stock!</p>
                             </div>
                         </div>
+
+                        <p id="modal__disclaimer">Disclaimer: You cannot purchase items online</p>
                     </div>
                 </div>
                

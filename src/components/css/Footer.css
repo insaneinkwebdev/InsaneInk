@@ -81,7 +81,7 @@ footer {
     width: 28px;
 }
 
-.footer-links a{
+.footer-links a, Link{
     display: block;
     text-decoration: none;
     color: #7C2F3F;
@@ -90,7 +90,7 @@ footer {
     transition: 300ms ease-in-out;
 }
 
-.footer-links a:before {
+.footer-links a:before, Link:before {
     content: "";
     height: 16px;
     width: 3.5px;
@@ -102,11 +102,11 @@ footer {
     opacity: 0;
 }
 
-.footer-links a:hover::before {
+.footer-links a:hover::before, Link:hover::before {
     opacity: 1;
 }
 
-.footer-links a:hover {
+.footer-links a:hover, Link:hover {
     transform: translateX(-8px);
     color: #7C2F3F; 
 }

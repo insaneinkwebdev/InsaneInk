@@ -11,7 +11,7 @@ const dataSlider = [
     id: uuidv4(),
     title: "Direct to Garment",
     subTitle: "DTG",
-    link: "https://insaneinkv2.netlify.app"
+    link: "https://insaneink.com"
   },
   {
     id: uuidv4(),
@@ -24,7 +24,7 @@ const dataSlider = [
     id: uuidv4(),
     title: "Treasure Trove",
     subTitle: "PHHS Merch!",
-    link: "https://insaneinkv2.netlify.app/treasuretrove"
+    link: "https://insaneink.com/treasuretrove"
   }
 ];
 

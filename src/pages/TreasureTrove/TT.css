@@ -90,7 +90,6 @@
 #modal__slideshow {
     border-radius: 5px;
     overflow: hidden;
-    background: red;
 }
 
 .modal__slide {
@@ -196,10 +195,16 @@
     margin-top: 0.5rem;
 }
 
-#modal__desc {
+#modal__desc, #modal__disclaimer {
     margin-top: 2rem;
     max-width: 33rem;
     font-size: 1.1rem;
+}
+
+#modal__disclaimer {
+    font-size: 0.9rem;
+    color: #5C1C29;
+    font-weight: 500;
 }
 
 #modal__inventory {

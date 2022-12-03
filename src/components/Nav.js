@@ -25,10 +25,10 @@ function Navbar(){
         <>
             <nav className="navBar">
                 <div className="logo">
-                    <a href="https://insaneinkv2.netlify.app"><img src={logo} alt='Insane Ink Logo'></img></a>
+                    <a href="https://www.insaneink.com"><img src={logo} alt='Insane Ink Logo'></img></a>
                 </div>
                 <ul className='nav-links'>
-                    <li><a href="https://insaneinkv2.netlify.app/about">About Us</a></li>
+                    <li><a href="/about">About Us</a></li>
                     <li><a href="https://www.insaneink.com/contactus.php">Meet The Team</a></li>
                     <li>
                         <a href="https://www.insaneink.com/theprocess.php" className='drop-hover merch'>Order Now !</a>
@@ -43,23 +43,23 @@ function Navbar(){
                     <li id="nav-mobile-on"><a href="https://www.insaneink.com/roland.php">Print Shop</a></li>
                     <li id="nav-mobile-on"><a href="https://www.insaneink.com/roland.php">Heat Press</a></li>
 
-                    <li><a href="https://www.insaneink.com/theprocess.php">Portfolio</a></li>
+                    <li><a href="https://www.insaneink.com/ourportfolio.php">Portfolio</a></li>
 
                     <li>
                         <a href="https://www.insaneink.com/the5050concept.php"  className='drop-hover fifty'>The 50/50 Concept</a>
                         <ul className='drop fifty'>
                             <li><a href="https://www.insaneink.com/the5050concept.php">2022-2023 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept.php">2020-2022 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept.php">2019-2020 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept.php">2018-2019 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept.php">2017-2018 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept.php">2016-2017 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept.php">2015-2016 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept.php">2014-2015 Events</a></li>
-                            <li><a href="https://www.insaneink.com/the5050concept.php">2013-2014 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php#Events2020">2020-2022 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php#Events2019">2019-2020 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php#Events2018">2018-2019 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php#Events2017">2017-2018 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php#Events2016">2016-2017 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php#Events2015">2015-2016 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php#Events2014">2014-2015 Events</a></li>
+                            <li><a href="https://www.insaneink.com/the5050concept.php#Events2013">2013-2014 Events</a></li>
                         </ul>
                     </li>
-                    <li><a href="https://insaneinkv2.netlify.app/treasuretrove">Treasure Trove</a></li>
+                    <li><a href="/treasuretrove">Treasure Trove</a></li>
                 </ul>
                 <div className='burger' onClick={burger}>
                     <div className='line1'></div>
