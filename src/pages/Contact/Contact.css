@@ -44,12 +44,16 @@
 
 .cont-card__content {
     align-self: end;
-    margin: -7.5rem 0rem;
+    margin: -8rem 0rem;
+}
+
+.card__name {
+    font-size: 1.3rem;
 }
 
 .card__pos {
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .card__phone, .card__email {

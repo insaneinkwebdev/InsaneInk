@@ -18,11 +18,6 @@ function Contact(){
                                         <p className="card__email">{obj.email}</p>
                                         <p className="card__phone">{obj.phone}</p>
                                     </div> 
-                                    { /*
-                                        <p className="card__pos">{obj.position}</p>
-                                        <p className="card__email">{obj.email}</p>
-                                        <p className="card__phone">{obj.phone}</p>
-                                    */}
                                 </div>
                             )
                         })}

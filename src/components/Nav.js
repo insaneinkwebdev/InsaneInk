@@ -29,7 +29,7 @@ function Navbar(){
                 </div>
                 <ul className='nav-links'>
                     <li><a href="/about">About Us</a></li>
-                    <li><a href="https://www.insaneink.com/contactus.php">Meet The Team</a></li>
+                    <li><a href="/contactus">Meet The Team</a></li>
                     <li>
                         <a href="https://www.insaneink.com/theprocess.php" className='drop-hover merch'>Order Now !</a>
                         <ul className='drop merch'>
