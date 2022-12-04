@@ -11,7 +11,7 @@ function Contact(){
                     {dataCont.map((obj, index) => {
                             return(
                                 <div className="card stacked" key={obj.id}>
-                                    <img src={process.env.PUBLIC_URL + `/board/${index + 1}.png`} alt=" " className="card__img"/>
+                                    <img src={process.env.PUBLIC_URL + `/board/${index + 1}.png`} alt=" " className="cont-card__img"/>
                                     <div className="cont-card__content">
                                         <h3 className="card__name">{obj.name}</h3>
                                         <p className="card__pos">{obj.position}</p>

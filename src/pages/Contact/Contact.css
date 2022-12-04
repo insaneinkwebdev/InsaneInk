@@ -34,7 +34,7 @@
     color: #7C2F3F;
 }
 
-.card__img {
+.cont-card__img {
     max-width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;

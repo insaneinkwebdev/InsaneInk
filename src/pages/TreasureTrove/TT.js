@@ -208,7 +208,7 @@ function TT(){
                             <h3 id="modal__inventory-header">Inventory (as of 11/22)</h3>
                             <div id="modal__size-container"></div>
                             <div id="modal__inventory-notice-box" className="modal__inventory-notice-box">
-                                <p id="modal__inventory-notice" className="modal__inventory-notice">Notice: Less than 5 left in stock!</p>
+                                <p id="modal__inventory-notice" className="modal__inventory-notice">Less than 5 left in stock!</p>
                             </div>
                         </div>
 
