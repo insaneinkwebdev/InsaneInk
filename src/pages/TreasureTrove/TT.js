@@ -167,6 +167,19 @@ function TT(){
     return(
         <div className="container">
             <h2 className="tt-header">Fall/Winter 2023 Collection 🍂</h2>
+            <div className="tt-store-box">
+                <h3 className="tt-store">Store Hours (every Wednesday): </h3>
+                <div className="tt-hours">
+                    <ul>
+                        <li className="tt-time">10:20 AM - 10:30 AM</li>
+                        <li className="tt-time">12:40 PM - 01:00 PM</li>
+                        <li className="tt-time">02:00 PM - 04:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 className="tt-contact">Contact sales@insaneink.com for questions, comments, or concerns!</h3>
+
             <div className="container product">
                 <div className="product-grid">
                     {dataTT.map((obj, index) => {
@@ -205,7 +218,7 @@ function TT(){
                         <p id="modal__desc">This is sample text that should be dynamically changed on click. If you see this text... then oops</p>
 
                         <div id="modal__inventory">
-                            <h3 id="modal__inventory-header">Inventory (as of 11/22)</h3>
+                            <h3 id="modal__inventory-header">Inventory (as of 12/07)</h3>
                             <div id="modal__size-container"></div>
                             <div id="modal__inventory-notice-box" className="modal__inventory-notice-box">
                                 <p id="modal__inventory-notice" className="modal__inventory-notice">Less than 5 left in stock!</p>

@@ -147,3 +147,4 @@ I suggest taking some time just getting familiar especially with src since it ca
 - 11/29/2022: Design for Contact page
 - 11/30/2022: Design for Contact page + thoughts on info system???
 - 12/01/2022: Design for Contact page + thoughts on info system???
+- 12/02-07/2022: PANIC!!! - Finished Contact page, info system 2nd semester + goal is to finish every page by 13th

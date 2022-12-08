@@ -8,6 +8,45 @@
     padding-bottom: 2rem;
 }
 
+.tt-store-box {
+    margin: 0rem 25rem;
+    margin-top: -0.5rem;
+    max-width: 30rem;
+}
+
+.tt-store {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #7C2F3F;
+}
+
+.tt-hours {
+    margin: 0.5rem 0.5rem;
+    color: #232323;
+}
+
+.tt-hours ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tt-hours ul li {
+    list-style: none;
+    margin: 0 2rem;
+}
+
+.tt-time {
+    font-size: 1.1rem;
+}
+
+.tt-contact {
+    text-align: center;
+    margin: 1.25rem 0;
+    margin-bottom: 2.5rem;
+    color: #7C2F3F;
+}
+
 .stacked {
     display: grid;
 }
@@ -42,10 +81,6 @@
     color: #7C2F3F;
 }
 
-.card__price {
-    font-size: 0.9rem;
-}
-
 .card__content {
     align-self: end;
     margin: -3rem 0rem;
@@ -56,7 +91,7 @@
 .modal {
     max-width: 100rem;
     width: 75rem;
-    height: 33rem;
+    height: 40rem;
     margin: auto;
     z-index: 10;
     border: 0;
@@ -82,7 +117,7 @@
 /* ------- SLIDESHOW  -------*/
 
 .modal__slideshow-wrapper {
-    margin: 1.75rem;
+    margin: 1.75rem 2rem;
     width: 30.5rem;
     height: 26rem;
 }
@@ -90,6 +125,7 @@
 #modal__slideshow {
     border-radius: 5px;
     overflow: hidden;
+    background: purple;
 }
 
 .modal__slide {
@@ -135,13 +171,13 @@
 
 .modal__btn-slide.prev {
     top: 52%;
-    left: 4rem;
+    left: 3rem;
     transform: translateY(-60%);
 }
 
 .modal__btn-slide.next {
     top: 52%;
-    right: 41.5rem;
+    right: 42.8rem;
     transform: translateY(-60%);
 }
 
@@ -153,7 +189,7 @@
 #modal__dots-wrapper {
     position: absolute;
     bottom: 50px;
-    left: 25%;
+    left: 24%;
     transform: translateX(-50%);
     display: flex;
     opacity: 1;
@@ -166,7 +202,7 @@
     border-radius: 50%;
     border: none;
     margin: 0 5px;
-    background: #acacac;
+    background: rgba(172,172,172, 0.35);
     transition: 200ms all ease-in-out;
 }
 
@@ -177,8 +213,8 @@
 /* ------- -------- -------*/
 
 .modal__content {
-    margin-top: 2.5rem;
-    margin-left: 4rem;
+    margin-top: 7rem;
+    margin-left: 2.5rem;
     align-items: center;
     justify-content: center;
     text-align: left;
@@ -266,6 +302,20 @@
     .card__img {
         cursor: auto;
         pointer-events: none;
+    }
+
+    .tt-store-box {
+        margin: 0 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .tt-hours {
+        margin: 0;
+    }
+
+    .tt-hours ul li {
+        margin: 0 1.25rem;
+        margin-top: 0.75rem;
     }
 }
 

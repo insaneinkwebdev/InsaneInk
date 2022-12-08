@@ -45,6 +45,7 @@
 
 #openlink button {
   color: #090909;
+  background: #E7E8E9;
   font-size: 1.02rem;
   font-weight: 600;
   padding: 1rem 2.5rem; 
@@ -114,7 +115,7 @@
   border-radius: 50%;
   border: none;
   margin: 0 5px;
-  background: #E7E8E9;
+  background: #acacac;
   transition: 200ms all ease-in-out
 }
 

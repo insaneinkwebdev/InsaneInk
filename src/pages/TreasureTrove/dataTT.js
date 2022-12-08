@@ -119,22 +119,22 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "Test Product Not for Sale #5",
-    price: "$19.00",
+    name: "PHHS College Crewneck",
+    price: "$20.00",
     description: "Test description for a product, this will probably have some information about the garment, maybe color, material, idk.",
     featured: false,
     sizes: [
       {
         "type": "XS",
-        "quant": 5
+        "quant": 0
       },
       {
         "type": "S",
-        "quant": 10
+        "quant": 5
       },
       {
         "type": "M",
-        "quant": 3
+        "quant": 0
       },
       {
         "type": "XL",

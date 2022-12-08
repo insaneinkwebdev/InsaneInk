@@ -48,7 +48,7 @@ nav {
 
 .drop {
   position: absolute;
-  top: 4.25rem;
+  top: 5rem;
   display: none;
   z-index: 5;
   background-color: #7C2F3F;
@@ -71,7 +71,7 @@ nav {
 .drop-hover:hover {
   background-color: white;
   color: #7C2F3F;
-  padding-bottom: .75rem;
+  padding-bottom: 1.3rem;
 }
 
 .drop-hover.merch:hover {
