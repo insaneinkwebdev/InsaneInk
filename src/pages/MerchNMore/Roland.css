@@ -90,8 +90,9 @@
     }
 
     .rol-disclaimer {
-        width: 20rem;
+        width: 22rem;
         margin: 2rem;
+        margin-right: 1.75rem;
         margin-top: 0.5rem;
         font-size: 0.85rem;
     }

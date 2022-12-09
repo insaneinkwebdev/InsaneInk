@@ -50,4 +50,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - 11/30/2022: Design for Contact page + thoughts on info system???
 - 12/01/2022: Design for Contact page + thoughts on info system???
 - 12/02-07/2022: PANIC!!! - Finished Contact page, info system 2nd semester + goal is to finish every page by 13th
-- 12/08/2022: Finished DTG page
+- 12/08/2022: Finished DTG page + Finished Roland page(s)
