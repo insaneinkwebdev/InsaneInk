@@ -33,15 +33,15 @@ function Navbar(){
                     <li>
                         <a href="https://www.insaneink.com/theprocess.php" className='drop-hover merch'>Order Now !</a>
                         <ul className='drop merch'>
-                            <li><a href="https://www.insaneink.com/dtg.php">Small Quantity (DTG)</a></li>
-                            <li><a href="https://www.insaneink.com/roland.php">Print Shop</a></li>
-                            <li><a href="https://www.insaneink.com/roland.php">Heat Press</a></li>
+                            <li><a href="/dtg">Small Quantity (DTG)</a></li>
+                            <li><a href="/roland#print-shop">Print Shop</a></li>
+                            <li><a href="/roland#heat-shop">Heat Press</a></li>
                         </ul>
                     </li>
 
-                    <li id="nav-mobile-on"><a href="https://www.insaneink.com/dtg.php">Small Quantity (DTG)</a></li>
-                    <li id="nav-mobile-on"><a href="https://www.insaneink.com/roland.php">Print Shop</a></li>
-                    <li id="nav-mobile-on"><a href="https://www.insaneink.com/roland.php">Heat Press</a></li>
+                    <li id="nav-mobile-on"><a href="/dtg">Small Quantity (DTG)</a></li>
+                    <li id="nav-mobile-on"><a href="/roland#print-shop">Print Shop</a></li>
+                    <li id="nav-mobile-on"><a href="/roland#heat-shop">Heat Press</a></li>
 
                     <li><a href="https://www.insaneink.com/ourportfolio.php">Portfolio</a></li>
 

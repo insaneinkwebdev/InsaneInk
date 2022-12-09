@@ -11,7 +11,7 @@ const dataSlider = [
     id: uuidv4(),
     title: "Direct to Garment",
     subTitle: "DTG",
-    link: "https://insaneink.com"
+    link: "https://insaneink.com/dtg"
   },
   {
     id: uuidv4(),

@@ -29,9 +29,9 @@ function Footer(){
                             <h3>Services</h3>
                             <div className='footer-links'>
                                 <a href="https://www.insaneink.com/theprocess.php">How To Order</a>
-                                <a href="https://www.insaneink.com/dtg.php">Small Quantity (DTG)</a>
-                                <a href="https://www.insaneink.com/roland.php">Print Shop</a>
-                                <a href="https://www.insaneink.com/roland.php">Heat Press</a>
+                                <a href="/dtg">Small Quantity (DTG)</a>
+                                <a href="/roland#print-shop">Print Shop</a>
+                                <a href="/roland#heat-shop">Heat Press</a>
                             </div>
                         </div>
                         <div className='footer-col' id="useful-links">

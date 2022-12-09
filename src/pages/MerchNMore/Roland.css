@@ -1,0 +1,102 @@
+.divider {
+    border: 1px solid rgb(218, 218, 218);
+    width: 100%;
+    height: 1px;
+    margin: 3.5rem 0;
+}
+
+.rol-header {
+    color: #5c1c29;
+}
+
+.rol-info {
+    margin: 1rem;
+    margin-left: 12rem;
+    color: #232323;
+    font-size: 1.1rem;
+    max-width: 55rem;
+    text-align: center;
+}
+
+.rol-pricing-wrapper {
+    margin: 3rem 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rol-pricing {
+    max-width: 60rem;
+    
+}
+
+.rol-contact, .rol-order {
+    font-size: 1.1rem;
+    color: #7C2F3F;
+    margin: 1rem;
+    text-align: center;
+}
+
+.rol-order {
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+
+
+.rol-order a {
+    color: #BC566B;
+}
+
+.rol-disclaimer {
+    color: #BC566B;
+    width: 40rem;
+    text-align: center;
+    margin: 0.65rem 15rem;
+}
+
+.limit-header {
+    text-align: left;
+    font-size: 1.3rem;
+    margin: 1rem 8rem;
+    margin-top: 2rem;
+}
+
+.limit {
+    max-width: 60rem;
+    text-align: left;
+    line-height: 2rem;
+    margin: 0 8rem;
+}
+
+@media screen and (max-width: 727px) {
+    .rol-pricing-wrapper {
+        margin: 2rem 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .rol-pricing {
+        max-width: 25rem;
+    }
+
+    .rol-info {
+        width: 22rem;
+        margin: 2rem;
+        font-size: 1rem;
+    }
+
+    .rol-contact {
+        margin: 2rem;
+    }
+
+    .rol-disclaimer {
+        width: 20rem;
+        margin: 2rem;
+        margin-top: 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    .limit-header {
+        margin-bottom: 1rem;
+    }
+}

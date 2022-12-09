@@ -1,0 +1,73 @@
+.dtg-header {
+    color: #5c1c29;
+}
+
+.dtg-info {
+    margin: 1rem;
+    margin-left: 12rem;
+    color: #232323;
+    font-size: 1.1rem;
+    max-width: 50rem;
+    text-align: center;
+}
+
+.dtg-pricing-wrapper {
+    margin: 3rem 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dtg-pricing {
+    max-width: 60rem;
+    
+}
+
+.dtg-contact, .dtg-order {
+    font-size: 1.1rem;
+    color: #7C2F3F;
+    margin: 1rem;
+    text-align: center;
+}
+
+.dtg-disclaimer {
+    color: #BC566B;
+    width: 40rem;
+    text-align: center;
+    margin: 0.65rem 15rem;
+}
+
+.dtg-order {
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+
+
+.dtg-order a {
+    color: #BC566B;
+}
+
+@media screen and (max-width: 727px) {
+    .dtg-pricing-wrapper {
+        margin: 1rem 0;
+        margin-left: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .dtg-pricing {
+        max-width: 25rem;
+    }
+
+    .dtg-disclaimer {
+        width: 24rem;
+        margin: 2.4rem;
+        font-size: 0.85rem;
+    }
+
+    .dtg-info {
+        width: 25rem;
+        margin: 2rem;
+        font-size: 1rem;
+    }
+}
