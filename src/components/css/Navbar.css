@@ -116,6 +116,9 @@ nav {
 }
 
 @media screen and (max-width: 925px){
+  .drop-hover.merch:hover~.drop.merch, .drop-hover.fifty:hover~.drop.fifty{
+    display: none;
+  }
 
   .nav-links a {
     color: white;
