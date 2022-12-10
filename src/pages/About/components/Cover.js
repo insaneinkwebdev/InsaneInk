@@ -1,4 +1,4 @@
-import poster from "../../../images/about/poster.jpg"
+import poster from "../../../images/index/coverphoto.png"
 
 function Cover(){
     return(

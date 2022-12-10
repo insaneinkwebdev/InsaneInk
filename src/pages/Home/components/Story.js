@@ -1,6 +1,8 @@
 import storyImg from '../../../images/index/coverphoto.png'
 import '../Home.css'
 import "animate.css/animate.min.css";
+import poster from "../../../images/index/coverphoto.png"
+
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
@@ -21,7 +23,12 @@ function Story(){
                 <a href="/about">Learn More</a>
             </div>
             
-            <img className='story-content img' src={storyImg} alt='Placeholder'/>
+            <div class="story-content img">
+                <video controls="true" playsInline="true" autoPlay="true" loop="true" poster={poster} className="coverVid">
+                    <source src={require("../../../videos/2020-2021/2022Commercial.mp4")} type="video/mp4"/>
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </section>
     )
 }
