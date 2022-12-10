@@ -17,7 +17,7 @@ const dataSlider = [
     id: uuidv4(),
     title: "Stickers, Posters, and More!",
     subTitle: "Roland",
-    link: "https://insaneink.com"
+    link: "https://insaneink.com/roland"
   },
 
   {

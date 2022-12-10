@@ -19,6 +19,11 @@ function Portfolio (){
                 <br/>
                 
                 Whether it be big or small, simple or complex, we got you covered!
+
+                <br/>
+                <br/>
+
+                <a href="/our-portfolio">Learn More</a>
             </div>
         </section>
     )

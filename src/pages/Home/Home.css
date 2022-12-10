@@ -107,8 +107,9 @@ section {
     border-radius: 5px;
 }
 
-.story-content.img {
-    max-height: 90%;
+.story-content.img video{
+    max-width: 47rem;
+    margin-left: -2rem;
 }
 
 /* ---- PORTFOLIO ---- */
@@ -125,6 +126,18 @@ section {
 }
 
 /* ---- MOBILE DESIGN ---- */
+
+@media screen and (max-width: 900px){
+    .story-content.img {
+        margin-bottom: 6rem;
+        margin-right: 4.75rem;
+    }
+
+    .story-content.img video {
+        width: 20rem;
+        background-color: blue;
+    }
+}
 
 @media screen and (max-width: 727px) {
     .tapIcon {
@@ -148,8 +161,13 @@ section {
     }
 
     .story-content.img {
-        max-width: 90%;
-        margin-top: -5px;
+        margin-bottom: 6rem;
+        margin-right: 4.75rem;
+    }
+
+    .story-content.img video {
+        width: 20rem;
+        background-color: blue;
     }
 
     .port-content.img, .fifty-content.img {

@@ -6,7 +6,6 @@ import dataSlider from './dataSlider'
 export default function Slider() {
 
     const [slideIndex, setSlideIndex] = useState(1)
-    const GSbutton = document.getElementById("openlink");
     var link;
 
     const nextSlide = () => {
@@ -26,7 +25,7 @@ export default function Slider() {
         }
 
         console.log(link)
-        GSbutton.href = link;
+        document.getElementById("openlink").href = link;
     }
 
     const prevSlide = () => {
@@ -44,7 +43,7 @@ export default function Slider() {
         }
 
         console.log(link)
-        GSbutton.href = link;
+        document.getElementById("openlink").href = link;
     }
 
     const moveDot = index => {

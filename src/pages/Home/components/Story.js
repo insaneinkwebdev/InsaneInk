@@ -1,4 +1,3 @@
-import storyImg from '../../../images/index/coverphoto.png'
 import '../Home.css'
 import "animate.css/animate.min.css";
 import poster from "../../../images/index/coverphoto.png"
@@ -16,15 +15,10 @@ function Story(){
                 
                 Founded in 1998, Insane Ink is an entrepreneurial course at Piedmont Hills High School where
                 students are responsible for running an apparel customization company.
-
-                <br/>
-                <br/>
-
-                <a href="/about">Learn More</a>
             </div>
             
-            <div class="story-content img">
-                <video controls="true" playsInline="true" autoPlay="true" loop="true" poster={poster} className="coverVid">
+            <div className="story-content img">
+                <video controls={true} playsInline={true} autoPlay={true} loop={true} poster={poster} className="coverVid">
                     <source src={require("../../../videos/2020-2021/2022Commercial.mp4")} type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>

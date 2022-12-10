@@ -5,7 +5,6 @@ import Navbar from './components/Nav';
 import Footer from './components/Footer';
 
 import Home from './pages/Home/Home';
-import About from './pages/About/About';
 import Fifty from './pages/Fifty/Fifty';
 import Contact from './pages/Contact/Contact';
 import Dtg from './pages/MerchNMore/Dtg';
@@ -24,9 +23,8 @@ function App() {
           <Route path='*' element={<NotFound />}/>
           <Route exact path='/' element={<Home />}/>
           <Route path='/home' element={<Home />}/>
-          <Route path='/about' element={<About />}/>
           <Route path='/treasuretrove' element={<TT />}/>
-\          <Route path='/dtg' element={<Dtg />}/>
+          <Route path='/dtg' element={<Dtg />}/>
           <Route path='/roland' element={<Roland />}/>
           <Route path='/our-portfolio' element={<Portfolio />}/>
           <Route path='/5050concept' element={<Fifty />}/>

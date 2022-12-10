@@ -28,7 +28,6 @@ function Navbar(){
                     <a href="https://www.insaneink.com"><img src={logo} alt='Insane Ink Logo'></img></a>
                 </div>
                 <ul className='nav-links'>
-                    <li><a href="/about">About Us</a></li>
                     <li><a href="/contactus">Meet The Team</a></li>
                     <li>
                         <a href="https://www.insaneink.com/theprocess.php" className='drop-hover merch'>Order Now !</a>

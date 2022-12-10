@@ -37,7 +37,6 @@ function Footer(){
                         <div className='footer-col' id="useful-links">
                             <h3>Links</h3>
                             <div className='footer-links'>
-                                <a href="/about">About Us</a>
                                 <a href="/contactus">Meet The Team</a>
                                 <a href="/our-portfolio">Portfolio</a>
                                 <a href="https://www.insaneink.com/the5050concept.php">The 50/50 Concept</a>
