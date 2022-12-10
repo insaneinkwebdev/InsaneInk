@@ -140,6 +140,7 @@ nav {
 
   #nav-mobile-on {
     display: flex;
+    margin: -1rem;
   }
 
   .burger {

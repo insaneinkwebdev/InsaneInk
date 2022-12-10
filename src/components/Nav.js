@@ -43,7 +43,7 @@ function Navbar(){
                     <li id="nav-mobile-on"><a href="/roland#print-shop">Print Shop</a></li>
                     <li id="nav-mobile-on"><a href="/roland#heat-shop">Heat Press</a></li>
 
-                    <li><a href="/portfolio">Portfolio</a></li>
+                    <li><a href="/our-portfolio">Portfolio</a></li>
 
                     <li>
                         <a href="https://www.insaneink.com/the5050concept.php"  className='drop-hover fifty'>The 50/50 Concept</a>

@@ -39,7 +39,7 @@ function Footer(){
                             <div className='footer-links'>
                                 <a href="/about">About Us</a>
                                 <a href="/contactus">Meet The Team</a>
-                                <a href="/portfolio">Portfolio</a>
+                                <a href="/our-portfolio">Portfolio</a>
                                 <a href="https://www.insaneink.com/the5050concept.php">The 50/50 Concept</a>
                                 <a href="/treasuretrove">Treasure Trove</a>
                             </div>

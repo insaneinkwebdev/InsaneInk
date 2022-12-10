@@ -28,7 +28,7 @@ function App() {
           <Route path='/treasuretrove' element={<TT />}/>
 \          <Route path='/dtg' element={<Dtg />}/>
           <Route path='/roland' element={<Roland />}/>
-          <Route path='/portfolio' element={<Portfolio />}/>
+          <Route path='/our-portfolio' element={<Portfolio />}/>
           <Route path='/5050concept' element={<Fifty />}/>
           <Route path='/contactus' element={<Contact />}/>
         </Routes>

@@ -635,29 +635,59 @@ const dataSlider = [
     year: "2018-2019",
     images: [
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/IIZ008IICLASS.jpg`,
+        name: "AP Chem",
+        src: `${process.env.PUBLIC_URL}/portfolio/2019/class/APChem 2018.jpg`,
         type: "class"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
+        name: "Mr. Flores",
+        src: `${process.env.PUBLIC_URL}/portfolio/2019/class/Flores 2018.jpg`,
         type: "class"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
+        name: "Memeology",
+        src: `${process.env.PUBLIC_URL}/portfolio/2019/club/AntiMeme 2018.jpg`,
+        type: "club"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
+        name: "Male Cheer",
+        src: `${process.env.PUBLIC_URL}/portfolio/2019/club/MaleCheer 2018.jpg`,
+        type: "club"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
+        name: "Memeology",
+        src: `${process.env.PUBLIC_URL}/portfolio/2019/club/Memeology 2018.jpg`,
+        type: "club"
+      },
+      {
+        name: "PXM",
+        src: `${process.env.PUBLIC_URL}/portfolio/2019/club/PXM 2018.jpg`,
+        type: "club"
+      },
+      {
+        name: "Jog A Thon",
+        src: `${process.env.PUBLIC_URL}/portfolio/2019/other/JogAThon 2018.jpg`,
+        type: "other"
+      },
+      {
+        name: "PHHS Juniors",
+        src: `${process.env.PUBLIC_URL}/portfolio/2019/other/Juniors 2018.jpg`,
+        type: "other"
+      },
+      {
+        name: "Powder Puff",
+        src: `${process.env.PUBLIC_URL}/portfolio/2019/other/PowderPuff 2018.jpg`,
+        type: "other"
+      },
+      {
+        name: "Drama: Radium Girls",
+        src: `${process.env.PUBLIC_URL}/portfolio/2019/other/RadiumGirls 2018.jpg`,
+        type: "other"
+      },
+      {
+        name: "4th Grade Penguins",
+        src: `${process.env.PUBLIC_URL}/portfolio/2019/other_school/4thGradePenguins 2018.jpg`,
+        type: "other-school"
       }
     ]
   },
@@ -666,34 +696,104 @@ const dataSlider = [
     year: "2017-2018",
     images: [
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/IIZ008IICLASS.jpg`,
+        name: "AP Bio",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/class/APBio 2017.jpg`,
         type: "class"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
+        name: "AP Lang",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/class/APLang 2017.jpg`,
         type: "class"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
+        name: "Forensics",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/class/Forensics 2017.jpg`,
         type: "class"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
+        name: "Physiology",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/class/Physio 2017.jpg`,
         type: "class"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
+        name: "Anime",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/club/Anime 2017.jpg`,
+        type: "club"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
+        name: "Bittles",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/club/Bittles 2017.jpg`,
+        type: "club"
+      },
+      {
+        name: "Girls Tennis",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/club/Girlstennis 2017.jpg`,
+        type: "club"
+      },
+      {
+        name: "KEY",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/club/Key 2017.jpg`,
+        type: "club"
+      },
+      {
+        name: "Polynesian",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/club/Polynesian 2017 (2).jpg`,
+        type: "club"
+      },
+      {
+        name: "Polynesian",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/club/Polynesian 2017.jpg`,
+        type: "club"
+      },
+      {
+        name: "SXC",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/club/SXC 2017.jpg`,
+        type: "club"
+      },
+      {
+        name: "Treblemakers",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/club/Treblemakers 2017.jpg`,
+        type: "club"
+      },
+      {
+        name: "Alzheimers Walk",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/other/AlzheimersWalk 2017.jpg`,
+        type: "other"
+      },
+      {
+        name: "Pick Me Up",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/other/PickMeUp 2017.jpg`,
+        type: "other"
+      },
+      {
+        name: "Santa Paws",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/other/SantaPaws 2017.jpg`,
+        type: "other"
+      },
+      {
+        name: "Tang Viet Trip",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/other/TangVietnameseTrip 2017.jpg`,
+        type: "other"
+      },
+      {
+        name: "Therma",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/other/Therma 2017.jpg`,
+        type: "other"
+      },
+      {
+        name: "J.F. Smith School",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/other_school/JFSS 2017.jpg`,
+        type: "other-school"
+      },
+      {
+        name: "PMS Yearbook",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/other_school/PMS Yearbook 2017.jpg`,
+        type: "other-school"
+      },
+      {
+        name: "Ruskin Mr. Macdonald",
+        src: `${process.env.PUBLIC_URL}/portfolio/2018/other_school/Ruskin 2017.jpg`,
+        type: "other-school"
       }
     ]
   },
@@ -702,39 +802,164 @@ const dataSlider = [
     year: "2016-2017",
     images: [
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/IIZ008IICLASS.jpg`,
+        name: "AP Lit",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/class/APLit 2016.jpg`,
+        type: "class"
+      },
+      {
+        name: "AP Calculus BC",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/class/CalcBC 2016.jpg`,
+        type: "class"
+      },
+      {
+        name: "Choir",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/class/Choir 2016.jpg`,
         type: "class"
       },
       {
         name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/class/InsaneInk 2016.jpg`,
         type: "class"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
+        name: "Phych",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/class/Psych 2016.jpg`,
         type: "class"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
+        name: "WHAP",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/class/WHAP 2016.jpg`,
         type: "class"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
+        name: "Yearbook",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/class/Yearbook 2016.jpg`,
         type: "class"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
+        name: "Bloomers",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/club/Bloomers 2016.jpg`,
+        type: "club"
       },
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
+        name: "Cross Country",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/club/CrossCountry 2016.jpg`,
+        type: "club"
+      },
+      {
+        name: "Hungama",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/club/Hungama 2016.jpg`,
+        type: "club"
+      },
+      {
+        name: "Indian",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/club/Indian 2016.jpg`,
+        type: "club"
+      },
+      {
+        name: "Mock Trial",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/club/MockTrial 2016.jpg`,
+        type: "club"
+      },
+      {
+        name: "Paws",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/club/Paws 2016.jpg`,
+        type: "club"
+      },
+      {
+        name: "Polynesian",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/club/Polynesian 2016.jpg`,
+        type: "club"
+      },
+      {
+        name: "Swim",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/club/Swim 2016.jpg`,
+        type: "club"
+      },
+      {
+        name: "Accele-Ran-Do",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other/Accele-ran-do 2016.jpg`,
+        type: "other"
+      },
+      {
+        name: "ACT 4 E",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other/ACT4E 2016.jpg`,
+        type: "other"
+      },
+      {
+        name: "Hands",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other/Hands 2016.jpg`,
+        type: "other"
+      },
+      {
+        name: "Tacos El Compa",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other/TacosElCompa 2016.jpg`,
+        type: "other"
+      },
+      {
+        name: "Thien Vu",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other/ThienVu 2016.jpg`,
+        type: "other"
+      },
+      {
+        name: "Treasure Trove",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other/TreasureTrove 2016.jpg`,
+        type: "other"
+      },
+      {
+        name: "Viet Cancer Awareness",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other/VietCancerAwareness 2016.jpg`,
+        type: "other"
+      },
+      {
+        name: "CHS Basketball",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other_school/CHS Basketball 2016.jpg`,
+        type: "other_school"
+      },
+      {
+        name: "EVHS Link",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other_school/EVHS Link 2016.jpg`,
+        type: "other_school"
+      },
+      {
+        name: "GECA ASB",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other_school/GECA ASB 2016.jpg`,
+        type: "other_school"
+      },
+      {
+        name: "IHS KEY",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other_school/IHS Key 2016.jpg`,
+        type: "other_school"
+      },
+      {
+        name: "IHS Volleyball",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other_school/IHS Volleyball 2016.jpg`,
+        type: "other_school"
+      },
+      {
+        name: "JFS",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other_school/JFS 2016.jpg`,
+        type: "other_school"
+      },
+      {
+        name: "Ruskin Mr. Lee",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other_school/Ruskin 2016 (2).jpg`,
+        type: "other_school"
+      },
+      {
+        name: "Ruskin",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other_school/Ruskin 2016 (3).jpg`,
+        type: "other_school"
+      },
+      {
+        name: "Ruskin",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other_school/Ruskin 2016.jpg`,
+        type: "other_school"
+      },
+      {
+        name: "Silver Creek Leadership",
+        src: `${process.env.PUBLIC_URL}/portfolio/2017/other_school/SC Leadership 2016.jpg`,
+        type: "other_school"
       }
     ]
   },
@@ -744,42 +969,7 @@ const dataSlider = [
     images: [
       {
         name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/IIZ008IICLASS.jpg`,
-        type: "class"
-      },
-      {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
-      },
-      {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
-      },
-      {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
-      },
-      {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
-      },
-      {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
-      },
-      {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
-        type: "class"
-      },
-      {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
+        src: `${process.env.PUBLIC_URL}/portfolio/2016/class/IIZ008IICLASS.jpg`,
         type: "class"
       }
     ]
