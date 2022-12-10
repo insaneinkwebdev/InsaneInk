@@ -968,10 +968,31 @@ const dataSlider = [
     year: "Before 2016",
     images: [
       {
-        name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2016/class/IIZ008IICLASS.jpg`,
-        type: "class"
+        name: "Anime 2008",
+        src: `${process.env.PUBLIC_URL}/portfolio/2016/club/Anime 2008.jpg`,
+        type: "club"
+      },
+      {
+        name: "Ark",
+        src: `${process.env.PUBLIC_URL}/portfolio/2016/club/Ark.jpg`,
+        type: "club"
+      },
+      {
+        name: "PHHS 1967",
+        src: `${process.env.PUBLIC_URL}/portfolio/2016/other/Pirates 1967.jpg`,
+        type: "other"
+      },
+      {
+        name: "PHHS",
+        src: `${process.env.PUBLIC_URL}/portfolio/2016/other/PirateWay.jpg`,
+        type: "other"
+      },
+      {
+        name: "SJSU",
+        src: `${process.env.PUBLIC_URL}/portfolio/2016/other_school/SJSU.jpg`,
+        type: "other-school"
       }
+
     ]
   },
 ];
