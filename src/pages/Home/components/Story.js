@@ -17,12 +17,15 @@ function Story(){
                 students are responsible for running an apparel customization company.
             </div>
             
-            <div className="story-content img">
+            <div className="story-content vid">
                 <video controls={true} playsInline={true} autoPlay={true} loop={true} poster={poster} className="coverVid">
                     <source src={require("../../../videos/2020-2021/2022Commercial.mp4")} type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>
+                
             </div>
+
+            <img className='story-content img' src={poster} alt='Placeholder'/>
         </section>
     )
 }

@@ -101,15 +101,19 @@ section {
     max-width: 40%;
 }
 
-.story-content.img, .other-card {
+.story-content.vid, .story-content.img .other-card {
     max-width: 50%;
     margin-bottom: 40px;
     border-radius: 5px;
 }
 
-.story-content.img video{
+.story-content.vid video{
     max-width: 47rem;
     margin-left: -2rem;
+}
+
+.story-content.img {
+    display: none;
 }
 
 /* ---- PORTFOLIO ---- */
@@ -126,18 +130,6 @@ section {
 }
 
 /* ---- MOBILE DESIGN ---- */
-
-@media screen and (max-width: 900px){
-    .story-content.img {
-        margin-bottom: 6rem;
-        margin-right: 4.75rem;
-    }
-
-    .story-content.img video {
-        width: 20rem;
-        background-color: blue;
-    }
-}
 
 @media screen and (max-width: 727px) {
     .tapIcon {
@@ -160,17 +152,17 @@ section {
         margin-bottom: 3rem;
     }
 
-    .story-content.img {
+    .story-content.vid {
+        display: none;
         margin-bottom: 6rem;
-        margin-right: 4.75rem;
+        margin-left: 1.5rem;
     }
 
-    .story-content.img video {
-        width: 20rem;
-        background-color: blue;
+    .story-content.img{
+        display: block;
     }
 
-    .port-content.img, .fifty-content.img {
+    .port-content.img, .fifty-content.img, .story-content.img {
         max-width: 100%;
     }
 
