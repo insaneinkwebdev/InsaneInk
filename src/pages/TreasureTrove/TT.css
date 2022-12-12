@@ -68,8 +68,8 @@
 }
 
 .card__img {
-    width: 100%;
-    max-width: 100%;
+    width: 25rem;
+    max-width: 25rem;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     cursor: pointer;
@@ -182,7 +182,7 @@
 }
 
 #modal__img {
-    max-width: 34rem;
+    max-width: 31rem;
     border-radius: 5px;
 }
 
