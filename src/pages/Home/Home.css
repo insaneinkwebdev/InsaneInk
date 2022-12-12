@@ -79,6 +79,8 @@ section {
     max-width: 100%;
     flex: 1;
     font-size: 1.35rem;
+    font-weight: 500;
+    color: #232323;
     text-align: left;
 }
 
@@ -99,6 +101,7 @@ section {
 
 .story-content.par {
     max-width: 40%;
+    margin-bottom: 5rem;
 }
 
 .story-content.vid, .story-content.img .other-card {
@@ -154,16 +157,16 @@ section {
 
     .story-content.vid {
         display: none;
-        margin-bottom: 6rem;
-        margin-left: 1.5rem;
-    }
-
-    .story-content.img{
-        display: block;
     }
 
     .port-content.img, .fifty-content.img, .story-content.img {
         max-width: 100%;
+    }
+
+    .story-content.img{
+        display: block;
+        max-width: 90%;
+        border-radius: 5px;
     }
 
     .port-header, .story-header, .fifty-header {

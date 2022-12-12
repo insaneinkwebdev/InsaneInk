@@ -17,7 +17,13 @@ function specYear(year){
                 img_wrapper.className = "port-img-wrapper";
 
                 let img = document.createElement("img");
-                img.className = "port-img"
+
+                if(obj.isWhite === false){
+                    img.className = "port-img"
+                } else {
+                    img.className = "port-img white"
+                }
+
                 img.src = process.env.PUBLIC_URL + obj.src;
                 img.alt = obj.name;
 
@@ -60,7 +66,13 @@ function specType(type){
                 img_wrapper.className = "port-img-wrapper";
 
                 let img = document.createElement("img");
-                img.className = "port-img"
+
+                if(obj.isWhite === false){
+                    img.className = "port-img"
+                } else {
+                    img.className = "port-img white"
+                }
+
                 img.src = process.env.PUBLIC_URL + obj.src;
                 img.alt = obj.name;
 
@@ -107,7 +119,7 @@ function Portfolio(){
                     return(
                         <div className="port-card" id={obj.type}>
                             <div className="port-img-wrapper">
-                                <img className="port-img" src={obj.src} alt={obj.name}/>
+                                <img className={obj.isWhite === false ? "port-img" : "port-img white"} src={obj.src} alt={obj.name}/>
                             </div>
                             <h3 className="port-name">{obj.name}</h3>
                         </div>

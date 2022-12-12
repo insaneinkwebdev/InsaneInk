@@ -23,7 +23,7 @@ function Portfolio (){
                 <br/>
                 <br/>
 
-                <a href="/our-portfolio">Learn More</a>
+                <a href="/our-portfolio">Check It Out!</a>
             </div>
         </section>
     )

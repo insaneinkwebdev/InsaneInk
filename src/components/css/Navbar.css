@@ -38,6 +38,7 @@ nav {
   padding-bottom: 10px;
   border-radius: 12px;
   font-size: 1.03rem;
+  font-weight: 600;
   transition: all 300ms ease-in-out;
 }
 
@@ -75,7 +76,7 @@ nav {
 }
 
 .drop-hover.merch:hover {
-  padding-right: 5.22rem;
+  padding-right: 5.27rem;
 }
 
 .drop-hover.merch:hover~.drop.merch {
@@ -89,7 +90,7 @@ nav {
 
 .drop-hover.fifty:hover~.drop.fifty {
   display: block;
-  padding-right: 0.6rem;
+  padding-right: 0.66rem;
 }
 
 .drop.fifty:hover {
