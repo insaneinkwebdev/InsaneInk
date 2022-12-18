@@ -8,6 +8,8 @@ import rightArrow from "./icons/arrow-right.svg";
 import "./TT.css"
 
 function openModal(id, pindex){
+    slideIndex = 1
+
     for(var i=0; i < dataTT.length; i++){
         if(dataTT[i].id === id){
             var sizeBoxContainer = document.getElementById("modal__size-container");

@@ -12,6 +12,9 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
+  },
+  {
+    id: uuidv4(),
   } 
 ];
 
