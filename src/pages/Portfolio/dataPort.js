@@ -18,6 +18,12 @@ const dataSlider = [
         type: "club"
       },
       {
+        name: "Science Olympiad",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/club/IIF001-SCIOLY Graphic.jpg`,
+        isWhite: true,
+        type: "club"
+      },
+      {
         name: "Treasure Trove",
         src: `${process.env.PUBLIC_URL}/portfolio/2023/other/IITT001FRONTDESIGN.jpg`,
         isWhite: false,
@@ -26,6 +32,12 @@ const dataSlider = [
       {
         name: "Treasure Trove",
         src: `${process.env.PUBLIC_URL}/portfolio/2023/other/IITT002 front graphic.jpg`,
+        isWhite: true,
+        type: "other"
+      },
+      {
+        name: "Family Christmas",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other/IIC001 Lagunilla Family Graphic.jpg`,
         isWhite: true,
         type: "other"
       },

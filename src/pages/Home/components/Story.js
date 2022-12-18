@@ -24,7 +24,7 @@ function Story(){
             
             <div className="story-content vid">
                 <video controls={true} playsInline={true} autoPlay={true} loop={true} poster={poster} className="coverVid">
-                    <source src={require("../../../videos/2020-2021/2022Commercial.mp4")} type="video/mp4"/>
+                    <source src={require("../../../videos/2022-2023/23vid.mp4")} type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>
                 

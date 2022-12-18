@@ -129,7 +129,7 @@
     text-align: left;
     height: 10rem;
     width: 30rem;
-    margin: 0 2rem;
+    margin: 0 1rem;
     margin-right: 1rem;
 }
 
@@ -146,7 +146,7 @@
 .team-img {
     max-width: 35rem;
     max-height: 25rem;
-    margin: 3rem 0;
+    margin: 3rem 0.5rem;
     border-radius: 5px;
 }
 
@@ -157,11 +157,9 @@
     border: none;
     outline: none;
     background: rgba(73, 73, 73, 0.5);
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     cursor: pointer;
+    margin-top: 15rem;
     opacity: 0.75;
     transition: 200ms all ease-in-out;
   }
@@ -178,18 +176,20 @@
 }
 
 .contact-slide.prev {
-    top: 230%;
-    left: 12rem;
-    transform: translateY(-60%);
+    float: left;
+    margin-right: 1.5rem;
 }
 
 .contact-slide.next {
-    top: 230%;
-    right: 12rem;
-    transform: translateY(-60%);
+    float: right;
+    margin-left: 1.5rem;
 }
 
 @media screen and (max-width: 727px) {
+    .contact-slide {
+        display: none;
+    }
+
     .team-box {
         max-width: 22rem;
     }

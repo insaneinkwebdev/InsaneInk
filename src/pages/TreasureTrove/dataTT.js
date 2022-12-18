@@ -3,9 +3,9 @@ import { v4 as uuidv4 } from "uuid";
 const dataSlider = [
   {
     id: uuidv4(),
-    name: "Test Product Not for Sale  #1",
-    price: "$45.00",
-    description: "Test description for a product, this will probably have some information about the garment, maybe color, material, idk.",
+    name: "Home Of The Pirates Long Sleeve",
+    price: "$10.00",
+    description: "Wanna rep Piedmont Hills while staying cozy? We got you covered! Only available in white",
     featured: false,
     sizes: [
       {
@@ -18,6 +18,10 @@ const dataSlider = [
       },
       {
         "type": "M",
+        "quant": 0
+      },
+      {
+        "type": "L",
         "quant": 1
       },
       {
@@ -32,9 +36,9 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "Test Product Not for Sale #2",
-    price: "$20.00",
-    description: "Test description for a product, this will probably have some information about the garment, maybe color, material, idk.",
+    name: "Pirate Surf Hoodie",
+    price: "$30.00",
+    description: "Ready to ride through the cold months with a summer vibe 🌊 Only available in sand",
     featured: false,
     sizes: [
       {
@@ -43,73 +47,19 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 0
+        "quant": 14
       },
       {
         "type": "M",
-        "quant": 0
+        "quant": 38
+      },
+      {
+        "type": "L",
+        "quant": 22
       },
       {
         "type": "XL",
-        "quant": 4
-      },
-      {
-        "type": "2XL",
-        "quant": 0
-      }
-    ]
-  },
-  {
-    id: uuidv4(),
-    name: "Test Product Not for Sale #3",
-    price: "$35.00",
-    description: "Test description for a product, this will probably have some information about the garment, maybe color, material, idk.",
-    featured: false,
-    sizes: [
-      {
-        "type": "XS",
-        "quant": 6
-      },
-      {
-        "type": "S",
-        "quant": 0
-      },
-      {
-        "type": "M",
-        "quant": 0
-      },
-      {
-        "type": "XL",
-        "quant": 0
-      },
-      {
-        "type": "2XL",
-        "quant": 0
-      }
-    ]
-  },
-  {
-    id: uuidv4(),
-    name: "Test Product Not for Sale #4",
-    price: "$237.00",
-    description: "Test description for a product, this will probably have some information about the garment, maybe color, material, idk.",
-    featured: true,
-    sizes: [
-      {
-        "type": "XS",
-        "quant": 2
-      },
-      {
-        "type": "S",
-        "quant": 0
-      },
-      {
-        "type": "M",
-        "quant": 0
-      },
-      {
-        "type": "XL",
-        "quant": 0  
+        "quant": 3
       },
       {
         "type": "2XL",
@@ -121,7 +71,7 @@ const dataSlider = [
     id: uuidv4(),
     name: "PHHS College Crewneck",
     price: "$20.00",
-    description: "Test description for a product, this will probably have some information about the garment, maybe color, material, idk.",
+    description: "Piedmont Hills with a lil retro twist to it. Only available in heather grey (or a hoodie in white!)",
     featured: false,
     sizes: [
       {
@@ -137,32 +87,7 @@ const dataSlider = [
         "quant": 0
       },
       {
-        "type": "XL",
-        "quant": 0
-      },
-      {
-        "type": "2XL",
-        "quant": 0
-      }
-    ]
-  },
-  {
-    id: uuidv4(),
-    name: "Test Product Not for Sale #6",
-    price: "$9.00",
-    description: "Test description for a product, this will probably have some information about the garment, maybe color, material, idk.",
-    featured: false,
-    sizes: [
-      {
-        "type": "XS",
-        "quant": 4
-      },
-      {
-        "type": "S",
-        "quant": 3
-      },
-      {
-        "type": "M",
+        "type": "L",
         "quant": 0
       },
       {
@@ -177,26 +102,129 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "Test Product Not for Sale #7",
-    price: "$9.00",
-    description: "Test description for a product, this will probably have some information about the garment, maybe color, material, idk.",
+    name: "Pocket Animals Hoodie",
+    price: "$20.00",
+    description: "Look at dem cute animals 💗 Only available in lavender.",
     featured: false,
     sizes: [
       {
         "type": "XS",
-        "quant": 4
+        "quant": 0
       },
       {
         "type": "S",
-        "quant": 3
+        "quant": 1
+      },
+      {
+        "type": "M",
+        "quant": 1
+      },
+      {
+        "type": "L",
+        "quant": 0
+      },
+      {
+        "type": "XL",
+        "quant": 0
+      },
+      {
+        "type": "2XL",
+        "quant": 0
+      }
+    ]
+  },
+  {
+    id: uuidv4(),
+    name: "PHHS College Hoodie",
+    price: "$25.00",
+    description: "Piedmont Hills with a lil retro twist to it. Only available in white (or a crewneck in grey!)",
+    featured: false,
+    sizes: [
+      {
+        "type": "XS",
+        "quant": 0
+      },
+      {
+        "type": "S",
+        "quant": 5
+      },
+      {
+        "type": "M",
+        "quant": 9
+      },
+      {
+        "type": "L",
+        "quant": 0
+      },
+      {
+        "type": "XL",
+        "quant": 0
+      },
+      {
+        "type": "2XL",
+        "quant": 0
+      }
+    ]
+  },
+  {
+    id: uuidv4(),
+    name: "Green Skull Crewneck",
+    price: "$12.00",
+    description: "St. Patrick's Day came real early ☘️ Only available in white.",
+    featured: true,
+    sizes: [
+      {
+        "type": "XS",
+        "quant": 0
+      },
+      {
+        "type": "S",
+        "quant": 2
       },
       {
         "type": "M",
         "quant": 0
       },
       {
-        "type": "XL",
+        "type": "L",
         "quant": 0
+      },
+      {
+        "type": "XL",
+        "quant": 0  
+      },
+      {
+        "type": "2XL",
+        "quant": 0
+      }
+    ]
+  },
+  {
+    id: uuidv4(),
+    name: "Compass Long Sleeve",
+    price: "$10.00",
+    description: "Wanna rep Piedmont Hills while staying cozy? We got you covered! Only available in black.",
+    featured: false,
+    sizes: [
+      {
+        "type": "XS",
+        "quant": 0
+      },
+      {
+        "type": "S",
+        "quant": 0
+      },
+      {
+        "type": "M",
+        "quant": 0
+      },
+      {
+        "type": "L",
+        "quant": 0
+      },
+      {
+        "type": "XL",
+        "quant": 1
       },
       {
         "type": "2XL",

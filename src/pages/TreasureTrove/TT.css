@@ -68,15 +68,15 @@
 }
 
 .card__img {
-    width: 25rem;
-    max-width: 25rem;
+    width: 24rem;
+    max-width: 23rem;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     cursor: pointer;
 }
 
 .card__title {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     line-height: 1.1;
     color: #7C2F3F;
 }
@@ -321,9 +321,17 @@
 
 
 @media (min-width: 60em){
+    .card__img {
+        width: 25rem;
+        max-width: 25rem;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
     .product-grid {
-        gap: 8.5rem 2rem;
-        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        gap: 8rem 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     }
 
     .card__img {
