@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.about__section {
+    margin: 0;
+    margin-top: 1.75rem;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about__section__content {
+    color: #232323;
+    font-size: 1.4rem;
+    width: 50vw;
+}
+
+.accent {
+    color: #7C2F3F;
+    font-weight: 650;
+}
+
+@media screen and (max-width: 727px) and (min-height: 500px) {
+    .about__section__content {
+        width: 90vw;
+        text-align: start;
+    }
+
+    .container.fixed {
+        height: 1325px;
+    }
+}

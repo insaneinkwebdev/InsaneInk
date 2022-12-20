@@ -28,7 +28,7 @@ function Footer(){
                         <div className='footer-col' id="services">
                             <h3>Services</h3>
                             <div className='footer-links'>
-                                <a href="https://www.insaneink.com/theprocess.php">How To Order</a>
+                                <a href="/howitworks">How To Order</a>
                                 <a href="/dtg">Small Quantity (DTG)</a>
                                 <a href="/roland#print-shop">Print Shop</a>
                                 <a href="/roland#heat-shop">Heat Press</a>
@@ -37,6 +37,7 @@ function Footer(){
                         <div className='footer-col' id="useful-links">
                             <h3>Links</h3>
                             <div className='footer-links'>
+                                <a href="/aboutus">About Us</a>
                                 <a href="/contactus">Meet The Team</a>
                                 <a href="/our-portfolio">Portfolio</a>
                                 <a href="https://www.insaneink.com/the5050concept.php">The 50/50 Concept</a>

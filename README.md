@@ -53,4 +53,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - 12/08/2022: Finished DTG page + Finished Roland page(s)
 - 12/09/2022: Finished Portfolio page + Debugging
 ------------- MASSIVE BLANK SPOT BC I LOWKEY FORGOT TO ADD LOGS -------------
-- 12/17/2022: New photos in TT + Finishing 50/50 and Process Page
+- 12/17/2022: New photos in TT/Fix bug + Finishing 50/50 and Process Page

@@ -170,12 +170,13 @@ function TT(){
         <div className="container">
             <h2 className="tt-header">Fall/Winter 2023 Collection 🍂</h2>
             <div className="tt-store-box">
-                <h3 className="tt-store">Store Hours (regular school days on Wednesday): </h3>
+                <h3 className="tt-store">Store Hours (every Wednesday): </h3>
                 <div className="tt-hours">
                     <ul>
-                        <li className="tt-time">10:20 AM - 10:30 AM</li>
-                        <li className="tt-time">12:40 PM - 01:00 PM</li>
-                        <li className="tt-time">02:00 PM - 04:00 PM</li>
+                        <li className="tt-time">10:00 AM - 10:15 AM</li>
+                        <li className="tt-time">11:55 AM - 12:25 PM</li>
+                        <li className="tt-time">02:00 PM - 02:35 PM</li>
+                        <li className="tt-time">03:35 PM - 04:00 PM</li>
                     </ul>
                 </div>
             </div>

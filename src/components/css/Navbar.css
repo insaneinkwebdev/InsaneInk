@@ -76,7 +76,7 @@ nav {
 }
 
 .drop-hover.merch:hover {
-  padding-right: 5.27rem;
+  padding-right: 4.48rem;
 }
 
 .drop-hover.merch:hover~.drop.merch {
@@ -90,7 +90,7 @@ nav {
 
 .drop-hover.fifty:hover~.drop.fifty {
   display: block;
-  padding-right: 0.66rem;
+  padding-right: 0.595rem;
 }
 
 .drop.fifty:hover {
