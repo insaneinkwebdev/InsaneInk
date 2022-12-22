@@ -3,28 +3,34 @@ import { v4 as uuidv4 } from "uuid";
 const dataSlider = [
   {
     id: uuidv4(),
+    title: "Treasure Trove New Items!!!",
+    subTitle: "tt on sale!",
+    link: "https://insaneink.com/treasuretrove",
+  },
+  {
+    id: uuidv4(),
     title: "Back in Business!",
     subTitle: "Opening Message",
-    link: "https://insaneink.com"
+    link: "https://insaneink.com/howitworks",
   },
   {
     id: uuidv4(),
     title: "Direct to Garment",
     subTitle: "DTG",
-    link: "https://insaneink.com/dtg"
+    link: "https://insaneink.com/dtg",
   },
   {
     id: uuidv4(),
     title: "Stickers, Posters, and More!",
     subTitle: "Roland",
-    link: "https://insaneink.com/roland"
+    link: "https://insaneink.com/roland",
   },
 
   {
     id: uuidv4(),
     title: "Treasure Trove",
     subTitle: "PHHS Merch!",
-    link: "https://insaneink.com/treasuretrove"
+    link: "https://insaneink.com/treasuretrove",
   }
 ];
 

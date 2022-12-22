@@ -37,13 +37,13 @@
   width: 100%;
 }
 
-#openlink {
+.openlink {
   max-width: 500px;
   border-radius: 5px;
-  opacity: 0.9;
+  opacity: 0.75;
 }
 
-#openlink button {
+.openlink button {
   color: #090909;
   background: #E7E8E9;
   font-size: 1.02rem;
@@ -54,6 +54,14 @@
   outline: none; 
   cursor: pointer;
   border: 2px solid #BA6976;
+}
+
+.openlink.active {
+  display: inline-block;
+}
+
+.openlink.none {
+  display: none;
 }
 
 .btn-slide {

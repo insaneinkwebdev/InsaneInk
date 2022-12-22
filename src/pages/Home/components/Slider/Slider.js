@@ -9,6 +9,7 @@ export default function Slider() {
     var link;
 
     const nextSlide = () => {
+        console.log("length: " + dataSlider.length.toString())
         if(slideIndex !== dataSlider.length){
             setSlideIndex(slideIndex + 1)
         } 
@@ -24,7 +25,13 @@ export default function Slider() {
             link = dataSlider[slideIndex].link;
         }
 
-        console.log(link)
+        if(slideIndex === 0 || slideIndex === dataSlider.length){
+            document.getElementById("openlink").className = "openlink none"
+        } else {
+            document.getElementById("openlink").className = "openlink active"
+        }
+
+        console.log(dataSlider[slideIndex])
         document.getElementById("openlink").href = link;
     }
 
@@ -42,7 +49,13 @@ export default function Slider() {
             link = dataSlider[slideIndex].link;
         }
 
-        console.log(link)
+        if(slideIndex === 0 || slideIndex === dataSlider.length){
+            document.getElementById("openlink").className = "openlink none"
+        } else {
+            document.getElementById("openlink").className = "openlink active"
+        }
+
+        console.log(dataSlider[slideIndex])
         document.getElementById("openlink").href = link;
     }
 
@@ -80,7 +93,7 @@ export default function Slider() {
             </div>
 
             <div className='container-button'>
-                <a id='openlink' href='https://insaneink.com' target="_blank" rel="noreferrer"><button>Get Started</button></a>
+                <a id='openlink' className='openlink none' href='https://insaneink.com/treasuretrove' target="_blank" rel="noreferrer"><button>Get Started</button></a>
             </div>
         </div>
     )
