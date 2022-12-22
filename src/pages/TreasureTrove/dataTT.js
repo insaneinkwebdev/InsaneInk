@@ -3,6 +3,39 @@ import { v4 as uuidv4 } from "uuid";
 const dataSlider = [
   {
     id: uuidv4(),
+    name: "Anchor Zip Up",
+    price: "On Sale! $30.00",
+    description: "Our new full zip-up is perfect for the winter cold and the new semester, or even as a last minute Christmas gift for your friends and family! Only available in gray.",
+    featured: false,
+    sizes: [
+      {
+        "type": "XS",
+        "quant": 0
+      },
+      {
+        "type": "S",
+        "quant": 8
+      },
+      {
+        "type": "M",
+        "quant": 25
+      },
+      {
+        "type": "L",
+        "quant": 22
+      },
+      {
+        "type": "XL",
+        "quant": 10
+      },
+      {
+        "type": "2XL",
+        "quant": 0
+      }
+    ]
+  },
+  {
+    id: uuidv4(),
     name: "Home Of The Pirates Long Sleeve",
     price: "$10.00",
     description: "Wanna rep Piedmont Hills while staying cozy? We got you covered! Only available in white",
@@ -47,7 +80,7 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 14
+        "quant": 13
       },
       {
         "type": "M",

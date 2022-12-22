@@ -221,7 +221,7 @@ function TT(){
                         <p id="modal__desc">This is sample text that should be dynamically changed on click. If you see this text... then oops</p>
 
                         <div id="modal__inventory">
-                            <h3 id="modal__inventory-header">Inventory (as of 12/07)</h3>
+                            <h3 id="modal__inventory-header">Inventory (as of 12/22)</h3>
                             <div id="modal__size-container"></div>
                             <div id="modal__inventory-notice-box" className="modal__inventory-notice-box">
                                 <p id="modal__inventory-notice" className="modal__inventory-notice">Less than 5 left in stock!</p>
