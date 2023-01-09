@@ -3,12 +3,6 @@ import { v4 as uuidv4 } from "uuid";
 const dataSlider = [
   {
     id: uuidv4(),
-    title: "Treasure Trove New Items!!!",
-    subTitle: "tt on sale!",
-    link: "https://insaneink.com/treasuretrove",
-  },
-  {
-    id: uuidv4(),
     title: "Back in Business!",
     subTitle: "Opening Message",
     link: "https://insaneink.com/howitworks",

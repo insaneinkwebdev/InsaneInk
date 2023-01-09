@@ -4,7 +4,7 @@ const dataSlider = [
   {
     id: uuidv4(),
     name: "Anchor Zip Up",
-    price: "On Sale! $30.00",
+    price: "$35.00",
     description: "Our new full zip-up is perfect for the winter cold and the new semester, or even as a last minute Christmas gift for your friends and family! Only available in gray.",
     featured: false,
     sizes: [
