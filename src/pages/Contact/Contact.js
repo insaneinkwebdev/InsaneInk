@@ -1,7 +1,6 @@
 import "./Contact.css"
 import dataCont from './dataCont'
 import dataContTeams from './dataContTeams'
-import placeholder from '../../images/placeholderImg.png'
 import leftArrow from "./icons/arrow-left.svg";
 import rightArrow from "./icons/arrow-right.svg";
 
