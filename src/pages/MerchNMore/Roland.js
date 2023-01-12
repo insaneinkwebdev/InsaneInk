@@ -13,11 +13,11 @@ function Roland(){
                 </p>
                 <h3 className="rol-contact">Contact rolandprintshop@gmail.com for questions, comments, or concerns!</h3>
 
+                <h3 className="rol-order">Ready to Order? <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSe-PAAQu2jWN493-tq5oqoftYFc9Zr23tPf2kLaowO1kVJRyg/viewform">Roland Order Form</a></h3>
+
                 <div className="rol-pricing-wrapper">
                     <img src={printPricing} alt="rol pricing sheet" className="rol-pricing"></img>
                 </div>
-
-                <h3 className="rol-order">Ready to Order? <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSe-PAAQu2jWN493-tq5oqoftYFc9Zr23tPf2kLaowO1kVJRyg/viewform">Roland Order Form</a></h3>
             </div>
 
             <div className="divider"></div>
@@ -28,6 +28,8 @@ function Roland(){
                 <p className="rol-info">
                     With our large format printer, we can also print designs on vinyl to heat press onto apparel!
                 </p>
+
+                <h3 className="rol-order">Ready to Order? <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScQio4TmKhnVIR3jxrQQ1fsVJkQxXS0s16BULIFR4EYIfwfvw/viewform">Heat Press Form</a></h3>
 
                 <div className="rol-pricing-wrapper">
                     <img src={heatPricing} alt="rol pricing sheet" className="rol-pricing"></img>
@@ -44,8 +46,6 @@ function Roland(){
                     You can choose either a white outline or a Pantone color of your choice as the cut line.
                     We recommend choosing an outline color that matches the color of the product so the outline is less apparent.
                 </p>
-
-                <h3 className="rol-order">Ready to Order? <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScQio4TmKhnVIR3jxrQQ1fsVJkQxXS0s16BULIFR4EYIfwfvw/viewform">Heat Press Form</a></h3>
             </div>
         </div>
     );

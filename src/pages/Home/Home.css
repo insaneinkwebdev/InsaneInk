@@ -65,12 +65,6 @@ section {
     flex-wrap: wrap;
 }
 
-.port-header, .story-header, .fifty-header {
-    text-align: left;
-    font-size: 2.35rem;
-    margin-bottom: 2.25rem;
-}
-
 .port-content, .story-content, .fifty-content{
     position: relative;
     margin: 2rem;
@@ -111,8 +105,9 @@ section {
 }
 
 .story-content.vid video{
-    max-width: 47rem;
-    margin-left: -2rem;
+    max-width: 50rem;
+    margin-left: -1.5rem;
+    
 }
 
 .story-content.img {
@@ -132,6 +127,12 @@ section {
     margin-right: 3rem;
 }
 
+
+.port-header, .story-header, .fifty-head {
+    text-align: left;
+    font-size: 2.35rem;
+    margin-bottom: 2.25rem;
+}
 /* ---- MOBILE DESIGN ---- */
 
 @media screen and (max-width: 727px) {
@@ -169,7 +170,7 @@ section {
         border-radius: 5px;
     }
 
-    .port-header, .story-header, .fifty-header {
+    .port-header, .story-header, .fifty-head {
         text-align: center;
         font-size: 2rem;
     }

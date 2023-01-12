@@ -122,6 +122,8 @@
     justify-content: center;
     flex-wrap: wrap;
     background: rgb(242, 242, 242);
+    width: 50vw;
+    margin: 0 11rem;
     border-radius: 5px;
 }
 
@@ -129,8 +131,8 @@
     text-align: left;
     height: 10rem;
     width: 30rem;
-    margin: 0 1rem;
-    margin-right: 1rem;
+    margin-right: -10rem;
+    margin-top: 1.75rem;
 }
 
 .team-content h2 {
@@ -141,13 +143,6 @@
 .team-content p {
     font-size: 1.2rem;
     width: 25rem;
-}
-
-.team-img {
-    max-width: 35rem;
-    max-height: 25rem;
-    margin: 3rem 0.5rem;
-    border-radius: 5px;
 }
 
 .contact-slide {
@@ -178,11 +173,13 @@
 .contact-slide.prev {
     float: left;
     margin-right: 1.5rem;
+    margin-top: 6.5rem;
 }
 
 .contact-slide.next {
     float: right;
     margin-left: 1.5rem;
+    margin-top: 6.5rem;
 }
 
 @media screen and (max-width: 727px) {
@@ -192,6 +189,8 @@
 
     .team-box {
         max-width: 22rem;
+        width: 100vw;
+        margin: 0;
     }
 
     .team-content {

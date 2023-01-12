@@ -66,7 +66,8 @@
     max-width: 60rem;
     text-align: left;
     line-height: 2rem;
-    margin: 0 8rem;
+    margin: 0rem 8rem;
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 727px) {

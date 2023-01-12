@@ -93,7 +93,7 @@ export default function Slider() {
             </div>
 
             <div className='container-button'>
-                <a id='openlink' className='openlink none' href='https://insaneink.com/treasuretrove' target="_blank" rel="noreferrer"><button>Get Started</button></a>
+                <a id='openlink' className='openlink active' href='https://insaneink.com/howitworks' target="_blank" rel="noreferrer"><button>Get Started</button></a>
             </div>
         </div>
     )

@@ -11,6 +11,8 @@ function Dtg(){
                 No design? No worries! Our team of experienced designers will design a graphic made just for you!
             </p>
             <h3 className="dtg-contact">Contact dtginsaneink@gmail.com for questions, comments, or concerns!</h3>
+            
+            <h3 className="dtg-order">Ready to Order? <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSevXFdVognmHv5LXfupJu9Ddhhh-BRSAhIsWAmjhJX_SzeMzA/viewform">DTG Order Form</a></h3>
 
             <div className="dtg-pricing-wrapper">
                 <img src={pricing} alt="dtg pricing sheet" className="dtg-pricing"></img>
@@ -21,7 +23,6 @@ function Dtg(){
                 There is a $10 fee if you would like us to design a graphic. 
                 We can print designs of any color EXCEPT white
             </p>
-            <h3 className="dtg-order">Ready to Order? <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSevXFdVognmHv5LXfupJu9Ddhhh-BRSAhIsWAmjhJX_SzeMzA/viewform">DTG Order Form</a></h3>
         </div>
     );
 }

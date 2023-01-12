@@ -9,7 +9,7 @@ function Fifty(){
         <section className="fiftySec" aria-label="50/50 Section">
         <div className='fifty-content par'>
             <AnimationOnScroll animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown'>
-                <h2 className='fifty-header'>The 50/50 Concept</h2>
+                <h2 className='fifty-head'>The 50/50 Concept</h2>
             </AnimationOnScroll>
             
             We proudly dedicate our time, resources, and half of our proceeds to local events in order to strengthen, uplift, and give back to the community.

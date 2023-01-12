@@ -77,7 +77,6 @@ function Contact(){
                             <h2 id="team-name">Awesome Anteaters</h2>
                             <p id="team-members">Mariana Salazar, Helen Ha, Jasmine Pham, April Tang</p>
                         </div>
-                        <img src={placeholder} alt="team cartoon" className="team-img"></img>
                     </div>
                 </div>
             </div>
