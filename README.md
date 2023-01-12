@@ -46,13 +46,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - 11/21/2022 (plan to) Fix nav styling for mobile (Order Now! + more...)
 - 11/22/2022 Completed TT page :tada:
 - 11/23/2022 - 11/28/2022 Vacation for UC Apps :tada:
-- 11/29/2022: Design for Contact page
-- 11/30/2022: Design for Contact page + thoughts on info system???
-- 12/01/2022: Design for Contact page + thoughts on info system???
-- 12/02-07/2022: PANIC!!! - Finished Contact page, info system 2nd semester + goal is to finish every page by 13th
-- 12/08/2022: Finished DTG page + Finished Roland page(s)
-- 12/09/2022: Finished Portfolio page + Debugging
+- 11/29/2022  Design for Contact page
+- 11/30/2022  Design for Contact page + thoughts on info system???
+- 12/01/2022  Design for Contact page + thoughts on info system???
+- 12/02-07/2022  PANIC!!! - Finished Contact page, info system 2nd semester + goal is to finish every page by 13th
+- 12/08/2022  Finished DTG page + Finished Roland page(s)
+- 12/09/2022  Finished Portfolio page + Debugging
 ------------- MASSIVE BLANK SPOT BC I LOWKEY FORGOT TO ADD LOGS -------------
-- 12/17/2022: New photos in TT/Fix bug + Finishing 50/50 and Process Page
-- 12/18/2022: Finished About Us page
-- 12/19/2022: Finished HTO page
+- 12/17/2022  New photos in TT/Fix bug + Finishing 50/50 and Process Page
+- 12/18/2022  Finished About Us page
+- 12/19/2022  Finished HTO page
+- 12/19/2022 -> 1/7/2023 FINALS + WINTER BREAK
+- 1/8/2023 -> 1/10/2023 Design + structure 50/50
+- 1/11/2023 Frontend HTML for 50/50
+- 1/12/2023: CSS + anim + mobile responsive for 50/50
