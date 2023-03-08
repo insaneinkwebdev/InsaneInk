@@ -49,6 +49,10 @@ footer {
     min-height: 225px;
 }
 
+.footer-col h3, .footer-col p, .footer-col span {
+    color: #7C2F3F;
+}
+
 .footer-col .footer-logo {
     width: 175px;
     margin-bottom: 1rem;

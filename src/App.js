@@ -16,7 +16,33 @@ import TT from './pages/TreasureTrove/TT'
 
 import NotFound from './pages/FouroFour/NotFound';
 
+///////////////////////////////////////////////////////////////
+
+import SignIn from './pagesStaff/signIn/SignIn';
+import Dash from './pagesStaff/dash/DashBoard'
+
 function App() {
+  let subdomain;
+  const host = window.location.host;
+  const arr = host
+    .split(".")
+    .slice(0, host.includes("localhost") ? -1 : -2);
+
+  if (arr.length > 0){
+    subdomain = arr[0];
+  }
+
+  if (subdomain === "staff"){
+    return(
+      <Router>
+        <Routes>
+          <Route path='*' element={<SignIn />}/>
+          <Route path='/dashboard' element={<Dash />}/>
+        </Routes>
+      </Router>
+    )
+  }
+
   return (
     <div className="App" data-theme="light">
       <Navbar/>
@@ -33,6 +59,9 @@ function App() {
           <Route path='/fiftyfifty' element={<Fifty />}/>
           <Route path='/aboutus' element={<About />}/>
           <Route path='/contactus' element={<Contact />}/>
+
+          <Route path='/staff' element={<SignIn />}/>
+          <Route path='/dashboard' element={<Dash />}/>
         </Routes>
       </Router>
       <Footer/>

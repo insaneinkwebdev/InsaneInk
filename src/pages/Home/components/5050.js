@@ -22,7 +22,7 @@ function Fifty(){
             <br/>
             <br/>
 
-            <a href="https://www.insaneink.com/the5050concept.php">Learn More</a>
+            <a href="/fiftyfifty">Learn More</a>
         </div>
         <img className='fifty-content img' src={fiftyImg} alt='Placeholder'/>
     </section>

@@ -44,7 +44,7 @@ const dataSlider = [
   {
     id: uuidv4(),
     name: "Insane Team",
-    members: "Carmen Custier, Renee Lu, Aditi Krishnan, Ashlee Lee",
+    members: "Carmen Cusiter, Renee Lu, Aditi Krishnan, Ashlee Lee",
   },
   {
     id: uuidv4(),

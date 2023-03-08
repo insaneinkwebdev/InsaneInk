@@ -12,6 +12,48 @@ const dataSlider = [
         type: "class"
       },
       {
+        name: "PHHS Red Cross",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/club/IIA004 PHHS RedCross.jpg`,
+        isWhite: false,
+        type: "club"
+      },
+      {
+        name: "PHHS Music Dept. Officers",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/club/IIE003 Back Graphic 1.jpg`,
+        isWhite: true,
+        type: "club"
+      },
+      {
+        name: "Symphony Orchestra",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/club/IIE002symphonyfrontgraphic 1.jpg`,
+        isWhite: true,
+        type: "club"
+      },
+      {
+        name: "String Orchestra",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/club/IIE001-StringOrchfrontgraphic 1.jpg`,
+        isWhite: true,
+        type: "club"
+      },
+      {
+        name: "Biking Club",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/club/IIJJ002 Biking Club 1.jpg`,
+        isWhite: true,
+        type: "club"
+      },
+      {
+        name: "Male Cheer",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/club/IIZ003MaleCheer front (1) 1.jpg`,
+        isWhite: false,
+        type: "club"
+      },
+      {
+        name: "Powder Puff",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/club/IIZ004PowderPuff23 front (1) 1.jpg`,
+        isWhite: false,
+        type: "club"
+      },
+      {
         name: "PHHS Soccer",
         src: `${process.env.PUBLIC_URL}/portfolio/2023/club/III001front.jpg`,
         isWhite: true,
@@ -22,6 +64,60 @@ const dataSlider = [
         src: `${process.env.PUBLIC_URL}/portfolio/2023/club/IIF001-SCIOLY Graphic.jpg`,
         isWhite: true,
         type: "club"
+      },
+      {
+        name: "I'm Sorry For Being Filipino",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other/filipinoMeme 1.jpg`,
+        isWhite: true,
+        type: "other"
+      },
+      {
+        name: "Chess Teachers",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other/Do you Enjoy working with children 1.jpg`,
+        isWhite: false,
+        type: "other"
+      },
+      {
+        name: "Ironboy Project",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other/ironboy.jpg`,
+        isWhite: true,
+        type: "other"
+      },
+      {
+        name: "Infinitesimal",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other/KK-DTG01 1.jpg`,
+        isWhite: true,
+        type: "other"
+      },
+      {
+        name: "Milpitas Misfits",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other/IID002MisfitsBack 1.jpg`,
+        isWhite: false,
+        type: "other"
+      },
+      {
+        name: "Breezy",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other/IIJJ001 Jeff 1.jpg`,
+        isWhite: true,
+        type: "other"
+      },
+      {
+        name: "Jollibae",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other/Jollibae 1.jpg`,
+        isWhite: true,
+        type: "other"
+      },
+      {
+        name: "Potato Corner",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other/Potato Corner 1.jpg`,
+        isWhite: true,
+        type: "other"
+      },
+      {
+        name: "Drama: The Single Man",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other/The Single Man image 1.jpg`,
+        isWhite: false,
+        type: "other"
       },
       {
         name: "Treasure Trove",
@@ -58,6 +154,66 @@ const dataSlider = [
         src: `${process.env.PUBLIC_URL}/portfolio/2023/other/IT-DTG01.jpg`,
         isWhite: true,
         type: "other"
+      },
+      {
+        name: "EVHS VSU",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other_school/IIA003 EVHS VSU.jpg`,
+        isWhite: true,
+        type: "other school"
+      },
+      {
+        name: "SMS Semper Fi",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other_school/IID001 SierramontVuFront.jpg`,
+        isWhite: false,
+        type: "other school"
+      },
+      {
+        name: "IHS C.L.U.B",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other_school/III006 IHS Club hoodies - front 1.jpg`,
+        isWhite: true,
+        type: "other school"
+      },
+      {
+        name: "IHS VSA",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other_school/IIK001FrontGraphic 1.jpg`,
+        isWhite: true,
+        type: "other school"
+      },
+      {
+        name: "Ruskin PTA",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other_school/IIZ009RuskinPTA front (2) 1.jpg`,
+        isWhite: false,
+        type: "other school"
+      },
+      {
+        name: "Silver Creek HS",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other_school/IIZ013SCHSNewWhite Front (2) 1.jpg`,
+        isWhite: true,
+        type: "other school"
+      },
+      {
+        name: "Silver Creek HS",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other_school/IIZ010SCHSReorderWhite Front (1) 1.jpg`,
+        isWhite: true,
+        type: "other school"
+      },
+      {
+        name: "Silver Creek HS",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other_school/IIZ012SCHSNewBlack Front (2) 1.jpg`,
+        isWhite: false,
+        type: "other school"
+      },
+      {
+        name: "Silver Creek HS",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other_school/IIZ014SCHSQuarterZip Front (2) 1.jpg`,
+        isWhite: false,
+        type: "other school"
+      },
+      {
+        name: "Silver Creek HS",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other_school/IIZ015SCHSJersey Front (2) 1.jpg`,
+        isWhite: false,
+        type: "other school"
       },
       {
         name: "SJVS",

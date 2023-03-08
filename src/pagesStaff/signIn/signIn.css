@@ -1,0 +1,94 @@
+.container.staff a {
+    font-size: 0.9rem;
+    color: #ae4e61;
+}
+
+.container.staff label {
+    color: #5c1c29;
+}
+
+.container.staff {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.staff-card {
+    margin-bottom: 2.5rem;
+    width: 30rem;
+    height: 32.5rem;
+    border-radius: 5px;
+    border: solid 1.75px rgb(213, 213, 213);
+}
+
+.staff-card-title {
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
+    color: #5c1c29;
+}
+
+.staff-card-content {
+    margin-left: 3rem;
+    width: 80%;
+    height: 83%;
+    display: block;
+}
+
+.staff-user, .staff-pw {
+    display: block;
+}
+
+.staff-user input, .staff-pw input {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.75rem 12rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.1rem;
+    border: none;
+    border-bottom: solid 1.75px rgb(173, 173, 173);
+    outline: none;
+    font-size: 1rem;
+}
+
+.staff-user input:focus, .staff-pw input:focus {
+    border-bottom: solid 1.75px #d37588;
+    transition: all ease-in-out 0.35s;
+}
+
+.staff-pw input {
+    padding: 0.75rem 0.6rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.1rem;
+    width: 23.25rem;
+}
+
+.staff-pw-box {
+    margin-top: 1.5rem;
+}
+
+.staff-signInBtn {
+    margin-top: 3.5rem;
+    margin-left: 1.5rem;
+}
+
+#staff-signInBtn {
+    padding: 1rem 3rem;
+    width: 20rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #ae4e61;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all ease-in-out 0.3s;
+}
+
+
+#staff-signInBtn:hover {
+    background: #c95a71;
+}

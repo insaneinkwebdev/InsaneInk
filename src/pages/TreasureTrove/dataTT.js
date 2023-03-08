@@ -14,19 +14,19 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 8
+        "quant": 6
       },
       {
         "type": "M",
-        "quant": 25
+        "quant": 21
       },
       {
         "type": "L",
-        "quant": 22
+        "quant": 19
       },
       {
         "type": "XL",
-        "quant": 10
+        "quant": 8
       },
       {
         "type": "2XL",
@@ -88,11 +88,11 @@ const dataSlider = [
       },
       {
         "type": "L",
-        "quant": 22
+        "quant": 21
       },
       {
         "type": "XL",
-        "quant": 3
+        "quant": 0
       },
       {
         "type": "2XL",
@@ -113,15 +113,15 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 5
+        "quant": 1
       },
       {
         "type": "M",
-        "quant": 0
+        "quant": 2
       },
       {
         "type": "L",
-        "quant": 0
+        "quant": 2
       },
       {
         "type": "XL",
@@ -137,7 +137,7 @@ const dataSlider = [
     id: uuidv4(),
     name: "Pocket Animals Hoodie",
     price: "$20.00",
-    description: "Look at dem cute animals 💗 Only available in lavender.",
+    description: "Look at dem cute animals 💗 Only available in lavender. / OUT OF STOCK",
     featured: false,
     sizes: [
       {
@@ -146,11 +146,11 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 1
+        "quant": 0
       },
       {
         "type": "M",
-        "quant": 1
+        "quant": 0
       },
       {
         "type": "L",
@@ -179,11 +179,11 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 5
+        "quant": 4
       },
       {
         "type": "M",
-        "quant": 9
+        "quant": 7
       },
       {
         "type": "L",

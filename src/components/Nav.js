@@ -46,8 +46,8 @@ function Navbar(){
                     <li><a href="/our-portfolio">Portfolio</a></li>
 
                     <li>
-                        <a href="https://www.insaneink.com/the5050concept.php"  className='drop-hover fifty'>The 50/50 Concept</a>
-                        <ul className='drop fifty'>
+                        <a href="/fiftyfifty"  className='drop-hover fifty'>The 50/50 Concept</a>
+                        {/*<ul className='drop fifty'>
                             <li><a href="https://www.insaneink.com/the5050concept.php">2022-2023 Events</a></li>
                             <li><a href="https://www.insaneink.com/the5050concept.php#Events2020">2020-2022 Events</a></li>
                             <li><a href="https://www.insaneink.com/the5050concept.php#Events2019">2019-2020 Events</a></li>
@@ -57,7 +57,7 @@ function Navbar(){
                             <li><a href="https://www.insaneink.com/the5050concept.php#Events2015">2015-2016 Events</a></li>
                             <li><a href="https://www.insaneink.com/the5050concept.php#Events2014">2014-2015 Events</a></li>
                             <li><a href="https://www.insaneink.com/the5050concept.php#Events2013">2013-2014 Events</a></li>
-                        </ul>
+                        </ul>*/}
                     </li>
                     <li><a href="/treasuretrove">Treasure Trove</a></li>
                 </ul>
