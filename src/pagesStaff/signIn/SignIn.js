@@ -2,18 +2,16 @@ import "./signIn.css"
 
 function SignIn(){
 
-    // This is extremely scuffed but is necessary for demo (will all be migrated to MongoDB bc this is ASS :/)
+    // This is extremely scuffed but is necessary for demo (will all be migrated to Fauna bc this is ASS :/)
     function redirect(user, pw){
-        let users = ["71621730"]
-        let password = "insaneInkDemo"
-
-        for(let i=0; i < users.length; i++){
-            if(users[i] === user){
-                if(password === pw){
-                    window.location.href = "/dashboard"
-                }
-            }
-        }
+       fetch("http://localhost:9000/.netlify/functions/apiv1/login", {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+            "user": user,
+            "pw": pw})
+       }).then(res => console.log(res))
     }
 
     return(
