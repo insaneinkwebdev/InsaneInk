@@ -8,19 +8,19 @@ const dataFifty = [
         images: [
             {
                 src: `${process.env.PUBLIC_URL}/fifty/2023/freshmanNight.jpg`,
-                title: "Freshman Night",
-                bio: "As a part of the PHHS Business Deparment, Insane Ink was excited to share what we have at Freshman Night! Flyers were handed out to parents and students on information about the course and we even had a Step-N-Repeat for incoming freshman to take pictures with!"
+                title: "-----------------------------------------",
+                bio: "As a part of the PHHS Business Department, Insane Ink was excited to share what we have at Freshman Night!"
             },
             
             {
-                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
-                title: "",
-                bio: ""
+                src: `${process.env.PUBLIC_URL}/fifty/2023/freshmanNight2.png`,
+                title: "----------- Freshman Night -----------",
+                bio: "In order to encourage Pirate Pride, we created PHHS logo table cloths for every single table. Flyers were also handed out to parents and students on the benefits of taking the course."
             },
             {
-                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
-                title: "",
-                bio: ""
+                src: `${process.env.PUBLIC_URL}/fifty/2023/freshmanNight3.png`,
+                title: "-----------------------------------------",
+                bio: "Insane Ink also had a backdrop as well as photo opportunities for anyone to take pictures with!"
             },
         ]
     },

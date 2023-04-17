@@ -12,6 +12,36 @@ const dataSlider = [
         type: "class"
       },
       {
+        name: "Building Information Modeling",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/4 1.jpg`,
+        isWhite: false,
+        type: "class"
+      },
+      {
+        name: "AVID",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIE005AVID25FG 1.jpg`,
+        isWhite: false,
+        type: "class"
+      },
+      {
+        name: "PHHS Choir Council",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/club/IIE004 CCBack 1.jpg`,
+        isWhite: false,
+        type: "club"
+      },
+      {
+        name: "PHHS Boys Golf",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/club/IIE008BoysGolfHatGraphic 1.jpg`,
+        isWhite: false,
+        type: "club"
+      },
+      {
+        name: "PHHS Treblemakers",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/club/tm1 1.jpg`,
+        isWhite: false,
+        type: "club"
+      },
+      {
         name: "PHHS Red Cross",
         src: `${process.env.PUBLIC_URL}/portfolio/2023/club/IIA004 PHHS RedCross.jpg`,
         isWhite: false,
@@ -154,6 +184,12 @@ const dataSlider = [
         src: `${process.env.PUBLIC_URL}/portfolio/2023/other/IT-DTG01.jpg`,
         isWhite: true,
         type: "other"
+      },
+      {
+        name: "Summerdale 4th Graders",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/other_school/IIE009 Graphic Front 1.jpg`,
+        isWhite: true,
+        type: "other school"
       },
       {
         name: "EVHS VSU",

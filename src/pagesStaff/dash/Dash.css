@@ -55,17 +55,22 @@
 }
 
 .dash__button {
+    position: relative;
     margin: 0 4rem;
     margin-left: 3rem;
     width: 35%;
     height: 100%;
     border: solid 2px #AE4E61;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .dash__button img {
     width: 100%;
     height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #dash__button {
@@ -77,4 +82,19 @@
     border: none;
     cursor: pointer;
     transition: all ease-in-out 0.3s;
+}
+
+.dash__button__title {
+    background: red;
+    position: relative;
+    margin-top: 3rem;
+    color: #FFFFFF;
+    width: 100%;
+    height: 7rem;
+}
+
+#dash__button__title {
+    font-weight: 550;
+    font-size: 1.5rem;
+    text-align: center;
 }

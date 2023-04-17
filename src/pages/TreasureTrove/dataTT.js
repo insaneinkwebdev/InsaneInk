@@ -14,11 +14,11 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 6
+        "quant": 5
       },
       {
         "type": "M",
-        "quant": 21
+        "quant": 20
       },
       {
         "type": "L",
@@ -84,7 +84,7 @@ const dataSlider = [
       },
       {
         "type": "M",
-        "quant": 38
+        "quant": 33
       },
       {
         "type": "L",
@@ -113,7 +113,7 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 1
+        "quant": 0
       },
       {
         "type": "M",
