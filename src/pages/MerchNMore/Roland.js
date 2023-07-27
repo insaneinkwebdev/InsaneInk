@@ -9,7 +9,7 @@ function Roland(){
                 <h2 className="rol-header">Print Shop</h2>
                 
                 <p className="rol-info">
-                    Insane Ink owns a large format printing/cutting machine, allowing us to print stickers, posters, and flyers 🤯
+                    Insane Ink owns a large format printing/cutting machine, allowing us to print <b>stickers, posters, and flyers</b> 🤯
                 </p>
                 <h3 className="rol-contact">Contact rolandprintshop@gmail.com for questions, comments, or concerns!</h3>
 

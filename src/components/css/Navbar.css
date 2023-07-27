@@ -20,14 +20,16 @@ nav {
 }
 
 .closedBanner {
-  padding: 3rem 10rem;
+  padding: 2.5rem 13rem;
   background: #F1E0E0;
   margin-bottom: 2rem;
 }
 
 .closedContent {
+  margin-left: 10rem;
   font-weight: 600;
   color: #5B5B5B;
+  font-size: 1rem;
 }
 
 .closedContent a {

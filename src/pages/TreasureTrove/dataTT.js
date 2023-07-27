@@ -135,39 +135,6 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "Pocket Animals Hoodie",
-    price: "$20.00",
-    description: "Look at dem cute animals 💗 Only available in lavender. / OUT OF STOCK",
-    featured: false,
-    sizes: [
-      {
-        "type": "XS",
-        "quant": 0
-      },
-      {
-        "type": "S",
-        "quant": 0
-      },
-      {
-        "type": "M",
-        "quant": 0
-      },
-      {
-        "type": "L",
-        "quant": 0
-      },
-      {
-        "type": "XL",
-        "quant": 0
-      },
-      {
-        "type": "2XL",
-        "quant": 0
-      }
-    ]
-  },
-  {
-    id: uuidv4(),
     name: "PHHS College Hoodie",
     price: "$25.00",
     description: "Piedmont Hills with a lil retro twist to it. Only available in white (or a crewneck in grey!)",
@@ -225,39 +192,6 @@ const dataSlider = [
       {
         "type": "XL",
         "quant": 0  
-      },
-      {
-        "type": "2XL",
-        "quant": 0
-      }
-    ]
-  },
-  {
-    id: uuidv4(),
-    name: "Compass Long Sleeve",
-    price: "$10.00",
-    description: "Wanna rep Piedmont Hills while staying cozy? We got you covered! Only available in black.",
-    featured: false,
-    sizes: [
-      {
-        "type": "XS",
-        "quant": 0
-      },
-      {
-        "type": "S",
-        "quant": 0
-      },
-      {
-        "type": "M",
-        "quant": 0
-      },
-      {
-        "type": "L",
-        "quant": 0
-      },
-      {
-        "type": "XL",
-        "quant": 1
       },
       {
         "type": "2XL",

@@ -70,10 +70,8 @@ function Navbar(){
             </nav>
             <div className='closedBanner'>
                 <p className='closedContent'>
-                    Insane Ink has closed for large screening orders but continues to provide small quantity direct to garment print orders, 
-                    posters, stickers and heat press services. 
-                    
-                    <br/>Email <a href='https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=sales@insaneink.com&su=Question%20about%20Insane%20Ink' rel="noreferrer" target="_blank">sales@insaneink.com</a> for more information!
+                    Thank you for visiting our site!  Our student business Insane Ink is closed through the summer.
+                    Email <a href='https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=sales@insaneink.com&su=Question%20about%20Insane%20Ink' rel="noreferrer" target="_blank">sales@insaneink.com</a> for more information!
                 </p>
             </div>
         </>

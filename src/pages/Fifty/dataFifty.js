@@ -7,21 +7,66 @@ const dataFifty = [
         year: "2023",
         images: [
             {
-                src: `${process.env.PUBLIC_URL}/fifty/2023/freshmanNight.jpg`,
-                title: "-----------------------------------------",
-                bio: "As a part of the PHHS Business Department, Insane Ink was excited to share what we have at Freshman Night!"
+                src: `${process.env.PUBLIC_URL}/fifty/2023/springFest2.png`,
+                title: "SpringFest",
+                bio: "Insane Ink proudly presents: Springfest! We granted staff and students a bonding experience through enjoying tasty concessions, fun games/activities booths, and even bouncy houses to celebrate the Spring season!"
             },
-            
             {
                 src: `${process.env.PUBLIC_URL}/fifty/2023/freshmanNight2.png`,
-                title: "----------- Freshman Night -----------",
+                title: "Freshman Night",
                 bio: "In order to encourage Pirate Pride, we created PHHS logo table cloths for every single table. Flyers were also handed out to parents and students on the benefits of taking the course."
             },
             {
-                src: `${process.env.PUBLIC_URL}/fifty/2023/freshmanNight3.png`,
-                title: "-----------------------------------------",
-                bio: "Insane Ink also had a backdrop as well as photo opportunities for anyone to take pictures with!"
+                src: `${process.env.PUBLIC_URL}/fifty/2023/bloomers2023.jpg`,
+                title: "Bloomers 2023",
+                bio: "Insane Ink proudly provided T-shirts for the Bloomers Club trip to the San Francisco Exploratorium!"
             },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/2023/jogAThon.jpg`,
+                title: "Jog-A-Thon",
+                bio: "This is a wonderful event that allows students and staff to get together and raise funds that support our rich program we have here at East Side. Insane Ink students designed and donated shirts for all participants for the 2023 ESUHSD' Adapted Physical Education Jog-A-Thon."
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/2023/mathTutoring.jpg`,
+                title: "Math Tutoring!",
+                bio: "Insane Ink donated shirts for our volunteer math tutors so that students seeking help could easily identify them. Insane Ink is committed to supporting the academic growth of Pirates!"
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
+                title: "North Valley Youth Soccer League",
+                bio: "In addition to printing items for the customer, Insane Ink also donated 150 unprinted dryfit shirts to local soccer organization, North Valley Youth Soccer League"
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
+                title: "PHHS Parent Boosters Golf Tournament",
+                bio: "We donated a hole sponsorship, bags for participants and printed banners and stickers for event!"
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
+                title: "Catholic Charities",
+                bio: "Insane Ink proudly donated the Printed over 100 vests for volunteers."
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
+                title: "PHHS Campus Benches",
+                bio: "Insane Ink used over $7,000 of income to fund the building of new benches for campus collaborating with the PHHS carpentry and manufacturing programs."
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
+                title: "VolleyBrawl 2023",
+                bio: "TBA"
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/2023/counselShirts.jpg`,
+                title: "ESUHSD Counselor Shirts",
+                bio: "To support our ESUHSD counselors, Insane Ink proudly printed shirts for them!"
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/2023/clssClrStickers.jpg`,
+                title: "PHHS Class Color Stickers",
+                bio: "Insane Ink donated class stickers to class advisors for future events!"
+            },
+
         ]
     },
     {
