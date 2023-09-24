@@ -68,9 +68,32 @@ const dataSlider = [
     id: uuidv4(),
     name: "Devin Tan",
     position: "VP of Web Development",
+    email: "tandevin\n@students.esuhsd.org",
+    phone: "(669)-265-9713",
+  },
+  /*
+  {
+    id: uuidv4(),
+    name: "Himani Manjunath",
+    position: "VP of Web Development",
+    email: "manjunathhimani3485\n@students.esuhsd.org",
+    phone: "(669)-265-9713",
+  },
+  {
+    id: uuidv4(),
+    name: "Venezia Mejia",
+    position: "VP of Web Development",
     email: "tandevin1730\n@students.esuhsd.org",
     phone: "(669)-265-9713",
   },
+  {
+    id: uuidv4(),
+    name: "Nara Johnson",
+    position: "VP of Graphic Design",
+    email: "tandevin1730\n@students.esuhsd.org",
+    phone: "(669)-265-9713",
+  },
+  */
 ];
 
 export default dataSlider;
