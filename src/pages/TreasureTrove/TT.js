@@ -168,6 +168,7 @@ function showSlide(n){
 function TT(){
     return(
         <div className="container">
+             <br/>
             <h2 className="tt-header">Fall/Winter 2023 Collection 🍂</h2>
             <div className="tt-store-box">
                 <h3 className="tt-store">Store Hours (every Wednesday): </h3>
