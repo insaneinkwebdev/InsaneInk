@@ -95,7 +95,9 @@ function specType(type){
 function Portfolio(){
     return(
         <div className="container">
+             <br/>
             <h2>Our Portfolio</h2>
+            <br/>
             <div className="port-sel-wrapper">
                 {dataPort.map((obj, index) => {
                     return(

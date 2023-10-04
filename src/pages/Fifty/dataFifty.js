@@ -32,29 +32,29 @@ const dataFifty = [
                 bio: "Insane Ink donated shirts for our volunteer math tutors so that students seeking help could easily identify them. Insane Ink is committed to supporting the academic growth of Pirates!"
             },
             {
-                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
+                src: `${process.env.PUBLIC_URL}/fifty/2023/soccer.jpg`,
                 title: "North Valley Youth Soccer League",
                 bio: "In addition to printing items for the customer, Insane Ink also donated 150 unprinted dryfit shirts to local soccer organization, North Valley Youth Soccer League"
             },
             {
-                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
+                src: `${process.env.PUBLIC_URL}/fifty/2023/golf.jpg`,
                 title: "PHHS Parent Boosters Golf Tournament",
-                bio: "We donated a hole sponsorship, bags for participants and printed banners and stickers for event!"
+                bio: "We donated a hole sponsorship, bags for participants and printed banners and stickers for this event!"
             },
             {
-                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
+                src: `${process.env.PUBLIC_URL}/fifty/2023/catholic.jpg`,
                 title: "Catholic Charities",
                 bio: "Insane Ink proudly donated the Printed over 100 vests for volunteers."
             },
             {
-                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
+                src: `${process.env.PUBLIC_URL}/fifty/2023/benches.jpg`,
                 title: "PHHS Campus Benches",
                 bio: "Insane Ink used over $7,000 of income to fund the building of new benches for campus collaborating with the PHHS carpentry and manufacturing programs."
             },
             {
-                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
+                src: `${process.env.PUBLIC_URL}/fifty/2023/volleybrawl.jpg`,
                 title: "VolleyBrawl 2023",
-                bio: "TBA"
+                bio: "The second annual VolleyBrawl event of staff  vs. students volleyball competition welcomed the community free of charge and offered inter-set games, raffle prizes and below cost food options from local businesses.  Participants received free shirts and multiple gifts shared with attendees!"
             },
             {
                 src: `${process.env.PUBLIC_URL}/fifty/2023/counselShirts.jpg`,

@@ -3,9 +3,11 @@ import "./About.css"
 function About(){
     return(
         <div className="container fixed">
+            <br/>
             <h2 className="about-header">About Us</h2>
             <section className="about__section">
                 <p className="about__section__content">
+                <br/>
                 <span className="accent">Insane Ink</span> is an entrepreneurial course at Piedmont Hills High School that runs an apparel customization company. We offer silk screening, heat press, embroidery, Direct-to-Garment printing
                 as well as  <span className="accent">other printing services</span> including posters and stickers!
                 <br/><br/>

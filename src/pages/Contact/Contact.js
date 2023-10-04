@@ -41,6 +41,7 @@ function showSlide(){
 function Contact(){
     return(
         <div className="container">
+             <br/>
             <h2 className="cont-header">Meet The Board</h2>
             <div className="container board">
                 <div className='board-grid'>

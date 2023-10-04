@@ -3,6 +3,18 @@ import { v4 as uuidv4 } from "uuid";
 const dataSlider = [
   {
     id: uuidv4(),
+    year: "2023-2024",
+    images: [
+      {
+        name: "Insane Ink",
+        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
+        isWhite: false,
+        type: "class"
+      }
+    ]
+  },
+  {
+    id: uuidv4(),
     year: "2022-2023",
     images: [
       {
