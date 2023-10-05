@@ -114,7 +114,7 @@ function Portfolio(){
 
             <div className="port-divider"></div>
 
-            <h3 className="port-title" id="port-title">2022-2023</h3>
+            <h3 className="port-title" id="port-title">2023-2024</h3>
             <div className="port-grid" id="port-grid">
                 {dataPort[0].images.map((obj, index)=> {
                    

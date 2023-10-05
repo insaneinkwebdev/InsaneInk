@@ -7,7 +7,7 @@ const dataSlider = [
     images: [
       {
         name: "Insane Ink",
-        src: `${process.env.PUBLIC_URL}/portfolio/2023/class/IIZ008IICLASS.jpg`,
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/InsaneInkN23.jpg`,
         isWhite: false,
         type: "class"
       }

@@ -68,7 +68,7 @@ const dataSlider = [
     id: uuidv4(),
     name: "Devin Tan",
     position: "VP of Web Development",
-    email: "tandevin\n@students.esuhsd.com",
+    email: "tandevin\n@students.esuhsd.org",
     phone: "(669)-265-9713",
   },
   /*

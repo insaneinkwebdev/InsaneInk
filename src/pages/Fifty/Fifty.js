@@ -32,7 +32,7 @@ function Fifty(){
             <h2 className="fifty-header">The 50/50 Concept</h2>
             <div className="years_desktop">
             <div className="year 2023">
-                    <h2 className="year__num">2022-2023</h2>
+                    <h2 className="year__num">2023-2024</h2>
                     <section className="year__content">
                         <Swiper
                             slidesPerView={3}
