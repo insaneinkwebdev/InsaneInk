@@ -48,7 +48,7 @@
     color: #BC566B;
 }
 
-@media screen and (max-width: 727px) {
+@media screen and (max-width: 727px){
     .dtg-pricing-wrapper {
         margin: 1rem 0;
         margin-left: 0.5rem;

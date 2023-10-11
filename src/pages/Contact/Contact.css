@@ -183,7 +183,7 @@
     margin-top: 6.5rem;
 }
 
-@media screen and (max-width: 727px) {
+@media screen and (max-width: 727px){
     .contact-slide {
         display: none;
     }
@@ -214,3 +214,4 @@
         max-width: 17rem;
     }
 }
+

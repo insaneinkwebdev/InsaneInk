@@ -171,13 +171,14 @@ function TT(){
              <br/>
             <h2 className="tt-header">Fall/Winter 2023 Collection 🍂</h2>
             <div className="tt-store-box">
-                <h3 className="tt-store">Store Hours (every Wednesday): </h3>
+                <h3 className="tt-store">Store Hours (every Thursday): </h3>
+                
                 <div className="tt-hours">
                     <ul>
-                        <li className="tt-time">10:00 AM - 10:15 AM</li>
+                         {/*<li className="tt-time">10:00 AM - 10:15 AM</li> */}
                         <li className="tt-time">11:55 AM - 12:25 PM</li>
-                        <li className="tt-time">02:00 PM - 02:35 PM</li>
-                        <li className="tt-time">03:35 PM - 04:00 PM</li>
+                        {/*<li className="tt-time">02:00 PM - 02:35 PM</li>*/}
+                        {/*<li className="tt-time">03:35 PM - 04:00 PM</li>*/}
                     </ul>
                 </div>
             </div>
@@ -222,7 +223,7 @@ function TT(){
                         <p id="modal__desc">This is sample text that should be dynamically changed on click. If you see this text... then oops</p>
 
                         <div id="modal__inventory">
-                            <h3 id="modal__inventory-header">Inventory (as of 09/22)</h3>
+                            <h3 id="modal__inventory-header">Inventory (as of 09/23)</h3>
                             <div id="modal__size-container"></div>
                             <div id="modal__inventory-notice-box" className="modal__inventory-notice-box">
                                 <p id="modal__inventory-notice" className="modal__inventory-notice">Less than 5 left in stock!</p>

@@ -1,3 +1,16 @@
+/*
+CHECK THIS
+margin-right: 7rem
+or like 
+padding-right: 3.5rem
+padding-left: 3.5rem
+*/
+
+#changeSize {
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+}
+
 .divider {
     border: 1px solid rgb(218, 218, 218);
     width: 100%;

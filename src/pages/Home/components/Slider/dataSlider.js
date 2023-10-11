@@ -8,7 +8,7 @@ const dataSlider = [
     subTitle: "Opening Message",
     link: "https://insaneink.com/howitworks",
   },
-  /*
+
   {
     id: uuidv4(),
     title: "Back in Business!",
