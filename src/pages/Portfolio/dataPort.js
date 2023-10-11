@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 
 const dataSlider = [
-  {
+  {//UPLOADING 6 AT A TIME
     id: uuidv4(),
     year: "2023-2024",
     images: [
@@ -10,7 +10,35 @@ const dataSlider = [
         src: `${process.env.PUBLIC_URL}/portfolio/2024/InsaneInkN23.jpg`,
         isWhite: false,
         type: "class"
+      }/*,
+      {
+        name: "Noble Elementary",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/noble.jpg`,
+        isWhite: false,
       }
+      */
+      /*,
+      {
+        name: "Careless Whisper",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/noble.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Piedmont Hills Staff",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/noble.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/noble.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/noble.jpg`,
+        isWhite: false,
+      }
+      */
     ]
   },
   {

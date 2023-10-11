@@ -4,6 +4,7 @@ import pricing from './images/dtgSheet.png'
 function Dtg(){
     return(
         <div className="container dtg">
+            <br/>
             <h2 className="dtg-header">Direct to Garment (In-House T-Shirt Printer)</h2>
             
             <p className="dtg-info">
