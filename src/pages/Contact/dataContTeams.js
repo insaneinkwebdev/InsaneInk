@@ -76,6 +76,80 @@ const dataSlider = [
     name: "Team COO",
     members: "Fiona Chen",
   },
+
+  /*
+  {
+  id: uuidv4(),
+  name: "Awesome Anteaters",
+  members: "Nara Johnson, Venice Meil Metra, Anabel Sairs",
+  },
+  {
+  id: uuidv4(),
+  name: "Bombastic Baddies",
+  members: "Jayla Robles, Amy Le, Catherine Do",
+  },
+  {
+  id: uuidv4(),
+  name: "Canadian Caterpillars",
+  members: "Pedro Renteria Navarro, Edward Munoz, Alex Nunez, Joshua Moreno",
+  },
+  {
+  id: uuidv4(),
+  name: "Daring Dollar Ballers",
+  members: "Venezia Mejia, Josephine Kwok, Himani Manjunath, Emily Hsu",
+  },
+  {
+  id: uuidv4(),
+  name: "Eggzellence",
+  members: "Lauren Lee, Andrew Tran, Joann Nguyen",
+  },
+  {
+  id: uuidv4(),
+  name: "Fundamental Fabricators",
+  members: "Daniel Nguyen, Bowie Chiu, Chris He, Logan Hua",
+  },
+  {
+  id: uuidv4(),
+  name: "Grape",
+  members: "Jerry Nguyen, Jonathan Le, Brandon Calimlim, Rex Orais",
+  },
+  {
+  id: uuidv4(),
+  name: "Hairy People",
+  members: "Sonny Balualua, Truman Luong, Lucas Busta, Darrin Hoang",
+  },
+  {
+  id: uuidv4(),
+  name: "Insane Team",
+  members: "Jordan Sarte, Xavier Avalos, Mathavan Senthilkumar, Andrew Norton, Azriel Gallegos",
+  },
+  {
+  id: uuidv4(),
+  name: "Job Jugglers",
+  members: "Ella Nguyen, Christina Tran, Benjamin Dedering, Maria Blaze",
+  },
+  {
+  id: uuidv4(),
+  name: "Kool Kids",
+  members: "Lydia Tran, Kayla Tran, Kha-Thy Pham, Kaylie Heng",
+  },
+  {
+  id: uuidv4(),
+  name: "Team CEO",
+  members: "Ella Liu, Claire Chen",
+  },
+  {
+  id: uuidv4(),
+  name: "Team CFO",
+  members: "Walter Paco",
+  },
+  {
+  id: uuidv4(),
+  name: "Team COO",
+  members: "Tiago Pereira",
+  },
+
+  */
 ];
 
 export default dataSlider;
