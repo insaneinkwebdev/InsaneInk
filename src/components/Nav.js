@@ -68,27 +68,10 @@ function Navbar(){
                 </div>
 
             </nav>
-             {/* CLOSED FOR SUMMER BANNER
+             {/*YEAR ROUND BANNER*/}
             <div className='closedBanner'>
                 <p className='closedContent'>
-                    Support the PHHS Girls' Volleyball team by attending their Senior Night game on Tuesday 10/24! 
-                    Visit <a href='https://gofan.co/event/1093329?schoolId=CA23017' rel="noreferrer" target="_blank">Go Fan</a> to buy tickets!
-                </p>
-            </div>
-            */}
-            {/*//YEAR ROUND BANNER
-            <div className='closedBanner'>
-                <p className='closedContent'>
-                    Thank you for visiting our site!  For any additional question/inquiries, email <a href='https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=sales@insaneink.com&su=Question%20about%20Insane%20Ink' rel="noreferrer" target="_blank">sales@insaneink.com</a> for more information!
-                </p>
-            </div>
-            */}
-
-            
-            <div className='closedBanner'>
-                <p className='closedContent'>
-                Support the PHHS Girls' Volleyball team by attending their Senior Night game on Tuesday 10/24! 
-                    Visit <a href='https://gofan.co/event/1093329?schoolId=CA23017' rel="noreferrer" target="_blank">Go Fan</a> to buy tickets!
+                    Thank you for visiting our site!  For any additional questions or inquiries, email <a href='https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=sales@insaneink.com&su=Question%20about%20Insane%20Ink' rel="noreferrer" target="_blank">sales@insaneink.com</a> for more information!
                 </p>
             </div>
         </>
