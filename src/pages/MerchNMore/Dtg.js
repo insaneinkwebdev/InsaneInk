@@ -11,7 +11,7 @@ function Dtg(){
                 The go-to for small quantity merch! Simply give us a design and watch the magic happen 🔮<br/>
                 No design? No worries! Our team of experienced designers will design a graphic made just for you!
             </p>
-            <h3 className="dtg-contact">Contact dtginsaneink@gmail.com for questions, comments, or concerns!</h3>
+            <h3 className="dtg-contact">Contact sales@insaneink.com for questions, comments, or concerns!</h3>
             
             <h3 className="dtg-order">Ready to Order? <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSevXFdVognmHv5LXfupJu9Ddhhh-BRSAhIsWAmjhJX_SzeMzA/viewform">DTG Order Form</a></h3>
 

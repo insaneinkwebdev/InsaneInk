@@ -26,6 +26,8 @@ function closeModal(){
     modal.close();
 }
 
+/*
+
 function Fifty(){
     return(
         <div className="container">
@@ -489,8 +491,8 @@ function Fifty(){
 }
 
 export default Fifty;
+*/
 
-/*
 function Fifty(){
     return(
         <div className="container">
@@ -1017,4 +1019,3 @@ function Fifty(){
 }
 
 export default Fifty;
-*/
