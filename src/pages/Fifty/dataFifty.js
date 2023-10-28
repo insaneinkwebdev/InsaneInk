@@ -7,7 +7,7 @@ const dataFifty = [
         year: "2024",
         images: [
             {
-                src: `${process.env.PUBLIC_URL}/fifty/placeholderImg.jpg`,
+                src: `${process.env.PUBLIC_URL}/fifty/2024/seniorVB.jpeg`,
                 title: "2023 Volleyball Senior Night",
                 bio: "Insane Ink designed and printed various marketing materials including vinyl posters for golf carts, posters around campus, stickers, etc. In addition, over 100 water bottles were personalized with the PHHS logo by our team. We utilized all marketing routes to highlight and promote the event making it the game with the highest attendance all season."
             }
