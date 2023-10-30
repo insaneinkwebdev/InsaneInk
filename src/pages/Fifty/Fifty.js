@@ -886,9 +886,8 @@ function Fifty(){
                 </div>
             </div>
             
-            
             <div className="years_mobile">
-                <div className="myear 2024">
+                <div className="myear 2023">
                     <h2 className="year__num">2023-2024</h2>
                     <section className="mobile__content">
                         {dataFifty[0].images.map((obj)=> {
@@ -902,22 +901,8 @@ function Fifty(){
                     </section>
                 </div>
 
-                <div className="myear 2023">
-                    <h2 className="year__num">2022-2023</h2>
-                    <section className="mobile__content">
-                        {dataFifty[0].images.map((obj)=> {
-                            return(
-                                <div className="mobile__card">
-                                    <img className="mobile__card__img" alt="50/50 Concept Event" data-src={placeholder} src={obj.src} onClick={()=> {
-                                        openModal(obj.title, obj.bio, obj.src)
-                                    }}></img>
-                                </div>)
-                        })}                
-                    </section>
-                </div>
-
                 <div className="myear 2022">
-                    <h2 className="year__num">2020-2022</h2>
+                    <h2 className="year__num">2022-2023</h2>
                     <section className="mobile__content">
                         {dataFifty[1].images.map((obj)=> {
                             return(
@@ -931,7 +916,7 @@ function Fifty(){
                 </div>
 
                 <div className="myear 2020">
-                    <h2 className="year__num">2019-2020</h2>
+                    <h2 className="year__num">2021-2022</h2>
                     <section className="mobile__content">
                         {dataFifty[2].images.map((obj)=> {
                             return(
@@ -945,7 +930,7 @@ function Fifty(){
                 </div>
 
                 <div className="myear 2019">
-                    <h2 className="year__num">2018-2019</h2>
+                    <h2 className="year__num">2019-2020</h2>
                     <section className="mobile__content">
                         {dataFifty[3].images.map((obj)=> {
                             return(
