@@ -143,12 +143,6 @@ const dataFifty = [
             }
             ,
             {
-                src: `${process.env.PUBLIC_URL}/fifty/2020/pickmeup (1).jpg`,
-                title: "Pick Me Up",
-                bio: 'Insane Ink hosts "Pick Me Up", an annual event in which students, teachers, and parents came out to beautify Piedmont Hills High School. All participants can take care of their school while engaging in other fun activities, with lunch fully provided by Insane Ink!'
-            }
-            ,
-            {
                 src: `${process.env.PUBLIC_URL}/fifty/2020/climateyouth (1).jpg`,
                 title: "Climate Smart",
                 bio: "Students wear shirts designed and printed by Insane Ink to build environmental identity while conducting civic action about energy-related climate change issues affecting their campuses."
