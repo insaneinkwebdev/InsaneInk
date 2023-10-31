@@ -10,35 +10,32 @@ const dataSlider = [
         src: `${process.env.PUBLIC_URL}/portfolio/2024/InsaneInkN23.jpg`,
         isWhite: false,
         type: "class"
-      }/*,
+      },
       {
         name: "Noble Elementary",
         src: `${process.env.PUBLIC_URL}/portfolio/2024/noble.jpg`,
         isWhite: false,
-      }
-      */
-      /*,
+      },
+      {
+        name: "Treasure Trove Quarter Zips",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/TT.jpg`,
+        isWhite: false,
+      },
       {
         name: "Careless Whisper",
-        src: `${process.env.PUBLIC_URL}/portfolio/2024/noble.jpg`,
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/CarelessWhisper.jpg`,
         isWhite: false,
       },
       {
         name: "Piedmont Hills Staff",
-        src: `${process.env.PUBLIC_URL}/portfolio/2024/noble.jpg`,
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/phhsStaff.jpg`,
         isWhite: false,
       },
       {
-        name: "",
-        src: `${process.env.PUBLIC_URL}/portfolio/2024/noble.jpg`,
-        isWhite: false,
-      },
-      {
-        name: "",
-        src: `${process.env.PUBLIC_URL}/portfolio/2024/noble.jpg`,
+        name: "Piedmont Hills Staff Nametags",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/phhsNameTag.jpg`,
         isWhite: false,
       }
-      */
     ]
   },
   {
