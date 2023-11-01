@@ -74,8 +74,8 @@ function Contact(){
                 <div className="container team">
                     <div className="team-box" onClick={nextSlide}>
                         <div className="team-content">
-                            <h2 id="team-name">Awesome Anteaters</h2>
-                            <p id="team-members">Mariana Salazar, Helen Ha, Jasmine Pham, April Tang</p>
+                            <h2 id="team-name">Ambitious Accessorizers</h2>
+                            <p id="team-members">Nara Johnson, Venice Meil Metra, Anabel Sairs</p>
                         </div>
                     </div>
                 </div>
