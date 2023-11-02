@@ -76,14 +76,16 @@ function openModal(id, pindex){
             })
 
             Array.from({length: dataSlider.length}).map((obj, index) => {
-                var dotsContainer = document.getElementById("modal__dots-wrapper");
-                let dot = document.createElement("div");
-                
-                dot.className = index === 0 ? "dot active" : "dot";
-                //dot.onclick = () => {moveDot(index)};
-                dotsContainer.appendChild(dot);
+                if(index < dataTT[i].num_imgs){
+                    var dotsContainer = document.getElementById("modal__dots-wrapper");
+                    let dot = document.createElement("div");
+                    
+                    dot.className = index === 0 ? "dot active" : "dot";
+                    //dot.onclick = () => {moveDot(index)};
+                    dotsContainer.appendChild(dot);
 
-                return(null)
+                    return(null)
+                }
             })
 
             modal.showModal();
@@ -223,7 +225,7 @@ function TT(){
                         <p id="modal__desc">This is sample text that should be dynamically changed on click. If you see this text... then oops</p>
 
                         <div id="modal__inventory">
-                            <h3 id="modal__inventory-header">Inventory (as of 09/23)</h3>
+                            <h3 id="modal__inventory-header">Inventory (as of 11/1)</h3>
                             <div id="modal__size-container"></div>
                             <div id="modal__inventory-notice-box" className="modal__inventory-notice-box">
                                 <p id="modal__inventory-notice" className="modal__inventory-notice">Less than 5 left in stock!</p>
