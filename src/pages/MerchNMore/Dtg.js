@@ -13,7 +13,7 @@ function Dtg(){
             </p>
             <h3 className="dtg-contact">Contact sales@insaneink.com for questions, comments, or concerns!</h3>
             
-            <h3 className="dtg-order">Ready to Order? <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSevXFdVognmHv5LXfupJu9Ddhhh-BRSAhIsWAmjhJX_SzeMzA/viewform">DTG Order Form</a></h3>
+            <h3 className="dtg-order">Ready to Order? <a  target="_blank" rel="noreferrer" href="https://forms.gle/RNe1n8QYViJwoLMZ8">DTG Order Form</a></h3>
 
             <div className="dtg-pricing-wrapper">
                 <img src={pricing} alt="dtg pricing sheet" className="dtg-pricing"></img>

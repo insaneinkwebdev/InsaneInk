@@ -14,7 +14,7 @@ function Roland(){
                 </p>
                 <h3 className="rol-contact">Contact sales@insaneink.com for questions, comments, or concerns!</h3>
 
-                <h3 className="rol-order">Ready to Order? <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSe-PAAQu2jWN493-tq5oqoftYFc9Zr23tPf2kLaowO1kVJRyg/viewform">Roland Order Form</a></h3>
+                <h3 className="rol-order">Ready to Order? <a  target="_blank" rel="noreferrer" href="https://forms.gle/hx4mrJvqwkEpAPHt9">Roland Order Form</a></h3>
 
                 <div className="rol-pricing-wrapper">
                     <img src={printPricing} alt="rol pricing sheet" className="rol-pricing"></img>
