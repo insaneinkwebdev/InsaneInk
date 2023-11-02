@@ -67,8 +67,8 @@ function openModal(id, pindex){
 
                 slideImg.id = "modal__img";
                 slideImg.alt = "product";
-                slideImg.src = process.env.PUBLIC_URL + `/TT/product_${pindex + 1}/img_${index + 1}.png`;
-
+                slideImg.src = process.env.PUBLIC_URL + `/TT/product_${pindex + 1}/`+ dataTT[i].img_prefix + `${index + 1}.` + dataTT[i].img_suffix;
+                
                 slide.appendChild(slideImg);
                 slideshowContainer.appendChild(slide);
 
@@ -190,7 +190,7 @@ function TT(){
                     {dataTT.map((obj, index) => {
                         return(
                             <div className="card stacked" key={obj.id}>
-                                <img src={process.env.PUBLIC_URL + `/TT/product_${index + 1}/img_1.png`} alt="product img" className="card__img" onClick={function(){
+                                <img src={process.env.PUBLIC_URL + `/TT/product_${index + 1}/` + obj.img_prefix + "1." + obj.img_suffix} alt="product img" className="card__img" onClick={function(){
                                     openModal(obj.id, index, slideIndex)
                                 }}/>
                                 <div className="card__content">

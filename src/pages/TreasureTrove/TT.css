@@ -184,7 +184,9 @@
 }
 
 #modal__img {
-    max-width: 31rem;
+    width: 31rem;
+    max-height: 37rem;
+    object-fit: cover;
     border-radius: 5px;
 }
 
