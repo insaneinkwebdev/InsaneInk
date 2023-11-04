@@ -117,7 +117,7 @@ const dataSlider = [
     img_suffix: "jpg",
     num_imgs: 5,
     price: "$20.00",
-    description: "Piedmont Hills with a lil retro twist to it. Available in gray or sand!",
+    description: "Piedmont Hills with a lil retro twist to it. Available in gray and sand!",
     featured: false,
     sizes: [
       {

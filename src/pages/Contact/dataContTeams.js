@@ -14,7 +14,7 @@ const dataSlider = [
   {
   id: uuidv4(),
   name: "Classy Crews",
-  members: "Pedro Renteria Navarro, Edward Munoz, Alex Nunez, Joshua Moreno",
+  members: "Pedro Renteria, Edward Munoz, Alex Nunez, Joshua Moreno",
   },
   {
   id: uuidv4(),
