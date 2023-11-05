@@ -31,27 +31,6 @@ const dataSlider = [
   },
   {
   id: uuidv4(),
-  name: "Logan Hua",
-  position: "Director of Treasure Trove",
-  email: "hualogan5244\n@students.esuhsd.org",
-  phone: "(669)-254-7358",
-  },
-  {
-  id: uuidv4(),
-  name: "Benjamin Dedering",
-  position: "Director of Specialty Printing",
-  email: "dederingbenjamin3099\n@students.esuhsd.org",
-  phone: "(408)-786-7928",
-  },
-  {
-  id: uuidv4(),
-  name: "Jayla Robles",
-  position: "Director of DTG",
-  email: "roblesjayla2965\n@students.esuhsd.org",
-  phone: "(408)-393-8376",
-  },
-  {
-  id: uuidv4(),
   name: "Nara Johnson",
   position: "VP of Graphic Design",
   email: "johnsonnara5479\n@students.esuhsd.org",
@@ -70,6 +49,27 @@ const dataSlider = [
   position: "VP of Web Development",
   email: "mejiavenezia0399\n@students.esuhsd.org",
   phone: "(408)-412-2734",
+  },
+  {
+  id: uuidv4(),
+  name: "Jayla Robles",
+  position: "Director of DTG",
+  email: "roblesjayla2965\n@students.esuhsd.org",
+  phone: "(408)-393-8376",
+  },
+  {
+  id: uuidv4(),
+  name: "Benjamin Dedering",
+  position: "Director of Specialty Printing",
+  email: "dederingbenjamin3099\n@students.esuhsd.org",
+  phone: "(408)-786-7928",
+  },
+  {
+  id: uuidv4(),
+  name: "Logan Hua",
+  position: "Director of Treasure Trove",
+  email: "hualogan5244\n@students.esuhsd.org",
+  phone: "(669)-254-7358",
   }
   
 ];
