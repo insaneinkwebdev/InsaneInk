@@ -5,47 +5,11 @@ const dataSlider = [
     //update inventory SOON
     id: uuidv4(),
     name: "Anchor Zip Up",
-    img_prefix: "img_",
-    img_suffix: "png",
-    num_imgs: 5,
+    img_prefix: "anchorZip_",
+    img_suffix: "jpg",
+    num_imgs: 3,
     price: "$25.00",
-    description: "Our new full zip-up is perfect for the winter cold and the new semester, or even as a last minute Christmas gift for your friends and family! Only available in gray.",
-    featured: false,
-    sizes: [
-      {
-        "type": "XS",
-        "quant": 0
-      },
-      {
-        "type": "S",
-        "quant": 0
-      },
-      {
-        "type": "M",
-        "quant": 0
-      },
-      {
-        "type": "L",
-        "quant": 0
-      },
-      {
-        "type": "XL",
-        "quant": 0
-      },
-      {
-        "type": "2XL",
-        "quant": 0
-      }
-    ]
-  },
-  {
-    id: uuidv4(),
-    name: "Home Of The Pirates Long Sleeve",
-    img_prefix: "img_",
-    img_suffix: "png",
-    num_imgs: 5,
-    price: "$10.00",
-    description: "Wanna rep Piedmont Hills while staying cozy? We got you covered! Only available in white.",
+    description: "A unique take on school spirit, the splash of blues encompass the oceanic vibes of the Piedmont Hills Pirates! Available in a nice heather gray!",
     featured: false,
     sizes: [
       {
@@ -77,11 +41,11 @@ const dataSlider = [
   {
     id: uuidv4(),
     name: "Pirate Surf Hoodie",
-    img_prefix: "img_",
-    img_suffix: "png",
+    img_prefix: "surfHoodie_",
+    img_suffix: "jpg",
     num_imgs: 5,
     price: "$20.00",
-    description: "Ready to ride through the cold months with a summer vibe 🌊 Only available in sand.",
+    description: "Wanna test the waters and “surf” through this school year? Then a hoodie with a surfing pirate is all you need! Come get yours in a bangin’ sand on maroon colorway!",
     featured: false,
     sizes: [
       {
@@ -112,12 +76,12 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "PHHS College Crewneck",
-    img_prefix: "collegeCrew_",
+    name: "Piedmont Hills Quarter Zip",
+    img_prefix: "quarterZip_",
     img_suffix: "jpg",
-    num_imgs: 5,
-    price: "$20.00",
-    description: "Piedmont Hills with a lil retro twist to it. Available in gray and sand!",
+    num_imgs: 4,
+    price: "$28.00",
+    description: "Wanna stay cozy while repping PHHS? This quarter zip really puts the Hills in Piedmont Hills! Available in maroon and black.",
     featured: false,
     sizes: [
       {
@@ -130,15 +94,51 @@ const dataSlider = [
       },
       {
         "type": "M",
+        "quant": 0
+      },
+      {
+        "type": "L",
+        "quant": 0
+      },
+      {
+        "type": "XL",
+        "quant": 0
+      },
+      {
+        "type": "2XL",
+        "quant": 0
+      }
+    ]
+  },
+  {
+    id: uuidv4(),
+    name: "PHHS College Crewneck",
+    img_prefix: "collegeCrew_",
+    img_suffix: "jpg",
+    num_imgs: 5,
+    price: "$20.00",
+    description: "An iconic design that never goes out of style, these staple crews are perfect for the distinguished Piedmont Hills High School student. These timeless crews are available in sand and gray!",
+    featured: false,
+    sizes: [
+      {
+        "type": "XS",
+        "quant": 0
+      },
+      {
+        "type": "S",
+        "quant": 7
+      },
+      {
+        "type": "M",
         "quant": 2
       },
       {
         "type": "L",
-        "quant": 3
+        "quant": 6
       },
       {
         "type": "XL",
-        "quant": 2
+        "quant": 4
       },
       {
         "type": "2XL",
@@ -153,7 +153,7 @@ const dataSlider = [
     img_suffix: "jpg",
     num_imgs: 5,
     price: "$10.00",
-    description: "Piedmont Hills with a lil retro twist to it. Only available in white.",
+    description: "For warmer occasions, wear our timeless college logo on a breathable short sleeve available in a maroon on white colorway!",
     featured: true,
     sizes: [
       {
@@ -189,7 +189,7 @@ const dataSlider = [
     img_suffix: "jpg",
     num_imgs: 5,
     price: "$25.00",
-    description: "Piedmont Hills with a lil retro twist to it. Available in gray, white and sand.",
+    description: "With two available colorways (gray and white), our iconic design is also represented on a cozy hoodie! Great for winter time!",
     featured: false,
     sizes: [
       {
@@ -198,11 +198,11 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 4
+        "quant": 3
       },
       {
         "type": "M",
-        "quant": 5
+        "quant": 4
       },
       {
         "type": "L",
@@ -210,7 +210,7 @@ const dataSlider = [
       },
       {
         "type": "XL",
-        "quant": 0
+        "quant": 1
       },
       {
         "type": "2XL",
@@ -225,7 +225,7 @@ const dataSlider = [
     img_suffix: "jpg",
     num_imgs: 5,
     price: "$15.00",
-    description: "Piedmont Hills with a lil retro twist to it. Only available in white.",
+    description: "Similar to our short sleeve tee, but now our timeless design is on a long sleeve!",
     featured: true,
     sizes: [
       {
@@ -261,7 +261,7 @@ const dataSlider = [
     img_suffix: "jpg",
     num_imgs: 5,
     price: "$15.00",
-    description: "Piedmont Hills with a lil retro twist to it. Only available in white.",
+    description: "Perfect for showing off  ‘em muscles, or just to cool down on a hot day! Our iconic design is also available on a white tank top!",
     featured: true,
     sizes: [
       {
@@ -297,12 +297,48 @@ const dataSlider = [
     img_suffix: "jpg",
     num_imgs: 3,
     price: "$5.00",
-    description: "The perfect tote to hold all your things!",
+    description: "Just a simple bag for carrying your everyday essentials!",
     featured: true,
     sizes: [
       {
         "type": "M",
         "quant": 16
+      }
+    ]
+  },
+  {
+    id: uuidv4(),
+    name: "PHHS Sweats",
+    img_prefix: "sweats_",
+    img_suffix: "jpg",
+    num_imgs: 3,
+    price: "$25.00",
+    description: "The perfect sweats to keep warm this winter, topped with our maroon PH anchor design. Available in gray.",
+    featured: true,
+    sizes: [
+      {
+        "type": "XS",
+        "quant": 0
+      },
+      {
+        "type": "S",
+        "quant": 0
+      },
+      {
+        "type": "M",
+        "quant": 0
+      },
+      {
+        "type": "L",
+        "quant": 3
+      },
+      {
+        "type": "XL",
+        "quant": 2  
+      },
+      {
+        "type": "2XL",
+        "quant": 0
       }
     ]
   }

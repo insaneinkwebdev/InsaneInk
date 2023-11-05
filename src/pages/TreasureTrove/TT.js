@@ -58,20 +58,23 @@ function openModal(id, pindex){
             })
 
             dataSlider.map((obj, index) => {
-                var slideshowContainer = document.getElementById("modal__slideshow");
-                let slide = document.createElement("div");
-                let slideImg = document.createElement("img");
+                if(index < dataTT[pindex].num_imgs){
+                    var slideshowContainer = document.getElementById("modal__slideshow");
+                    let slide = document.createElement("div");
+                    let slideImg = document.createElement("img");
 
-                slide.className = index === 0 ? "modal__slide active-anim" : "modal__slide";
-                slide.id = "modal__slide";
+                    slide.className = index === 0 ? "modal__slide active-anim" : "modal__slide";
+                    slide.id = "modal__slide";
 
-                slideImg.id = "modal__img";
-                slideImg.alt = "product";
-                slideImg.src = process.env.PUBLIC_URL + `/TT/product_${pindex + 1}/`+ dataTT[i].img_prefix + `${index + 1}.` + dataTT[i].img_suffix;
-                
-                slide.appendChild(slideImg);
-                slideshowContainer.appendChild(slide);
+                    slideImg.id = "modal__img";
+                    slideImg.alt = "product";
 
+                    slideImg.src = process.env.PUBLIC_URL + `/TT/product_${pindex + 1}/`+ dataTT[i].img_prefix + `${index + 1}.` + dataTT[i].img_suffix;
+
+                    slide.appendChild(slideImg);
+                    slideshowContainer.appendChild(slide);
+                }
+    
                 return(null)
             })
 
@@ -192,8 +195,9 @@ function TT(){
                     {dataTT.map((obj, index) => {
                         return(
                             <div className="card stacked" key={obj.id}>
-                                <img src={process.env.PUBLIC_URL + `/TT/product_${index + 1}/` + obj.img_prefix + "1." + obj.img_suffix} alt="product img" className="card__img" onClick={function(){
-                                    openModal(obj.id, index, slideIndex)
+                                <img src={process.env.PUBLIC_URL + `/TT/product_${index + 1}/` + obj.img_prefix + "1." + obj.img_suffix} alt="product img" className="card__img" 
+                                onClick={function(){
+                                    openModal(obj.id, index)
                                 }}/>
                                 <div className="card__content">
                                     <h3 className="card__title">{obj.name}</h3>
