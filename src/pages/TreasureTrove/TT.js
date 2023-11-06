@@ -1,4 +1,3 @@
-import {useState} from 'react'
 import dataTT from './dataTT'
 import dataSlider from "./dataTTSlider"
 import close from '../../images/close.svg'
@@ -9,17 +8,16 @@ import rightArrow from "./icons/arrow-right.svg";
 import "./TT.css"
 
 function openModal(id, pindex){
-    slideIndex = 0;
+    slideIndex = 1
 
     for(var i=0; i < dataTT.length; i++){
-        continue
         if(dataTT[i].id === id){
             var sizeBoxContainer = document.getElementById("modal__size-container");
             var slideshowContainer = document.getElementById("modal__slideshow");
             var dotsContainer = document.getElementById("modal__dots-wrapper");
 
             dotsContainer.innerHTML = "";
-            //slideshowContainer.innerHTML = "";
+            slideshowContainer.innerHTML = "";
             sizeBoxContainer.innerHTML = "";
 
             var modal = document.getElementById("modal");
@@ -60,7 +58,6 @@ function openModal(id, pindex){
             })
 
             dataSlider.map((obj, index) => {
-                return null;
                 if(index < dataTT[pindex].num_imgs){
                     var slideshowContainer = document.getElementById("modal__slideshow");
                     let slide = document.createElement("div");
@@ -174,21 +171,6 @@ function showSlide(n){
 }*/
 
 function TT(){
-    // The React useState Hook allows us to track state in a function component.
-    const [product, setProduct] = useState(dataTT[0]);
-    const [slideIndex, setSlideIndex] = useState(0);
-    const [productSizeQuantity, setProductSizeQuantity] = useState(0);
-
-    function updateSlide(sIndex) {
-        if (sIndex >= product.images.length) {
-            sIndex = 0
-        }
-        else if (sIndex < 0) {
-            sIndex = product.images.length - 1;
-        }
-        setSlideIndex(sIndex);
-    };
-
     return(
         <div className="container">
              <br/>
@@ -210,19 +192,16 @@ function TT(){
 
             <div className="container product">
                 <div className="product-grid">
-                    {dataTT.map((productObj, index) => {
+                    {dataTT.map((obj, index) => {
                         return(
-                            <div className="card stacked" key={productObj.id}>
-                                <img src={productObj.images[0]} alt="product img" className="card__img"
-                                    onClick={function() {
-                                        setProduct(productObj);
-                                        setSlideIndex(0);
-                                        document.getElementById("modal").showModal();
-                                    }}
-                                />
+                            <div className="card stacked" key={obj.id}>
+                                <img src={process.env.PUBLIC_URL + `/TT/product_${index + 1}/` + obj.img_prefix + "1." + obj.img_suffix} alt="product img" className="card__img" 
+                                onClick={function(){
+                                    openModal(obj.id, index)
+                                }}/>
                                 <div className="card__content">
-                                    <h3 className="card__title">{productObj.name}</h3>
-                                    <p className="card__price">{productObj.price}</p>
+                                    <h3 className="card__title">{obj.name}</h3>
+                                    <p className="card__price">{obj.price}</p>
                                 </div>
                             </div>
                         )
@@ -233,55 +212,26 @@ function TT(){
             <dialog className="modal" id="modal">
                 <div className="modal__container">
                     <div className='modal__slideshow-wrapper'>
-                        <div id="modal__slideshow">
-                            <div className="modal__slide active-anim" id="modal__slide">
-                                <img id="modal__img" alt="product" src={product.images[slideIndex]}></img>
-                            </div>
-                        </div>
-                        <button onClick={function() {updateSlide(slideIndex + 1)}} className="modal__btn-slide next">
+                        <div id="modal__slideshow"></div>
+                        <button onClick={nextSlide} className="modal__btn-slide next">
                             <img src={rightArrow} alt='slider nav button next'/>
                         </button>
 
-                        <button onClick={function() {updateSlide(slideIndex - 1)}} className="modal__btn-slide prev">
+                        <button onClick={prevSlide} className="modal__btn-slide prev">
                             <img src={leftArrow} alt='slider nav button prev'/>
                         </button>
 
-                        <div id="modal__dots-wrapper">
-                            {product.images.map((obj, index) => {
-                                return(
-                                    <div className={"dot " + ((index === slideIndex) ? "active" : "")}></div>
-                                )
-                            })}
-                        </div>
+                        <div id="modal__dots-wrapper"></div>
                     </div>
                     <div className="modal__content">
-                        <h2 id="modal__product">{product.name}</h2>
-                        <p id="modal__price">{product.price}</p>
-                        <p id="modal__desc">{product.description}</p>
+                        <h2 id="modal__product">Test modal</h2>
+                        <p id="modal__price">$999</p>
+                        <p id="modal__desc">This is sample text that should be dynamically changed on click. If you see this text... then oops</p>
 
                         <div id="modal__inventory">
                             <h3 id="modal__inventory-header">Inventory (as of 11/1)</h3>
-                            <div id="modal__size-container">
-                                {product.sizes.map((obj, index) => {
-                                        return(
-                                            <div id="modal__size-box" key={index}
-                                                className={"modal__size-box " +
-                                                    ((obj.quant === 0) ? "oos" :
-                                                    ((obj.quant < 5) ? "low" : "")) }
-                                                onMouseEnter={function() {setProductSizeQuantity(obj.quant)}}
-                                                onMouseLeave={function() {setProductSizeQuantity(0)}}
-                                            >
-                                                <p id="modal__size-text">
-                                                    {obj.type}
-                                                </p>
-                                            </div>
-                                        )
-                                    })
-                                }
-                            </div>
-                            <div id="modal__inventory-notice-box" className="modal__inventory-notice-box"
-                                 style={{ display: (productSizeQuantity > 0 && productSizeQuantity <= 5) ? "block": "none"}}
-                                 >
+                            <div id="modal__size-container"></div>
+                            <div id="modal__inventory-notice-box" className="modal__inventory-notice-box">
                                 <p id="modal__inventory-notice" className="modal__inventory-notice">Less than 5 left in stock!</p>
                             </div>
                         </div>
@@ -290,7 +240,7 @@ function TT(){
                     </div>
                 </div>
                
-                <img id="modal__close" src={close} onClick={function() {document.getElementById("modal").close()}} alt="close modal"></img>
+                <img id="modal__close" src={close} onClick={closeModal} alt="close modal"></img>
             </dialog>
         </div>
     );
