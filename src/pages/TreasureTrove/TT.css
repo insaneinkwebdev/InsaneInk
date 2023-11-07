@@ -12,6 +12,30 @@
     justify-content: center;
 }
 
+
+@media screen and (max-width: 400px){
+    .specialImg {
+        height: 185px;
+        margin: 5px;
+        align-items: center;   
+    }
+
+    .specials {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        -ms-flex-align: center;
+        justify-content: center;
+    }
+
+    .tt-store {
+        font-size: 0.5em;
+        text-align: center;
+        color: #7C2F3F;
+        margin: 0 1rem;
+    }
+}
+
 #currentspecials{
     padding-bottom: 1rem;
 }
