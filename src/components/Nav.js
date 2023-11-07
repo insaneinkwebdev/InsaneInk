@@ -59,7 +59,14 @@ function Navbar(){
                             <li><a href="https://www.insaneink.com/the5050concept.php#Events2013">2013-2014 Events</a></li>
                         </ul>*/}
                     </li>
-                    <li><a href="/treasuretrove">Treasure Trove</a></li>
+
+                    <li>
+                        <a href="/treasuretrove" className='drop-hover merch'>Treasure Trove</a>
+                        <ul className='drop merch'>
+                            <li><a href="/treasuretrove#currentspecials">Current Specials</a></li>
+                            <li><a href="/treasuretrove#currentcollection">Fall/Winter Collection</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <div className='burger' onClick={burger}>
                     <div className='line1'></div>

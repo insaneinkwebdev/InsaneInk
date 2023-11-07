@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import dataTT from './dataTT'
 import dataSlider from "./dataTTSlider"
 import close from '../../images/close.svg'
@@ -93,6 +95,8 @@ function openModal(id, pindex){
 
             modal.showModal();
         }
+
+        
     }
 }
 
@@ -171,10 +175,27 @@ function showSlide(n){
 }*/
 
 function TT(){
+    const [product, setProduct] = useState(dataTT[0]);
+
     return(
         <div className="container">
-             <br/>
-            <h2 className="tt-header">Fall/Winter 2023 Collection 🍂</h2>
+
+            <div>
+                <h2 id= "currentspecials">Current Specials!</h2>
+                <h3 className="tt-store">Check out what current specials PHHS has to offer! Each item is made-to-order. Scan the QR code or click each image to order yours now!</h3>
+
+                <div className="specials">
+                    <div><a href='https://docs.google.com/forms/d/1klcmwDm4ZnRDSCANILORJQc_LmvxAXwP9-0EBJpoQc4/viewform?edit_requested=true'><img className="specialImg" src="/TT/specials/digitalChest.jpg"></img></a></div>
+                    <div><a href='https://docs.google.com/forms/d/e/1FAIpQLSd2d3g_0-qvPu9PZsrAPob4SW6oI0ez-JztLLrXBK4gtOxpLA/viewform'><img className="specialImg" src="/TT/specials/helloKittySports.jpg"></img></a></div>
+                    <div><a href='https://docs.google.com/forms/d/e/1FAIpQLScR6wDfE3oWHbBkvHdmX9N0ziExQIqCHdl5_AgR40GjEoh5HQ/viewform'><img className="specialImg" src="/TT/specials/tanCollegeCrew.jpg"></img></a></div>
+                    <br />
+                </div>
+            </div>
+
+            <hr></hr>
+            <br />
+
+            <h2 className="tt-header" id="currentcollection">Fall/Winter 2023 Collection 🍂</h2>
             <div className="tt-store-box">
                 <h3 className="tt-store">Store Hours (every Thursday): </h3>
                 
@@ -197,6 +218,7 @@ function TT(){
                             <div className="card stacked" key={obj.id}>
                                 <img src={process.env.PUBLIC_URL + `/TT/product_${index + 1}/` + obj.img_prefix + "1." + obj.img_suffix} alt="product img" className="card__img" 
                                 onClick={function(){
+                                    setProduct(obj)
                                     openModal(obj.id, index)
                                 }}/>
                                 <div className="card__content">
@@ -228,7 +250,9 @@ function TT(){
                         <p id="modal__price">$999</p>
                         <p id="modal__desc">This is sample text that should be dynamically changed on click. If you see this text... then oops</p>
 
-                        <div id="modal__inventory">
+                        <div id="modal__inventory" style={
+                            {display: (product.name == "Current Specials") ? "none": "block"}
+                            }>
                             <h3 id="modal__inventory-header">Inventory (as of 11/1)</h3>
                             <div id="modal__size-container"></div>
                             <div id="modal__inventory-notice-box" className="modal__inventory-notice-box">
@@ -236,7 +260,7 @@ function TT(){
                             </div>
                         </div>
 
-                        <p id="modal__disclaimer">Disclaimer: You cannot purchase items online</p>
+                        <p id="modal__disclaimer">Disclaimer: You cannot purchase items online. </p>
                     </div>
                 </div>
                

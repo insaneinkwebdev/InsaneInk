@@ -2,7 +2,6 @@ import { v4 as uuidv4 } from "uuid";
 
 const dataSlider = [
   {
-    //update inventory SOON
     id: uuidv4(),
     name: "Anchor Zip Up",
     img_prefix: "anchorZip_",
@@ -22,15 +21,15 @@ const dataSlider = [
       },
       {
         "type": "M",
-        "quant": 0
+        "quant": 9
       },
       {
         "type": "L",
-        "quant": 0
+        "quant": 13
       },
       {
         "type": "XL",
-        "quant": 0
+        "quant": 3
       },
       {
         "type": "2XL",
@@ -54,15 +53,15 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 6
+        "quant": 3
       },
       {
         "type": "M",
-        "quant": 20
+        "quant": 18
       },
       {
         "type": "L",
-        "quant": 6
+        "quant": 5
       },
       {
         "type": "XL",
