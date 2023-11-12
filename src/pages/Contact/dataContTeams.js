@@ -56,6 +56,7 @@ const dataSlider = [
   name: "Krafty Kreators",
   members: "Lydia Tran, Kayla Tran, Kha-Thy Pham, Kaylie Heng",
   },
+  /*
   {
   id: uuidv4(),
   name: "Team CEO",
@@ -71,6 +72,7 @@ const dataSlider = [
   name: "Team COO",
   members: "Tiago Pereira",
   },
+  */
 ];
 
 export default dataSlider;
