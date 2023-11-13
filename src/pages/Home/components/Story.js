@@ -1,6 +1,6 @@
 import '../Home.css'
 import "animate.css/animate.min.css";
-import poster from "../../../images/index/2023-2024/groupPic.jpg"
+import poster from "../../../images/index/coverphoto.png"
 
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
