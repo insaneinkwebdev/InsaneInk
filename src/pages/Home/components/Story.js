@@ -1,6 +1,6 @@
 import '../Home.css'
 import "animate.css/animate.min.css";
-import poster from "../../../images/index/coverphoto.png"
+import poster from "../../../images/index/2023-2024/groupPic.jpg"
 
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
@@ -24,7 +24,7 @@ function Story(){
             
             <div className="story-content vid">
                 <video controls={true} playsInline={true} autoPlay={true} loop={true} poster={poster} className="coverVid">
-                    <source src={require("../../../videos/2022-2023/23vid.mp4")} type="video/mp4"/>
+                    <source src={require("../../../videos/2023-2024/24homeVid.mov")} type="video/mov"/>
                     Your browser does not support the video tag.
                 </video>
                 
