@@ -21,6 +21,8 @@ function Roland(){
                     For this cutline, you may choose from a white outline or a Pantone color of your choice (we recommend matching outline color to product color so outline is less apparent).
                 </p>
 
+                <br></br>
+
                 <h3 className="rol-contact limit-header">Print Shop</h3>
 
                 <p className="rol-info">
