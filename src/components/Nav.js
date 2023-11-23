@@ -34,14 +34,12 @@ function Navbar(){
                         <a href="/howitworks" className='drop-hover merch'>How To Order</a>
                         <ul className='drop merch'>
                             <li><a href="/dtg">Small Quantity (DTG)</a></li>
-                            <li><a href="/roland#print-shop">Print Shop</a></li>
-                            <li><a href="/roland#heat-shop">Heat Press</a></li>
+                            <li><a href="/roland#print-shop">Specialty Printing</a></li>
                         </ul>
                     </li>
 
                     <li id="nav-mobile-on"><a href="/dtg">Small Quantity (DTG)</a></li>
-                    <li id="nav-mobile-on"><a href="/roland#print-shop">Print Shop</a></li>
-                    <li id="nav-mobile-on"><a href="/roland#heat-shop">Heat Press</a></li>
+                    <li id="nav-mobile-on"><a href="/roland#print-shop">Specialty Printing</a></li>
 
                     <li><a href="/our-portfolio">Portfolio</a></li>
 
@@ -67,6 +65,10 @@ function Navbar(){
                             <li><a href="/treasuretrove#currentcollection">Fall/Winter Collection</a></li>
                         </ul>
                     </li>
+
+                    <li id="nav-mobile-on"><a href="/treasuretrove#currentspecials">Current Specials</a></li>
+                    <li id="nav-mobile-on"><a href="/treasuretrove#currentcollection">Fall/Winter Collection</a></li>
+
                 </ul>
                 <div className='burger' onClick={burger}>
                     <div className='line1'></div>
@@ -78,7 +80,9 @@ function Navbar(){
              {/*YEAR ROUND BANNER*/}
             <div className='closedBanner'>
                 <p className='closedContent'>
+                    {/*
                     Thank you for visiting our site!  For any additional questions or inquiries, email <a href='https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=sales@insaneink.com&su=Question%20about%20Insane%20Ink' rel="noreferrer" target="_blank">sales@insaneink.com</a> for more information!
+                    */}
                 </p>
             </div>
         </>

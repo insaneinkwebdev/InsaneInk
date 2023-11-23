@@ -27,12 +27,12 @@ padding-left: 3.5rem
     margin-left: 23rem;
     color: #232323;
     font-size: 1.1rem;
-    max-width: 55rem;
+    max-width: 80rem;
     text-align: center;
 }
 
 .rol-pricing-wrapper {
-    margin: 3rem 0;
+    margin: 0rem 0;
     margin-bottom: 0;
     display: flex;
     justify-content: center;
@@ -41,7 +41,6 @@ padding-left: 3.5rem
 
 .rol-pricing {
     max-width: 60rem;
-    
 }
 
 .rol-contact, .rol-order {
@@ -53,9 +52,8 @@ padding-left: 3.5rem
 
 .rol-order {
     font-size: 1.3rem;
-    margin: 2rem;
+    margin: 2rem 2rem 0rem;
 }
-
 
 .rol-order a {
     color: #BC566B;
@@ -63,13 +61,13 @@ padding-left: 3.5rem
 
 .rol-disclaimer {
     color: #BC566B;
-    width: 40rem;
+    max-width: 68rem;
     text-align: center;
     margin: 0.85rem 30rem;
 }
 
 .limit-header {
-    text-align: left;
+    text-align: center;
     font-size: 1.3rem;
     margin: 1rem 20rem;
     margin-top: 2rem;

@@ -30,8 +30,7 @@ function Footer(){
                             <div className='footer-links'>
                                 <a href="/howitworks">How To Order</a>
                                 <a href="/dtg">Small Quantity (DTG)</a>
-                                <a href="/roland#print-shop">Print Shop</a>
-                                <a href="/roland#heat-shop">Heat Press</a>
+                                <a href="/roland#print-shop">Specialty Printing</a>
                             </div>
                         </div>
                         <div className='footer-col' id="useful-links">
