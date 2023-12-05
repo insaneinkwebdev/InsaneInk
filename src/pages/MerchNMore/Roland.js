@@ -9,6 +9,20 @@ function Roland(){
             <div id="print-shop">
                 <h2 className="rol-header">Specialty Printing</h2>
                 
+                <h3 className="rol-order">
+                    Ready to Order? <a  target="_blank" rel="noreferrer" href="https://forms.gle/hx4mrJvqwkEpAPHt9">Roland Order Form (stickers, posters, flyers)</a>
+                    &nbsp; | &nbsp;
+                    <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScFg6L6hgUWL60ATnnzRYrmZbWbO8Lq-ALAj7DfGLbbQUOXXw/viewform">Heat Press Order Form</a>
+                </h3>
+
+                <p className="rol-disclaimer">
+                    Once a form is submitted, an Insane Ink representative will be in contact to verify pricing before project is started.
+                </p>
+
+                <h3 className="rol-contact">Contact sales@insaneink.com for questions, comments, or concerns!</h3>
+
+                <hr></hr>
+
                 <h3 className="rol-contact limit-header">Heat Press</h3>
 
                 <p className="rol-info">
@@ -18,10 +32,8 @@ function Roland(){
 
                 <p className="rol-disclaimer">
                     A cut line may be added if there are small details or if the design's outer color is inconsistent. 
-                    For this cutline, you may choose from a white outline or a Pantone color of your choice (we recommend matching outline color to product color so outline is less apparent).
+                    For this cutline, you may choose a white outline or a Pantone color of your choice (we recommend matching outline color to product color so outline is less apparent).
                 </p>
-
-                <br></br>
 
                 <h3 className="rol-contact limit-header">Print Shop</h3>
 
@@ -35,18 +47,8 @@ function Roland(){
                     <img src={printPricing} alt="rol pricing sheet" className="rol-pricing"></img>
                 </div>
 
-                <h3 className="rol-contact">Contact sales@insaneink.com for questions, comments, or concerns!</h3>
-
-                <h3 className="rol-order">
-                    Ready to Order? <a  target="_blank" rel="noreferrer" href="https://forms.gle/hx4mrJvqwkEpAPHt9">Roland Order Form (stickers, posters, flyers)</a>
-                    &nbsp; &nbsp;
-                    <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScQio4TmKhnVIR3jxrQQ1fsVJkQxXS0s16BULIFR4EYIfwfvw/viewform">Heat Press Order Form</a>
-                </h3>
-
-                <p className="rol-disclaimer">
-                    Once a form is submitted, an Insane Ink representative will be in contact to verify pricing before project is started.
-                </p>
-
+                <br></br>
+                <br></br>
                 
             </div>
 
