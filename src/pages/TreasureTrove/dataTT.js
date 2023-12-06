@@ -7,7 +7,7 @@ const dataSlider = [
     img_prefix: "anchorZip_",
     img_suffix: "jpg",
     num_imgs: 3,
-    price: "$25.00",
+    price: "ON SALE: $20.00",
     description: "A unique take on school spirit, the splash of blues encompass the oceanic vibes of the Piedmont Hills Pirates! Available in a nice heather gray!",
     featured: false,
     sizes: [
@@ -43,7 +43,7 @@ const dataSlider = [
     img_prefix: "surfHoodie_",
     img_suffix: "jpg",
     num_imgs: 5,
-    price: "$20.00",
+    price: "ON SALE: $15.00",
     description: "Wanna test the waters and “surf” through this school year? Then a hoodie with a surfing pirate is all you need! Come get yours in a bangin’ sand on maroon colorway!",
     featured: false,
     sizes: [
