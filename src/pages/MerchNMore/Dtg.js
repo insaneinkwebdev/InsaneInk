@@ -8,8 +8,9 @@ function Dtg(){
             <h2 className="dtg-header">Direct to Garment (In-House T-Shirt Printer)</h2>
             
             <p className="dtg-info">
-                The go-to for small quantity merch! Simply give us a design and watch the magic happen 🔮<br/>
-                No design? No worries! Our team of experienced designers will design a graphic made just for you!
+                In House DTG printing allows you to print from as little as 1 item to as many as 20 items! With DTG, you can print <strong>unlimited colors, photos and more!</strong> Everything is up to you!
+
+                No design? No worries! Our team of experienced designers will design a graphic made just for you! 
             </p>
             <h3 className="dtg-contact">Contact sales@insaneink.com for questions, comments, or concerns!</h3>
             
@@ -20,9 +21,9 @@ function Dtg(){
             </div>
             
             <p className="dtg-disclaimer">
-                This option is only available for orders of 20 shirts or less. 
+                Only available for orders of 20 shirts or less. 
                 There is a $10 fee if you would like us to design a graphic. 
-                We can print designs of any color EXCEPT white
+                We can print designs of any color EXCEPT white.
             </p>
         </div>
     );
