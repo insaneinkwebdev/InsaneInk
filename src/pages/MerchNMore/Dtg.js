@@ -16,6 +16,10 @@ function Dtg(){
             
             <h3 className="dtg-order">Ready to Order? <a  target="_blank" rel="noreferrer" href="https://forms.gle/RNe1n8QYViJwoLMZ8">DTG Order Form</a></h3>
 
+            <div className="dtg-samples">
+                <img src={process.env.PUBLIC_URL + `/printshop/dtgsamples.png`} alt="DTG samples" className="samplesImg"></img>
+            </div>
+
             <div className="dtg-pricing-wrapper">
                 <img src={pricing} alt="dtg pricing sheet" className="dtg-pricing"></img>
             </div>

@@ -24,6 +24,20 @@
     
 }
 
+.dtg-samples {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: center;
+    justify-content: center;
+}
+
+.samplesImg {
+    width: 40rem;
+    margin: 25px;
+    align-items: center;   
+}
+
 .dtg-contact, .dtg-order {
     font-size: 1.1rem;
     color: #7C2F3F;
