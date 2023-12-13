@@ -23,12 +23,13 @@ padding-left: 3.5rem
 }
 
 .rol-info {
-    margin: 1rem;
-    margin-left: 23rem;
+    margin: 25px;
     color: #232323;
     font-size: 1.1rem;
-    max-width: 80rem;
+    align-items: center;
     text-align: center;
+    -ms-flex-align: center;
+    justify-content: center;
 }
 
 .rol-pricing-wrapper {
@@ -60,10 +61,14 @@ padding-left: 3.5rem
 }
 
 .rol-disclaimer {
+    margin: 0.85rem 10rem;
     color: #BC566B;
-    max-width: 68rem;
+    align-items: center;
     text-align: center;
-    margin: 0.85rem 26rem;
+    -ms-flex-align: center;
+    justify-content: center;
+    
+    max-width: 60rem;
 }
 
 .limit-header {

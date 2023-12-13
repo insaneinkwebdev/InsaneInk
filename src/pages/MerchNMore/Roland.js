@@ -27,7 +27,7 @@ function Roland(){
 
                 <p className="rol-info">
                     With our large format printer, we can print designs on vinyl to heat press onto apparel!     
-                    <b> Heat press items will be priced after order details are reviewed. </b>
+                    <b>&nbsp;Heat press items will be priced after order details are reviewed. </b>
                 </p>
 
                 <p className="rol-disclaimer">
@@ -38,7 +38,7 @@ function Roland(){
                 <h3 className="rol-contact limit-header">Print Shop</h3>
 
                 <p className="rol-info">
-                    We can print <b>stickers, posters, and flyers</b> using our large format printing and cutting machine-our Roland! For <b>Roland prices</b>, see the charts below. 
+                    We can print <b>&nbsp;stickers, posters, and flyers&nbsp;</b> using our large format printing and cutting machine-our Roland! For <b> &nbsp;Roland prices</b>, see the charts below. 
                 </p>
 
 
