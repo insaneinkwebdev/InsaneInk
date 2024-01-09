@@ -7,7 +7,7 @@ const dataFifty = [
         year: "2024",
         images: [
             {
-                src: `${process.env.PUBLIC_URL}/fifty/2024/santaPaws.jpg`,
+                src: `${process.env.PUBLIC_URL}/fifty/2024/santaPaws1.jpg`,
                 title: "2023 Santa Paws",
                 bio: ""
             },
