@@ -7,7 +7,7 @@ const dataFifty = [
         year: "2024",
         images: [
             {
-                src: `${process.env.PUBLIC_URL}/fifty/2024/santaPaws.jpg`,
+                src: `${process.env.PUBLIC_URL}/fifty/2024/santaPaws1.jpg`,
                 title: "2023 Santa Paws",
                 bio: "The Santa Clara County’s Sheriff Department hosted Santa Paws, a toy drive where they bring their K9 unit and dress up in Christmas costumes. Insane Ink donated shirts for volunteers at this event, as well as had many students volunteer themselves. Insane Ink is always happy to support PHHS alumni Lt. Jeremy Jones and the SCC Sheriff’s Dept! "
             },
