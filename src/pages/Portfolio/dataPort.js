@@ -35,6 +35,86 @@ const dataSlider = [
         name: "Piedmont Hills Staff Nametags",
         src: `${process.env.PUBLIC_URL}/portfolio/2024/phhsNameTag.jpg`,
         isWhite: false,
+      },
+      {
+        name: "PHHS Interact",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/Interact.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Interact",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/Interact1.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Sierramont Music Dept.",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/Sierramont.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Sierramont Music Dept.",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/Sierramont1.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "ESUHSD Special Olympics",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/SpecialOlympics.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Santa Paws",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/SantaPaws.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "St. Victor Parish",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/Victors.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Car Culture",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/CarCulture.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "I <3 Taiwan",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/Taiwan.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Banh Mi & Bowl",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/BanhMiBowl.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Tennis",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/Tennis.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "49ers Hello Kitty",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/49ers.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Cowboys Hello Kitty",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/Cowboys.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Lakers Hello Kitty",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/Lakers.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Giants Hello Kitty",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/Giants.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Warriors Hello Kitty",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/Warriors.jpg`,
+        isWhite: false,
       }
     ]
   },
