@@ -186,9 +186,7 @@ function TT(){
 
                 <div className="specials">
                     <div><a href='https://docs.google.com/forms/d/16l3djZDE11CFG9AFVXCmXYacc6nz2vhJ8Yg4f4Qpj4w/'><img className="specialImg" src="/TT/specials/carCulture.jpg"></img></a></div>
-                    <div><a href='https://docs.google.com/forms/d/1klcmwDm4ZnRDSCANILORJQc_LmvxAXwP9-0EBJpoQc4/viewform?edit_requested=true'><img className="specialImg" src="/TT/specials/digitalChest.jpg"></img></a></div>
                     <div><a href='https://docs.google.com/forms/d/e/1FAIpQLSd2d3g_0-qvPu9PZsrAPob4SW6oI0ez-JztLLrXBK4gtOxpLA/viewform'><img className="specialImg" src="/TT/specials/helloKittySports.jpg"></img></a></div>
-                    <div><a href='https://docs.google.com/forms/d/e/1FAIpQLScR6wDfE3oWHbBkvHdmX9N0ziExQIqCHdl5_AgR40GjEoh5HQ/viewform'><img className="specialImg" src="/TT/specials/tanCollegeCrew.jpg"></img></a></div>
                     <br />
                 </div>
             </div>
