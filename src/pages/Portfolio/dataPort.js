@@ -137,7 +137,7 @@ const dataSlider = [
         isWhite: false,
       },
       {
-        name: "PHHS Winter Promotion",
+        name: "Charlie Brown DTG Promotion",
         src: `${process.env.PUBLIC_URL}/portfolio/2024/winterPromo.jpg`,
         isWhite: false,
       },
