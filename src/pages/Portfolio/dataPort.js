@@ -115,6 +115,41 @@ const dataSlider = [
         name: "Warriors Hello Kitty",
         src: `${process.env.PUBLIC_URL}/portfolio/2024/Warriors.jpg`,
         isWhite: false,
+      },
+      {
+        name: "Backyard Beez",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/beez2.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Lake Tulloch",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/tulloch.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Cherrywood Education",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/cherrywoodEdu1.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Mariposas",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/mariposas1.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Winter Promotion",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/winterPromo.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Journalism",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/journalism1.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Morling Financial Advisors",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/mfa.jpg`,
+        isWhite: false,
       }
     ]
   },
