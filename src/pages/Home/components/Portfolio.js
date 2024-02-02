@@ -13,7 +13,7 @@ function Portfolio (){
                     <h2 className='port-header'>Portfolio</h2>
                 </AnimationOnScroll>
                 
-                We have customized over 100 different apparels with a wide variety of items to choose from <a href="www.4logoapparel.com/insaneink">our Catalog</a>.
+                We have customized over 100 different apparels with a wide variety of items to choose from <a href="www.4brandedpromos.com/home">our Catalog</a>.
                 
                 <br/>
                 <br/>
