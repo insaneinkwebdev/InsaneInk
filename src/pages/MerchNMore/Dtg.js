@@ -26,7 +26,6 @@ function Dtg(){
             
             <p className="dtg-disclaimer">
                 Only available for orders of 20 shirts or less. 
-                There is a $10 fee if you would like us to design a graphic. 
                 We can print designs of any color EXCEPT white.
             </p>
         </div>
