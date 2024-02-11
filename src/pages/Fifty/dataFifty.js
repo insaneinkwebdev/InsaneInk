@@ -7,13 +7,19 @@ const dataFifty = [
         year: "2024",
         images: [
             {
+                src: `${process.env.PUBLIC_URL}/fifty/2024/TrumanL1.jpg`,
+                title: "Freshman Night",
+                bio: "'Thank you to Insane Ink for their help with Incoming Freshman Night! They were so polite, respectful, and very easy to work with. They were able to quickly transition into different roles and address the needs of the event, through redirecting parents to other locations, guiding families, and grabbing chairs to reorganize the library to name a few.' - Nancy Pereira, Associate Principal"
+
+            },
+            {
                 src: `${process.env.PUBLIC_URL}/fifty/2024/santaPaws1.jpg`,
-                title: "2023 Santa Paws",
+                title: "Santa Paws",
                 bio: "The Santa Clara County’s Sheriff Department hosted Santa Paws, a toy drive where they bring their K9 unit and dress up in Christmas costumes. Insane Ink donated shirts for volunteers at this event, as well as had many students volunteer themselves. Insane Ink is always happy to support PHHS alumni Lt. Jeremy Jones and the SCC Sheriff’s Dept! "
             },
             {
                 src: `${process.env.PUBLIC_URL}/fifty/2024/seniorVB.jpeg`,
-                title: "2023 Volleyball Senior Night",
+                title: "Volleyball Senior Night",
                 bio: "Insane Ink designed and printed various marketing materials including vinyl posters for golf carts, posters around campus, stickers, etc. In addition, over 100 water bottles were personalized with the PHHS logo by our team. We utilized all marketing routes to highlight and promote the event making it the game with the highest attendance all season."
             }
         ]
