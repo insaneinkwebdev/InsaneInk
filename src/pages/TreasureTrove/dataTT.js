@@ -21,19 +21,19 @@ const dataSlider = [
       },
       {
         "type": "M",
-        "quant": 7
+        "quant": 5
       },
       {
         "type": "L",
-        "quant": 10
+        "quant": 11
       },
       {
         "type": "XL",
-        "quant": 2
+        "quant": 0
       },
       {
         "type": "2XL",
-        "quant": 2
+        "quant": 0
       }
     ]
   },
@@ -53,19 +53,19 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 3
+        "quant": 0
       },
       {
         "type": "M",
-        "quant": 17
+        "quant": 11
       },
       {
         "type": "L",
-        "quant": 3
+        "quant": 1
       },
       {
         "type": "XL",
-        "quant": 0
+        "quant": 1
       },
       {
         "type": "2XL",
@@ -89,23 +89,23 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 20
-      },
-      {
-        "type": "M",
         "quant": 21
       },
       {
-        "type": "L",
-        "quant": 19
+        "type": "M",
+        "quant": 17
       },
       {
-        "type": "XL",
+        "type": "L",
         "quant": 18
       },
       {
+        "type": "XL",
+        "quant": 16
+      },
+      {
         "type": "2XL",
-        "quant": 3
+        "quant": 0
       }
     ]
   },
@@ -125,7 +125,7 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 6
+        "quant": 2
       },
       {
         "type": "M",
@@ -133,7 +133,7 @@ const dataSlider = [
       },
       {
         "type": "L",
-        "quant": 6
+        "quant": 3
       },
       {
         "type": "XL",
@@ -161,15 +161,15 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 5
+        "quant": 6
       },
       {
         "type": "M",
-        "quant": 5
+        "quant": 0
       },
       {
         "type": "L",
-        "quant": 0
+        "quant": 5
       },
       {
         "type": "XL",
@@ -197,7 +197,7 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 3
+        "quant": 0
       },
       {
         "type": "M",
@@ -209,7 +209,7 @@ const dataSlider = [
       },
       {
         "type": "XL",
-        "quant": 3
+        "quant": 1
       },
       {
         "type": "2XL",
@@ -233,11 +233,11 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 10
+        "quant": 9
       },
       {
         "type": "M",
-        "quant": 10
+        "quant": 8
       },
       {
         "type": "L",
@@ -245,7 +245,7 @@ const dataSlider = [
       },
       {
         "type": "XL",
-        "quant": 4  
+        "quant": 3  
       },
       {
         "type": "2XL",

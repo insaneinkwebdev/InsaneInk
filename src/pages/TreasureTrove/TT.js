@@ -185,7 +185,6 @@ function TT(){
                 <h3 className="tt-store">Check out what current specials PHHS has to offer! Each item is made-to-order. Scan the QR code or click each image to order yours now!</h3>
 
                 <div className="specials">
-                    <div><img className="specialImg" src="/TT/specials/valentinesGrams.jpg"></img></div>
                     <div><a href='https://forms.gle/42zCCKAScdzU2UuL9'><img className="specialImg" src="/TT/specials/musicalSnoopy.png"></img></a></div>
                     <div><a href='https://docs.google.com/forms/d/16l3djZDE11CFG9AFVXCmXYacc6nz2vhJ8Yg4f4Qpj4w/'><img className="specialImg" src="/TT/specials/carCulture.jpg"></img></a></div>
                     <div><a href='https://docs.google.com/forms/d/e/1FAIpQLSd2d3g_0-qvPu9PZsrAPob4SW6oI0ez-JztLLrXBK4gtOxpLA/viewform'><img className="specialImg" src="/TT/specials/helloKittySports.jpg"></img></a></div>
