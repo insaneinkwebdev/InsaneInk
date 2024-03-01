@@ -255,58 +255,6 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "PHHS College Men's Tank",
-    img_prefix: "collegeMensTank_",
-    img_suffix: "jpg",
-    num_imgs: 5,
-    price: "$15.00",
-    description: "Perfect for showing off  ‘em muscles, or just to cool down on a hot day! Our iconic design is also available on a white tank top!",
-    featured: true,
-    sizes: [
-      {
-        "type": "XS",
-        "quant": 0
-      },
-      {
-        "type": "S",
-        "quant": 3
-      },
-      {
-        "type": "M",
-        "quant": 2
-      },
-      {
-        "type": "L",
-        "quant": 2
-      },
-      {
-        "type": "XL",
-        "quant": 2  
-      },
-      {
-        "type": "2XL",
-        "quant": 0
-      }
-    ]
-  },
-  {
-    id: uuidv4(),
-    name: "Green Tote",
-    img_prefix: "greenTote_",
-    img_suffix: "jpg",
-    num_imgs: 3,
-    price: "$5.00",
-    description: "Just a simple bag for carrying your everyday essentials!",
-    featured: true,
-    sizes: [
-      {
-        "type": "N/A",
-        "quant": 0
-      }
-    ]
-  },
-  {
-    id: uuidv4(),
     name: "PHHS Sweats",
     img_prefix: "sweats_",
     img_suffix: "jpg",
