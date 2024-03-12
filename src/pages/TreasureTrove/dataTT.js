@@ -7,7 +7,7 @@ const dataSlider = [
     img_prefix: "anchorZip_",
     img_suffix: "jpg",
     num_imgs: 3,
-    price: "ON SALE: $20.00",
+    price: "ON SALE: $15.00",
     description: "A unique take on school spirit, the splash of blues encompass the oceanic vibes of the Piedmont Hills Pirates! Available in a nice heather gray!",
     featured: false,
     sizes: [
@@ -79,7 +79,7 @@ const dataSlider = [
     img_prefix: "quarterZip_",
     img_suffix: "jpg",
     num_imgs: 4,
-    price: "$28.00",
+    price: "ON SALE: $20.00",
     description: "Wanna stay cozy while repping PHHS? This quarter zip really puts the Hills in Piedmont Hills! Available in maroon and black.",
     featured: false,
     sizes: [

@@ -182,12 +182,11 @@ function TT(){
 
             <div>
                 <h2 id= "currentspecials">Current Specials!</h2>
-                <h3 className="tt-store">Check out what current specials PHHS has to offer! Each item is made-to-order. Scan the QR code or click each image to order yours now!</h3>
+                <h3 className="tt-store">Check out what current specials Insane Ink has to offer!</h3>
 
                 <div className="specials">
+                    <div><img className="specialImg" src="/TT/specials/treasureTroveSale.jpg"></img></div>
                     <div><a href='https://forms.gle/ZyydkEMcihydoY4L6'><img className="specialImg" src="/TT/specials/calicoCritter.png"></img></a></div>
-                    <div><a href='https://docs.google.com/forms/d/16l3djZDE11CFG9AFVXCmXYacc6nz2vhJ8Yg4f4Qpj4w/'><img className="specialImg" src="/TT/specials/carCulture.jpg"></img></a></div>
-                    <div><a href='https://docs.google.com/forms/d/e/1FAIpQLSd2d3g_0-qvPu9PZsrAPob4SW6oI0ez-JztLLrXBK4gtOxpLA/viewform'><img className="specialImg" src="/TT/specials/helloKittySports.jpg"></img></a></div>
                     <br />
                 </div>
             </div>
@@ -197,12 +196,14 @@ function TT(){
 
             <h2 className="tt-header" id="currentcollection">Spring 2024 🌷 Collection </h2>
             <div className="tt-store-box">
-                <h3 className="tt-store">Store Hours (every Thursday): </h3>
+                <h3 className="tt-store">Store Hours: </h3>
                 
                 <div className="tt-hours">
                     <ul>
                          {/*<li className="tt-time">10:00 AM - 10:15 AM</li> */}
-                        <li className="tt-time">11:55 AM - 12:25 PM</li>
+                        <li className="tt-time">Thursdays at lunch: 11:55 AM - 12:25 PM</li>
+                        <li className="tt-time">Thursdays after school: 2:00PM - 3:00 PM</li>
+                        <li className="tt-time">Fridays at lunch: 11:55 AM - 12:25 PM</li>
                         {/*<li className="tt-time">02:00 PM - 02:35 PM</li>*/}
                         {/*<li className="tt-time">03:35 PM - 04:00 PM</li>*/}
                     </ul>
