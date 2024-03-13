@@ -224,7 +224,7 @@ function TT(){
                                 }}/>
                                 <div className="card__content">
                                     <h3 className="card__title">{obj.name}</h3>
-                                    <p className="card__price">{obj.price}</p>
+                                    <p className="card__price" dangerouslySetInnerHTML={{ __html: obj.price}}></p>
                                 </div>
                             </div>
                         )

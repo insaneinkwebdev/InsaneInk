@@ -1,5 +1,5 @@
 import "./Roland.css"
-import printPricing from './images/roland.png'
+import printPricing from './images/rolandPricing.png'
 import heatPricing from './images/heatpress.png'
 
 function Roland(){
