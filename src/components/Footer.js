@@ -64,7 +64,7 @@ function Footer(){
                     </div>
 
                     <div className='footer-row copyr'>
-                        &copy; 1998-2023 Insane Ink
+                        &copy; 1998-2024 Insane Ink
                     </div>
                   </div>
             </footer>

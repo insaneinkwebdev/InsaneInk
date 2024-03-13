@@ -20,6 +20,8 @@ footer {
     width: 100%;
     min-height: 350px;
     padding: 3rem 1rem;
+    margin-top: 7rem;
+
 }
 
 .footer-container {
@@ -117,7 +119,7 @@ footer {
 }
 
 .contact-details {
-    display: inline-flex;
+    /*display: inline-flex;*/
     justify-content: space-between;
     margin-bottom: 1rem;
 }
@@ -145,5 +147,7 @@ footer {
         margin-right: 20px;
         transition: 300ms ease-in-out;
     }
+
+ 
 
 }
