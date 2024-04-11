@@ -29,8 +29,10 @@ function openModal(id, pindex){
             let desc = document.getElementById("modal__desc");
 
             product.innerHTML = dataTT[i].name;
-            price.innerHTML = dataTT[i].price;
             desc.innerHTML = dataTT[i].description;
+            price.innerHTML = "<s>" + (dataTT[i].old_price ? dataTT[i].old_price : "") + "</s>";
+            price.innerHTML += "<strong>" + (dataTT[i].old_price ? " ➡ " : "") + "</strong>";
+            price.innerHTML += "<strong>" + dataTT[i].price +"</strong>";
 
             dataTT[i].sizes.map((obj) => {
                 var sizeBoxContainer = document.getElementById("modal__size-container");
@@ -71,7 +73,7 @@ function openModal(id, pindex){
                     slideImg.id = "modal__img";
                     slideImg.alt = "product";
 
-                    slideImg.src = process.env.PUBLIC_URL + `/TT/product_${pindex + 1}/`+ dataTT[i].img_prefix + `${index + 1}.` + dataTT[i].img_suffix;
+                    slideImg.src = process.env.PUBLIC_URL + `/TT/product_${pindex + 1}/`+ dataTT[pindex].img_prefix + `${index + 1}.` + dataTT[pindex].img_suffix;
 
                     slide.appendChild(slideImg);
                     slideshowContainer.appendChild(slide);
@@ -224,7 +226,11 @@ function TT(){
                                 }}/>
                                 <div className="card__content">
                                     <h3 className="card__title">{obj.name}</h3>
-                                    <p className="card__price" dangerouslySetInnerHTML={{ __html: obj.price}}></p>
+                                    <p className="card__price">
+                                        <s>{obj.old_price ? obj.old_price : ""}</s>
+                                        <strong>{obj.old_price ? " ➡ " : ""}</strong>
+                                        <strong>{obj.price}</strong>
+                                    </p>
                                 </div>
                             </div>
                         )

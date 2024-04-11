@@ -7,7 +7,8 @@ const dataSlider = [
     img_prefix: "anchorZip_",
     img_suffix: "jpg",
     num_imgs: 3,
-    price: "<s>$20.00</s><strong> ➡ $15.00</strong>",
+    old_price: "$20.00",
+    price: "$15.00",
     description: "A unique take on school spirit, the splash of blues encompass the oceanic vibes of the Piedmont Hills Pirates! Available in a nice heather gray!",
     featured: false,
     sizes: [
@@ -43,7 +44,8 @@ const dataSlider = [
     img_prefix: "surfHoodie_",
     img_suffix: "jpg",
     num_imgs: 5,
-    price: "<s>$20.00</s><strong> ➡ $15.00</strong>",
+    old_price: "$20.00",
+    price: "$15.00",
     description: "Wanna test the waters and “surf” through this school year? Then a hoodie with a surfing pirate is all you need! Come get yours in a bangin’ sand on maroon colorway!",
     featured: false,
     sizes: [
@@ -79,7 +81,8 @@ const dataSlider = [
     img_prefix: "quarterZip_",
     img_suffix: "jpg",
     num_imgs: 4,
-    price: "<s>$28.00</s><strong> ➡ $20.00</strong>",
+    old_price: "$28.00",
+    price: "$20.00",
     description: "Wanna stay cozy while repping PHHS? This quarter zip really puts the Hills in Piedmont Hills! Available in maroon and black.",
     featured: false,
     sizes: [
@@ -115,7 +118,8 @@ const dataSlider = [
     img_prefix: "collegeCrew_",
     img_suffix: "jpg",
     num_imgs: 5,
-    price: "<s>$20.00</s><strong> ➡ $10.00</strong>",
+    old_price: "$20.00",
+    price: "$10.00",
     description: "An iconic design that never goes out of style, these staple crews are perfect for the distinguished Piedmont Hills High School student. These timeless crews are available in sand and gray!",
     featured: false,
     sizes: [
@@ -151,7 +155,7 @@ const dataSlider = [
     img_prefix: "collegeShortSleeve_",
     img_suffix: "jpg",
     num_imgs: 5,
-    price: "<strong>$10.00</strong>",
+    price: "$10.00",
     description: "For warmer occasions, wear our timeless college logo on a breathable short sleeve available in a maroon on white colorway!",
     featured: true,
     sizes: [
@@ -187,7 +191,8 @@ const dataSlider = [
     img_prefix: "collegeHoodie_",
     img_suffix: "jpg",
     num_imgs: 5,
-    price: "<s>$25.00</s><strong> ➡ $10.00</strong>",
+    old_price: "$25.00",
+    price: "$10.00",
     description: "With two available colorways (gray and white), our iconic design is also represented on a cozy hoodie! Great for winter time!",
     featured: false,
     sizes: [
@@ -223,7 +228,8 @@ const dataSlider = [
     img_prefix: "collegeLongSleeve_",
     img_suffix: "jpg",
     num_imgs: 5,
-    price: "<s>$15.00</s><strong> ➡ $10.00</strong>",
+    old_price: "$15.00",
+    price: "$10.00",
     description: "Similar to our short sleeve tee, but now our timeless design is on a long sleeve!",
     featured: true,
     sizes: [
@@ -259,7 +265,8 @@ const dataSlider = [
     img_prefix: "sweats_",
     img_suffix: "jpg",
     num_imgs: 3,
-    price: "<s>$25.00</s><strong> ➡ $10.00</strong>",
+    old_price: "$25.00",
+    price: "$10.00",
     description: "The perfect sweats to keep warm this winter, topped with our maroon PH anchor design. Available in gray.",
     featured: true,
     sizes: [
