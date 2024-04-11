@@ -187,7 +187,7 @@ function TT(){
                 <h3 className="tt-store">Check out what current specials Insane Ink has to offer!</h3>
 
                 <div className="specials">
-                    <div><img className="specialImg" src="/TT/specials/treasureTroveSale.jpg"></img></div>
+                    <div><img className="specialImg" src="/TT/specials/ttClearance.jpg"></img></div>
                     <div><a href='https://forms.gle/ZyydkEMcihydoY4L6'><img className="specialImg" src="/TT/specials/calicoCritter.png"></img></a></div>
                     <br />
                 </div>
