@@ -80,10 +80,7 @@ function Navbar(){
              {/*YEAR ROUND BANNER*/}
             <div className='closedBanner'>
                 <p className='closedContent'>
-                    {
-                    /*
-                    Thank you for visiting our site!  For any additional questions or inquiries, email <a href='https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=sales@insaneink.com&su=Question%20about%20Insane%20Ink' rel="noreferrer" target="_blank">sales@insaneink.com</a> for more information!
-                    */}
+                    Treasure Trove is closing soon! Last day to buy is Thursday, April 25th during lunch. Visit our <a href="/treasuretrove#currentspecials">Treasure Trove page </a> to see our reduced prices!
                 </p>
             </div>
         </>
