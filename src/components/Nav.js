@@ -61,12 +61,12 @@ function Navbar(){
                     <li>
                         <a href="/treasuretrove" className='drop-hover merch'>Treasure Trove</a>
                         <ul className='drop merch'>
-                            <li><a href="/treasuretrove#currentspecials">Current Specials</a></li>
+                            {/*<li><a href="/treasuretrove#currentspecials">Current Specials</a></li>*/}
                             <li><a href="/treasuretrove#currentcollection">Spring Collection</a></li>
                         </ul>
                     </li>
 
-                    <li id="nav-mobile-on"><a href="/treasuretrove#currentspecials">Current Specials</a></li>
+                    {/*<li id="nav-mobile-on"><a href="/treasuretrove#currentspecials">Current Specials</a></li>*/}
                     <li id="nav-mobile-on"><a href="/treasuretrove#currentcollection">Spring Collection</a></li>
 
                 </ul>

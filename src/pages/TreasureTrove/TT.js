@@ -181,8 +181,9 @@ function TT(){
 
     return(
         <div className="container">
-
+            {/*
             <div>
+                
                 <h2 id= "currentspecials">Current Specials!</h2>
                 <h3 className="tt-store">Check out what current specials Insane Ink has to offer!</h3>
 
@@ -192,10 +193,11 @@ function TT(){
                     <br />
                 </div>
             </div>
-
+            
             <hr></hr>
             <br />
-
+            */}
+            
             <h2 className="tt-header" id="currentcollection">Spring 2024 🌷 Collection </h2>
             <div className="tt-store-box">
                 <h3 className="tt-store">Store Hours: </h3>
