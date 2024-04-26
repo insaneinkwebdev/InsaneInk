@@ -80,7 +80,7 @@ function Navbar(){
              {/*YEAR ROUND BANNER*/}
             <div className='closedBanner'>
                 <p className='closedContent'>
-                    Treasure Trove is closing soon! Last day to buy is Thursday, April 25th during lunch. Visit our <a href="/treasuretrove#currentspecials">Treasure Trove page </a> to see our reduced prices!
+                   
                 </p>
             </div>
         </>
