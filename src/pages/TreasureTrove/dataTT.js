@@ -155,7 +155,7 @@ const dataSlider = [
     img_prefix: "collegeShortSleeve_",
     img_suffix: "jpg",
     num_imgs: 5,
-    price: "$10.00",
+    old_price: "$10.00",
     description: "For warmer occasions, wear our timeless college logo on a breathable short sleeve available in a maroon on white colorway!",
     featured: true,
     sizes: [

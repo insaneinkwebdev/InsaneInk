@@ -77,10 +77,10 @@ function Navbar(){
                 </div>
 
             </nav>
-             {/*YEAR ROUND BANNER*/}
+             {/*YEAR ROUND */}
             <div className='closedBanner'>
                 <p className='closedContent'>
-                   
+                    Due to being a student enterprise, Insane Ink Will be closed through August 2024.  We hope to serve your needs at that time.  Thank you for your support.
                 </p>
             </div>
         </>

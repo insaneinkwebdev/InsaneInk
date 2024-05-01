@@ -30,9 +30,13 @@ function openModal(id, pindex){
 
             product.innerHTML = dataTT[i].name;
             desc.innerHTML = dataTT[i].description;
+            price.innerHTML = dataTT[i].price;
+            
+            {/*
             price.innerHTML = "<s>" + (dataTT[i].old_price ? dataTT[i].old_price : "") + "</s>";
             price.innerHTML += "<strong>" + (dataTT[i].old_price ? " ➡ " : "") + "</strong>";
             price.innerHTML += "<strong>" + dataTT[i].price +"</strong>";
+            use this when you have a sale*/}
 
             dataTT[i].sizes.map((obj) => {
                 var sizeBoxContainer = document.getElementById("modal__size-container");
@@ -226,10 +230,12 @@ function TT(){
                                 }}/>
                                 <div className="card__content">
                                     <h3 className="card__title">{obj.name}</h3>
-                                    <p className="card__price">
-                                        <s>{obj.old_price ? obj.old_price : ""}</s>
+                                    <p className="card__price"> 
+                                        {obj.old_price}
+                                        
+                                        {/*<s>{obj.old_price ? obj.old_price : ""}</s>
                                         <strong>{obj.old_price ? " ➡ " : ""}</strong>
-                                        <strong>{obj.price}</strong>
+                                        <strong>{obj.price}</strong>  this section is when you have a sale*/}
                                     </p>
                                 </div>
                             </div>
