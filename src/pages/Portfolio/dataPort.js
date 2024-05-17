@@ -92,28 +92,28 @@ const dataSlider = [
         isWhite: false,
       },
       {
-        name: "49ers Hello Kitty",
-        src: `${process.env.PUBLIC_URL}/portfolio/2024/49ers.jpg`,
+        name: "Boys Tennis",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/boystennis.jpg`,
         isWhite: false,
       },
       {
-        name: "Cowboys Hello Kitty",
-        src: `${process.env.PUBLIC_URL}/portfolio/2024/Cowboys.jpg`,
+        name: "Laneview Elementary",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/tran.jpg`,
         isWhite: false,
       },
       {
-        name: "Lakers Hello Kitty",
-        src: `${process.env.PUBLIC_URL}/portfolio/2024/Lakers.jpg`,
+        name: "Silicon Valley Young Democrats",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/svyd.jpg`,
         isWhite: false,
       },
       {
-        name: "Giants Hello Kitty",
-        src: `${process.env.PUBLIC_URL}/portfolio/2024/Giants.jpg`,
+        name: "Needle to the Groove",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/needle.jpg`,
         isWhite: false,
       },
       {
-        name: "Warriors Hello Kitty",
-        src: `${process.env.PUBLIC_URL}/portfolio/2024/Warriors.jpg`,
+        name: "Spartan Middle School",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/sms.jpg`,
         isWhite: false,
       },
       {
@@ -137,8 +137,18 @@ const dataSlider = [
         isWhite: false,
       },
       {
-        name: "Charlie Brown DTG Promotion",
-        src: `${process.env.PUBLIC_URL}/portfolio/2024/winterPromo.jpg`,
+        name: "PHHS Black Student Union",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/bsu.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Black Student Union",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/bsu1.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Black Student Union",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/bsu2.jpg`,
         isWhite: false,
       },
       {
@@ -149,6 +159,161 @@ const dataSlider = [
       {
         name: "Morling Financial Advisors",
         src: `${process.env.PUBLIC_URL}/portfolio/2024/mfa.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Cheer",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/cheerbye.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Cheer",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/eatsleep.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Cheer",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/cheersport.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Cheer",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/cheerheart.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Cheer",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/cheerdeclassified.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Cheer",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/phhscheer.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "ASHRAE Bocce Ball",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/bocce.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Ms. Murray's Class",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/murray1.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Ms. Murray's Class",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/murray2.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Med101",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/med101.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Orchestra",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/orch.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Orchestra",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/orch2.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Anime Club",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/anime1.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Anime Club",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/anime2.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "The Pitch",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/pitch.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "The Pitch",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/pitch2.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "East Side Adult Education",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/esaec.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "East Side Adult Education",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/esaed.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Mock Trial",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/mocktrial.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Music Honor Society",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/mhs.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Choir Council",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/musicdept.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Choir Council",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/musicdept2.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Wrestling",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/wrestling.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Cherrywood",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/cherrywood.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Golf",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/golf.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Science Olympiad",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/sciolympiad.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "PHHS Fantastics",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/fantastics.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Mrs. Hoffman's Class",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/hoffman.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Ruskin Elementary",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/ruskin.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Ruskin Elementary",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/gecko.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "SJSU Mariachi",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/sjsu.jpg`,
         isWhite: false,
       }
     ]

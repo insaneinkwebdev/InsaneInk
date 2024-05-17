@@ -80,10 +80,11 @@ function Navbar(){
              {/*YEAR ROUND BANNER*/}
             <div className='closedBanner'>
                 <p className='closedContent'>
-                    {
-                    /*
+                    {/*
                     Thank you for visiting our site!  For any additional questions or inquiries, email <a href='https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=sales@insaneink.com&su=Question%20about%20Insane%20Ink' rel="noreferrer" target="_blank">sales@insaneink.com</a> for more information!
                     */}
+                    Due to being a student enterprise, Insane Ink Will be closed through August 2024.  We hope to serve your needs at that time.  Thank you for your support.
+
                 </p>
             </div>
         </>
