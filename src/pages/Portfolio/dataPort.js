@@ -37,16 +37,6 @@ const dataSlider = [
         isWhite: false,
       },
       {
-        name: "PHHS Interact",
-        src: `${process.env.PUBLIC_URL}/portfolio/2024/Interact.jpg`,
-        isWhite: false,
-      },
-      {
-        name: "PHHS Interact",
-        src: `${process.env.PUBLIC_URL}/portfolio/2024/Interact1.jpg`,
-        isWhite: false,
-      },
-      {
         name: "Sierramont Music Dept.",
         src: `${process.env.PUBLIC_URL}/portfolio/2024/Sierramont.jpg`,
         isWhite: false,
@@ -309,6 +299,11 @@ const dataSlider = [
       {
         name: "Ruskin Elementary",
         src: `${process.env.PUBLIC_URL}/portfolio/2024/gecko.jpg`,
+        isWhite: false,
+      },
+      {
+        name: "Joven Noble",
+        src: `${process.env.PUBLIC_URL}/portfolio/2024/joven1.jpg`,
         isWhite: false,
       },
       {
