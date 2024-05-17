@@ -29,8 +29,14 @@ function openModal(id, pindex){
             let desc = document.getElementById("modal__desc");
 
             product.innerHTML = dataTT[i].name;
-            price.innerHTML = dataTT[i].price;
             desc.innerHTML = dataTT[i].description;
+            price.innerHTML = dataTT[i].price;
+            
+            {/*
+            price.innerHTML = "<s>" + (dataTT[i].old_price ? dataTT[i].old_price : "") + "</s>";
+            price.innerHTML += "<strong>" + (dataTT[i].old_price ? " ➡ " : "") + "</strong>";
+            price.innerHTML += "<strong>" + dataTT[i].price +"</strong>";
+            use this when you have a sale*/}
 
             dataTT[i].sizes.map((obj) => {
                 var sizeBoxContainer = document.getElementById("modal__size-container");
@@ -71,7 +77,7 @@ function openModal(id, pindex){
                     slideImg.id = "modal__img";
                     slideImg.alt = "product";
 
-                    slideImg.src = process.env.PUBLIC_URL + `/TT/product_${pindex + 1}/`+ dataTT[i].img_prefix + `${index + 1}.` + dataTT[i].img_suffix;
+                    slideImg.src = process.env.PUBLIC_URL + `/TT/product_${pindex + 1}/`+ dataTT[pindex].img_prefix + `${index + 1}.` + dataTT[pindex].img_suffix;
 
                     slide.appendChild(slideImg);
                     slideshowContainer.appendChild(slide);
@@ -179,33 +185,33 @@ function TT(){
 
     return(
         <div className="container">
-
+            {/*
             <div>
+                
                 <h2 id= "currentspecials">Current Specials!</h2>
                 <h3 className="tt-store">Check out what current specials Insane Ink has to offer!</h3>
 
                 <div className="specials">
-                    <div><img className="specialImg" src="/TT/specials/treasureTroveSale.jpg"></img></div>
+                    <div><img className="specialImg" src="/TT/specials/ttClearance.jpg"></img></div>
                     <div><a href='https://forms.gle/ZyydkEMcihydoY4L6'><img className="specialImg" src="/TT/specials/calicoCritter.png"></img></a></div>
                     <br />
                 </div>
             </div>
-
+            
             <hr></hr>
             <br />
-
+            */}
+            
             <h2 className="tt-header" id="currentcollection">Spring 2024 🌷 Collection </h2>
             <div className="tt-store-box">
                 <h3 className="tt-store">Store Hours: </h3>
                 
                 <div className="tt-hours">
                     <ul>
-                         {/*<li className="tt-time">10:00 AM - 10:15 AM</li> */}
-                        <li className="tt-time">Thursdays at lunch: 11:55 AM - 12:25 PM</li>
+                        <li className="tt-time">Treasure Trove has closed for the 2023-2024 school year!</li>
+                        {/*<li className="tt-time">Thursdays at lunch: 11:55 AM - 12:25 PM</li>
                         <li className="tt-time">Thursdays after school: 2:00PM - 3:00 PM</li>
-                        <li className="tt-time">Fridays at lunch: 11:55 AM - 12:25 PM</li>
-                        {/*<li className="tt-time">02:00 PM - 02:35 PM</li>*/}
-                        {/*<li className="tt-time">03:35 PM - 04:00 PM</li>*/}
+                        <li className="tt-time">Fridays at lunch: 11:55 AM - 12:25 PM</li>*/}
                     </ul>
                 </div>
             </div>
@@ -224,7 +230,13 @@ function TT(){
                                 }}/>
                                 <div className="card__content">
                                     <h3 className="card__title">{obj.name}</h3>
-                                    <p className="card__price" dangerouslySetInnerHTML={{ __html: obj.price}}></p>
+                                    <p className="card__price"> 
+                                        {obj.old_price}
+                                        
+                                        {/*<s>{obj.old_price ? obj.old_price : ""}</s>
+                                        <strong>{obj.old_price ? " ➡ " : ""}</strong>
+                                        <strong>{obj.price}</strong>  this section is when you have a sale*/}
+                                    </p>
                                 </div>
                             </div>
                         )
@@ -254,7 +266,7 @@ function TT(){
                         <div id="modal__inventory" style={
                             {display: (product.name == "Current Specials") ? "none": "block"}
                             }>
-                            <h3 id="modal__inventory-header">Inventory (as of 3/12)</h3>
+                            <h3 id="modal__inventory-header">Inventory (as of 4/18)</h3>
                             <div id="modal__size-container"></div>
                             <div id="modal__inventory-notice-box" className="modal__inventory-notice-box">
                                 <p id="modal__inventory-notice" className="modal__inventory-notice">Less than 5 left in stock!</p>

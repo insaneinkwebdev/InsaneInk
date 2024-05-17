@@ -61,12 +61,12 @@ function Navbar(){
                     <li>
                         <a href="/treasuretrove" className='drop-hover merch'>Treasure Trove</a>
                         <ul className='drop merch'>
-                            <li><a href="/treasuretrove#currentspecials">Current Specials</a></li>
+                            {/*<li><a href="/treasuretrove#currentspecials">Current Specials</a></li>*/}
                             <li><a href="/treasuretrove#currentcollection">Spring Collection</a></li>
                         </ul>
                     </li>
 
-                    <li id="nav-mobile-on"><a href="/treasuretrove#currentspecials">Current Specials</a></li>
+                    {/*<li id="nav-mobile-on"><a href="/treasuretrove#currentspecials">Current Specials</a></li>*/}
                     <li id="nav-mobile-on"><a href="/treasuretrove#currentcollection">Spring Collection</a></li>
 
                 </ul>
@@ -77,14 +77,10 @@ function Navbar(){
                 </div>
 
             </nav>
-             {/*YEAR ROUND BANNER*/}
+             {/*YEAR ROUND */}
             <div className='closedBanner'>
                 <p className='closedContent'>
-                    {/*
-                    Thank you for visiting our site!  For any additional questions or inquiries, email <a href='https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=sales@insaneink.com&su=Question%20about%20Insane%20Ink' rel="noreferrer" target="_blank">sales@insaneink.com</a> for more information!
-                    */}
                     Due to being a student enterprise, Insane Ink Will be closed through August 2024.  We hope to serve your needs at that time.  Thank you for your support.
-
                 </p>
             </div>
         </>
