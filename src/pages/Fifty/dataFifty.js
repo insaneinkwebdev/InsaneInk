@@ -7,6 +7,12 @@ const dataFifty = [
         year: "2024",
         images: [
             {
+                src: `${process.env.PUBLIC_URL}/fifty/2024/91.jpg`,
+                title: "Volleybrawl 2024",
+                bio: "Our 3rd annual student vs. staff volleyball game included temporary tattoos, concessions, inter-set games, big smiles, and more!"
+
+            },
+            {
                 src: `${process.env.PUBLIC_URL}/fifty/2024/TrumanL1.jpg`,
                 title: "Freshman Night",
                 bio: "'Thank you to Insane Ink for their help with Incoming Freshman Night! They were so polite, respectful, and very easy to work with. They were able to quickly transition into different roles and address the needs of the event, through redirecting parents to other locations, guiding families, and grabbing chairs to reorganize the library to name a few.' - Nancy Pereira, Associate Principal"
