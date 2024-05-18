@@ -2,6 +2,9 @@ import { v4 as uuidv4 } from "uuid";
 
 const dataSlider = [
   {//UPLOADING 6 AT A TIME
+    //u can compress images by downloading ImageMagick and running this command 
+    //magick 49ers.jpg -strip -resize 500x771 ultraSmall/49ers.jpg
+    //ultraSmall was just the name of the new folder i was gonna save the compressed images in
     id: uuidv4(),
     year: "2023-2024",
     images: [
