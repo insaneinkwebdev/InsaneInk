@@ -7,7 +7,7 @@ const dataFifty = [
         year: "2024",
         images: [
             {
-                src: `${process.env.PUBLIC_URL}/fifty/2024/91.jpg`,
+                src: `${process.env.PUBLIC_URL}/fifty/2024/volleybrawl24.jpg`,
                 title: "Volleybrawl 2024",
                 bio: "Our 3rd annual student vs. staff volleyball game included temporary tattoos, concessions, inter-set games, big smiles, and more!"
 
