@@ -30,7 +30,6 @@ const dataSlider = [
   email: "johnsonnara5479\n@students.esuhsd.org",
   phone: "(408)-612-7907",
   },
-  */
   {
   id: uuidv4(),
   name: "Himani Manjunath",
@@ -45,6 +44,7 @@ const dataSlider = [
   email: "mejiavenezia0399\n@students.esuhsd.org",
   phone: "(408)-412-2734",
   },
+  */
   {
   id: uuidv4(),
   name: "Lucas Busta",
