@@ -10,9 +10,9 @@ function Roland(){
                 <h2 className="rol-header">Specialty Printing</h2>
                 
                 <h3 className="rol-order">
-                    Ready to Order? <a  target="_blank" rel="noreferrer" href="https://forms.gle/hx4mrJvqwkEpAPHt9">Roland Order Form (stickers, posters, flyers)</a>
+                    Ready to Order? <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSceGwbnH_UiX3J3fX4LuMdTO5S9Et1GfS3SwYmhZiOz_q4png/viewform?usp=sf_link">Roland Order Form (stickers, posters, flyers)</a>
                     &nbsp; | &nbsp;
-                    <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScFg6L6hgUWL60ATnnzRYrmZbWbO8Lq-ALAj7DfGLbbQUOXXw/viewform">Heat Press Order Form</a>
+                    <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfA53Yxx7pCLVPewdOMhCQIQY2WX3Fcjk3dCl5VP8fu6UtJeA/viewform?usp=sf_link">Heat Press Order Form</a>
                 </h3>
 
                 <p className="rol-disclaimer">
