@@ -60,3 +60,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - 1/8/2023 -> 1/10/2023 Design + structure 50/50
 - 1/11/2023 Frontend HTML for 50/50
 - 1/12/2023: CSS + anim + mobile responsive for 50/50
+
+**2024 - 25 Log**
+- 8/23/2024  Gained access to all content

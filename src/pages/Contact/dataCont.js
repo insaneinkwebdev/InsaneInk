@@ -13,14 +13,14 @@ const dataSlider = [
   name: "Venice Meil Metra",
   position: "CFO",
   email: "metravenicemeil4603\n@students.esuhsd.org",
-  phone: "(408)-685-3086",//change number
+  phone: "(408)-332-7498",
   },
   {
   id: uuidv4(),
   name: "Anabel Sairs",
   position: "COO In-House Printing",
   email: "sairsanabel9782\n@students.esuhsd.org",
-  phone: "(669)-235-1396",//change number
+  phone: "(669)-476-7608",
   },
   /*
   {
@@ -50,15 +50,22 @@ const dataSlider = [
   name: "Lucas Busta",
   position: "Director of DTG",
   email: "bustalucas4712\n@students.esuhsd.org",
-  phone: "(408)-393-8376", //change number
+  phone: "(408)-769-0507",
   },
   {
   id: uuidv4(),
   name: "Truman Luong",
   position: "Director of Specialty Printing",
   email: "luongtruman4858\n@students.esuhsd.org",
-  phone: "(408)-786-7928", //change number
-  }
+  phone: "(408)-722-7295",
+  },
+  {
+    id: uuidv4(),
+    name: "James Hermans",
+    position: "VP of Web Development",
+    email: "hermansjames4441\n@students.esuhsd.org",
+    phone: "(408)-905-9606",
+  },
   /*
   {
   id: uuidv4(),

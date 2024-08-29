@@ -497,6 +497,8 @@ function Fifty(){
     return(
         <div className="container">
             <h2 className="fifty-header">The 50/50 Concept</h2>
+            <h2 className="fifty-subheader">Not only are we here to supply quality services on behalf of our customers as a business,<br></br> 
+                but we also <span id="fs-standout">allocate 50% of our entire profit towards philanthropy</span> with our aim of giving back to the community.</h2>
             <div className="years_desktop">
             <div className="year 2024">
                     <h2 className="year__num">2023-2024</h2>

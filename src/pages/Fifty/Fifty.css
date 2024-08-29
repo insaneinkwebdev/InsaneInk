@@ -15,6 +15,22 @@
     margin: 2rem 0;
 }
 
+.fifty-subheader {
+    color: #000000;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 2rem 0;
+    margin-left: 28rem;
+    margin-right: 28rem;
+}
+
+#fs-standout{
+    font-weight: bold;
+    color: #5c1c29;
+    font-size: 1.3rem;
+}
+
 .year__num {
     font-size: 1.5rem;
     text-align: center;

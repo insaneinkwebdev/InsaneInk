@@ -17,7 +17,7 @@ function About(){
                 <p className="about__section__content">
                 We were <span className="accent">founded in 1998 by Mr. Mitch Method and Mr. Richard Langone</span> to allow students to experience entrepreneurship. 
                 <br/><br/>
-                <span className="accent">Mrs. Diane Pereira stepped in as a co-advisor</span> in 2015 and now has a new co-advisor, <span className="accent">Ms. Liza Cardenas.</span> Both advisors have experience with small business entrepreneurship, degree in Business and the desire to prepare future entrepreneurs.
+                <span className="accent">Mrs. Diane Pereira stepped in as a co-advisor</span> in 2015 and <span className="accent">Ms. Liza Cardenas as a co-adviser</span> in 2023. Both advisors have experience with small business entrepreneurship, degree in Business and the desire to prepare future entrepreneurs.
                 <br/><br/>
                 <span className="accent">Students are responsible</span> for running the company while the advisors the Executive Board advise and oversee the company. 
                 <br/><br/>
