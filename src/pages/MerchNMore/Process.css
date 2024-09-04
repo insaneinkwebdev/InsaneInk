@@ -39,6 +39,10 @@
     width: 32vw;
 }
 
+.Catalog{
+    color: brown;
+}
+
 .section__step {
     font-size: 10.5rem;
     margin: 0 10rem;
