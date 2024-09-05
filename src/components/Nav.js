@@ -33,7 +33,7 @@ function Navbar(){
                     <li>
                         <a href="/howitworks" className='drop-hover merch'>How To Order</a>
                         <ul className='drop merch'>
-                            <li><a href="/dtg">Small Quantity (DTG)</a></li>
+                            <li><a href="/dtg">Small Quantity (DTG / DTF)</a></li>
                             <li><a href="/roland#print-shop">Specialty Printing</a></li>
                         </ul>
                     </li>

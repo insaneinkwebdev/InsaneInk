@@ -11,7 +11,7 @@ function Process(){
                     <h1>1</h1>
                 </div>  
                 <p className="section__content">
-                    Check our <span className="Catalog"><a href="www.4logoapparel.com/insaneink">Online Catalog</a></span> and choose the items you like
+                    Check our <span className="Catalog"><a href="https://www.4logoapparel.com/insaneink">Online Catalog</a></span> and choose the items you like
                 </p>
             </section>
             <section className="section two">

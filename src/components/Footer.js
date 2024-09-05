@@ -29,7 +29,7 @@ function Footer(){
                             <h3>Services</h3>
                             <div className='footer-links'>
                                 <a href="/howitworks">How To Order</a>
-                                <a href="/dtg">Small Quantity (DTG)</a>
+                                <a href="/dtg">Small Quantity (DTG / DTF)</a>
                                 <a href="/roland#print-shop">Specialty Printing</a>
                             </div>
                         </div>
