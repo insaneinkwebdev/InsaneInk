@@ -31,24 +31,6 @@
     font-size: 1.3rem;
 }
 
-@media screen and (min-width: 1900px) and (min-height: 1000px) {
-    .fifty-subheader {
-        color: #000000;
-        font-size: 18px;
-        font-weight: lighter;
-        text-align: center;
-        margin: 2rem 0;
-        margin-left: 5rem;
-        margin-right: 5rem;
-    }
-    
-    #fs-standout{
-        font-weight: bold;
-        color: #5c1c29;
-        font-size: 1.3rem;
-    }
-}
-
 .year__num {
     font-size: 1.5rem;
     text-align: center;
@@ -121,6 +103,22 @@
 
     .years_mobile {
         display: block;
+    }
+
+    .fifty-subheader {
+        color: #000000;
+        font-size: 18px;
+        font-weight: lighter;
+        text-align: center;
+        margin: 2rem 0;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    
+    #fs-standout{
+        font-weight: bold;
+        color: #5c1c29;
+        font-size: 1.3rem;
     }
 
     .mobile__content {
