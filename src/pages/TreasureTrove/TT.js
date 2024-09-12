@@ -208,10 +208,10 @@ function TT(){
                 
                 <div className="tt-hours">
                     <ul>
-                        <li className="tt-time">Treasure Trove has closed for the 2023-2024 school year!</li>
-                        {/*<li className="tt-time">Thursdays at lunch: 11:55 AM - 12:25 PM</li>
+                        {/*<li className="tt-time">Treasure Trove has closed for the 2023-2024 school year!</li>*/}
+                        <li className="tt-time">Thursdays at lunch: 11:55 AM - 12:25 PM</li>
                         <li className="tt-time">Thursdays after school: 2:00PM - 3:00 PM</li>
-                        <li className="tt-time">Fridays at lunch: 11:55 AM - 12:25 PM</li>*/}
+                        <li className="tt-time">Fridays at lunch: 11:55 AM - 12:25 PM</li>
                     </ul>
                 </div>
             </div>

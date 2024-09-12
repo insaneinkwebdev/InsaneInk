@@ -63,5 +63,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 **2024 - 25 Log**
 - 8/23/2024  Gained access to all content
-- 8/28/2024   Updated contact info, 50/50 and portfolios
-- 9/7/2024  Mobile view made better, fixed minor link and sizing issues
+- 8/28/2024  Updated contact info, 50/50 and portfolios
+- 9/07/2024  Mobile view made better, fixed minor link and sizing issues / FIXED THE ENTIRE 50/50 PAGE!!
+- 9/11/2024  Updated TT with current availability and squished bugs

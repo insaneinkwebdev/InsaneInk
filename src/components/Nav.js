@@ -38,7 +38,7 @@ function Navbar(){
                         </ul>
                     </li>
 
-                    <li id="nav-mobile-on"><a href="/dtg">Small Quantity (DTG)</a></li>
+                    <li id="nav-mobile-on"><a href="/dtg">Small Quantity (DTG / DTF)</a></li>
                     <li id="nav-mobile-on"><a href="/roland#print-shop">Specialty Printing</a></li>
 
                     <li><a href="/our-portfolio">Portfolio</a></li>

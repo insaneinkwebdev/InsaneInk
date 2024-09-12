@@ -7,7 +7,7 @@ const dataSlider = [
     img_prefix: "anchorZip_",
     img_suffix: "jpg",
     num_imgs: 3,
-    old_price: "$20.00",
+    old_price: "Out of Stock",
     price: "$15.00",
     description: "A unique take on school spirit, the splash of blues encompass the oceanic vibes of the Piedmont Hills Pirates! Available in a nice heather gray!",
     featured: false,
@@ -26,11 +26,11 @@ const dataSlider = [
       },
       {
         "type": "L",
-        "quant": 8
+        "quant": 0
       },
       {
         "type": "XL",
-        "quant": 2
+        "quant": 0
       },
       {
         "type": "2XL",
@@ -44,7 +44,7 @@ const dataSlider = [
     img_prefix: "surfHoodie_",
     img_suffix: "jpg",
     num_imgs: 5,
-    old_price: "$20.00",
+    old_price: "Out of Stock",
     price: "$15.00",
     description: "Wanna test the waters and “surf” through this school year? Then a hoodie with a surfing pirate is all you need! Come get yours in a bangin’ sand on maroon colorway!",
     featured: false,
@@ -55,11 +55,11 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 2
+        "quant": 0
       },
       {
         "type": "M",
-        "quant": 14
+        "quant": 0
       },
       {
         "type": "L",
@@ -118,7 +118,7 @@ const dataSlider = [
     img_prefix: "collegeCrew_",
     img_suffix: "jpg",
     num_imgs: 5,
-    old_price: "$20.00",
+    old_price: "Out of Stock",
     price: "$10.00",
     description: "An iconic design that never goes out of style, these staple crews are perfect for the distinguished Piedmont Hills High School student. These timeless crews are available in sand and gray!",
     featured: false,
@@ -129,7 +129,7 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 4
+        "quant": 0
       },
       {
         "type": "M",
@@ -141,11 +141,11 @@ const dataSlider = [
       },
       {
         "type": "XL",
-        "quant": 3
+        "quant": 0
       },
       {
         "type": "2XL",
-        "quant": 2
+        "quant": 0
       }
     ]
   },
@@ -228,7 +228,7 @@ const dataSlider = [
     img_prefix: "collegeLongSleeve_",
     img_suffix: "jpg",
     num_imgs: 5,
-    old_price: "$15.00",
+    old_price: "Out of Stock",
     price: "$10.00",
     description: "Similar to our short sleeve tee, but now our timeless design is on a long sleeve!",
     featured: true,
@@ -239,19 +239,19 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 10
+        "quant": 0
       },
       {
         "type": "M",
-        "quant": 8
+        "quant": 0
       },
       {
         "type": "L",
-        "quant": 3
+        "quant": 0
       },
       {
         "type": "XL",
-        "quant": 3  
+        "quant": 0  
       },
       {
         "type": "2XL",
@@ -265,7 +265,7 @@ const dataSlider = [
     img_prefix: "sweats_",
     img_suffix: "jpg",
     num_imgs: 3,
-    old_price: "$25.00",
+    old_price: "Out of Stock",
     price: "$10.00",
     description: "The perfect sweats to keep warm this winter, topped with our maroon PH anchor design. Available in gray.",
     featured: true,
@@ -288,7 +288,7 @@ const dataSlider = [
       },
       {
         "type": "XL",
-        "quant": 3  
+        "quant": 0  
       },
       {
         "type": "2XL",
