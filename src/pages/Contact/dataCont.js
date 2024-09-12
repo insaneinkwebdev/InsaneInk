@@ -66,6 +66,13 @@ const dataSlider = [
     email: "hermansjames4441\n@students.esuhsd.org",
     phone: "(408)-905-9606",
   },
+  {
+    id: uuidv4(),
+    name: "Varun Madhan",
+    position: "VP of Web Development",
+    email: "madhankumarlaksh2869@students.esuhsd.org",
+    phone: "(669)-306-2312",
+  },
   /*
   {
   id: uuidv4(),
