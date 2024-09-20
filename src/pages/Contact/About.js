@@ -4,7 +4,7 @@ function About(){
     return(
         <div className="container fixed">
             <br/>
-            <h2 className="about-header">About Usss</h2>
+            <h2 className="about-header">About this group</h2>
             <section className="about__section">
                 <p className="about__section__content">
                 <br/>
