@@ -70,7 +70,7 @@ const dataSlider = [
     id: uuidv4(),
     name: "Varun Madhan",
     position: "VP of Web Development",
-    email: "madhankumarlaksh2869@students.esuhsd.org",
+    email: "madhankumarlaksh2869\n@students.esuhsd.org",
     phone: "(669)-306-2312",
   },
   /*
