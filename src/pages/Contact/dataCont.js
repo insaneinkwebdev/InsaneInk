@@ -73,6 +73,13 @@ const dataSlider = [
     email: "madhankumarlaksh2869\n@students.esuhsd.org",
     phone: "(669)-306-2312",
   },
+  {
+    id: uuidv4(),
+    name: "Athena Nguyen",
+    position: "VP of Graphic Design",
+    email: "nguyenathena0561@students.esuhsd.org",
+    phone: "(408)-858-7506",
+  },
   /*
   {
   id: uuidv4(),
