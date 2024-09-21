@@ -3,13 +3,13 @@ import { v4 as uuidv4 } from "uuid";
 const dataSlider = [
   {
     id: uuidv4(),
-    name: "Anchor Zip Up",
-    img_prefix: "anchorZip_",
+    name: "Piedmont Hills Compass Tee",
+    img_prefix: "MaroonTS_",
     img_suffix: "jpg",
-    num_imgs: 3,
+    num_imgs: 2,
     old_price: "Out of Stock",
-    price: "$15.00",
-    description: "A unique take on school spirit, the splash of blues encompass the oceanic vibes of the Piedmont Hills Pirates! Available in a nice heather gray!",
+    price: "$10.00",
+    description: "TBD",
     featured: false,
     sizes: [
       {
@@ -40,10 +40,10 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "Pirate Surf Hoodie",
-    img_prefix: "surfHoodie_",
+    name: "Compass Pullover Hoodie",
+    img_prefix: "MaroonPullHoodie_",
     img_suffix: "jpg",
-    num_imgs: 5,
+    num_imgs: 4,
     old_price: "Out of Stock",
     price: "$15.00",
     description: "Wanna test the waters and “surf” through this school year? Then a hoodie with a surfing pirate is all you need! Come get yours in a bangin’ sand on maroon colorway!",
