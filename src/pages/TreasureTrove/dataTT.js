@@ -5,7 +5,7 @@ const dataSlider = [
     id: uuidv4(),
     name: "PHHS Compass Tee",
     img_prefix: "MaroonTS_",
-    img_suffix: "JPG",
+    img_suffix: "png",
     num_imgs: 2,
     old_price: "$10.00",
     price: "$10.00",
@@ -82,7 +82,7 @@ const dataSlider = [
     img_suffix: "JPG",
     num_imgs: 4,
     old_price: "$28.00",
-    price: "$20.00",
+    price: "$28.00",
     description: "Offered in Maroon and Black, sizes availble are the total of both colors",
     featured: false,
     sizes: [
@@ -119,7 +119,7 @@ const dataSlider = [
     img_suffix: "JPG",
     num_imgs: 3,
     old_price: "$20.00",
-    price: "$10.00",
+    price: "$20.00",
     description: "Availble in Gray",
     featured: false,
     sizes: [
@@ -192,7 +192,7 @@ const dataSlider = [
     img_suffix: "JPG",
     num_imgs: 2,
     old_price: "$20.00",
-    price: "$10.00",
+    price: "$20.00",
     description: "Availble in Gray",
     featured: false,
     sizes: [
