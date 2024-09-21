@@ -82,7 +82,7 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "Richelle Ann Parejas",
+    name: "Richelle Ann Paralejas",
     position: "Director of Treasure Trove",
     email: "paralejasrichell5085\n@students.esuhsd.org",
     phone: "(408)-799-6577",
