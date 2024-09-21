@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 const dataSlider = [
   {
     id: uuidv4(),
-    name: "Piedmont Hills Compass Tee",
+    name: "PHHS Compass Tee",
     img_prefix: "MaroonTS_",
     img_suffix: "jpg",
     num_imgs: 2,
@@ -40,7 +40,7 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "Compass Pullover Hoodie",
+    name: "PHHS Compass Pullover Hoodie",
     img_prefix: "MaroonPullHoodie_",
     img_suffix: "jpg",
     num_imgs: 4,
@@ -77,7 +77,7 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "Piedmont Hills Quarter Zip",
+    name: "PHHS Quarter Zip",
     img_prefix: "quarterZip_",
     img_suffix: "jpg",
     num_imgs: 4,
@@ -114,10 +114,10 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "PHHS College Crewneck",
-    img_prefix: "collegeCrew_",
+    name: "PHHS Compass Crewneck",
+    img_prefix: "CompassCrew_",
     img_suffix: "jpg",
-    num_imgs: 5,
+    num_imgs: 3,
     old_price: "Out of Stock",
     price: "$10.00",
     description: "An iconic design that never goes out of style, these staple crews are perfect for the distinguished Piedmont Hills High School student. These timeless crews are available in sand and gray!",
@@ -151,10 +151,10 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "PHHS College Short Sleeve Tee",
-    img_prefix: "collegeShortSleeve_",
+    name: "PHHS College Crew",
+    img_prefix: "CollegeCrew_",
     img_suffix: "jpg",
-    num_imgs: 5,
+    num_imgs: 3,
     old_price: "$10.00",
     description: "For warmer occasions, wear our timeless college logo on a breathable short sleeve available in a maroon on white colorway!",
     featured: true,
@@ -187,10 +187,10 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "PHHS College Hoodie",
-    img_prefix: "collegeHoodie_",
+    name: "PHHS BBY Tee",
+    img_prefix: "BBYTee_",
     img_suffix: "jpg",
-    num_imgs: 5,
+    num_imgs: 2,
     old_price: "$25.00",
     price: "$10.00",
     description: "With two available colorways (gray and white), our iconic design is also represented on a cozy hoodie! Great for winter time!",
@@ -222,6 +222,7 @@ const dataSlider = [
       }
     ]
   },
+  /*
   {
     id: uuidv4(),
     name: "PHHS College Long Sleeve Tee",
@@ -296,6 +297,7 @@ const dataSlider = [
       }
     ]
   }
+  */
 ];
 
 export default dataSlider;
