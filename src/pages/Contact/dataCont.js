@@ -80,6 +80,27 @@ const dataSlider = [
     email: "nguyenathena0561@students.esuhsd.org",
     phone: "(408)-858-7506",
   },
+  {
+    id: uuidv4(),
+    name: "Richelle Ann Parejas",
+    position: "Director of Treasure Trove",
+    email: "paralejasrichell5085@students.esuhsd.org",
+    phone: "(408)-799-6577",
+  },
+  {
+    id: uuidv4(),
+    name: "Celine Cheng",
+    position: "VP of Marketing",
+    email: "chengwenshi4185@students.esuhsd.org",
+    phone: "(669)-800-9484",
+  },
+  {
+    id: uuidv4(),
+    name: "Vivian Ho",
+    position: "VP of Marketing",
+    email: "hovivian4974@students.esuhsd.org",
+    phone: "(408)-828-8611",
+  },
   /*
   {
   id: uuidv4(),
