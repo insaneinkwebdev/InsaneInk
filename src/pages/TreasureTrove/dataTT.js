@@ -7,7 +7,7 @@ const dataSlider = [
     img_prefix: "MaroonTS_",
     img_suffix: "jpg",
     num_imgs: 2,
-    old_price: "Out of Stock",
+    old_price: "$10.00",
     price: "$10.00",
     description: "TBD",
     featured: false,
@@ -18,19 +18,19 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 0
+        "quant": 10
       },
       {
         "type": "M",
-        "quant": 0
+        "quant": 3
       },
       {
         "type": "L",
-        "quant": 0
+        "quant": 10
       },
       {
         "type": "XL",
-        "quant": 0
+        "quant": 3
       },
       {
         "type": "2XL",
@@ -44,9 +44,9 @@ const dataSlider = [
     img_prefix: "MaroonPullHoodie_",
     img_suffix: "jpg",
     num_imgs: 4,
-    old_price: "Out of Stock",
-    price: "$15.00",
-    description: "Wanna test the waters and “surf” through this school year? Then a hoodie with a surfing pirate is all you need! Come get yours in a bangin’ sand on maroon colorway!",
+    old_price: "$25.00",
+    price: "$25.00",
+    description: "Currently offered in Gray and Maroon, sizes available are the total of both colors",
     featured: false,
     sizes: [
       {
@@ -55,23 +55,23 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 0
+        "quant": 21
       },
       {
         "type": "M",
-        "quant": 0
+        "quant": 23
       },
       {
         "type": "L",
-        "quant": 0
+        "quant": 16
       },
       {
         "type": "XL",
-        "quant": 0
+        "quant": 10
       },
       {
         "type": "2XL",
-        "quant": 0
+        "quant": 3
       }
     ]
   },
@@ -83,7 +83,7 @@ const dataSlider = [
     num_imgs: 4,
     old_price: "$28.00",
     price: "$20.00",
-    description: "Wanna stay cozy while repping PHHS? This quarter zip really puts the Hills in Piedmont Hills! Available in maroon and black.",
+    description: "Offered in Maroon and Black, sizes availble are the total of both colors",
     featured: false,
     sizes: [
       {
@@ -92,23 +92,23 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 21
+        "quant": 19
       },
       {
         "type": "M",
-        "quant": 15
+        "quant": 8
       },
       {
         "type": "L",
-        "quant": 14
+        "quant": 12
       },
       {
         "type": "XL",
-        "quant": 21
+        "quant": 13
       },
       {
         "type": "2XL",
-        "quant": 1
+        "quant": 0
       }
     ]
   },
@@ -118,9 +118,9 @@ const dataSlider = [
     img_prefix: "CompassCrew_",
     img_suffix: "jpg",
     num_imgs: 3,
-    old_price: "Out of Stock",
+    old_price: "$20.00",
     price: "$10.00",
-    description: "An iconic design that never goes out of style, these staple crews are perfect for the distinguished Piedmont Hills High School student. These timeless crews are available in sand and gray!",
+    description: "Availble in Gray",
     featured: false,
     sizes: [
       {
@@ -129,23 +129,23 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 0
+        "quant": 12
       },
       {
         "type": "M",
-        "quant": 0
+        "quant": 15
       },
       {
         "type": "L",
-        "quant": 0
+        "quant": 15
       },
       {
         "type": "XL",
-        "quant": 0
+        "quant": 4
       },
       {
         "type": "2XL",
-        "quant": 0
+        "quant": 1
       }
     ]
   },
@@ -155,8 +155,8 @@ const dataSlider = [
     img_prefix: "CollegeCrew_",
     img_suffix: "jpg",
     num_imgs: 3,
-    old_price: "$10.00",
-    description: "For warmer occasions, wear our timeless college logo on a breathable short sleeve available in a maroon on white colorway!",
+    old_price: "$20.00",
+    description: "Currently availble in Gray",
     featured: true,
     sizes: [
       {
@@ -165,23 +165,23 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 10
+        "quant": 11
       },
       {
         "type": "M",
-        "quant": 8
+        "quant": 12
       },
       {
         "type": "L",
-        "quant": 3
+        "quant": 6
       },
       {
         "type": "XL",
-        "quant": 3  
+        "quant": 5  
       },
       {
         "type": "2XL",
-        "quant": 0
+        "quant": 1
       }
     ]
   },
@@ -191,9 +191,9 @@ const dataSlider = [
     img_prefix: "BBYTee_",
     img_suffix: "jpg",
     num_imgs: 2,
-    old_price: "$25.00",
+    old_price: "$20.00",
     price: "$10.00",
-    description: "With two available colorways (gray and white), our iconic design is also represented on a cozy hoodie! Great for winter time!",
+    description: "Availble in Gray",
     featured: false,
     sizes: [
       {
@@ -202,15 +202,15 @@ const dataSlider = [
       },
       {
         "type": "S",
-        "quant": 2
+        "quant": 7
       },
       {
         "type": "M",
-        "quant": 2
+        "quant": 8
       },
       {
         "type": "L",
-        "quant": 0
+        "quant": 2
       },
       {
         "type": "XL",
