@@ -7,7 +7,7 @@ const dataFifty = [
         year: "2025",
         images: [
             {
-                src: `${process.env.PUBLIC_URL}/fifty/2025/TestImage.jpg`,
+                src: `${process.env.PUBLIC_URL}/fifty/2025/petey.jpg`,
                 title: "BTSN, Peteys Night Market, Mini Club Day 2024",
                 bio: "Test"
             }
