@@ -4,6 +4,17 @@ const dataFifty = [
     
     {
         id: uuidv4(),
+        year: "2025",
+        images: [
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/2025/TestImage.jpg`,
+                title: "BTSN, Peteys Night Market, Mini Club Day 2024",
+                bio: "Test"
+            }
+        ]
+    },
+    {
+        id: uuidv4(),
         year: "2024",
         images: [
             {

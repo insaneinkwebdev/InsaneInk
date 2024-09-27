@@ -500,6 +500,54 @@ function Fifty(){
             <h2 className="fifty-subheader">Not only are we here to supply quality services on behalf of our customers as a business,<br></br> 
                 but we also <span id="fs-standout">allocate 50% of our entire profit towards philanthropy</span> with our aim of giving back to the community.</h2>
             <div className="years_desktop">
+                <div className="year 2025">
+                    <h2 className="year__num">2024-2025</h2>
+                    <section className="year__content">
+                        <Swiper
+                            slidesPerView={3}
+                            spaceBetween={5}
+                            slidesPerGroup={3}
+                            loop={true}
+                            loopFillGroupWithBlank={true}
+                            pagination={{
+                            clickable: true,
+                            }}
+                            navigation={true}
+                            modules={[Navigation]}
+                            breakpoints={
+                                {
+                                    550: {
+                                        slidesPerView: 1,
+                                        spaceBetweenSlides: 100
+                                    },
+
+                                    599: {
+                                        slidesPerView: 3,
+                                        spaceBetweenSlides: 5
+                                    }
+                                }
+                            }
+                            className="mySwiper"
+                        >
+                            {dataFifty[0].images.map((obj)=> {
+                                return(
+                                    <SwiperSlide> 
+                                        <div className="year__frame">
+                                            <div className="year__card">
+                                                <img className="year__card__img" alt="50/50 Concept Event" data-src={placeholder} src={obj.src}></img>
+
+                                                <div className="year__card__content">
+                                                    <h3>{obj.title}</h3>
+                                                    <p>{obj.bio}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                )
+                            })}                
+                        </Swiper>
+                    </section>
+                </div>
             <div className="year 2024">
                     <h2 className="year__num">2023-2024</h2>
                     <section className="year__content">
@@ -529,7 +577,7 @@ function Fifty(){
                             }
                             className="mySwiper"
                         >
-                            {dataFifty[0].images.map((obj)=> {
+                            {dataFifty[1].images.map((obj)=> {
                                 return(
                                     <SwiperSlide> 
                                         <div className="year__frame">
@@ -578,7 +626,7 @@ function Fifty(){
                             }
                             className="mySwiper"
                         >
-                            {dataFifty[1].images.map((obj)=> {
+                            {dataFifty[2].images.map((obj)=> {
                                 return(
                                     <SwiperSlide> 
                                         <div className="year__frame">
@@ -627,7 +675,7 @@ function Fifty(){
                             }
                             className="mySwiper"
                         >
-                            {dataFifty[2].images.map((obj)=> {
+                            {dataFifty[3].images.map((obj)=> {
                                 return(
                                     <SwiperSlide> 
                                         <div className="year__frame">
@@ -676,7 +724,7 @@ function Fifty(){
                             }
                             className="mySwiper"
                         >
-                            {dataFifty[3].images.map((obj)=> {
+                            {dataFifty[4].images.map((obj)=> {
                                 return(
                                     <SwiperSlide> 
                                         <div className="year__frame">
@@ -724,7 +772,7 @@ function Fifty(){
                             }
                             className="mySwiper"
                         >
-                            {dataFifty[4].images.map((obj)=> {
+                            {dataFifty[5].images.map((obj)=> {
                                 return(
                                     <SwiperSlide> 
                                         <div className="year__frame">
@@ -772,7 +820,7 @@ function Fifty(){
                             }
                             className="mySwiper"
                         >
-                            {dataFifty[5].images.map((obj)=> {
+                            {dataFifty[6].images.map((obj)=> {
                                 return(
                                     <SwiperSlide> 
                                         <div className="year__frame">
@@ -820,7 +868,7 @@ function Fifty(){
                             }
                             className="mySwiper"
                         >
-                            {dataFifty[6].images.map((obj)=> {
+                            {dataFifty[7].images.map((obj)=> {
                                 return(
                                     <SwiperSlide> 
                                         <div className="year__frame">
@@ -868,7 +916,7 @@ function Fifty(){
                             }
                             className="mySwiper"
                         >
-                            {dataFifty[7].images.map((obj)=> {
+                            {dataFifty[8].images.map((obj)=> {
                                 return(
                                     <SwiperSlide> 
                                         <div className="year__frame">
@@ -889,10 +937,23 @@ function Fifty(){
             </div>
             
             <div className="years_mobile">
+                <div className="myear 2024">
+                    <h2 className="year__num">2024-2025</h2>
+                    <section className="mobile__content">
+                        {dataFifty[0].images.map((obj)=> {
+                            return(
+                                <div className="mobile__card">
+                                    <img className="mobile__card__img" alt="50/50 Concept Event" data-src={placeholder} src={obj.src} onClick={()=> {
+                                        openModal(obj.title, obj.bio, obj.src)
+                                    }}></img>
+                                </div>)
+                        })}                
+                    </section>
+                </div>
                 <div className="myear 2023">
                     <h2 className="year__num">2023-2024</h2>
                     <section className="mobile__content">
-                        {dataFifty[0].images.map((obj)=> {
+                        {dataFifty[1].images.map((obj)=> {
                             return(
                                 <div className="mobile__card">
                                     <img className="mobile__card__img" alt="50/50 Concept Event" data-src={placeholder} src={obj.src} onClick={()=> {
@@ -906,7 +967,7 @@ function Fifty(){
                 <div className="myear 2022">
                     <h2 className="year__num">2022-2023</h2>
                     <section className="mobile__content">
-                        {dataFifty[1].images.map((obj)=> {
+                        {dataFifty[2].images.map((obj)=> {
                             return(
                                 <div className="mobile__card">
                                     <img className="mobile__card__img" alt="50/50 Concept Event" data-src={placeholder} src={obj.src} onClick={()=> {
@@ -920,7 +981,7 @@ function Fifty(){
                 <div className="myear 2020">
                     <h2 className="year__num">2021-2022</h2>
                     <section className="mobile__content">
-                        {dataFifty[2].images.map((obj)=> {
+                        {dataFifty[3].images.map((obj)=> {
                             return(
                                 <div className="mobile__card">
                                     <img className="mobile__card__img" alt="50/50 Concept Event" data-src={placeholder} src={obj.src} onClick={()=> {
@@ -934,7 +995,7 @@ function Fifty(){
                 <div className="myear 2019">
                     <h2 className="year__num">2019-2020</h2>
                     <section className="mobile__content">
-                        {dataFifty[3].images.map((obj)=> {
+                        {dataFifty[4].images.map((obj)=> {
                             return(
                                 <div className="mobile__card">
                                     <img className="mobile__card__img" alt="50/50 Concept Event" data-src={placeholder} src={obj.src} onClick={()=> {
@@ -948,7 +1009,7 @@ function Fifty(){
                 <div className="myear 2018">
                     <h2 className="year__num">2018-2019</h2>
                     <section className="mobile__content">
-                        {dataFifty[4].images.map((obj)=> {
+                        {dataFifty[5].images.map((obj)=> {
                             return(
                                 <div className="mobile__card">
                                     <img className="mobile__card__img" alt="50/50 Concept Event" data-src={placeholder} src={obj.src} onClick={()=> {
@@ -962,7 +1023,7 @@ function Fifty(){
                 <div className="myear 2017">
                     <h2 className="year__num">2017-2018</h2>
                     <section className="mobile__content">
-                        {dataFifty[5].images.map((obj)=> {
+                        {dataFifty[6].images.map((obj)=> {
                             return(
                                 <div className="mobile__card">
                                     <img className="mobile__card__img" alt="50/50 Concept Event" data-src={placeholder} src={obj.src} onClick={()=> {
@@ -976,7 +1037,7 @@ function Fifty(){
                 <div className="myear 2016">
                     <h2 className="year__num">2013-2016</h2>
                     <section className="mobile__content">
-                        {dataFifty[6].images.map((obj)=> {
+                        {dataFifty[7].images.map((obj)=> {
                             return(
                                 <div className="mobile__card">
                                     <img className="mobile__card__img" alt="50/50 Concept Event" data-src={placeholder} src={obj.src} onClick={()=> {
