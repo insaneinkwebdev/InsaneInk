@@ -22,43 +22,6 @@ const dataSlider = [
   email: "sairsanabel9782\n@students.esuhsd.org",
   phone: "(669)-476-7608",
   },
-  /*
-  {
-  id: uuidv4(),
-  name: "Nara Johnson",
-  position: "VP of Graphic Design",
-  email: "johnsonnara5479\n@students.esuhsd.org",
-  phone: "(408)-612-7907",
-  },
-  {
-  id: uuidv4(),
-  name: "Himani Manjunath",
-  position: "VP of Web Development",
-  email: "manjunathhimani3485\n@students.esuhsd.org",
-  phone: "(669)-264-6395",
-  },
-  {
-  id: uuidv4(),
-  name: "Venezia Mejia",
-  position: "VP of Web Development",
-  email: "mejiavenezia0399\n@students.esuhsd.org",
-  phone: "(408)-412-2734",
-  },
-  */
-  {
-  id: uuidv4(),
-  name: "Lucas Busta",
-  position: "Director of DTG",
-  email: "bustalucas4712\n@students.esuhsd.org",
-  phone: "(408)-769-0507",
-  },
-  {
-  id: uuidv4(),
-  name: "Truman Luong",
-  position: "Director of Specialty Printing",
-  email: "luongtruman4858\n@students.esuhsd.org",
-  phone: "(408)-722-7295",
-  },
   {
     id: uuidv4(),
     name: "James Hermans",
@@ -82,13 +45,6 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "Richelle Ann Paralejas",
-    position: "Director of Treasure Trove",
-    email: "paralejasrichell5085\n@students.esuhsd.org",
-    phone: "(408)-799-6577",
-  },
-  {
-    id: uuidv4(),
     name: "Celine Cheng",
     position: "VP of Marketing",
     email: "chengwenshi4185\n@students.esuhsd.org",
@@ -101,15 +57,27 @@ const dataSlider = [
     email: "hovivian4974\n@students.esuhsd.org",
     phone: "(408)-828-8611",
   },
-  /*
   {
-  id: uuidv4(),
-  name: "Logan Hua",
-  position: "Director of Treasure Trove",
-  email: "hualogan5244\n@students.esuhsd.org",
-  phone: "(669)-254-7358",
-  }
-  */
+    id: uuidv4(),
+    name: "Lucas Busta",
+    position: "Director of DTG",
+    email: "bustalucas4712\n@students.esuhsd.org",
+    phone: "(408)-769-0507",
+    },
+    {
+    id: uuidv4(),
+    name: "Truman Luong",
+    position: "Director of Specialty Printing",
+    email: "luongtruman4858\n@students.esuhsd.org",
+    phone: "(408)-722-7295",
+    },
+    {
+      id: uuidv4(),
+      name: "Richelle Ann Paralejas",
+      position: "Director of Treasure Trove",
+      email: "paralejasrichell5085\n@students.esuhsd.org",
+      phone: "(408)-799-6577",
+    },
 ];
 
 export default dataSlider;

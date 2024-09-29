@@ -1,13 +1,20 @@
-
+.page-break {
+    page-break-after: always;
+}
 .container.board {
     max-width: 100rem;
     margin-inline: auto;
     padding-inline: 2rem;
     padding-bottom: 3.5rem;
-    }
+}
 
 .cont-header {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
+}
+
+.cont-subheader{
+    text-align: center;
+    padding-bottom: 4rem;
 }
 
 .stacked {
@@ -19,12 +26,29 @@
     grid-row: 1 / 2;
 }
 
+.subhead {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
 .board-grid {
+    padding-left: 227px;
     display: grid;
     row-gap: 10rem;
-    column-gap: 3rem;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    padding-bottom: 6.5rem;
+    column-gap: 4rem;
+    grid-template-columns: repeat(auto-fit, 15rem);
+    /*grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));*/
+    padding-bottom: 12rem;
+}
+
+.board-grid1 {
+    display: grid;
+    row-gap: 10rem;
+    column-gap: 1.1rem;
+    grid-template-columns: repeat(auto-fit, 15.5rem);
+    padding-bottom: 12rem;
 }
 
 .card {

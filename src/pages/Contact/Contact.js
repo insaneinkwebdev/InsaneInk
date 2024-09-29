@@ -43,12 +43,15 @@ function Contact(){
         <div className="container">
              <br/>
             <h2 className="cont-header">Meet The Board</h2>
+            <h4 className="cont-subheader">Contact us at: sales@insaneink.com</h4>
             <div className="container board">
-                <div className='board-grid'>
+            <div className="subhead">Meet our C-Level's!</div>
+            <div className='board-grid'>
                     {dataCont.map((obj, index) => {
+                        while (index <3){
                             return(
                                 <div className="card stacked" key={obj.id}>
-                                    <img src={process.env.PUBLIC_URL + `/board/${index + 1}.png`} alt=" " className="cont-card__img"/>
+                                    <img src={process.env.PUBLIC_URL + `/board/${index + 1}.png`} alt="board pictures" className="cont-card__img"/>
                                     <div className="cont-card__content">
                                         <h3 className="card__name">{obj.name}</h3>
                                         <p className="card__pos">{obj.position}</p>
@@ -57,6 +60,47 @@ function Contact(){
                                     </div> 
                                 </div>
                             )
+                        }
+                        })}
+                </div>
+
+                <div className="subhead">Meet our VP's!</div>
+
+                <div className='board-grid1'>
+                    {dataCont.map((obj, index) => {
+                        while (index >=3 && index <8){
+                            return(
+                                <div className="card stacked" key={obj.id}>
+                                    <img src={process.env.PUBLIC_URL + `/board/${index + 1}.png`} alt="board pictures" className="cont-card__img"/>
+                                    <div className="cont-card__content">
+                                        <h3 className="card__name">{obj.name}</h3>
+                                        <p className="card__pos">{obj.position}</p>
+                                        <p className="card__email">{obj.email}</p>
+                                        <p className="card__phone">{obj.phone}</p>
+                                    </div> 
+                                </div>
+                            )
+                        }
+                        })}
+                </div>
+
+                <div className="subhead">Meet our Specialty Directors!</div>
+
+                <div className='board-grid'>
+                    {dataCont.map((obj, index) => {
+                        while (index >=8 && index <11){
+                            return(
+                                <div className="card stacked" key={obj.id}>
+                                    <img src={process.env.PUBLIC_URL + `/board/${index + 1}.png`} alt="board pictures" className="cont-card__img"/>
+                                    <div className="cont-card__content">
+                                        <h3 className="card__name">{obj.name}</h3>
+                                        <p className="card__pos">{obj.position}</p>
+                                        <p className="card__email">{obj.email}</p>
+                                        <p className="card__phone">{obj.phone}</p>
+                                    </div> 
+                                </div>
+                            )
+                        }
                         })}
                 </div>
 
