@@ -104,6 +104,7 @@
         column-gap: 5rem;
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
         padding-bottom: 12rem;
+        padding-left: -227;
     }
 
     .board-grid1 {
