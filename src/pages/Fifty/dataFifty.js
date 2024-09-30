@@ -9,7 +9,7 @@ const dataFifty = [
             {
                 src: `${process.env.PUBLIC_URL}/fifty/2025/petey.jpg`,
                 title: "BTSN, Peteys Night Market, Mini Club Day 2024",
-                bio: "Test"
+                bio: "We had a great start to our school year helping with back to school night as well as petey's and Mini Club Day!"
             }
         ]
     },

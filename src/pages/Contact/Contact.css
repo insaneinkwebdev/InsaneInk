@@ -106,6 +106,14 @@
         padding-bottom: 6.5rem;
     }
 
+    .board-grid1 {
+        display: grid;
+        row-gap: 10rem;
+        column-gap: 5rem;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        padding-bottom: 6.5rem;
+    }
+
     .card {
         margin-left: -0.5rem;
     }
