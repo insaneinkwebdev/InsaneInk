@@ -97,7 +97,7 @@
     margin-top: 0.5rem;
 }
 
-@media screen and (max-width: 727px) {
+@media screen and (max-width: 1080px) {
     .board-grid {
         display: grid;
         row-gap: 10rem;
