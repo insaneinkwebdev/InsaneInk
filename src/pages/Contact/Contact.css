@@ -98,6 +98,7 @@
 }
 
 @media screen and (max-width: 727px) {
+    /*
     .board-grid {
         display: grid;
         row-gap: 10rem;
@@ -112,6 +113,23 @@
         column-gap: 5rem;
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
         padding-bottom: 6.5rem;
+    }
+    */
+    .board-grid {
+        display: grid;
+        row-gap: 10rem;
+        column-gap: 4rem;
+        grid-template-columns: repeat(auto-fit, 17rem);
+        /*grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));*/
+        padding-bottom: 12rem;
+    }
+    
+    .board-grid1 {
+        display: grid;
+        row-gap: 10rem;
+        column-gap: 4rem;
+        grid-template-columns: repeat(auto-fit, 17rem);
+        padding-bottom: 12rem;
     }
 
     .card {
