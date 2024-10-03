@@ -6,28 +6,28 @@ const dataSlider = [
   name: "Nara Johnson",
   position: "CEO",
   email: "johnsonnara5479\n@students.esuhsd.org",
-  phone: "(408)-612-7907",
+  
   },
   {
   id: uuidv4(),
   name: "Venice Meil Metra",
   position: "CFO",
   email: "metravenicemeil4603\n@students.esuhsd.org",
-  phone: "(408)-332-7498",
+  
   },
   {
   id: uuidv4(),
   name: "Anabel Sairs",
   position: "COO In-House Printing",
   email: "sairsanabel9782\n@students.esuhsd.org",
-  phone: "(669)-476-7608",
+  
   },
   {
     id: uuidv4(),
     name: "James Hermans",
     position: "VP of Web Development",
     email: "hermansjames4441\n@students.esuhsd.org",
-    phone: "(408)-905-9606",
+    
   },
   {
     id: uuidv4(),
@@ -41,42 +41,42 @@ const dataSlider = [
     name: "Athena Nguyen",
     position: "VP of Graphic Design",
     email: "nguyenathena0561\n@students.esuhsd.org",
-    phone: "(408)-858-7506",
+    
   },
   {
     id: uuidv4(),
     name: "Celine Cheng",
     position: "VP of Marketing",
     email: "chengwenshi4185\n@students.esuhsd.org",
-    phone: "(669)-800-9484",
+    
   },
   {
     id: uuidv4(),
     name: "Vivian Ho",
     position: "VP of Marketing",
     email: "hovivian4974\n@students.esuhsd.org",
-    phone: "(408)-828-8611",
+    
   },
   {
     id: uuidv4(),
     name: "Lucas Busta",
     position: "Director of DTG",
     email: "bustalucas4712\n@students.esuhsd.org",
-    phone: "(408)-769-0507",
+    
     },
     {
     id: uuidv4(),
     name: "Truman Luong",
     position: "Director of Specialty Printing",
     email: "luongtruman4858\n@students.esuhsd.org",
-    phone: "(408)-722-7295",
+    
     },
     {
       id: uuidv4(),
       name: "Richelle Ann Paralejas",
       position: "Director of Treasure Trove",
       email: "paralejasrichell5085\n@students.esuhsd.org",
-      phone: "(408)-799-6577",
+      
     },
 ];
 

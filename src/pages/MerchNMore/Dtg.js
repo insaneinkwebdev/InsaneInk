@@ -28,6 +28,9 @@ function Dtg(){
                 Only available for orders of 20 shirts or less. 
                 We can print designs of any color EXCEPT white.
             </p>
+            <p className="dtg-disclaimer">
+                DTG sizes that are 2XL or greater will be charged an extra $5 an item surcharge
+            </p>
         </div>
     );
 }
