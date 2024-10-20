@@ -202,7 +202,7 @@ function TT(){
             <br />
             */}
             
-            <h2 className="tt-header" id="currentcollection">Spring 2024 🌷 Collection </h2>
+            <h2 className="tt-header" id="currentcollection">Treasure Trove Collection </h2>
             <div className="tt-store-box">
                 <h3 className="tt-store">Store Hours: </h3>
                 
@@ -210,7 +210,6 @@ function TT(){
                     <ul>
                         {/*<li className="tt-time">Treasure Trove has closed for the 2023-2024 school year!</li>*/}
                         <li className="tt-time">Thursdays at lunch: 11:55 AM - 12:25 PM</li>
-                        <li className="tt-time">Thursdays after school: 2:00PM - 2:30 PM</li>
                     </ul>
                 </div>
             </div>
