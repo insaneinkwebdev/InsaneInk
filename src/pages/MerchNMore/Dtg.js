@@ -29,7 +29,7 @@ function Dtg(){
                 We can print designs of any color EXCEPT white.
             </p>
             <p className="dtg-disclaimer">
-                DTG sizes that are 2XL or greater will be charged an extra $5 an item surcharge
+                DTG sizes that are 2XL or bigger will be charged an extra $5 an item surcharge
             </p>
         </div>
     );
