@@ -384,6 +384,18 @@
         aspect-ratio: 1 / 1;
     }
 
+    .card__img1 {
+        aspect-ratio: 2 / 3;
+    }
+
+    .card__img1 {
+        width: 50rem;
+        max-width: 50rem;
+        aspect-ratio: 3 / 2;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
     .card__content {
         margin: -4rem 0rem;
     }
@@ -397,6 +409,18 @@
     .card__price {
         margin-top: 0.5rem;
         font-size: 1rem;
+    }
+
+    .NewItem {
+        padding-top: 2rem;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .NIT {
+        padding-top: 2rem;
+        padding-left: 2%;
     }
     
 }
