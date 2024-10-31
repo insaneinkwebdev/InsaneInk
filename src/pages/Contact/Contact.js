@@ -118,8 +118,8 @@ function Contact(){
                 <div className="container team">
                     <div className="team-box" onClick={nextSlide}>
                         <div className="team-content">
-                            <h2 id="team-name">Ambitious Accessorizers</h2>
-                            <p id="team-members">Nara Johnson, Venice Meil Metra, Anabel Sairs</p>
+                            <h2 id="team-name">Accustomed Angels</h2>
+                            <p id="team-members">Sophia He, Marieanne Nguyen, Isabella Perez, Jilian Faith Juni</p>
                         </div>
                     </div>
                 </div>
