@@ -4,6 +4,11 @@ const dataSlider = [
   ///to do 
   {
     id: uuidv4(),
+    title: "Class Picture",
+    subTitle: "Image",
+  },
+  {
+    id: uuidv4(),
     title: "Back in Business!",
     subTitle: "Opening Message",
     link: "https://insaneink.com/howitworks",
