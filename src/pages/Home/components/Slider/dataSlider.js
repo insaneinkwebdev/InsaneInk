@@ -6,6 +6,7 @@ const dataSlider = [
     id: uuidv4(),
     title: "Class Picture",
     subTitle: "Image",
+    link: "#",
   },
   {
     id: uuidv4(),
