@@ -219,8 +219,7 @@ function TT(){
             <div className='NewItem'>
                 <hr></hr>
                 <h2 className='NIT'>! NEW ITEMS !</h2>
-                <img src={process.env.PUBLIC_URL + `/TT/NewItem_1.png`} alt="Treasure Trove Item" className="card__img1"/>
-                <h3>Mockup of new Piedmont Hills Anchor apparel, coming soon!</h3>
+                <img src={process.env.PUBLIC_URL + `/TT/NewItem1.png`} alt="Treasure Trove Item" className="card__img1"/>
             </div>
 
             <br></br>
