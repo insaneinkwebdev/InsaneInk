@@ -7,8 +7,8 @@ const dataSlider = [
     img_prefix: "MaroonTS_",
     img_suffix: "png",
     num_imgs: 2,
-    old_price: "$10.00",
-    price: "$10.00",
+    old_price: "$7.00",
+    price: "$7.00",
     description: "TBD",
     featured: false,
     sizes: [
@@ -155,7 +155,7 @@ const dataSlider = [
     img_prefix: "CollegeCrew_",
     img_suffix: "JPG",
     num_imgs: 3,
-    old_price: "$20.00",
+    old_price: "$15.00",
     description: "Currently availble in Gray",
     featured: true,
     sizes: [
@@ -191,8 +191,8 @@ const dataSlider = [
     img_prefix: "BBYTee_",
     img_suffix: "JPG",
     num_imgs: 2,
-    old_price: "$20.00",
-    price: "$20.00",
+    old_price: "$15.00",
+    price: "$15.00",
     description: "Availble in Gray",
     featured: false,
     sizes: [

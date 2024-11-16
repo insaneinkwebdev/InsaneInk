@@ -35,7 +35,7 @@ function Navbar(){
                     <li>
                         <a href="/howitworks" className='drop-hover merch'>How To Order</a>
                         <ul className='drop merch'>
-                            <li><a href="/dtg">Small Quantity (DTG / DTF)</a></li>
+                            <li><a href="/dtg">DTG / DTF</a></li>
                             <li><a href="/roland#print-shop">Specialty Printing</a></li>
                         </ul>
                     </li>
@@ -46,7 +46,7 @@ function Navbar(){
                     <li><a href="/our-portfolio">Past Projects</a></li>
 
                     <li>
-                        <a href="/fiftyfifty"  className='drop-hover fifty'>The 50/50 Concept</a>
+                        <a href="/fiftyfifty"  className='drop-hover fifty'>Philanthropy</a>
                         {/*<ul className='drop fifty'>
                             <li><a href="https://www.insaneink.com/the5050concept.php">2022-2023 Events</a></li>
                             <li><a href="https://www.insaneink.com/the5050concept.php#Events2020">2020-2022 Events</a></li>

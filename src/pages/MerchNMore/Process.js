@@ -19,7 +19,7 @@ function Process(){
                     <h1>2</h1>
                 </div>
                 <p className="section__content">
-                    Contact us with the # of items, the type of garment, and the colors and placement of the design for a free quote
+                Contact us with the # of items, type of garment and graphic details (if one is not available we can help design it.) 
                 </p>
             </section>
             <section className="section three">
@@ -27,9 +27,9 @@ function Process(){
                     <h1>3</h1>
                 </div>  
                 <p className="section__content">
-                    Our teams will work with you on a graphic and will always be available to answer any questions you may have
+                Our sales team will help determine if screen printing, direct-to-garment (DTG) printing or Direct-to-film (DTF) printing is best for your project! 
                     <br/><br/>
-                    We respond in less than 24 hours!       
+                    You will receive an email back within 24 hours!       
                 </p>
             </section>
             <section className="section four">
@@ -37,9 +37,7 @@ function Process(){
                         <h1>4</h1>
                 </div> 
                 <p className="section__content">
-                    Once you approve the graphic, the order will go into our screening phase
-                    <br/><br/>
-                    This usually takes around 2 weeks
+                Once the details are finalized and quote approved, most all projects are completed within 10 working days.
                 </p>
             </section>
             <section className="section five">

@@ -10,7 +10,7 @@ function Roland(){
                 <h2 className="rol-header">Specialty Printing</h2>
                 
                 <h3 className="rol-order">
-                    Ready to Order? <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSceGwbnH_UiX3J3fX4LuMdTO5S9Et1GfS3SwYmhZiOz_q4png/viewform?usp=sf_link">Roland Order Form (stickers, posters, flyers)</a>
+                    Ready to Order? <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSceGwbnH_UiX3J3fX4LuMdTO5S9Et1GfS3SwYmhZiOz_q4png/viewform?usp=sf_link">Large Format Printer Order Form (stickers, posters, flyers)</a>
                     &nbsp; | &nbsp;
                     <a  target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfA53Yxx7pCLVPewdOMhCQIQY2WX3Fcjk3dCl5VP8fu6UtJeA/viewform?usp=sf_link">Heat Press Order Form</a>
                 </h3>
@@ -38,7 +38,7 @@ function Roland(){
                 <h3 className="rol-contact limit-header">Print Shop</h3>
 
                 <p className="rol-info">
-                    We can print <b>&nbsp;stickers, posters, and flyers&nbsp;</b> using our large format printing and cutting machine-our Roland! For <b> &nbsp;Roland prices</b>, see the charts below. 
+                    We can print <b>&nbsp;stickers, posters, and flyers&nbsp;</b> using our large format printing and cutting machine-our Large Format Printer! For<b> &nbsp;Printer prices</b>, see the charts below. 
                 </p>
 
 

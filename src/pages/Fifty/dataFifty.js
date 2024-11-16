@@ -8,13 +8,14 @@ const dataFifty = [
         images: [
             {
                 src: `${process.env.PUBLIC_URL}/fifty/2025/petey.jpg`,
-                title: "BTSN, Peteys Night Market, Mini Club Day 2024",
-                bio: "We had a great start to our school year helping with back to school night as well as petey's and Mini Club Day!"
+                title: "Back-To-School-Night, Peteys Night Market, Mini Club Day 2024",
+                bio: "Marketing is what we do, and we love to volunteer for our school!  Providing photos, entertainment and more for attendees, Insane Ink volunteers enjoyed interacting with students and their families helping to promote school spirit enhancing the Pirate campus culture."
             },
             {
+                
                 src: `${process.env.PUBLIC_URL}/fifty/2025/BBrawl.jpg`,
                 title: "Basketbrawl Promotion Event",
-                bio: "We had a great promotion to our Teachers vs Students Basketbrawl Event with concessions, face painting, and an entertaining game."
+                bio: "Insane Ink lead the marketing and execution of this FREE ENTRY event offering raffle prizes and entertainment including free face painting, a DJ, breaktime games as well as running the subsidized cost concessions. InsaneInk provided free shirts to all participants and free pompoms to cheerleaders. And let's not forget what the marketing the team did to make sure the gym was packed again promoting school spirit. A strong social media campaign as well as professional graphics helped to spread the word."
             },
         ]
     },
@@ -23,6 +24,7 @@ const dataFifty = [
         year: "2024",
         images: [
             {
+                
                 src: `${process.env.PUBLIC_URL}/fifty/2024/volleybrawl24.jpg`,
                 title: "Volleybrawl 2024",
                 bio: "Our 3rd annual student vs. staff volleyball game included temporary tattoos, concessions, inter-set games, big smiles, and more!"
