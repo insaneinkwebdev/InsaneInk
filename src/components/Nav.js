@@ -1,5 +1,7 @@
 import './css/Navbar.css'
 import logo from './img/logo.svg'
+import instagram from './img/instagram.svg'
+import tiktok from './img/tiktok.svg'
 
 function Navbar(){
     function burger(){
@@ -41,7 +43,7 @@ function Navbar(){
                     <li id="nav-mobile-on"><a href="/dtg">Small Quantity (DTG / DTF)</a></li>
                     <li id="nav-mobile-on"><a href="/roland#print-shop">Specialty Printing</a></li>
 
-                    <li><a href="/our-portfolio">Portfolio</a></li>
+                    <li><a href="/our-portfolio">Past Projects</a></li>
 
                     <li>
                         <a href="/fiftyfifty"  className='drop-hover fifty'>The 50/50 Concept</a>
@@ -69,7 +71,10 @@ function Navbar(){
                     {/*<li id="nav-mobile-on"><a href="/treasuretrove#currentspecials">Current Specials</a></li>*/}
                     <li id="nav-mobile-on"><a href="/treasuretrove#currentcollection">Treasure Trove Collection</a></li>
 
+                    <li><a href="https://www.instagram.com/phhs.insaneink/" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={instagram} alt="icon instagram"/></a></li>
+                    <li><a href="https://www.tiktok.com/@phhs.insaneink" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img tiktok" src={tiktok} alt="icon tiktok"/></a></li>
                 </ul>
+                
                 <div className='burger' onClick={burger}>
                     <div className='line1'></div>
                     <div className='line2'></div>

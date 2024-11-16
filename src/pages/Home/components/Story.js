@@ -19,7 +19,7 @@ function Story(){
                 <br/>
                 <br/>
 
-                <a href="/contactus">Meet The Team</a>
+                <a href=" https://piedmonthillshigh.esuhsd.org/staff/departments/business">Program Details</a>
             </div>
             
             <div className="story-content vid">

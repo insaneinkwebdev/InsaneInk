@@ -10,10 +10,10 @@ function Home(){
             <Cover/>
             <hr/>
             <Story/> 
-            <hr/>
+            {/* <hr/>
             <Portfolio/>
             <hr/>
-            <Fifty/>
+            <Fifty/> */}
         </div>
     );
 }

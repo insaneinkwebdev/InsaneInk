@@ -19,8 +19,8 @@ function Footer(){
 
                             <div className='socials'>
                                 <a href="https://www.instagram.com/phhs.insaneink/" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={instagram} alt="icon instagram"/></a>
-                                <a href="https://twitter.com/PHHS_InsaneInk" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={twitter} alt="icon twitter"/></a>
-                                <a href="https://www.facebook.com/phhsinsaneink" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={facebook} alt="icon facebook"/></a>
+                                {/* <a href="https://twitter.com/PHHS_InsaneInk" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={twitter} alt="icon twitter"/></a>
+                                <a href="https://www.facebook.com/phhsinsaneink" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={facebook} alt="icon facebook"/></a> */}
                                 <a href="https://www.tiktok.com/@phhs.insaneink" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img tiktok" src={tiktok} alt="icon tiktok"/></a>
                             </div>
                         </div>

@@ -96,8 +96,10 @@ function Portfolio(){
     return(
         <div className="container">
              <br/>
-            <h2>Our Portfolio</h2>
+            <h2>Our Past Projects</h2>
             <br/>
+            <h2 className="port-subheader">Not only are we here to supply quality services on behalf of our customers as a business,<br></br> 
+                but we also allocate 50% of our entire profit towards philanthropy with our aim of giving back to the community.</h2>
             <div className="port-sel-wrapper">
                 {dataPort.map((obj, index) => {
                     return(
