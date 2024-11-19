@@ -98,8 +98,8 @@ function Portfolio(){
              <br/>
             <h2>Our Past Projects</h2>
             <br/>
-            <h2 className="port-subheader">Not only are we here to supply quality services on behalf of our customers as a business,<br></br> 
-                but we also allocate 50% of our entire profit towards philanthropy with our aim of giving back to the community.</h2>
+            <h2 className="port-subheader">Insane Ink has had the honor of working with other clubs, businesses and individuals to print the following designs on shirts, fleece, posters and more. 
+                While Insane Ink did not necesarily design all of the graphics below, we would be happy to print whatever design you have, or our one of our many trained graphic desingers can help you to create one!</h2>
             <div className="port-sel-wrapper">
                 {dataPort.map((obj, index) => {
                     return(
