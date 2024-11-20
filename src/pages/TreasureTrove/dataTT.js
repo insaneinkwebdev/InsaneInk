@@ -222,6 +222,43 @@ const dataSlider = [
       }
     ]
   },
+  {
+    id: uuidv4(),
+    name: "PHHS Anchor crew and crop",
+    img_prefix: "Anchor_",
+    img_suffix: "JPG",
+    num_imgs: 1,
+    old_price: "$28.00",
+    price: "$28.00",
+    description: "offered in white, great way to show pride for our school!",
+    featured: false,
+    sizes: [
+      {
+        "type": "XS",
+        "quant": 0
+      },
+      {
+        "type": "S",
+        "quant": 21
+      },
+      {
+        "type": "M",
+        "quant": 23
+      },
+      {
+        "type": "L",
+        "quant": 16
+      },
+      {
+        "type": "XL",
+        "quant": 10
+      },
+      {
+        "type": "2XL",
+        "quant": 3
+      }
+    ]
+  },
   /*
   {
     id: uuidv4(),
