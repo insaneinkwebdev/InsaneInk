@@ -219,7 +219,9 @@ function TT(){
             <div className='NewItem'>
                 <hr></hr>
                 <h2 className='NIT'>! Limited Time Offer !</h2>
-                <img src={process.env.PUBLIC_URL + `/TT/NewItem2.png`} alt="Treasure Trove Item" className="card__img1"/>
+                <div className='NewImage'>
+                    <img src={process.env.PUBLIC_URL + `/TT/NewItem2.png`} alt="Treasure Trove Item" className="card__img1"/>
+                </div>
             </div>
             
             <br></br>
