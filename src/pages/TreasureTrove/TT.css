@@ -363,6 +363,41 @@
         margin: 0 1rem;
         margin-top: 0.75rem;
     }
+
+    .card__img1 {
+        width: 25rem;
+        max-width: 25rem;
+        aspect-ratio: 2 / 3;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    .card__content {
+        margin: -4rem 0rem;
+    }
+
+    .card__title {
+        font-size: 1.25rem;
+        line-height: 1.1;
+        color: #7C2F3F;
+    }
+    
+    .card__price {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .NewItem {
+        padding-top: 2rem;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .NIT {
+        padding-top: 2rem;
+        padding-left: 2%;
+    }
 }
 
 
