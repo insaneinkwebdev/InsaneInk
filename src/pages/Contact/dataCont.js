@@ -38,13 +38,6 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
-    name: "Athena Nguyen",
-    position: "VP of Graphic Design",
-    email: "nguyenathena0561\n@students.esuhsd.org",
-    
-  },
-  {
-    id: uuidv4(),
     name: "Celine Cheng",
     position: "VP of Marketing",
     email: "chengwenshi4185\n@students.esuhsd.org",

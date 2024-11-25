@@ -76,7 +76,7 @@ nav {
   border-right: solid 2px #622531;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  transition: all 300ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 
 .drop li {
@@ -193,6 +193,11 @@ nav {
   from{
     opacity: 0;
     transform: translateX(50px);
+  }
+
+  to{
+    opacity: 0.5;
+    transform: translateX(25px);
   }
 
   to{

@@ -68,7 +68,7 @@ function Contact(){
 
                 <div className='board-grid1'>
                     {dataCont.map((obj, index) => {
-                        while (index >=3 && index <8){
+                        while (index >=3 && index <7){
                             return(
                                 <div className="card stacked" key={obj.id}>
                                     <img src={process.env.PUBLIC_URL + `/board/${index + 1}.png`} alt="board pictures" className="cont-card__img"/>
@@ -88,7 +88,7 @@ function Contact(){
 
                 <div className='board-grid'>
                     {dataCont.map((obj, index) => {
-                        while (index >=8 && index <11){
+                        while (index >=7 && index <10){
                             return(
                                 <div className="card stacked" key={obj.id}>
                                     <img src={process.env.PUBLIC_URL + `/board/${index + 1}.png`} alt="board pictures" className="cont-card__img"/>
