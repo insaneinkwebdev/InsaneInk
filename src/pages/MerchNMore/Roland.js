@@ -23,7 +23,7 @@ function Roland(){
 
                 <hr></hr>
 
-                <h3 className="rol-contact limit-header">Heat Press</h3>
+                {/* <h3 className="rol-contact limit-header">Heat Press</h3>
 
                 <p className="rol-info">
                     With our large format printer, we can print designs on vinyl to heat press onto apparel!     
@@ -33,12 +33,12 @@ function Roland(){
                 <p className="rol-disclaimer">
                     A cut line may be added if there are small details or if the design's outer color is inconsistent. 
                     For this cutline, you may choose a white outline or a Pantone color of your choice (we recommend matching outline color to product color so outline is less apparent).
-                </p>
+                </p> */}
 
                 <h3 className="rol-contact limit-header">Print Shop</h3>
 
                 <p className="rol-info">
-                    We can print <b>&nbsp;stickers, posters, and flyers&nbsp;</b> using our large format printing and cutting machine-our Large Format Printer! For<b> &nbsp;Printer prices</b>, see the charts below. 
+                    We can print <b>&nbsp;stickers and posters&nbsp;</b> using our large format printing and cutting machine-our Large Format Printer! For<b> &nbsp;Printer prices</b>, see the charts below. 
                 </p>
 
 
