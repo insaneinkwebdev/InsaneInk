@@ -71,6 +71,10 @@ function Navbar(){
                     {/*<li id="nav-mobile-on"><a href="/treasuretrove#currentspecials">Current Specials</a></li>*/}
                     <li id="nav-mobile-on"><a href="/treasuretrove#currentcollection">Treasure Trove Collection</a></li>
 
+                    
+                </ul>
+
+                <ul className='nav-links-social'>
                     <li><a href="https://www.instagram.com/phhs.insaneink/" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={instagram} alt="icon instagram"/></a></li>
                     <li><a href="https://www.tiktok.com/@phhs.insaneink" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img tiktok" src={tiktok} alt="icon tiktok"/></a></li>
                 </ul>

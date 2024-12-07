@@ -47,6 +47,22 @@ nav {
   list-style: none;
 }
 
+.social-icon.img {
+  width: 30px;
+  transition: 300ms ease-in-out;
+}
+
+.social-icon.img:hover {
+  outline: 2px solid #7C2F3F; /* Adjust color as needed */
+  border-radius: 8px; /* Adjust radius for rounded edges */
+  outline-offset: 2px; /* Space between the outline and the image */
+}
+
+.social-icon.img.tiktok {
+  width: 28px;
+}
+
+
 .nav-links a {
   color: #7C2F3F;
   text-decoration: none;
@@ -63,6 +79,28 @@ nav {
 .nav-links a:hover {
   color: white;
   background-color: #7C2F3F;
+}
+
+.nav-links-social a {
+  color: #7C2F3F;
+  text-decoration: none;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+  font-size: 1.03rem;
+  font-weight: 600;
+  transition: all 300ms ease-in-out;
+}
+
+.nav-links-social, .dropdown {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links-social li {
+  list-style: none;
 }
 
 .drop {

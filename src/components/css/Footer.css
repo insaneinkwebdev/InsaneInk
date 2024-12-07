@@ -74,14 +74,25 @@ footer {
 }
 
 .social-icon {
-    color: #7C2F3F;
     margin-right: 8px;
     transition: 300ms ease-in-out;
-}
-
-.social-icon.img {
+  }
+  
+  .social-icon.img {
     width: 30px;
-}
+    border: none; /* Ensure no border is applied */
+    background: none; /* Remove any background */
+  }
+  
+  .social-icon.img:hover {
+    outline: 2px solid #7C2F3F;
+    border-radius: 8px;
+    outline-offset: 2px;
+  }
+  
+  .social-icon.img.tiktok {
+    width: 28px;
+  }
 
 .social-icon.img.tiktok {
     width: 28px;
