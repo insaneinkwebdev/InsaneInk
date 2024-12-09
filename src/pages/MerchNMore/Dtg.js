@@ -31,6 +31,9 @@ function Dtg(){
             <p className="dtg-disclaimer">
                 DTG sizes that are 2XL or bigger will be charged an extra $5 an item surcharge
             </p>
+            <br/>
+            <h2>Direct to Film</h2>
+            
         </div>
     );
 }
