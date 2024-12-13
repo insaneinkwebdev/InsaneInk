@@ -529,12 +529,19 @@ function Fifty(){
                             }
                             className="mySwiper"
                         >
-                            {dataFifty[0].images.map((obj)=> {
-                                return(
-                                    <SwiperSlide> 
+                            {dataFifty[0].images.map((obj) => {
+                                return (
+                                    <SwiperSlide key={obj.id}> 
                                         <div className="year__frame">
                                             <div className="year__card">
-                                                <img className="year__card__img" alt="50/50 Concept Event" data-src={placeholder} src={obj.src}></img>
+                                                {obj.src.endsWith('.mp4') ? (
+                                                    <video className="year__card__img" width="600" controls>
+                                                        <source src={obj.src} type="video/mp4" />
+                                                        Your browser does not support the video tag.
+                                                    </video>
+                                                ) : (
+                                                    <img className="year__card__img" alt="50/50 Concept Event" src={obj.src} />
+                                                )}
 
                                                 <div className="year__card__content">
                                                     <h3>{obj.title}</h3>
@@ -543,8 +550,9 @@ function Fifty(){
                                             </div>
                                         </div>
                                     </SwiperSlide>
-                                )
-                            })}                
+                                );
+                            })}
+                
                         </Swiper>
                     </section>
                 </div>
