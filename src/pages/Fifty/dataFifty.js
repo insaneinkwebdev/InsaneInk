@@ -12,24 +12,23 @@ const dataFifty = [
                 bio: "Marketing is what we do, and we love to volunteer for our school!  Providing photos, entertainment and more for attendees, Insane Ink volunteers enjoyed interacting with students and their families helping to promote school spirit enhancing the Pirate campus culture."
             },
             {
-                src: `${process.env.PUBLIC_URL}/fifty/2025/BBrawl.jpg`,
-                title: "Basketbrawl Promotion Event",
-                bio: (
-                    <>
-                        Insane Ink led the marketing and execution of this FREE ENTRY event offering raffle prizes and entertainment including free face painting, a DJ, breaktime games as well as running the subsidized cost concessions. InsaneInk provided free shirts to all participants and free pompoms to cheerleaders. And let's not forget what the marketing team did to make sure the gym was packed again promoting school spirit. A strong social media campaign as well as professional graphics helped to spread the word.
-                    </>
-                ),
-            },
-            {
                 src: `${process.env.PUBLIC_URL}/fifty/2025/BBrawl.mp4`,
-                title: "Basketbrawl Video",
+                title: "BasketBRAWL Staff vs Students Spirit Event",
                 bio: (
                     <>
                         Watch this exciting promotional video showcasing the energy and excitement of the Basketbrawl event! From highlights of the games to the crowd cheering, this video captures the spirit of the event perfectly.
                     </>
                 ),
-            }
-            
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/2025/arch.mp4`,
+                title: "PHHS Inflatable Arch",
+                bio: (
+                    <>
+                       To help promote school spirit Insane Ink used philanthropy funds to purchase a 16.5' x 10.5' contained air inflatable arch to be used by the Pirate Community at various events. 
+                    </>
+                ),
+            },
                                     
             
         ]
