@@ -35,12 +35,12 @@ function Navbar(){
                     <li>
                         <a href="/howitworks" className='drop-hover merch'>How To Order</a>
                         <ul className='drop merch'>
-                            <li><a href="/dtg">Custom Garments</a></li>
-                            <li><a href="/roland#print-shop">Custom Posters and Stickers</a></li>
+                            <li><a href="/dtg">Smaller Custom Garment Orders</a></li>
+                            <li><a href="/roland#print-shop">Specialty Printing</a></li>
                         </ul>
                     </li>
 
-                    <li id="nav-mobile-on"><a href="/dtg">Small Quantity (In-House DTG)</a></li>
+                    <li id="nav-mobile-on"><a href="/dtg">Smaller Custom Garment Orders</a></li>
                     <li id="nav-mobile-on"><a href="/roland#print-shop">Specialty Printing</a></li>
 
                     <li><a href="/our-portfolio">Past Projects</a></li>
