@@ -153,7 +153,7 @@ const dataSlider = [
     id: uuidv4(),
     name: "PHHS Anchor crew and crop",
     img_prefix: "Anchor_",
-    img_suffix: "JPG",
+    img_suffix: "jpg",
     num_imgs: 3,
     old_price: "$18.00",
     price: "$18.00",
