@@ -204,6 +204,7 @@ function TT(){
             
             <h2 className="tt-header" id="currentcollection">Treasure Trove Collection </h2>
             <div className="tt-store-box">
+                
                 <h3 className="tt-store">Store Hours: </h3>
                 
                 <div className="tt-hours">
@@ -213,6 +214,10 @@ function TT(){
                     </ul>
                 </div>
             </div>
+            <h3 className="tt-explanation">Treasure Trove is your go-to spot for all things PHHS! </h3>
+            <h3 className="tt-explanation">Featuring student-designed clothing and headwear, our merch keeps Pirate supporters geared up in style!</h3>
+            <h3 className="tt-explanation">Catch us on campus or at pop-up events during school sporting events and after-school events—don’t miss out on showing your Pirate pride! 🏴‍☠️
+            </h3>
 
             <h3 className="tt-contact">Contact sales@insaneink.com for questions, comments, or concerns!</h3>
             

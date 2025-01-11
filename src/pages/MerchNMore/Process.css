@@ -34,7 +34,14 @@
 
 .section__content {
     font-weight: 600;
+    
     font-size: 1.6rem;
+    color: #232323;
+    width: 32vw;
+}
+.section__intro {
+    font-weight: 600;
+    font-size: 1.4rem;
     color: #232323;
     width: 32vw;
 }
@@ -46,6 +53,7 @@
 .section__step {
     font-size: 10.5rem;
     margin: 0 10rem;
+    margin-bottom: -150px;
     margin-left: -1rem;
     text-align: center;
     color: #232323;

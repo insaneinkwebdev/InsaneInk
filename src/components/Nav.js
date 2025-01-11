@@ -61,7 +61,7 @@ function Navbar(){
                     </li>
 
                     <li>
-                        <a href="/treasuretrove" className='drop-hover merch'>Treasure Trove</a>
+                        <a href="/treasuretrove" className='drop-hover merch'>PHHS Merchandise</a>
                         <ul className='drop merch'>
                             {/*<li><a href="/treasuretrove#currentspecials">Current Specials</a></li>*/}
                             <li><a href="/treasuretrove#currentcollection">Treasure Trove Collection</a></li>

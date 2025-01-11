@@ -3,6 +3,191 @@ import { v4 as uuidv4 } from "uuid";
 const dataSlider = [
   {
     id: uuidv4(),
+    name: "PHHS SweatPants",
+    img_prefix: "SweatPant_",
+    img_suffix: "JPG",
+    num_imgs: 1,
+    old_price: "$25.00",
+    price: "$25.00",
+    description: "offered in grey, great way to show pride for our school!",
+    featured: false,
+    sizes: [
+      {
+        "type": "XS",
+        "quant": 5
+      },
+      {
+        "type": "S",
+        "quant": 5
+      },
+      {
+        "type": "M",
+        "quant": 5
+      },
+      {
+        "type": "L",
+        "quant": 5
+      },
+      {
+        "type": "XL",
+        "quant": 5
+      },
+      {
+        "type": "2XL",
+        "quant": 5
+      }
+    ]
+  },
+  {
+    id: uuidv4(),
+    name: "PHHS Heart Hoodie",
+    img_prefix: "HeartHoodie_",
+    img_suffix: "JPG",
+    num_imgs: 1,
+    old_price: "$25.00",
+    price: "$25.00",
+    description: "offered in navy blue, great way to show pride for our school!",
+    featured: false,
+    sizes: [
+      {
+        "type": "XS",
+        "quant": 0
+      },
+      {
+        "type": "S",
+        "quant": 0
+      },
+      {
+        "type": "M",
+        "quant": 7
+      },
+      {
+        "type": "L",
+        "quant": 7
+      },
+      {
+        "type": "XL",
+        "quant": 6
+      },
+      {
+        "type": "2XL",
+        "quant": 0
+      }
+    ]
+  },
+  {
+    id: uuidv4(),
+    name: "PHHS Caps",
+    img_prefix: "Cap_",
+    img_suffix: "JPG",
+    num_imgs: 1,
+    old_price: "$18.00",
+    price: "$18.00",
+    description: "offered in black, great way to show pride for our school!",
+    featured: false,
+    sizes: [
+      {
+        "type": "XS",
+        "quant": 0
+      },
+      {
+        "type": "S",
+        "quant": 0
+      },
+      {
+        "type": "M",
+        "quant": 23
+      },
+      {
+        "type": "L",
+        "quant": 0
+      },
+      {
+        "type": "XL",
+        "quant": 0
+      },
+      {
+        "type": "2XL",
+        "quant": 0
+      }
+    ]
+  },
+  {
+  id: uuidv4(),
+  name: "PHHS Pompom Beanie",
+  img_prefix: "Beanie_",
+  img_suffix: "JPG",
+  num_imgs: 3,
+  old_price: "$18.00",
+  price: "$18.00",
+  description: "offered in navy blue, great way to show pride for our school!",
+  featured: false,
+  sizes: [
+    {
+      "type": "XS",
+      "quant": 0
+    },
+    {
+      "type": "S",
+      "quant": 0
+    },
+    {
+      "type": "M",
+      "quant": 23
+    },
+    {
+      "type": "L",
+      "quant": 0
+    },
+    {
+      "type": "XL",
+      "quant": 0
+    },
+    {
+      "type": "2XL",
+      "quant": 0
+    }
+  ]
+  },
+  {
+    id: uuidv4(),
+    name: "PHHS Anchor crew and crop",
+    img_prefix: "Anchor_",
+    img_suffix: "JPG",
+    num_imgs: 3,
+    old_price: "$18.00",
+    price: "$18.00",
+    description: "offered in white, great way to show pride for our school!",
+    featured: false,
+    sizes: [
+      {
+        "type": "XS",
+        "quant": 0
+      },
+      {
+        "type": "S",
+        "quant": 21
+      },
+      {
+        "type": "M",
+        "quant": 23
+      },
+      {
+        "type": "L",
+        "quant": 16
+      },
+      {
+        "type": "XL",
+        "quant": 10
+      },
+      {
+        "type": "2XL",
+        "quant": 3
+      }
+    ]
+  },
+  {
+    id: uuidv4(),
     name: "PHHS Compass Tee",
     img_prefix: "MaroonTS_",
     img_suffix: "png",
@@ -222,43 +407,7 @@ const dataSlider = [
       }
     ]
   },
-  {
-    id: uuidv4(),
-    name: "PHHS Anchor crew and crop",
-    img_prefix: "Anchor_",
-    img_suffix: "JPG",
-    num_imgs: 3,
-    old_price: "RELEASE SALE $18.00",
-    price: "$18.00",
-    description: "offered in white, great way to show pride for our school!",
-    featured: false,
-    sizes: [
-      {
-        "type": "XS",
-        "quant": 0
-      },
-      {
-        "type": "S",
-        "quant": 21
-      },
-      {
-        "type": "M",
-        "quant": 23
-      },
-      {
-        "type": "L",
-        "quant": 16
-      },
-      {
-        "type": "XL",
-        "quant": 10
-      },
-      {
-        "type": "2XL",
-        "quant": 3
-      }
-    ]
-  },
+
   /*
   {
     id: uuidv4(),
