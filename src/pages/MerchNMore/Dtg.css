@@ -1,64 +1,75 @@
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 1rem;
-    box-sizing: border-box;
+/* Overall Page Centering */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and Information Styling */
 .dtg-header {
     color: #5c1c29;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
     margin-bottom: 1rem;
 }
 
 .dtg-info {
-    color: #232323;
-    font-size: 1.1rem;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.8;
     text-align: center;
-    margin-bottom: 1rem;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 1rem auto;
+    max-width: 800px;
 }
 
-.dtg-contact {
-    text-align: center;
-    font-size: 1.1rem;
-}
-
+/* Contact and Order Styling */
+.dtg-contact,
 .dtg-order {
-    font-size: 1.1rem;
-    color: #7c2f3f;
     text-align: center;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
 }
 
 .dtg-order a {
     color: #bc566b;
     text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #bc566b;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.dtg-images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1% 0;
-}
-
-.image-table {
-    border-collapse: collapse;
-    margin: 0 auto;
-}
-
-.header-box {
-    margin-top: 3rem;
+.dtg-order a:hover {
     background-color: #bc566b;
-    color: white; 
+    color: white;
+}
+
+/* Header Box Styling */
+.header-box {
+    margin: 2rem 0;
+    background-color: #bc566b;
+    color: white;
     text-align: center;
     padding: 1rem;
-    margin-bottom: 1rem;
     border-radius: 8px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .header-box h1 {
@@ -66,44 +77,99 @@
     margin: 0;
 }
 
+/* Image Table Styling */
+.image-table {
+    margin: 1.5rem auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
 .image-table img {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     height: auto;
-    margin: 10px;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Data Table Styling */
+.dtg-table {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.info-table th, .info-table td {
+    padding: 1rem;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
+.info-table th {
+    background-color: #f4f4f4;
+    color: #5c1c29;
+    font-weight: bold;
+}
+
+.info-table tr:nth-child(odd) {
+    background-color: #fafafa;
+}
+
+.info-table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.info-table td:first-child {
+    font-weight: bold;
+    color: #5c1c29;
+    text-align: center;
+    width: 25%;
+}
+
+/* Disclaimer Styling */
 .dtg-disclaimer {
     color: #bc566b;
     text-align: center;
-    font-size: 1.1rem;
-    margin: 0.5rem 0;
+    font-size: 1rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    line-height: 1.4;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     .dtg-header {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
-    .dtg-info {
+    .dtg-info,
+    .dtg-contact,
+    .dtg-order,
+    .dtg-disclaimer {
         font-size: 1rem;
-        padding: 0 1rem;
     }
 
     .image-table img {
         max-width: 200px;
     }
 
-    .dtg-contact,
-    .dtg-order {
-        font-size: 1rem;
-    }
-
-    .dtg-disclaimer {
-        font-size: 0.8rem;
+    .info-table th,
+    .info-table td {
+        font-size: 0.9rem;
+        padding: 0.8rem;
     }
 }
+

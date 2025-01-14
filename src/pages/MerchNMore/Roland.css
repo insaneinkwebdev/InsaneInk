@@ -41,7 +41,7 @@ padding-left: 3.5rem
 }
 
 .rol-pricing {
-    max-width: 70rem;
+    max-width: 60rem;
 }
 
 .rol-contact, .rol-order {
@@ -78,7 +78,7 @@ padding-left: 3.5rem
     -ms-flex-align: center;
     justify-content: center;
     
-    max-width: 60rem;
+    max-width: 50rem;
 }
 
 .limit-header {

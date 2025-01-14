@@ -32,6 +32,31 @@ function Dtg() {
                 </a>
             </h3>
 
+            <div className="dtg-table">
+                <table className="info-table">
+                    <tbody>
+                        <tr>
+                            <td>DTF</td>
+                            <td>
+                                <li>All garment colors availble, these include black, white, ash and sports gray. Other colors must be ordered for a fee.</li>
+                                <li>Vector based graphics only. (SVG, AI, EPS, PDF)</li>
+                                <li>Possible to print white and colors stay vibrant</li>
+                                <li>Works by heating a film onto the garment</li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>DTG</td>
+                            <td>
+                                <li>Items availble in white, ash and sports gray. Any other light colored garments must be ordered for a fee.</li>
+                                <li>Possible to print any picture. Any graphic with solid white is not possible to print.</li>
+                                <li>Has a retro design impact</li>
+                                <li>Garments are dyed with ink directly</li>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
             <div className="header-box">
                 <h1>Garments</h1>
             </div>
@@ -50,6 +75,7 @@ function Dtg() {
                     </tbody>
                 </table>
             </div>
+
             <p className="dtg-disclaimer">
                 Garments available in Ash Grey, Sports Grey, and White. Hoodies ONLY in black.
             </p>
