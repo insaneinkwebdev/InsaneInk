@@ -1,5 +1,5 @@
-/* Overall Page Centering */
-body {
+
+.body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,7 +10,7 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-.container {
+.container-dtg {
     max-width: 1000px;
     margin: 0 auto;
     padding: 1.5rem;

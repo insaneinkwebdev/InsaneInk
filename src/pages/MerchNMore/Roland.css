@@ -6,6 +6,16 @@ padding-right: 3.5rem
 padding-left: 3.5rem
 */
 
+.container-rol {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
 #changeSize {
     padding-right: 3.5rem;
     padding-left: 3.5rem;

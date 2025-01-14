@@ -7,7 +7,7 @@ import four from './images/4.png'
 
 function Dtg() {
     return (
-        <div className="container dtg">
+        <div className="container-dtg">
             <h2 className="dtg-header">In-House Garment Printering</h2>
 
             <p className="dtg-info">
