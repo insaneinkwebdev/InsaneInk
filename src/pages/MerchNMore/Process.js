@@ -2,7 +2,7 @@ import "./Process.css"
 
 function Process(){
     return(
-        <div  className="container-rol">
+        <div  className="container">
             
             <h2 className="process-header">How To Order</h2>
             <center>

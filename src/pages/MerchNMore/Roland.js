@@ -7,7 +7,7 @@ import Production from './images/production.png'
 
 function Roland(){
     return(
-        <div className="container rol">
+        <div className="container-rol">
             <br/>
             <div id="print-shop">
                 <h2 className="rol-header">Specialty Printing</h2>
