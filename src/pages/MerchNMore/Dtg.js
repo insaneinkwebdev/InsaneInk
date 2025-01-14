@@ -51,10 +51,10 @@ function Dtg() {
                 </table>
             </div>
             <p className="dtg-disclaimer">
-                Our garments available in Ash Grey, Sports Grey, and White. Hoodies ONLY in black.
+                Garments available in Ash Grey, Sports Grey, and White. Hoodies ONLY in black.
             </p>
             <p className="dtg-disclaimer">
-                DTG sizes that are 2XL or bigger will be charged an extra $5 per item surcharge.
+                Sizes that are 2XL or bigger will be charged an extra $5 per item surcharge.
             </p>
         </div>
     );

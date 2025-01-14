@@ -44,7 +44,7 @@ function Roland(){
                 <h3 className="rol-contact limit-header">Print Shop</h3>
 
                 <p className="rol-info">
-                    We can print <b>&nbsp;stickers and posters&nbsp;</b> using our large format printing and cutting machine-our Large Format Printer! For<b> &nbsp;Printer prices</b>, see the charts below. 
+                    We can print <b>&nbsp;stickers and posters&nbsp;</b> using our large format printing and cutting machine-our Large Format Printer!
                 </p>
 
 

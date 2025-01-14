@@ -61,7 +61,7 @@ padding-left: 3.5rem
 }
 
 .rol-disclaimer {
-    margin: 0.85rem 10rem;
+    margin: 0.85rem 5rem;
     color: #BC566B;
     align-items: center;
     text-align: center;
@@ -72,7 +72,7 @@ padding-left: 3.5rem
 }
 
 .rol-disclaimer1 {
-    margin: 0.85rem 10rem;
+    margin: 0.85rem 5rem;
     align-items: center;
     text-align: center;
     -ms-flex-align: center;
@@ -84,7 +84,7 @@ padding-left: 3.5rem
 .limit-header {
     text-align: center;
     font-size: 1.7rem;
-    margin: 1rem 20rem;
+    margin: 1rem 10rem;
     margin-top: 2rem;
 }
 
@@ -92,36 +92,8 @@ padding-left: 3.5rem
     max-width: 60rem;
     text-align: left;
     line-height: 2rem;
-    margin: 0rem 20rem;
+    margin: 0rem 10rem;
     margin-bottom: 2rem;
-}
-
-.list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; /* Adjust spacing between the boxes */
-    align-items: flex-start; /* Align items at the top */
-    gap: 20px; /* Optional: Adds space between boxes */
-    margin-top: 20px; /* Adds spacing above the row */
-    margin-bottom: 30px;
-}
-
-.box {
-    flex: 1; /* Ensures each box takes up equal space */
-    text-align: center; /* Centers text inside each box */
-    padding: 10px;
-    max-width: 300px; /* Optional: Set a maximum width for the boxes */
-    box-sizing: border-box; /* Includes padding in width calculations */
-    border: 2px solid #BC566B; /* Adds a light gray border */
-    border-radius: 10px; /* Optional: Adds rounded corners to the box */
-    background-color: #f9f9f9; /* Optional: Light background for better contrast */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
-}
-
-.Check {
-    width: 200px; /* Set image width */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Add space below the image */
 }
 
 .box-title {
