@@ -16,7 +16,9 @@ function Footer(){
                         <div className='footer-col' id="company">
                             <img src={logo} alt="Insane Ink Logo" className='footer-logo'/>
                             <p className='footer-slogan'>MAKING SHIRT HAPPEN SINCE 1998.</p>
-
+                            <div className='footer-links'>
+                                <p><strong>phhs.insaneink</strong></p>
+                            </div>
                             <div className='socials'>
                                 <a href="https://www.instagram.com/phhs.insaneink/" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={instagram} alt="icon instagram"/></a>
                                 {/* <a href="https://twitter.com/PHHS_InsaneInk" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={twitter} alt="icon twitter"/></a>

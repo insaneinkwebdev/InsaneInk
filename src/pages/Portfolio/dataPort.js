@@ -32,6 +32,60 @@ const dataSlider = [
         isWhite: true,
         
       },
+      {
+        name: "Adele",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/AdeleResize.jpg`,
+        isWhite: false,
+        type: "class"
+      },
+      {
+        name: "Basketball Backpack",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/BackpackResize.png`,
+        isWhite: false,
+        
+      },
+      {
+        name: "Wrestling Poster",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/buffResize.png`,
+        isWhite: false,
+        
+      },
+      {
+        name: "Cherrywood",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/CherrywoodResize.jpg`,
+        isWhite: false,
+        
+      },
+      {
+        name: "Winter Promo Christmas",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/ChristmasResize.jpeg`,
+        isWhite: false,
+        type: "class"
+      },
+      {
+        name: "Girls Tennis",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/GirlResize.jpg`,
+        isWhite: false,
+        
+      },
+      {
+        name: "Mother Appreciation",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/momResize.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Winter Promo Santa",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/SantaResize.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Music",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/TrebleResize.jpg`,
+        isWhite: false,
+        
+      },
     ]
   },
   {
