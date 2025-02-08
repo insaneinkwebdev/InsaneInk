@@ -78,6 +78,10 @@
     color: #232323;
 }
 
+.port-card {
+    flex-direction: column;
+    
+}
 .port-divider {
     border: 0.5px solid #dadada;
     width: 100%;
