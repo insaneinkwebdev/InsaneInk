@@ -12,6 +12,15 @@ const dataFifty = [
                 bio: "Marketing is what we do, and we love to volunteer for our school!  Providing photos, entertainment and more for attendees, Insane Ink volunteers enjoyed interacting with students and their families helping to promote school spirit enhancing the Pirate campus culture."
             },
             {
+                src: `${process.env.PUBLIC_URL}/fifty/2025/LAfire.JPG`,
+                title: "Piedmont Donation To The LA Fires",
+                bio: (
+                    <>
+                       Insane Ink donated boxes of clothing to the victims of the LA fires to promote well-being to all those affected, as well as give them one less thing to worry about in such a confusing time. 
+                    </>
+                ),
+            },
+            {
                 src: `${process.env.PUBLIC_URL}/fifty/2025/BBrawl.mp4`,
                 title: "BasketBRAWL Staff vs Students Spirit Event",
                 bio: (
@@ -28,8 +37,7 @@ const dataFifty = [
                        To help promote school spirit Insane Ink used philanthropy funds to purchase a 16.5' x 10.5' contained air inflatable arch to be used by the Pirate Community at various events. 
                     </>
                 ),
-            },
-                                    
+            },                      
             
         ]
     },

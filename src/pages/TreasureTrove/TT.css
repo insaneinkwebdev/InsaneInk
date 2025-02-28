@@ -106,8 +106,8 @@
 
 .product-grid {
     display: grid;
-    gap: 6rem 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 5rem 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     padding-bottom: 0rem;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .card__img {
-    width: 24rem;
+    width: 20rem;
     max-width: 23rem;
     aspect-ratio: 1 / 1;
     object-fit: cover;
