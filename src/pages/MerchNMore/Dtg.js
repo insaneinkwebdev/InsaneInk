@@ -4,6 +4,7 @@ import one from './images/1.png'
 import two from './images/2.png'
 import three from './images/3.png'
 import four from './images/4.png'
+import { Color } from "three.js";
 
 function Dtg() {
     return (
@@ -39,7 +40,7 @@ function Dtg() {
                             <td>DTF</td>
                             <td>
                                 <li>All garment colors availble, these include black, white, ash and sports gray. Other colors must be ordered for a fee.</li>
-                                <li>Vector based graphics only. (SVG, AI, EPS, PDF)</li>
+                                <li>Vector based graphics only. (SVG, AI, EPS, PDF),<div className="inline">Insane Ink is not responsible for the quality of graphics provided if not in the above format.</div></li>
                                 <li>Possible to print white and colors stay vibrant</li>
                                 <li>Works by heating a film onto the garment</li>
                             </td>
