@@ -3,6 +3,43 @@ import { v4 as uuidv4 } from "uuid";
 const dataSlider = [
   {
     id: uuidv4(),
+    name: "PHHS Blankets",
+    img_prefix: "blankets_",
+    img_suffix: "JPG",
+    num_imgs: 2,
+    old_price: "$10.00",
+    price: "$10.00",
+    description: "offered in black, great way to show pride for our school!",
+    featured: false,
+    sizes: [
+      {
+        "type": "XS",
+        "quant": 5
+      },
+      {
+        "type": "S",
+        "quant": 5
+      },
+      {
+        "type": "M",
+        "quant": 5
+      },
+      {
+        "type": "L",
+        "quant": 5
+      },
+      {
+        "type": "XL",
+        "quant": 5
+      },
+      {
+        "type": "2XL",
+        "quant": 5
+      }
+    ]
+  },
+  {
+    id: uuidv4(),
     name: "PHHS SweatPants",
     img_prefix: "SweatPant_",
     img_suffix: "jpg",
@@ -327,42 +364,6 @@ const dataSlider = [
       {
         "type": "XL",
         "quant": 4
-      },
-      {
-        "type": "2XL",
-        "quant": 1
-      }
-    ]
-  },
-  {
-    id: uuidv4(),
-    name: "PHHS College Crew",
-    img_prefix: "CollegeCrew_",
-    img_suffix: "JPG",
-    num_imgs: 3,
-    old_price: "$15.00",
-    description: "Currently availble in Gray",
-    featured: true,
-    sizes: [
-      {
-        "type": "XS",
-        "quant": 0
-      },
-      {
-        "type": "S",
-        "quant": 11
-      },
-      {
-        "type": "M",
-        "quant": 12
-      },
-      {
-        "type": "L",
-        "quant": 6
-      },
-      {
-        "type": "XL",
-        "quant": 5  
       },
       {
         "type": "2XL",
