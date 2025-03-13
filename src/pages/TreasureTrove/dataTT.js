@@ -6,7 +6,7 @@ const dataSlider = [
     name: "PHHS Blankets",
     img_prefix: "blankets_",
     img_suffix: "JPG",
-    num_imgs: 2,
+    num_imgs: 1,
     old_price: "$10.00",
     price: "$10.00",
     description: "offered in black, great way to show pride for our school!",
