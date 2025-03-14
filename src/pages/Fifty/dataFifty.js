@@ -38,7 +38,15 @@ const dataFifty = [
                     </>
                 ),
             },                      
-            
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/2025/FreshmanNight.JPG`,
+                title: "Freshman Night",
+                bio: (
+                    <>
+                       Insane Ink promoted its spectacular magnet program to upcoming freshman at Freshman Night. While some students were promoting the magnet program to future freshman, the others were selling Treasure Trove merch or posting flyers.
+                    </>
+                ),
+            },
         ]
     },
     {
