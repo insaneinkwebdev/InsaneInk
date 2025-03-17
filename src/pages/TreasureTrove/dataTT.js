@@ -192,8 +192,8 @@ const dataSlider = [
     img_prefix: "Anchor_",
     img_suffix: "png",
     num_imgs: 3,
-    old_price: "$18.00",
-    price: "$18.00",
+    old_price: "$12.00",
+    price: "$12.00",
     description: "offered in white, great way to show pride for our school!",
     featured: false,
     sizes: [
