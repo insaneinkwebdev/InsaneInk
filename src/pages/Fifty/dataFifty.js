@@ -37,7 +37,16 @@ const dataFifty = [
                        To help promote school spirit Insane Ink used philanthropy funds to purchase a 16.5' x 10.5' contained air inflatable arch to be used by the Pirate Community at various events. 
                     </>
                 ),
-            },                      
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/2025/FreshmanNight.JPG`,
+                title: "Freshman Night at Piedmont",
+                bio: (
+                    <>
+                       Insane Ink helped set up and promote school classes at freshman night. 
+                    </>
+                ),
+            },                  
             
         ]
     },

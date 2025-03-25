@@ -75,8 +75,8 @@ function Navbar(){
                 </ul>
 
                 <ul className='nav-links-social'>
-                    <li><a href="https://www.instagram.com/phhs.insaneink/" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img" src={instagram} alt="icon instagram"/></a></li>
-                    <li><a href="https://www.tiktok.com/@phhs.insaneink" target="_blank" rel="noreferrer" className="social-icon"><img className="social-icon img tiktok" src={tiktok} alt="icon tiktok"/></a></li>
+                    <li><a href="https://www.instagram.com/phhs.insaneink/" target="_blank" rel="noreferrer" className="social-icon" title='@phhs.insaneink'><img className="social-icon img" src={instagram} alt="icon instagram"/></a></li>
+                    <li><a href="https://www.tiktok.com/@phhs.insaneink" target="_blank" rel="noreferrer" className="social-icon" title='@phhs.insaneink'><img className="social-icon img tiktok" src={tiktok} alt="icon tiktok"/></a></li>
                 </ul>
                 
                 <div className='burger' onClick={burger}>
