@@ -46,6 +46,11 @@
     margin: 1.5rem 0;
 }
 
+.inline {
+    color: #bc566b;
+    font-weight: 600;
+}
+
 .dtg-order a {
     color: #bc566b;
     text-decoration: none;

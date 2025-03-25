@@ -53,9 +53,9 @@ nav {
 }
 
 .social-icon.img:hover {
-  outline: 2px solid #7C2F3F; /* Adjust color as needed */
-  border-radius: 8px; /* Adjust radius for rounded edges */
-  outline-offset: 2px; /* Space between the outline and the image */
+  outline: 2px solid #7C2F3F;
+  border-radius: 8px;
+  outline-offset: 2px; 
 }
 
 .social-icon.img.tiktok {

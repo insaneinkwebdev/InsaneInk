@@ -9,22 +9,64 @@ const dataSlider = [
     year: "2024-2025",
     images: [
       {
+        name: "Basketball Backpack 2",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Backpack.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Parent Booster",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Booster.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Pirate Crewback",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/crewback.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "CTA Shirts",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/CTA.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Sierramont Music",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Music.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Ruskin Shirts",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Ruskin.jpg`,
+        isWhite: false,
+        
+      },
+      {
+        name: "Valentines Day Shirt",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Vday.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "St. Victors Shirt",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Victors.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Annual Special Olympics",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Annual.jpg`,
+        isWhite: true,
+        
+      },
+      {
         name: "Winter Promo Mofusand",
         src: `${process.env.PUBLIC_URL}/portfolio/2025/catthing.jpg`,
         isWhite: true,
         type: "class"
-      },
-      {
-        name: "Male Cheer",
-        src: `${process.env.PUBLIC_URL}/portfolio/2025/malecheer.jpg`,
-        isWhite: true,
-        
-      },
-      {
-        name: "Tis the Season Winter Promo",
-        src: `${process.env.PUBLIC_URL}/portfolio/2025/mouse.jpg`,
-        isWhite: true,
-        
       },
       {
         name: "PowderPuff",
