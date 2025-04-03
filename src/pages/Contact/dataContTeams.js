@@ -44,7 +44,7 @@ const dataSlider = [
   {
   id: uuidv4(),
   name: "Iconic Inkers",
-  members: "Logan Le, Shannon Zhou, Akshada Babu Chakravarthi, Andrew Norton, Jenny Yang",
+  members: "Logan Le, Shannon Zhou, Akshada Babu Chakravarthi, Jenny Yang",
   },
   {
   id: uuidv4(),

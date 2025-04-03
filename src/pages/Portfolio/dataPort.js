@@ -9,6 +9,36 @@ const dataSlider = [
     year: "2024-2025",
     images: [
       {
+        name: "Lujan Stickers",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Lujan.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Magkaisa",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Magkaisa.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "MLK Graphic",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/MLK.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Morrill Graphic",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Morrill.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Overfelt",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Overfelt.jpg`,
+        isWhite: true,
+        
+      },
+      {
         name: "Basketball Backpack 2",
         src: `${process.env.PUBLIC_URL}/portfolio/2025/Backpack.jpg`,
         isWhite: true,
