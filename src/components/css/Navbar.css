@@ -154,6 +154,16 @@ nav {
   border-radius: 10px;
 }
 
+.drop-hover.testimonial:hover ~ .drop.testimonial {
+  display: block;
+  padding-right: 2rem; /* adjust as needed */
+}
+
+.drop.testimonial:hover {
+  display: block;
+  border-radius: 10px;
+}
+
 .burger {
   display: none;
   position: absolute;

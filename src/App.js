@@ -13,7 +13,7 @@ import Dtg from './pages/MerchNMore/Dtg';
 import Roland from './pages/MerchNMore/Roland';
 import Portfolio from './pages/Portfolio/Portfolio';
 import TT from './pages/TreasureTrove/TT'
-
+import Testimonials from './pages/Testimonials/Testimonials';
 import NotFound from './pages/FouroFour/NotFound';
 
 ///////////////////////////////////////////////////////////////
@@ -59,7 +59,7 @@ function App() {
           <Route path='/fiftyfifty' element={<Fifty />}/>
           <Route path='/aboutus' element={<About />}/>
           <Route path='/contactus' element={<Contact />}/>
-
+          <Route path="/testimonials" element={<Testimonials />} />
           <Route path='/staff' element={<SignIn />}/>
           <Route path='/dashboard' element={<Dash />}/>
         </Routes>

@@ -42,8 +42,14 @@ function Navbar(){
 
                     <li id="nav-mobile-on"><a href="/dtg">Custom Goods Orders</a></li>
                     <li id="nav-mobile-on"><a href="/roland#print-shop">Specialty Printing</a></li>
+                    <li id="nav-mobile-on"><a href="/Testimonials">Testimonials</a></li>
 
-                    <li><a href="/our-portfolio">Past Projects</a></li>
+                    <li>
+                        <a href="/our-portfolio" className='drop-hover testimonial'>Past Projects</a>
+                        <ul className='drop testimonial'>
+                            <li><a href="/Testimonials">Testimonials</a></li>
+                        </ul>
+                    </li>
 
                     <li>
                         <a href="/fiftyfifty"  className='drop-hover fifty'>Philanthropy</a>
