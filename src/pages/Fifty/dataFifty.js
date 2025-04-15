@@ -48,7 +48,7 @@ const dataFifty = [
                 ),
             },                  
             
-        ]
+         ]
     },
     {
         id: uuidv4(),
