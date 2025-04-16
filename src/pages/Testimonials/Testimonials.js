@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     name: "Elizabeth Caldera",
-    quote: `Great!`,
+    quote: `The baseball shirt I ordered off them was great quality and hand delivered. Amazing people!`,
     images: [require('./Images/Caldera.jpg')],
   }
 ];
