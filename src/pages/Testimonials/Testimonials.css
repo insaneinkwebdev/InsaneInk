@@ -98,4 +98,35 @@
     border-radius: 8px;
     border: 1px solid #ccc;
     object-fit: cover;
-  }   
+  }
+  @media (max-width: 768px) {
+    .testimonial-container {
+      padding: 1rem;
+      width: 100%;
+    }
+  
+    .testimonial-header {
+      font-size: 1.5rem;
+    }
+  
+    .testimonial-card {
+      max-width: 100%;
+      min-width: auto;
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .testimonial-quote {
+      font-size: 0.95rem;
+    }
+  
+    .images-container {
+      justify-content: center;
+    }
+  
+    .testimonial-image {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  

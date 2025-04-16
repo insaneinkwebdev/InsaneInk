@@ -14,6 +14,7 @@ import Roland from './pages/MerchNMore/Roland';
 import Portfolio from './pages/Portfolio/Portfolio';
 import TT from './pages/TreasureTrove/TT'
 import Testimonials from './pages/Testimonials/Testimonials';
+import Guide from './pages/Guide/Guide';
 import NotFound from './pages/FouroFour/NotFound';
 
 ///////////////////////////////////////////////////////////////
@@ -60,6 +61,7 @@ function App() {
           <Route path='/aboutus' element={<About />}/>
           <Route path='/contactus' element={<Contact />}/>
           <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/guide" element={<Guide />} />
           <Route path='/staff' element={<SignIn />}/>
           <Route path='/dashboard' element={<Dash />}/>
         </Routes>

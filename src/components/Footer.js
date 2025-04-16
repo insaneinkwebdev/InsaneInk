@@ -43,6 +43,8 @@ function Footer(){
                                 <a href="/our-portfolio">Portfolio</a>
                                 <a href="/fiftyfifty">The 50/50 Concept</a>
                                 <a href="/treasuretrove">Treasure Trove</a>
+                                <a href="/testimonials">Testimonials</a>
+                                <a href="/guide">WebDev Guide</a>
                             </div>
                         </div>
                         <div className='footer-col' id="contact">
