@@ -48,7 +48,7 @@ const dataFifty = [
                 ),
             },
             {
-                src: `${process.env.PUBLIC_URL}/fifty/2025/Jog.JPG`,
+                src: `${process.env.PUBLIC_URL}/fifty/2025/Jog.jpg`,
                 title: "Jog-A-Thon",
                 bio: (
                     <>
