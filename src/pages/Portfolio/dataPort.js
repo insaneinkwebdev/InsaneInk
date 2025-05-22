@@ -158,6 +158,48 @@ const dataSlider = [
         isWhite: false,
         
       },
+      {
+        name: "Valentines Day Shirt",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Vdau.png`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Pre-University Percussion Shirt",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/ray.png`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Winter Shirt",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/winter.png`,
+        isWhite: true,
+        type: "class"
+      },
+      {
+        name: "Newark Shirt",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/Ortiz.png`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Jogathon Shirt",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/jogShirt.png`,
+        isWhite: true, 
+        
+      },
+      {
+        name: "Family Shirt",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/KFam.jpg`,
+        isWhite: true,
+        
+      },
+      {
+        name: "Diablo Juggling Shirt",
+        src: `${process.env.PUBLIC_URL}/portfolio/2025/diablo.png`,
+        isWhite: true,
+        
+      },
     ]
   },
   {

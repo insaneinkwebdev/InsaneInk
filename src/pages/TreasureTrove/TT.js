@@ -208,9 +208,9 @@ function TT(){
                 <h3 className="tt-store">Store Hours: </h3>
                 
                 <div className="tt-hours">
+                    <p className="tt-time">Treasure Trove has closed for the 2024-2025 school year!</p>
                     <ul>
-                        {/*<li className="tt-time">Treasure Trove has closed for the 2023-2024 school year!</li>*/}
-                        <li className="tt-time">Thursdays at Noon and by appointment</li>
+                        {/*<li className="tt-time">Thursdays at Noon and by appointment</li>*/}
                     </ul>
                 </div>
             </div>
@@ -221,13 +221,13 @@ function TT(){
 
             <h3 className="tt-contact">Contact sales@insaneink.com for questions, comments, or concerns!</h3>
             
-            {<div className='NewItem'>
+            {/*<div className='NewItem'>
                 <hr></hr>
                 <h2 className='NIT'>! Limited Time Offer !</h2>
                 <div className='NewImage'>
                     <img src={process.env.PUBLIC_URL + `/TT/NewItem3.png`} alt="Treasure Trove Item" className="card__img1"/>
                 </div>
-            </div>}
+            </div>*/}
             
             <br></br>
             <br></br>

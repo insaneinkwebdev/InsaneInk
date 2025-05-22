@@ -39,11 +39,47 @@ const dataFifty = [
                 ),
             },
             {
+                src: `${process.env.PUBLIC_URL}/fifty/2025/vball.JPG`,
+                title: "Volleybrawl",
+                bio: (
+                    <>
+                       Insane Ink was excited again to complete all funding to make our annual staff vs. student event a success.  Offering concessions at cost while also providing multiple crowd engagement activities, free shirts to all who participated, donuts to classes with the highest attendance and so much more!  We love promoting Pirate Pride.
+                    </>
+                ),
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/2025/Jog.JPG`,
+                title: "Jog-A-Thon",
+                bio: (
+                    <>
+                       Working with Insane Ink was a fantastic experience. The team was kind, responsive, and truly went the extra mile for our Adapted PE program. They provided multiple design drafts, made thoughtful revisions—even down to small details like adding ponytails to the runners—and helped us land on a design that felt just right. The shirts arrived early, over 200 in total, and every single one was perfect. Their generosity made it possible for our students with disabilities to feel included and celebrated during our Jog-A-Thon. We are deeply grateful for their continued partnership and unwavering support."” - Jose Betancourt, Adapted PE Specialist ESUHSD.  A yearly support of our special education program by providing an original graphic and free shirts to all participants.  Jog-a-thon fundraiser is always successful in teaching students the importance of  lifetime physical activity and help to raise money for the ESUHSD Adapted PE program. We love to support ESUHSD athletes.  . 
+                    </>
+                ),
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/2025/songs.jpg`,
+                title: "Music Fundraiser",
+                bio: (
+                    <>
+                       Insane Ink provided FREE marketing and shirt prints to support the PHHS Music Dept. as it held a benefit for Palisades Charter High School.  The school was heavily damaged in the Southern California fires.  All of the funds for this event went directly to their music program to help them rebuild.   
+                    </>
+                ),
+            },
+            {
                 src: `${process.env.PUBLIC_URL}/fifty/2025/FreshmanNight.JPG`,
                 title: "Freshman Night at Piedmont",
                 bio: (
                     <>
                        Insane Ink helped set up and promote school classes at freshman night. 
+                    </>
+                ),
+            },
+            {
+                src: `${process.env.PUBLIC_URL}/fifty/2025/campus.JPG`,
+                title: "Campus Beautification",
+                bio: (
+                    <>
+                        A welcoming environment is so important to Insane Ink and is why we were so excited to provide FREE breakfast and LUNCH to all participants who helped to beautify the campus from pulling weeds, removing litter, planting flowers and so much more.  Insane Ink also put up attractive canvases and solar powered lights while place new mulch to freshen up the landscape.
                     </>
                 ),
             },                  
