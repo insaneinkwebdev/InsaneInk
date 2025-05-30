@@ -1,36 +1,145 @@
+/* === GENERAL === */
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: system-ui, sans-serif;
+  background-color: #ffffff;
+}
 
+/* === CONTAINER WRAPPERS === */
+.container {
+  width: 100%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
 
-.password-box,
+.centered-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.guide-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* === GUIDE BOX === */
 .webdev-guide {
   background-color: white;
   padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 1.7;
+  overflow-wrap: break-word;
 }
 
-input {
+/* === INTRO + TOC === */
+.intro {
+  margin-bottom: 30px;
+}
+
+.toc {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-left: 4px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.toc li {
+  margin-bottom: 10px;
+}
+
+.toc a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.toc a:hover {
+  text-decoration: underline;
+}
+
+/* === SECTIONS === */
+.section {
+  margin-bottom: 50px;
+  background-color: #f9f9f9;
+}
+
+.section h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.bullets {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.bullets li {
+  margin-bottom: 10px;
+}
+
+/* === PASSWORD FORM === */
+.password-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.password-box input {
   padding: 10px;
   margin-top: 15px;
   margin-bottom: 20px;
   width: 200px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: white !important;
+  color: black;
+  box-sizing: border-box;
 }
 
-button {
+.password-box input:focus,
+.password-box input:autofill,
+.password-box input:-webkit-autofill {
+  background-color: white !important;
+  box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.password-box .submit {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #666;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-button:hover {
-  background-color: #45a049;
+.password-box .submit:hover {
+  background-color: #444;
 }
 
+/* === ANIMATIONS === */
 .fade-in {
   animation: fadeIn 0.8s ease-in;
 }
