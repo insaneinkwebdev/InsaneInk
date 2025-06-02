@@ -9,7 +9,7 @@ const dataFifty = [
             {
                 src: `${process.env.PUBLIC_URL}/fifty/2025/petey.jpg`,
                 title: "Back-To-School-Night, Peteys Night Market, Mini Club Day 2024",
-                bio: "Marketing is what we do, and we love to volunteer for our school!  Providing photos, entertainment and more for attendees, Insane Ink volunteers enjoyed interacting with students and their families helping to promote school spirit enhancing the Pirate campus culture."
+                bio: "Marketing is exactly what we do, and we love to volunteer for our school!  Providing photos, entertainment and more for attendees, Insane Ink volunteers enjoyed interacting with students and their families helping to promote school spirit enhancing the Pirate campus culture."
             },
             {
                 src: `${process.env.PUBLIC_URL}/fifty/2025/LAfire.JPG`,
