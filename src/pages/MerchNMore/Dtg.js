@@ -29,7 +29,7 @@ function Dtg() {
                 <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSe9zJZ-uCy_V9G9BaALmpfgu_jRLjlxEANks7tDvVOCQqG_bg/viewform?usp=sf_link"
+                    href="https://docs.google.com/forms/d/1jLJypmvWc-eZujKIPIpFYa0N5IxoiyAJMZ0J_m1kPW0/viewform"
                 >
                     Small QTY Goods Order Form
                 </a>
