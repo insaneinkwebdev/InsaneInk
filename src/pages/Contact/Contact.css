@@ -49,8 +49,18 @@
     align-items: center;
     justify-content: center;
     row-gap: 10rem;
-    column-gap: 1.1rem;
-    grid-template-columns: repeat(auto-fit, 15.5rem);
+    column-gap: 4rem;
+    grid-template-columns: repeat(auto-fit, 15rem);
+    padding-bottom: 12rem;
+}
+
+.board-grid2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10rem;
+    column-gap: 4rem;
+    grid-template-columns: repeat(auto-fit, 13rem);
     padding-bottom: 12rem;
 }
 

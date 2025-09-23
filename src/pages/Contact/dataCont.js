@@ -3,72 +3,79 @@ import { v4 as uuidv4 } from "uuid";
 const dataSlider = [
   {
   id: uuidv4(),
-  name: "Nara Johnson",
+  name: "Sophia He",
   position: "CEO",
-  email: "johnsonnara5479\n@students.esuhsd.org",
+  email: "hesophia7198\n@students.esuhsd.org",
   
   },
   {
   id: uuidv4(),
-  name: "Venice Meil Metra",
+  name: "Marieanne Nguyen",
   position: "CFO",
-  email: "metravenicemeil4603\n@students.esuhsd.org",
+  email: "nguyenmarieanne9638\n@students.esuhsd.org",
   
   },
   {
   id: uuidv4(),
-  name: "Anabel Sairs",
+  name: "Akshadha Babu C",
   position: "COO In-House Printing",
-  email: "sairsanabel9782\n@students.esuhsd.org",
+  email: "babuchakravarthi2000\n@students.esuhsd.org",
   
   },
   {
     id: uuidv4(),
-    name: "James Hermans",
+    name: "Sabrina Nguyen",
     position: "VP of Web Development",
-    email: "hermansjames4441\n@students.esuhsd.org",
+    email: "nguyensabrina6667\n@students.esuhsd.org",
     
   },
   {
     id: uuidv4(),
-    name: "Varun Madhan",
+    name: "Kyle Duong",
     position: "VP of Web Development",
-    email: "madhankumarlaksh2869\n@students.esuhsd.org",
+    email: "duongkyle6724\n@students.esuhsd.org",
 
   },
   {
     id: uuidv4(),
-    name: "Celine Cheng",
+    name: "Ashley Huang",
     position: "VP of Marketing",
-    email: "chengwenshi4185\n@students.esuhsd.org",
+    email: "huangashley5018\n@students.esuhsd.org",
     
   },
   {
     id: uuidv4(),
-    name: "Vivian Ho",
-    position: "VP of Marketing",
-    email: "hovivian4974\n@students.esuhsd.org",
+    name: "Natalie Nguyen",
+    position: "VP of Retail Sales",
+    email: "nguyennatalie7810\n@students.esuhsd.org",
     
   },
   {
     id: uuidv4(),
-    name: "Lucas Busta",
-    position: "Director of DTG",
-    email: "bustalucas4712\n@students.esuhsd.org",
+    name: "Vicky Zheng",
+    position: "VP of Graphics",
+    email: "zhengvicky7847\n@students.esuhsd.org",
     
     },
     {
     id: uuidv4(),
-    name: "Truman Luong",
-    position: "Director of Specialty Printing",
-    email: "luongtruman4858\n@students.esuhsd.org",
+    name: "Dior Wang",
+    position: "Director of Graphics and Marketing, Retail Sales",
+    email: "wangdior8528\n@students.esuhsd.org",
+    
+    },
+    {
+    id: uuidv4(),
+    name: "Tanisha Reehal",
+    position: "Director of Internal Printing",
+    email: "reehaltanisha6520\n@students.esuhsd.org",
     
     },
     {
       id: uuidv4(),
-      name: "Richelle Ann Paralejas",
-      position: "Director of Treasure Trove",
-      email: "paralejasrichell5085\n@students.esuhsd.org",
+      name: "Kimberly Trinh",
+      position: "Director of Internal Printing",
+      email: "trinhkimberly6427\n@students.esuhsd.org",
       
     },
 ];
