@@ -53,7 +53,6 @@
 .tt-store-box {
     margin: 0rem 33rem;
     margin-top: -0.5rem;
-    max-width: 30rem;
 }
 
 .tt-store {
@@ -64,7 +63,7 @@
 
 .tt-hours {
     margin: 0.5rem;
-    margin-left: 0rem;
+    margin-left: 4.5rem;
     width: 175%;
     color: #232323;
 }
@@ -370,11 +369,12 @@
     }
 
     .card__img1 {
-        width: 25rem;
-        max-width: 25rem;
-        aspect-ratio: 2 / 3;
+        width: 50rem;
+        max-width: 50rem;
+        aspect-ratio: 4 / 5;
         object-fit: cover;
         cursor: pointer;
+        
     }
 
     .card__content {
@@ -425,15 +425,19 @@
     }
 
     .card__img1 {
-        aspect-ratio: 2 / 3;
+        aspect-ratio: 4 / 5;
     }
 
     .card__img1 {
-        width: 25rem;
-        max-width: 25rem;
-        aspect-ratio: 2 / 3;
+        width: 50rem;
+        max-width: 50rem;
+        aspect-ratio: 4 / 5;
         object-fit: cover;
         cursor: pointer;
+        border-radius: 20px; /* 🔑 only bottom corners rounded */
+        box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.8);
+        margin: 2rem 0rem; /* remove the negative margin so it's directly under the image */
+
     }
 
     .card__content {

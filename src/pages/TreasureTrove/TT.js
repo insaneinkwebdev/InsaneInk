@@ -205,10 +205,10 @@ function TT(){
             <h2 className="tt-header" id="currentcollection">Treasure Trove Collection </h2>
             <div className="tt-store-box">
                 
-                <h3 className="tt-store">Store Hours: </h3>
+                <h3 className="tt-store">Store Hours: Thursdays @ Lunch (Afterschool per request)</h3>
                 
                 <div className="tt-hours">
-                    <p className="tt-time">Treasure Trove has closed for the 2024-2025 school year!</p>
+                    <p className="tt-time">Treasure Trove is open for the 2025-2026 school year!</p>
                     <ul>
                         {/*<li className="tt-time">Thursdays at Noon and by appointment</li>*/}
                     </ul>
@@ -221,18 +221,18 @@ function TT(){
 
             <h3 className="tt-contact">Contact sales@insaneink.com for questions, comments, or concerns!</h3>
             
-            {/*<div className='NewItem'>
+            {<div className='NewItem'>
                 <hr></hr>
-                <h2 className='NIT'>! Limited Time Offer !</h2>
+                <h2 className='NIT'>CURRENT STOCK!</h2>
                 <div className='NewImage'>
-                    <img src={process.env.PUBLIC_URL + `/TT/NewItem3.png`} alt="Treasure Trove Item" className="card__img1"/>
+                    <img src={process.env.PUBLIC_URL + `/TT/clearance.png`} alt="Treasure Trove Item" className="card__img1"/>
                 </div>
-            </div>*/}
+            </div>}
             
             <br></br>
             <br></br>
             <br></br>
-
+            {/*
             <div className="container product">
                 <div className="product-grid">
                     {dataTT.map((obj, index) => {
@@ -250,15 +250,15 @@ function TT(){
                                         
                                         {/*<s>{obj.old_price ? obj.old_price : ""}</s>
                                         <strong>{obj.old_price ? " ➡ " : ""}</strong>
-                                        <strong>{obj.price}</strong>  this section is when you have a sale*/}
+                                        <strong>{obj.price}</strong>  this section is when you have a sale} /*}
                                     </p>
                                 </div>
                             </div>
                         )
-                    })}
+                    })
                 </div>
             </div>
-
+            */}
             <dialog className="modal" id="modal">
                 <div className="modal__container">
                     <div className='modal__slideshow-wrapper'>

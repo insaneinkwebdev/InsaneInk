@@ -19,7 +19,6 @@
 
 .stacked {
     display: grid;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);;
 }
 
 
@@ -78,21 +77,20 @@
     max-width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 2px;
     pointer-events: none;
+    border-radius: 20px 20px 0 0; /* 🔑 only top corners rounded */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
 }
 
 .cont-card__content {
     align-self: end;
-    margin: -8rem 0rem;
-     display: inline-block;
+    margin: -8rem 0rem; /* remove the negative margin so it's directly under the image */
+    display: inline-block;
     padding: 16px 24px;
     background-color: rgba(240, 224, 224, 1); 
     color: #222; 
-    border-radius: 20px;
-    box-shadow:
-      0 0 15px rgba(0, 0, 0, 0.15), 
-      8px 8px 25px rgba(0, 0, 0, 0.2); 
+    border-radius: 0 0 20px 20px; /* 🔑 only bottom corners rounded */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
     font-size: 1.1rem;
     font-weight: 500;
 }
@@ -103,7 +101,7 @@
 
 .card__pos {
     font-weight: 500;
-    font-size: 1rem;
+    font-size: rem;
 }
 
 .card__phone, .card__email {
