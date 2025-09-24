@@ -80,6 +80,8 @@
 
 .tt-time {
     font-size: 1.1rem;
+    text-align: left;
+    margin-left: -5rem;
 }
 
 .tt-contact {
