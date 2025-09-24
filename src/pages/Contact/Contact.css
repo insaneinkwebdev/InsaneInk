@@ -19,7 +19,9 @@
 
 .stacked {
     display: grid;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);;
 }
+
 
 .stacked > * {
     grid-column: 1 / 2;
@@ -59,7 +61,7 @@
     align-items: center;
     justify-content: center;
     row-gap: 10rem;
-    column-gap: 4rem;
+    column-gap: 6rem;
     grid-template-columns: repeat(auto-fit, 13rem);
     padding-bottom: 12rem;
 }
@@ -83,6 +85,16 @@
 .cont-card__content {
     align-self: end;
     margin: -8rem 0rem;
+     display: inline-block;
+    padding: 16px 24px;
+    background-color: rgba(240, 224, 224, 1); 
+    color: #222; 
+    border-radius: 20px;
+    box-shadow:
+      0 0 15px rgba(0, 0, 0, 0.15), 
+      8px 8px 25px rgba(0, 0, 0, 0.2); 
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 .card__name {
