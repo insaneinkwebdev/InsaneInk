@@ -4,67 +4,72 @@ const dataSlider = [
   {
   id: uuidv4(),
   name: "Accustomed Angels",
-  members: "Sophia He, Marieanne Nguyen, Isabella Perez, Jilian Faith Juni",
+  members: "Leilana Hao, Eli Nguyen, Isabella Perez, Daylen Hua",
   },
   {
   id: uuidv4(),
   name: "Big Business",
-  members: "Lucas Busta, Truman Luong, Tony Zhang, Wade Gu",
+  members: "Aaron Nguyen, Katelyn Young, Rishika Banerjee, Destinie Bautista-Velasco",
   },
   {
   id: uuidv4(),
   name: "Crazy Cardigans",
-  members: "Andrea Wen, Yen Ly, Lori Lew, Emily Chao",
+  members: "Dexter Yuan Williams",
   },
   {
   id: uuidv4(),
   name: "Distinguished Designers",
-  members: "Varun Madhan, James Hermans, Brandon Ho, Erick Alvarez Gutierrez",
+  members: "Vicky Zheng, Helen Nguyen, Rachael Choi, Fiona Chung",
   },
   {
   id: uuidv4(),
   name: "Excellent Eggs",
-  members: "Eshnoor Kaur, Evan Jackson, Alana Laser, Ashley Kirsten Damasco",
+  members: "Natalie Nguyen, Dior Wang, Hannah N Nguyen, Tanvi Palan",
   },
   {
   id: uuidv4(),
   name: "Fearless Fabricators",
-  members: "Athena Nguyen, Vivian Ho, Richelle Ann Paralejas",
+  members: "Ashley Huang, Faith Barber, Julian Petty, Chloe Phung",
   },
   {
   id: uuidv4(),
   name: "G6 Graphics",
-  members: "Amy Huynh, Sid Phatak, Neida Ambriz, Tim Chen",
+  members: "Sabrina Nguyen, Elisha Ng, Angela Nguyen, Kylie Cusiter",
   },
   {
   id: uuidv4(),
   name: "Handy Heatpressers",
-  members: "Annie Wu, Celine Cheng, Kathlynn Le, Emma Wang",
+  members: "Kason Lu, Kiet Nguyen, Kyle Duong, Seth Lee",
   },
   {
   id: uuidv4(),
   name: "Iconic Inkers",
-  members: "Logan Le, Shannon Zhou, Akshada Babu Chakravarthi, Jenny Yang",
+  members: "Audrey Chen, Kimberly Trinh, Megan Li, Serena Wei",
   },
   {
   id: uuidv4(),
   name: "Jazzy Jeans",
-  members: "Dana Chan, Jasmine Carrasco, Richa Patel, Thienkim Ha",
+  members: "Andrew Yin, Sebastian Tsai, Hannah Y Nguyen, John Yu",
   },
   {
   id: uuidv4(),
   name: "Klassy & Co",
-  members: "Alina Yin, Daniela Sagui, Avneet Sachdeva, Amna Ahmed",
+  members: "Tanisha Reehal, Ayesha Chiya, Natalie Sanchez",
   },
   {
     id: uuidv4(),
     name: "Logo Lab",
-    members: "Isaac Rios, Mario Andrade, Sebastian Salazar, Russkylar Basco",
+    members: "Arav Saini, Katelyn Cao, Connie Liang, Jenny Phan",
   },
   {
     id: uuidv4(),
     name: "Majestic Makers",
-    members: "Milton Nguyen, Anthony Nguyen, Jane Fe Rabago , Ethan Nguyen",
+    members: "Barry Nguyen, Golden Nguyen, Michael Kha, Yoon Ko",
+  },
+  {
+    id: uuidv4(),
+    name: "N",
+    members: "Oscar Ayala Sanchez, Angel Avalos Yanez, Rianna Mistry",
   },
   /*
   {

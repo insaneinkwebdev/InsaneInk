@@ -6,6 +6,39 @@ const dataSlider = [
     //magick 49ers.jpg -strip -resize 500x771 ultraSmall/49ers.jpg
     //ultraSmall was just the name of the new folder i was gonna save the compressed images in
     id: uuidv4(),
+    year: "2025-2026",
+    images: [
+      {
+        name: "Girls Scout",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/GirlsScout.jpg`,
+        isWhite: true,
+      },
+      {
+        name: "Homestead Orchestra",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/HomesteadOrchestra.jpg`,
+        isWhite: true,
+      },
+      {
+       name: "Insane Ink Graphic",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/InsaneInkGraphic.jpg`,
+        isWhite: true,
+      },
+      {
+       name: "PHHS Girls Golf",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/PHHSGirlsGolf.jpg`,
+        isWhite: true,
+      },
+      {
+       name: "Piedmont Hills Staff",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/PiedmontHillsStaff.jpg`,
+        isWhite: true,
+      },
+      
+     
+    ]
+  },
+  {
+    id: uuidv4(),
     year: "2024-2025",
     images: [
       {
