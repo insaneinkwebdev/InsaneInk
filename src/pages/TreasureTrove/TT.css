@@ -372,7 +372,7 @@
     .card__img1 {
         width: 50rem;
         max-width: 50rem;
-        aspect-ratio: 4 / 5;
+        aspect-ratio: 2 / 3;
         object-fit: cover;
         cursor: pointer;
         
@@ -425,13 +425,13 @@
     }
 
     .card__img1 {
-        aspect-ratio: 4 / 5;
+        aspect-ratio: 2 / 3;
     }
 
     .card__img1 {
         width: 50rem;
         max-width: 50rem;
-        aspect-ratio: 4 / 5;
+        aspect-ratio: 2 / 3;
         object-fit: cover;
         cursor: pointer;
         border-radius: 20px; /* 🔑 only bottom corners rounded */
