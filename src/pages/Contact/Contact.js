@@ -139,7 +139,7 @@ function Contact(){
                 <div className="container team">
                     <div className="team-box" onClick={nextSlide}>
                         <div className="team-content">
-                            <h2 id="team-name">Accustomed Angels</h2>
+                            <h2 id="team-name">Awesome Saucers</h2>
                             <p id="team-members">Sophia He, Marieanne Nguyen, Isabella Perez, Jilian Faith Juni</p>
                         </div>
                     </div>

@@ -9,6 +9,46 @@ const dataSlider = [
     year: "2025-2026",
     images: [
       {
+        name: "La Vang",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/LaVang.jpg`,
+        isWhite: true,
+      },
+      {
+        name: "PHHS Cross Country Poster",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/PHHSCrossCountryPoster.jpg`,
+        isWhite: true,
+      },
+      {
+        name: "PHHS Girl's Volleyball Poster",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/PHHSGirlsVolleyball.jpg`,
+        isWhite: true,
+      },
+      {
+        name: "Class of 2026 Ultimate Frisbee",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/Classof2026UltimateFrisbee.jpg`,
+        isWhite: true,
+      },
+      {
+        name: "PHHS Male Cheer",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/PHHSMaleCheer.jpg`,
+        isWhite: true,
+      },
+      {
+        name: "PHHS Parent Booster",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/PHHSParentBooster.jpg`,
+        isWhite: true,
+      },
+      {
+        name: "PHHS Flag Football",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/PHHSFlagFootball.jpg`,
+        isWhite: true,
+      },
+      {
+        name: "SJFD CABDR North 2025",
+        src: `${process.env.PUBLIC_URL}/portfolio/2026/SJFD.jpg`,
+        isWhite: true,
+      },
+      {
         name: "Girls Scout",
         src: `${process.env.PUBLIC_URL}/portfolio/2026/GirlsScout.jpg`,
         isWhite: true,

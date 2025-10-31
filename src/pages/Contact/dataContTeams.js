@@ -3,72 +3,72 @@ import { v4 as uuidv4 } from "uuid";
 const dataSlider = [
   {
   id: uuidv4(),
-  name: "Accustomed Angels",
+  name: "Awesome Saucers",
   members: "Leilana Hao, Eli Nguyen, Isabella Perez, Daylen Hua",
   },
   {
   id: uuidv4(),
-  name: "Big Business",
+  name: "BUSSIN BALLERS",
   members: "Aaron Nguyen, Katelyn Young, Rishika Banerjee, Destinie Bautista-Velasco",
   },
   {
   id: uuidv4(),
-  name: "Crazy Cardigans",
+  name: "CALAMITOUS CARCHARODONTOSAURUS",
   members: "Dexter Yuan Williams",
   },
   {
   id: uuidv4(),
-  name: "Distinguished Designers",
+  name: "D1 Dumplings",
   members: "Vicky Zheng, Helen Nguyen, Rachael Choi, Fiona Chung",
   },
   {
   id: uuidv4(),
-  name: "Excellent Eggs",
+  name: "Easter Eggs",
   members: "Natalie Nguyen, Dior Wang, Hannah N Nguyen, Tanvi Palan",
   },
   {
   id: uuidv4(),
-  name: "Fearless Fabricators",
+  name: "Fantastic Fours",
   members: "Ashley Huang, Faith Barber, Julian Petty, Chloe Phung",
   },
   {
   id: uuidv4(),
-  name: "G6 Graphics",
+  name: "Gliterallys",
   members: "Sabrina Nguyen, Elisha Ng, Angela Nguyen, Kylie Cusiter",
   },
   {
   id: uuidv4(),
-  name: "Handy Heatpressers",
+  name: "Hospitable Admirable Humans",
   members: "Kason Lu, Kiet Nguyen, Kyle Duong, Seth Lee",
   },
   {
   id: uuidv4(),
-  name: "Iconic Inkers",
+  name: "Itchy Inkworms",
   members: "Audrey Chen, Kimberly Trinh, Megan Li, Serena Wei",
   },
   {
   id: uuidv4(),
-  name: "Jazzy Jeans",
+  name: "Jingle Bells",
   members: "Andrew Yin, Sebastian Tsai, Hannah Y Nguyen, John Yu",
   },
   {
   id: uuidv4(),
-  name: "Klassy & Co",
+  name: "Kool",
   members: "Tanisha Reehal, Ayesha Chiya, Natalie Sanchez",
   },
   {
     id: uuidv4(),
-    name: "Logo Lab",
+    name: "Legends",
     members: "Arav Saini, Katelyn Cao, Connie Liang, Jenny Phan",
   },
   {
     id: uuidv4(),
-    name: "Majestic Makers",
+    name: "MONKEY MAJORS",
     members: "Barry Nguyen, Golden Nguyen, Michael Kha, Yoon Ko",
   },
   {
     id: uuidv4(),
-    name: "N",
+    name: "Northern Navigators",
     members: "Oscar Ayala Sanchez, Angel Avalos Yanez, Rianna Mistry",
   },
   /*

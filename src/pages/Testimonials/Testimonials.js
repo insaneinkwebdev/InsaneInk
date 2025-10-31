@@ -3,6 +3,10 @@ import './Testimonials.css';
 
 const testimonials = [
   {
+    name: "Chrizia Dela Rosa",
+    quote: `Insane Ink was so awesome to work with! They were professional, quick, creative, and executed perfectly!`,
+  },
+  {
     name: "Solika M.",
     quote: `Two days before Christmas, I was able to gift my Secret Santa a thoughtful and heartfelt poster with pictures of her printed on high-quality, matte paper in a large size and low cost. I looked into a variety of printing services; however, my estimated cost usually ranged about $20, so I decided I would rather support Insane Ink, and I am really glad that I did. Not only was the poster much cheaper than alternative companies, the colors also came out wonderfully, and the ordering process was much easier than I initially imagined. For anyone looking to print anything, I would highly recommend looking into Insane Ink and always supporting small businesses.`,
   },
