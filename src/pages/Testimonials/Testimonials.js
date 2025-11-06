@@ -5,6 +5,7 @@ const testimonials = [
   {
     name: "Chrizia Dela Rosa",
     quote: `Insane Ink was so awesome to work with! They were professional, quick, creative, and executed perfectly!`,
+    images: [require('./Images/DelaRosa1.jpg'), require('./Images/DelaRosa5.jpg'), require('./Images/DelaRosa6.jpg'), require('./Images/DelaRosa7.jpg'), require('./Images/DelaRosa8.jpg'), require('./Images/DelaRosa11.jpg') ], 
   },
   {
     name: "Solika M.",
